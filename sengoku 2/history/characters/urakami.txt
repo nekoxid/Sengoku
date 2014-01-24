@@ -1,0 +1,93 @@
+237 = {
+name="Norimune"
+dynasty=168
+culture = japanese
+religion = buddhism
+diplomacy = 3
+intrigue = 3
+martial = 3
+add_trait = stressed
+add_trait = content
+add_trait = amateurish_plotter
+1429.4.17={
+	birth="1429.4.17"
+}
+1502.9.24={
+	death="1502.9.24"
+}
+} 
+366 = {
+name="Norikage"
+dynasty=168
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 2
+intrigue = 1
+father=237
+1453.10.8={
+	birth="1453.10.8"
+}
+1485.11.21={
+	death="1485.11.21"
+}
+} 
+589 = {
+name="Masamune"
+dynasty=168
+culture = japanese
+religion = buddhism
+father=758
+
+diplomacy = 9
+martial = 10
+intrigue = 7
+add_trait = tough_soldier
+add_trait = brave
+
+1520.1.1={
+birth="1520.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1564.2.23={
+death="1564.2.23"
+}
+} 
+758 = {
+name="Muramune"
+dynasty=168
+culture = japanese
+religion = buddhism
+
+diplomacy = 1
+martial = 1
+intrigue = 1
+
+1487.1.1={
+birth="1487.1.1"
+}
+1531.7.17={
+death="1531.7.17"
+}
+} 
+769 = {
+name="Munekage"
+dynasty=168
+culture = japanese
+religion = buddhism
+father = 758
+
+diplomacy = 9
+martial = 10
+intrigue = 10
+add_trait = intricate_webweaver
+
+1526.1.1={
+birth="1526.1.1"
+}
+1582.1.1={
+death="1582.1.1"
+}
+} 

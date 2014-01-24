@@ -1,0 +1,43 @@
+603 = {
+name="Shonyo"
+#dynasty=209
+culture = japanese
+religion = pure_land_buddhism #buddhism
+#rebel=yes
+diplomacy = 13
+martial = 4
+intrigue = 12
+add_trait = mastermind_theologian #grey_eminence
+
+1516.12.23={
+birth="1516.12.23"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1554.9.19={
+death="1554.9.19"
+}
+} 
+
+985 = {
+name="Kennyo"
+#dynasty=209
+culture = japanese
+religion = pure_land_buddhism
+#rebel=yes
+father=603
+diplomacy = 12
+martial = 12
+intrigue = 10
+add_trait = mastermind_theologian #grey_eminence
+add_trait = quick
+add_trait = ambitious
+
+1543.2.20={
+birth="1543.2.20"
+}
+1592.12.17={
+death="1592.12.17"
+}
+} 

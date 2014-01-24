@@ -1,0 +1,93 @@
+taoic_group = { # Yellow, red, purple
+	has_coa_on_barony_only = no
+	graphical_culture = muslimgfx
+	playable = yes
+	pacifist = yes # Will make Hordes lose their super aggressiveness
+
+	buddhism = {
+		graphical_culture = muslimgfx
+		
+		icon = 40
+		heresy_icon = 42
+
+		color = { 0.8 0.8 0 }
+
+		scripture_name = BUDDHISM_SCRIPT
+		crusade_name = "HOLY_WAR"
+
+		god_names = {
+			GOD_BUDDHA GOD_BODHISATTVAS GOD_THE_ANCESTORS
+		}
+
+		evil_god_names = {
+			BUDDHISM_MARA THE_ASURAS
+		}
+
+		can_grant_divorce = yes
+		priests_can_marry = yes
+		can_hold_temples = yes
+		max_wives = 3
+
+		can_retire_to_monastery = yes
+		female_temple_holders = yes
+		matrilineal_marriages = no
+
+		religious_clothing_head = 9
+		religious_clothing_priest = 9
+
+		intermarry = shinto
+	}
+
+	pure_land_buddhism = { #amidism
+		graphical_culture = muslimgfx
+		
+		icon = 40
+		heresy_icon = 42
+
+		color = { 0.8 0 0 }
+
+		parent = buddhism
+
+		can_grant_divorce = yes
+		priests_can_marry = yes
+		can_hold_temples = yes
+		max_wives = 3
+
+		can_retire_to_monastery = yes
+		female_temple_holders = yes
+		matrilineal_marriages = no
+
+		religious_clothing_head = 9
+		religious_clothing_priest = 9
+	}
+
+	shinto = {
+		graphical_culture = muslimgfx
+		
+		icon = 41
+		heresy_icon = 43
+
+		color = { 0.42 0.09 0.58 }
+
+		scripture_name = SHINTO_SCRIPT
+		crusade_name = "HOLY_WAR"
+		
+		god_names = {
+			GOD_KAMI GOD_AMATERASU GOD_THE_ANCESTORS
+		}
+
+		can_grant_divorce = yes
+		priests_can_marry = yes
+		can_hold_temples = yes
+		max_wives = 3
+
+		can_retire_to_monastery = yes
+		female_temple_holders = yes
+		matrilineal_marriages = no
+
+		religious_clothing_head = 9
+		religious_clothing_priest = 9
+
+		intermarry = buddhism
+	}
+}

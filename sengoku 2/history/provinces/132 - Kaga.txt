@@ -1,0 +1,29 @@
+# 132 - Kaga
+
+# Kokujin Title
+title = c_kaga
+
+#Settlements
+max_settlements = 3
+b_kaga_castle = castle
+b_kaga_city = city
+b_kaga_temple = temple
+
+
+#Misc
+religion = pure_land_buddhism
+culture = japanese
+
+1551.4.9={
+	# effect={
+		# #western=yes
+		# set_province_flag = taken_by_ikko_ikki
+		
+		# set_variable = { which = ikko_ikki_city_level value = 0 }
+		# set_variable = { which = ikko_ikki_castle_level value = 0 }
+	# }
+	capital = b_kaga_temple
+}
+1592.12.17 = {
+	capital = b_kaga_castle
+}

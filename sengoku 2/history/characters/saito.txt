@@ -1,0 +1,96 @@
+214 = {
+name="Myosan"
+dynasty=145
+culture = japanese
+religion = buddhism
+diplomacy = 7
+intrigue = 7
+martial = 5
+add_trait = poet
+add_trait = ambitious
+add_trait = skilled_tactician
+1411.12.5={
+	birth="1411.12.5"
+}
+1480.8.14={
+	death="1480.8.14"
+}
+} 
+357 = {
+name="Toshikuni"
+dynasty=145
+culture = japanese
+religion = buddhism
+diplomacy = 5
+intrigue = 3
+martial = 1
+add_trait = charitable
+add_trait = content
+add_trait = charismatic_negotiator
+father=214
+1437.4.23={
+	birth="1437.4.23"
+}
+1496.11.21={
+	death="1496.11.21"
+}
+} 
+570 = {
+name="Dosan"
+dynasty=145
+culture = japanese
+religion = buddhism
+
+diplomacy = 13
+martial = 10
+intrigue = 12
+add_trait = elusive_shadow
+add_trait = quick
+add_trait = ambitious
+
+1494.1.1={
+birth="1494.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1556.5.28={
+death="1556.5.28"
+}
+} 
+862 = {
+name="Yoshitatsu"
+dynasty=145
+culture = japanese
+religion = buddhismfather=570
+diplomacy = 12
+martial = 11
+intrigue = 10
+add_trait = skilled_tactician
+add_trait = quick
+add_trait = ambitious
+
+1527.7.8={
+birth="1527.7.8"
+}
+1561.6.23={
+death="1561.6.23"
+}
+} 
+863 = {
+name="Tatsuoki"
+dynasty=145
+culture = japanese
+religion = buddhismfather=862
+diplomacy = 5
+martial = 7
+intrigue = 3
+add_trait = naive_appeaser
+
+1548.1.1={
+birth="1548.1.1"
+}
+1573.9.10={
+death="1573.9.10"
+}
+} 

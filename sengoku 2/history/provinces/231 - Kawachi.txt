@@ -1,0 +1,14 @@
+# 231 - Kawachi
+
+# Kokujin Title
+title = c_kawachi
+
+#Settlements
+max_settlements = 3
+b_kawachi_castle = castle
+b_kawachi_city = city
+#b_kawachi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

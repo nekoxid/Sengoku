@@ -1,0 +1,37 @@
+707 = {
+name="Tomomasa"
+dynasty=244
+culture = japanese
+religion = buddhism
+father=708
+
+diplomacy = 11
+martial = 9
+intrigue = 8
+add_trait = misguided_warrior
+
+1530.1.1={
+birth="1530.1.1"
+}
+1584.1.1={
+death="1584.1.1"
+}
+} 
+708 = {
+name="Toshishige"
+dynasty=244
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 8
+intrigue = 11
+add_trait = charismatic_negotiator
+
+1495.1.1={
+birth="1495.1.1"
+}
+1548.1.1={
+death="1548.1.1"
+}
+} 

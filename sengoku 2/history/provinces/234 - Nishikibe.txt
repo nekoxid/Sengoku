@@ -1,0 +1,14 @@
+# 234 - Nishikibe
+
+# Kokujin Title
+title = c_nishikibe
+
+#Settlements
+max_settlements = 3
+b_nishikibe_castle = castle
+b_nishikibe_city = city
+#b_nishikibe_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

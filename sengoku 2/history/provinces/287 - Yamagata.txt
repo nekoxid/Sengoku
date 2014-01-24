@@ -1,0 +1,14 @@
+# 287 - Yamagata
+
+# Kokujin Title
+title = c_yamagata
+
+#Settlements
+max_settlements = 3
+b_yamagata_castle = castle
+b_yamagata_city = city
+#b_yamagata_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

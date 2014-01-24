@@ -1,0 +1,14 @@
+# 174 - Inukami
+
+# Kokujin Title
+title = c_inukami
+
+#Settlements
+max_settlements = 3
+b_inukami_castle = castle
+b_inukami_city = city
+#b_inukami_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

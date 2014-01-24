@@ -1,0 +1,14 @@
+# 152 - Ena
+
+# Kokujin Title
+title = c_ena
+
+#Settlements
+max_settlements = 3
+b_ena_castle = castle
+b_ena_city = city
+#b_ena_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

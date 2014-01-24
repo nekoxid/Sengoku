@@ -1,0 +1,14 @@
+# 284 - Aki
+
+# Kokujin Title
+title = c_aki
+
+#Settlements
+max_settlements = 3
+b_aki_castle = castle
+b_aki_city = city
+#b_aki_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

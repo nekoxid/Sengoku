@@ -1,0 +1,15 @@
+# 273 - Shimane
+
+# Kokujin Title
+title = c_shimane
+
+#Settlements
+max_settlements = 3
+b_shimane_castle = castle
+b_shimane_city = city
+#b_shimane_temple = temple
+
+#building=castle_building
+#Misc
+religion = buddhism
+culture = japanese

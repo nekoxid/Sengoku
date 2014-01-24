@@ -1,0 +1,14 @@
+# 223 - Hidaka
+
+# Kokujin Title
+title = c_hidaka
+
+#Settlements
+max_settlements = 3
+b_hidaka_castle = castle
+b_hidaka_city = city
+#b_hidaka_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

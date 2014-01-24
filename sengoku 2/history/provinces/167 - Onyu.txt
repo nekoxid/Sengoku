@@ -1,0 +1,14 @@
+# 167 - Onyu
+
+# Kokujin Title
+title = c_onyu
+
+#Settlements
+max_settlements = 3
+b_onyu_castle = castle
+b_onyu_city = city
+#b_onyu_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

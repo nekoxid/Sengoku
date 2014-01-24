@@ -1,0 +1,55 @@
+915 = {
+name="Tanekuni"
+dynasty=319
+culture = japanese
+religion = buddhism
+diplomacy = 8
+martial = 7
+intrigue = 7
+add_trait = misguided_warrior
+
+1501.1.1={
+birth="1501.1.1"
+}
+1561.1.1={
+death="1561.1.1"
+}
+} 
+916 = {
+name="Taneie"
+dynasty=319
+culture = japanese
+religion = buddhism
+father=915
+
+diplomacy = 6
+martial = 8
+intrigue = 6
+add_trait = amateurish_plotter
+
+1521.1.1={
+birth="1521.1.1"
+}
+1568.1.1={
+death="1568.1.1"
+}
+} 
+917 = {
+name="Haruuji"
+dynasty=319
+culture = japanese
+religion = buddhism
+father=916
+
+diplomacy = 9
+martial = 10
+intrigue = 9
+add_trait = tough_soldier
+
+1543.1.1={
+birth="1543.1.1"
+}
+1599.8.25={
+death="1599.8.25"
+}
+} 

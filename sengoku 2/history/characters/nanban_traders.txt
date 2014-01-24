@@ -1,0 +1,390 @@
+###portuguese
+1500 = {
+	name="Nuno"
+	dynasty=363
+	religion="catholic"
+	culture="portuguese"
+	add_trait="zealous"
+	1526.1.1={
+		birth="1526.1.1"
+	}
+	1543.1.1={
+		add_spouse=1501
+		wealth = 500
+	}
+	1587.1.1={
+		death="1587.1.1"
+	}
+}
+
+1501 = {
+	name="Isabel"
+	female = yes
+	dynasty=8628
+	religion="catholic"
+	culture="portuguese"
+	1526.1.1={
+		birth="1526.1.1"
+	}
+	1587.1.1={
+		death="1587.1.1"
+	}
+}
+
+1502 = {
+	name="Alvito"
+	dynasty=363
+	religion="catholic"
+	culture="portuguese"
+	father=1500
+	mother=1501
+	1544.1.1={
+		birth="1544.1.1"
+	}
+	1602.1.1={
+		death="1602.1.1"
+	}
+}
+
+1503 = {
+	name="Gomez"
+	dynasty=363
+	religion="catholic"
+	culture="portuguese"
+	father=1500
+	mother=1501
+	1550.1.1={
+		birth="1550.1.1"
+	}
+	1628.1.1={
+		death="1628.1.1"
+	}
+}
+
+1504 = {
+	name="Sofia"
+	female = yes
+	dynasty=363
+	religion="catholic"
+	culture="portuguese"
+	father=1500
+	mother=1501
+	1548.1.1={
+		birth="1548.1.1"
+	}
+	1628.1.1={
+		death="1628.1.1"
+	}
+}
+
+###spanish
+1510 = {
+	name="Fernando"
+	dynasty=362
+	religion="catholic"
+	culture="castillan"
+	add_trait="zealous"
+	1526.1.1={
+		birth="1526.1.1"
+	}
+	1543.1.1={
+		add_spouse=1511
+		wealth = 300
+	}
+	1587.1.1={
+		death="1587.1.1"
+	}
+}
+
+1511 = {
+	name="Aldonza"
+	female = yes
+	dynasty=12171
+	religion="catholic"
+	culture="castillan"
+	1526.1.1={
+		birth="1526.1.1"
+	}
+	1587.1.1={
+		death="1587.1.1"
+	}
+}
+
+1512 = {
+	name="Rodrigo"
+	dynasty=362
+	father=1510
+	mother=1511
+	religion="catholic"
+	culture="castillan"
+	1544.1.1={
+		birth="1544.1.1"
+	}
+	1602.1.1={
+		death="1602.1.1"
+	}
+}
+
+1513 = {
+	name="Ordono"
+	dynasty=362
+	father=1510
+	mother=1511
+	religion="catholic"
+	culture="castillan"
+	1550.1.1={
+		birth="1550.1.1"
+	}
+	1628.1.1={
+		death="1628.1.1"
+	}
+}
+
+1514 = {
+	name="Violante"
+	female = yes
+	dynasty=362
+	religion="catholic"
+	culture="castillan"
+	father=1510
+	mother=1511
+	1548.1.1={
+		birth="1548.1.1"
+	}
+	1628.1.1={
+		death="1628.1.1"
+	}
+}
+
+###english
+1520 = {
+	name="Patrick"
+	dynasty=360
+	religion="lollard"
+	culture="english"
+	1526.1.1={
+		birth="1526.1.1"
+	}
+	1543.1.1={
+		add_spouse=1521
+		wealth = 300
+	}
+	1587.1.1={
+		death="1587.1.1"
+	}
+}
+
+1521 = {
+	name="Mary"
+	female = yes
+	dynasty=4040
+	religion="lollard"
+	culture="english"
+	1526.1.1={
+		birth="1526.1.1"
+	}
+	1587.1.1={
+		death="1587.1.1"
+	}
+}
+
+1522 = {
+	name="Robert"
+	dynasty=360
+	father=1520
+	mother=1521
+	religion="lollard"
+	culture="english"
+	1544.1.1={
+		birth="1544.1.1"
+	}
+	1602.1.1={
+		death="1602.1.1"
+	}
+}
+
+1523 = {
+	name="John"
+	dynasty=360
+	father=1520
+	mother=1521
+	religion="lollard"
+	culture="english"
+	1550.1.1={
+		birth="1550.1.1"
+	}
+	1628.1.1={
+		death="1628.1.1"
+	}
+}
+
+1524 = {
+	name="Anne"
+	female = yes
+	dynasty=360
+	religion="lollard"
+	culture="english"
+	father=1520
+	mother=1521
+	1548.1.1={
+		birth="1548.1.1"
+	}
+	1628.1.1={
+		death="1628.1.1"
+	}
+}
+
+###dutch
+1530 = {
+	name="Willem"
+	dynasty=361
+	religion="cathar"
+	culture="dutch"
+	1526.1.1={
+		birth="1526.1.1"
+	}
+	1543.1.1={
+		add_spouse=1531
+		wealth = 300
+	}
+	1587.1.1={
+		death="1587.1.1"
+	}
+}
+
+1531 = {
+	name="Ida"
+	female = yes
+	dynasty=1246
+	religion="cathar"
+	culture="dutch"
+	1526.1.1={
+		birth="1526.1.1"
+	}
+	1587.1.1={
+		death="1587.1.1"
+	}
+}
+
+1532 = {
+	name="Robert"
+	dynasty=361
+	father=1530
+	mother=1531
+	religion="cathar"
+	culture="dutch"
+	1544.1.1={
+		birth="1544.1.1"
+	}
+	1602.1.1={
+		death="1602.1.1"
+	}
+}
+
+1533 = {
+	name="Folkhard"
+	dynasty=361
+	father=1530
+	mother=1531
+	religion="cathar"
+	culture="dutch"
+	1550.1.1={
+		birth="1550.1.1"
+	}
+	1628.1.1={
+		death="1628.1.1"
+	}
+}
+
+1534 = {
+	name="Clara"
+	female = yes
+	dynasty=361
+	religion="cathar"
+	culture="dutch"
+	father=1530
+	mother=1531
+	1548.1.1={
+		birth="1548.1.1"
+	}
+	1628.1.1={
+		death="1628.1.1"
+	}
+}
+
+###chinese
+1540 = {
+	name="Zenguang"
+	dynasty=364
+	religion="buddhism"
+	culture="chinese"
+	1526.1.1={
+		birth="1526.1.1"
+	}
+	1543.1.1={
+		add_spouse=1541
+		wealth = 300
+	}
+	1587.1.1={
+		death="1587.1.1"
+	}
+}
+
+1541 = {
+	name="Chuntao"
+	female = yes
+	religion="buddhism"
+	culture="chinese"
+	1526.1.1={
+		birth="1526.1.1"
+	}
+	1587.1.1={
+		death="1587.1.1"
+	}
+}
+
+1542 = {
+	name="Guiren"
+	dynasty=364
+	father=1540
+	mother=1541
+	religion="buddhism"
+	culture="chinese"
+	1544.1.1={
+		birth="1544.1.1"
+	}
+	1602.1.1={
+		death="1602.1.1"
+	}
+}
+
+1543 = {
+	name="Cheng"
+	dynasty=364
+	father=1540
+	mother=1541
+	religion="buddhism"
+	culture="chinese"
+	1550.1.1={
+		birth="1550.1.1"
+	}
+	1628.1.1={
+		death="1628.1.1"
+	}
+}
+
+1544 = {
+	name="Ying"
+	female = yes
+	dynasty=364
+	religion="buddhism"
+	culture="chinese"
+	father=1540
+	mother=1541
+	1548.1.1={
+		birth="1548.1.1"
+	}
+	1628.1.1={
+		death="1628.1.1"
+	}
+}

@@ -1,0 +1,14 @@
+# 250 - Ittou
+
+# Kokujin Title
+title = c_ittou
+
+#Settlements
+max_settlements = 3
+b_ittou_castle = castle
+b_ittou_city = city
+#b_ittou_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

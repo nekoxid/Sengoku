@@ -1,0 +1,74 @@
+187 = {
+name="Chikataka"
+dynasty=118
+culture = japanese
+religion = buddhism
+diplomacy = 5
+martial = 3
+intrigue = 3
+#add_trait = bushi
+add_trait = brave
+1433.3.27={
+	birth="1433.3.27"
+}
+1492.5.8={
+	death="1492.5.8"
+}
+} 
+294 = {
+name="Tokichika"
+dynasty=118
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 1
+intrigue = 3
+add_trait = honest
+father=187
+1456.1.4={
+	birth="1456.1.4"
+}
+1507.7.14={
+	death="1507.7.14"
+}
+} 
+759 = {
+name="Iechika"
+dynasty=118
+culture = japanese
+religion = buddhism
+
+diplomacy = 12
+martial = 10
+intrigue = 8
+add_trait = tough_soldier
+
+1517.1.1={
+birth="1517.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1566.2.24={
+death="1566.2.24"
+}
+} 
+760 = {
+name="Motosuke"
+dynasty=118
+culture = japanese
+religion = buddhism
+father = 759
+
+diplomacy = 4
+martial = 6
+intrigue = 6
+add_trait = misguided_warrior
+
+1535.1.1={
+birth="1535.1.1"
+}
+1571.1.1={
+death="1571.1.1"
+}
+} 

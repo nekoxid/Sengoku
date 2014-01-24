@@ -1,0 +1,32 @@
+229 = {
+name="Arishige"
+dynasty=160
+culture = japanese
+religion = buddhism
+diplomacy = 4
+intrigue = 5
+martial = 4
+add_trait = tough_soldier
+1427.5.23={
+	birth="1427.5.23"
+}
+1488.9.10={
+	death="1488.9.10"
+}
+} 
+302 = {
+name="Takashige"
+dynasty=160
+culture = japanese
+religion = buddhism
+diplomacy = 0
+martial = 0
+intrigue = 1
+father=229
+1450.2.24={
+	birth="1450.2.24"
+}
+1509.7.12={
+	death="1509.7.12"
+}
+} 

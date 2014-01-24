@@ -1,0 +1,36 @@
+230 = {
+name="Tsuneyori"
+dynasty=161
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 1
+intrigue = 3
+add_trait = poet
+add_trait = craven
+add_trait = content
+add_trait = misguided_warrior
+1401.9.2={
+	birth="1401.9.2"
+}
+1484.12.13={
+	death="1484.12.13"
+}
+} 
+359 = {
+name="Fuchikazu"
+dynasty=161
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 0
+intrigue = 1
+add_trait = poet
+father=230
+1460.1.1={
+	birth="1460.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 

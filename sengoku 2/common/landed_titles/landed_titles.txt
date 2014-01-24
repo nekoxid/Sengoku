@@ -1,0 +1,2843 @@
+
+e_japan = {
+	color={ 155 155 155 }
+	
+	capital = 203 #kadono/kyoto?
+
+	culture = japanese
+	religion = shinto
+
+	# Cannot be held as a secondary title
+	#primary = yes
+
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+	
+	has_top_de_jure_capital = yes
+	
+	# Cannot be vassalized
+	#independent = yes
+	
+	# Always exists
+	#landless = yes
+	
+	duchy_revokation=yes # The Emperor can revoke duchies at no prestige cost and no opinion penalty with other vassals
+	
+	allow = {
+		war = no
+		hidden_tooltip = {
+			OR = {
+				ai = no
+				AND = {
+					culture = japanese
+					trait = showa
+				}
+			}
+		}
+		e_shogunate = { 
+			has_holder = no 
+		}
+		custom_tooltip = {
+			text = controls_kadono
+			hidden_tooltip = {
+				203 = { # Kadono
+					owner = {
+						OR = {
+							is_liege_or_above = ROOT
+							character = ROOT
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	# Controls a religion
+	controls_religion = shinto
+	caliphate = yes
+
+#shikoku
+	k_nankaido = {
+		color={ 247 77 54 }
+		
+		capital = 341 #Kochi
+		
+		allow = {
+			war = no
+		}
+		
+		d_kii = {
+			color = { 128 25 192 }
+
+			capital = 221
+			allow = { war = no }
+
+			c_nagusa = {
+				b_nagusa_castle = {  }
+				b_nagusa_city = { }
+				b_nagusa_temple = { }
+				color = { 196 51 160 }
+			}
+			c_arida = {
+				b_arida_castle = {  }
+				b_arida_city = { }
+				b_arida_temple = { }
+				color = { 188 146 192 }
+			}
+			c_hidaka = {
+				b_hidaka_castle = {  }
+				b_hidaka_city = { }
+				b_hidaka_temple = { }
+				color = { 180 52 32 }
+			}
+			c_muro = {
+				b_muro_castle = {  }
+				b_muro_city = { }
+				b_muro_temple = { }
+				color = { 172 145 64 }
+			}
+			c_naga = {
+				b_naga_castle = {  }
+				b_naga_city = { }
+				b_naga_temple = { }
+				color = { 164 53 96 }
+			}
+		}
+		d_awaji = {
+			color = { 128 128 25 }
+
+			capital = 351
+			allow = { war = no }
+
+			c_awaji = {
+				b_awaji_castle = {  }
+				b_awaji_city = { }
+				b_awaji_temple = { }
+				color = { 96 116 56 }
+			}
+			c_tsuna = {
+				b_tsuna_castle = {  }
+				b_tsuna_city = { }
+				b_tsuna_temple = { }
+				color = { 128 108 141 }
+			}
+			c_mihara = {
+				b_mihara_castle = {  }
+				b_mihara_city = { }
+				b_mihara_temple = { }
+				color = { 160 100 57 }
+			}
+		}
+		d_tosa = {
+			color = { 32 152 190 }
+
+			capital = 340
+			allow = { war = no }
+
+			c_nagaoka = {
+				b_nagaoka_castle = {  }
+				b_nagaoka_city = { }
+				b_nagaoka_temple = { }
+				color = { 128 4 147 }
+			}
+			c_tosa = {
+				b_tosa_castle = {  }
+				b_tosa_city = { }
+				b_tosa_temple = { }
+				color = { 160 196 51 }
+			}
+			c_hata = {
+				b_hata_castle = {  }
+				b_hata_city = { }
+				b_hata_temple = { }
+				color = { 192 188 146 }
+			}
+		}
+		d_sanuki = {
+			color = { 64 144 20 }
+
+			capital = 343
+			allow = { war = no }
+
+			c_utari = {
+				b_utari_castle = {  }
+				b_utari_city = { }
+				b_utari_temple = { }
+				color = { 32 180 52 }
+			}
+			c_ouchi = {
+				b_ouchi_castle = {  }
+				b_ouchi_city = { }
+				b_ouchi_temple = { }
+				color = { 64 172 145 }
+			}
+			c_kagawa = {
+				b_kagawa_castle = {  }
+				b_kagawa_city = { }
+				b_kagawa_temple = { }
+				color = { 96 164 53 }
+			}
+			c_toyota = {
+				b_toyota_castle = {  }
+				b_toyota_city = { }
+				b_toyota_temple = { }
+				color = { 128 156 144 }
+			}
+		}
+		d_awa = {
+			color = { 96 136 185 }
+
+			capital = 347
+			allow = { war = no }
+
+			c_katsuura = {
+				b_katsuura_castle = {  }
+				b_katsuura_city = { }
+				b_katsuura_temple = { }
+				color = { 160 148 54 }
+			}
+			c_miyoshi = {
+				b_miyoshi_castle = {  }
+				b_miyoshi_city = { }
+				b_miyoshi_temple = { }
+				color = { 192 140 143 }
+			}
+			c_kaifu = {
+				b_kaifu_castle = {  }
+				b_kaifu_city = { }
+				b_kaifu_temple = { }
+				color = { 32 132 55 }
+			}
+			c_itano = {
+				b_itano_castle = {  }
+				b_itano_city = { }
+				b_itano_temple = { }
+				color = { 64 124 142 }
+			}
+		}
+		d_iyo = {
+			color = { 192 160 15 }
+
+			capital = 334
+			allow = { war = no }
+
+			c_kuwamura = {
+				b_kuwamura_castle = {  }
+				b_kuwamura_city = { }
+				b_kuwamura_temple = { }
+				color = { 128 52 150 }
+			}
+			c_ikata = {
+				b_ikata_castle = {  }
+				b_ikata_city = { }
+				b_ikata_temple = { }
+				color = { 160 44 48 }
+			}
+			c_uwa = {
+				b_uwa_castle = {  }
+				b_uwa_city = { }
+				b_uwa_temple = { }
+				color = { 192 36 149 }
+			}
+			c_ukena = {
+				b_ukena_castle = {  }
+				b_ukena_city = { }
+				b_ukena_temple = { }
+				color = { 32 28 49 }
+			}
+			c_iyo = {
+				b_iyo_castle = {  }
+				b_iyo_city = { }
+				b_iyo_temple = { }
+				color = { 64 20 148 }
+			}
+			c_uma = {
+				b_uma_castle = {  }
+				b_uma_city = { }
+				b_uma_temple = { }
+				color = { 96 12 50 }
+			}
+		}
+	}
+#kansai
+	k_kinai = { #kansai subregion/capital region
+		color = { 34  137  126 }
+		
+		capital = 203 #kadono
+		
+		allow = {
+			war = no
+		}
+		
+		d_izumi = {
+			color = { 120 180 32 }
+
+			capital = 226
+			allow = { war = no }
+
+			c_izumi = {
+				b_izumi_castle = {  }
+				b_izumi_city = { }
+				b_izumi_temple = { }
+				color = { 156 144 128 }
+			}
+			c_hine = {
+				b_hine_castle = {  }
+				b_hine_city = { }
+				b_hine_temple = { }
+				color = { 148 54 160 }
+			}
+			c_minami = {
+				b_minami_castle = {  }
+				b_minami_city = { }
+				b_minami_temple = { }
+				color = { 140 143 192 }
+			}
+			c_otori = {
+				b_otori_castle = {  }
+				b_otori_city = { }
+				b_otori_temple = { }
+				color = { 132 55 32 }
+			}
+			c_misaki = {
+				b_misaki_castle = {  }
+				b_misaki_city = { }
+				b_misaki_temple = { }
+				color = { 124 142 64 }
+			}
+		}
+		d_kawachi = {
+			color = { 112 30 48 }
+
+			capital = 231
+			allow = { war = no }
+
+			c_kawachi = {
+				b_kawachi_castle = {  }
+				b_kawachi_city = { }
+				b_kawachi_temple = { }
+				color = { 116 56 96 }
+			}
+			c_asukabe = {
+				b_asukabe_castle = {  }
+				b_asukabe_city = { }
+				b_asukabe_temple = { }
+				color = { 108 141 128 }
+			}
+			c_manda = {
+				b_manda_castle = {  }
+				b_manda_city = { }
+				b_manda_temple = { }
+				color = { 100 57 160 }
+			}
+			c_nishikibe = {
+				b_nishikibe_castle = {  }
+				b_nishikibe_city = { }
+				b_nishikibe_temple = { }
+				color = { 92 140 192 }
+			}
+			c_tanboku = {
+				b_tanboku_castle = {  }
+				b_tanboku_city = { }
+				b_tanboku_temple = { }
+				color = { 84 58 32 }
+			}
+		}
+		d_omi = {
+			color = { 192 5 64 }
+
+			capital = 170
+			allow = { war = no }
+
+			c_gamo = {
+				b_gamo_castle = {  }
+				b_gamo_city = { }
+				b_gamo_temple = { }
+				color = { 4 172 64 }
+			}
+			c_kurita = {
+				b_kurita_castle = {  }
+				b_kurita_city = { }
+				b_kurita_temple = { }
+				color = { 196 26 96 }
+			}
+			c_azai = {
+				b_azai_castle = {  }
+				b_azai_city = { }
+				b_azai_temple = { }
+				color = { 188 171 128 }
+			}
+			c_ika = {
+				b_ika_castle = {  }
+				b_ika_city = { }
+				b_ika_temple = { }
+				color = { 180 27 160 }
+			}
+			c_inukami = {
+				b_inukami_castle = {  }
+				b_inukami_city = { }
+				b_inukami_temple = { }
+				color = { 172 170 192 }
+			}
+			c_kanzaki = {
+				b_kanzaki_castle = {  }
+				b_kanzaki_city = { }
+				b_kanzaki_temple = { }
+				color = { 164 28 32 }
+			}
+			c_koga = {
+				b_koga_castle = {  }
+				b_koga_city = { }
+				b_koga_temple = { }
+				color = { 156 169 64 }
+			}
+			c_sakata = {
+				b_sakata_castle = {  }
+				b_sakata_city = { }
+				b_sakata_temple = { }
+				color = { 148 29 96 }
+			}
+			c_shiga = {
+				b_shiga_castle = {  }
+				b_shiga_city = { }
+				b_shiga_temple = { }
+				color = { 140 168 128 }
+			}
+			c_takashima = {
+				b_takashima_castle = {  }
+				b_takashima_city = { }
+				b_takashima_temple = { }
+				color = { 132 30 160 }
+			}
+		}
+		d_iga = {
+			color = { 168 195 112 }
+
+			capital = 192
+			allow = { war = no }
+
+			c_ahai = {
+				b_ahai_castle = {  }
+				b_ahai_city = { }
+				b_ahai_temple = { }
+				color = { 28 161 192 }
+			}
+			c_iga = {
+				b_iga_castle = {  }
+				b_iga_city = { }
+				b_iga_temple = { }
+				color = { 20 37 32 }
+			}
+			c_nabari = {
+				b_nabari_castle = {  }
+				b_nabari_city = { }
+				b_nabari_temple = { }
+				color = { 12 160 64 }
+			}
+		}
+		d_yamashiro = {
+			color = { 144 20 160 }
+
+			capital = 203
+			allow = { war = no }
+
+			c_kadono = {
+				b_kadono_castle = {  }
+				b_kadono_city = { }
+				b_kadono_temple = { }
+				b_chrysanthemum_throne = { }
+				color = { 140 42 160 }
+			}
+			c_kii = {
+				b_kii_castle = {  }
+				b_kii_city = { }
+				b_kii_temple = { }
+				color = { 132 155 192 }
+			}
+			c_kuse = {
+				b_kuse_castle = {  }
+				b_kuse_city = { }
+				b_kuse_temple = { }
+				color = { 124 43 32 }
+			}
+			c_otagi = {
+				b_otagi_castle = {  }
+				b_otagi_city = { }
+				b_otagi_temple = { }
+				color = { 116 154 64 }
+			}
+			c_otokuni = {
+				b_otokuni_castle = {  }
+				b_otokuni_city = { }
+				b_otokuni_temple = { }
+				color = { 108 44 96 }
+			}
+			c_sagara = {
+				b_sagara_castle = {  }
+				b_sagara_city = { }
+				b_sagara_temple = { }
+				color = { 100 153 128 }
+			}
+			c_kizu = {
+				b_kizu_castle = {  }
+				b_kizu_city = { }
+				b_kizu_temple = { }
+				color = { 92 45 160 }
+			}
+			c_tsuzuki = {
+				b_tsuzuki_castle = {  }
+				b_tsuzuki_city = { }
+				b_tsuzuki_temple = { }
+				color = { 84 152 192 }
+			}
+			c_uji = {
+				b_uji_castle = {  }
+				b_uji_city = { }
+				b_uji_temple = { }
+				color = { 76 46 32 }
+			}
+		}
+		d_yamato = {
+			color = { 136 185 176 }
+
+			capital = 212
+			allow = { war = no }
+
+			c_takaichi = {
+				b_takaichi_castle = {  }
+				b_takaichi_city = { }
+				b_takaichi_temple = { }
+				color = { 68 151 64 }
+			}
+			c_katsuge = {
+				b_katsuge_castle = {  }
+				b_katsuge_city = { }
+				b_katsuge_temple = { }
+				color = { 60 47 96 }
+			}
+			c_katsujo = {
+				b_katsujo_castle = {  }
+				b_katsujo_city = { }
+				b_katsujo_temple = { }
+				color = { 52 150 128 }
+			}
+			c_kamiyoshino = {
+				b_kamiyoshino_castle = {  }
+				b_kamiyoshino_city = { }
+				b_kamiyoshino_temple = { }
+				color = { 44 48 160 }
+			}
+			c_soejimo = {
+				b_soejimo_castle = {  }
+				b_soejimo_city = { }
+				b_soejimo_temple = { }
+				color = { 36 149 192 }
+			}
+			c_soekami = {
+				b_soekami_castle = {  }
+				b_soekami_city = { }
+				b_soekami_temple = { }
+				b_soekami_shrine = { }
+				color = { 28 49 32 }
+			}
+			c_shimoyoshino = {
+				b_shimoyoshino_castle = {  }
+				b_shimoyoshino_city = { }
+				b_shimoyoshino_temple = { }
+				color = { 20 148 64 }
+			}
+			c_uda = {
+				b_uda_castle = {  }
+				b_uda_city = { }
+				b_uda_temple = { }
+				color = { 12 50 96 }
+			}
+			c_yamabe = {
+				b_yamabe_castle = {  }
+				b_yamabe_city = { }
+				b_yamabe_temple = { }
+				color = { 4 147 128 }
+			}
+		}
+		d_settsu = {
+			color = { 104 175 64 }
+
+			capital = 236
+			allow = { war = no }
+
+			c_nishinari = {
+				b_nishinari_castle = {  }
+				b_nishinari_city = { }
+				b_nishinari_temple = { }
+				color = { 76 139 64 }
+			}
+			c_arima = {
+				b_arima_castle = {  }
+				b_arima_city = { }
+				b_arima_temple = { }
+				color = { 68 59 96 }
+			}
+			c_inagawa = {
+				b_inagawa_castle = {  }
+				b_inagawa_city = { }
+				b_inagawa_temple = { }
+				color = { 60 138 128 }
+			}
+			c_nose = {
+				b_nose_castle = {  }
+				b_nose_city = { }
+				b_nose_temple = { }
+				color = { 52 60 160 }
+			}
+			c_shimakami = {
+				b_shimakami_castle = {  }
+				b_shimakami_city = { }
+				b_shimakami_temple = { }
+				color = { 44 137 192 }
+			}
+			c_shimashimo = {
+				b_shimashimo_castle = {  }
+				b_shimashimo_city = { }
+				b_shimashimo_temple = { }
+				color = { 32 196 1 }
+			}
+			c_kawabe = {
+				b_kawabe_castle = {  }
+				b_kawabe_city = { }
+				b_kawabe_temple = { }
+				color = { 64 188 196 }
+			}
+			c_teshima = {
+				b_teshima_castle = {  }
+				b_teshima_city = { }
+				b_teshima_temple = { }
+				color = { 96 180 2 }
+			}
+			c_ubara = {
+				b_ubara_castle = {  }
+				b_ubara_city = { }
+				b_ubara_temple = { }
+				color = { 128 172 195 }
+			}
+			c_yatabe = {
+				b_yatabe_castle = {  }
+				b_yatabe_city = { }
+				b_yatabe_temple = { }
+				color = { 160 164 3 }
+			}
+		}
+	}
+#chugoku
+	k_sanindo = { #chugoku outer
+		color = { 96 184 200 }
+		
+		capital = 285 #saeki
+		
+		allow = {
+			war = no
+		}
+#san'in
+		d_tanba = {
+			color = { 152 190 144 }
+
+			capital = 198
+			allow = { war = no }
+
+			c_kuwada = {
+				b_kuwada_castle = {  }
+				b_kuwada_city = { }
+				b_kuwada_temple = { }
+				color = { 180 158 192 }
+			}
+			c_amata = {
+				b_amata_castle = {  }
+				b_amata_city = { }
+				b_amata_temple = { }
+				color = { 172 40 32 }
+			}
+			c_funai = {
+				b_funai_castle = {  }
+				b_funai_city = { }
+				b_funai_temple = { }
+				color = { 164 157 64 }
+			}
+			c_hikami = {
+				b_hikami_castle = {  }
+				b_hikami_city = { }
+				b_hikami_temple = { }
+				color = { 156 41 96 }
+			}
+			c_ikaruga = {
+				b_ikaruga_castle = {  }
+				b_ikaruga_city = { }
+				b_ikaruga_temple = { }
+				color = { 148 156 128 }
+			}
+		}
+		d_tango = {
+			color = { 160 15 128 }
+
+			capital = 195
+			allow = { war = no }
+
+			c_kasa = {
+				b_kasa_castle = {  }
+				b_kasa_city = { }
+				b_kasa_temple = { }
+				color = { 4 38 96 }
+			}
+			c_kumano = {
+				b_kumano_castle = {  }
+				b_kumano_city = { }
+				b_kumano_temple = { }
+				color = { 196 159 128 }
+			}
+			c_yosa = {
+				b_yosa_castle = {  }
+				b_yosa_city = { }
+				b_yosa_temple = { }
+				color = { 188 39 160 }
+			}
+		}
+		d_tajima = {
+			color = { 96 35 80 }
+
+			capital = 246
+			allow = { war = no }
+
+			c_mikumi = {
+				b_mikumi_castle = {  }
+				b_mikumi_city = { }
+				b_mikumi_temple = { }
+				color = { 192 156 194 }
+			}
+			c_shitsumi = {
+				b_shitsumi_castle = {  }
+				b_shitsumi_city = { }
+				b_shitsumi_temple = { }
+				color = { 32 148 4 }
+			}
+			c_asago = {
+				b_asago_castle = {  }
+				b_asago_city = { }
+				b_asago_temple = { }
+				color = { 64 140 193 }
+			}
+		}
+		d_inaba = {
+			color = { 80 40 112 }
+
+			capital = 256
+			allow = { war = no }
+
+			c_houmi = {
+				b_houmi_castle = {  }
+				b_houmi_city = { }
+				b_houmi_temple = { }
+				color = { 128 76 189 }
+			}
+			c_takakusa = {
+				b_takakusa_castle = {  }
+				b_takakusa_city = { }
+				b_takakusa_temple = { }
+				color = { 160 68 9 }
+			}
+			c_yakami = {
+				b_yakami_castle = {  }
+				b_yakami_city = { }
+				b_yakami_temple = { }
+				color = { 192 60 188 }
+			}
+		}
+		d_hoki = {
+			color = { 56 160 160 }
+
+			capital = 266
+			allow = { war = no }
+
+			c_kume = {
+				b_kume_castle = {  }
+				b_kume_city = { }
+				b_kume_temple = { }
+				color = { 64 196 184 }
+			}
+			c_aimi = {
+				b_aimi_castle = {  }
+				b_aimi_city = { }
+				b_aimi_temple = { }
+				color = { 96 188 14 }
+			}
+			c_hino = {
+				b_hino_castle = {  }
+				b_hino_city = { }
+				b_hino_temple = { }
+				color = { 128 180 183 }
+			}
+		}
+		d_izumo = {
+			color = { 40 155 192 }
+
+			capital = 273
+			allow = { war = no }
+
+			c_shimane = {
+				b_shimane_castle = {  }
+				b_shimane_city = { }
+				b_shimane_temple = { }
+				color = { 96 140 17 }
+			}
+			c_iishi = {
+				b_iishi_castle = {  }
+				b_iishi_city = { }
+				b_iishi_temple = { }
+				color = { 128 132 180 }
+			}
+			c_izumo = {
+				b_izumo_castle = {  }
+				b_izumo_city = { }
+				b_izumo_temple = { }
+				color = { 160 124 18 }
+			}
+			c_ohara = {
+				b_ohara_castle = {  }
+				b_ohara_city = { }
+				b_ohara_temple = { }
+				color = { 192 116 179 }
+			}
+		}
+		d_iwami = {
+			color = { 196 150 48 }
+
+			capital = 281
+			allow = { war = no }
+
+			c_ano = {
+				b_ano_castle = {  }
+				b_ano_city = { }
+				b_ano_temple = { }
+				color = { 160 76 21 }
+			}
+			c_naka = {
+				b_naka_castle = {  }
+				b_naka_city = { }
+				b_naka_temple = { }
+				color = { 192 68 176 }
+			}
+			c_mino = {
+				b_mino_castle = {  }
+				b_mino_city = { }
+				b_mino_temple = { }
+				color = { 32 60 22 }
+			}
+		}
+		d_oki = {
+			color = { 192 112 30 }
+
+			capital = 357
+			allow = { war = no }
+
+			c_oki = {
+				b_oki_castle = { }
+				b_oki_city = { }
+				b_oki_temple = { }
+				color = { 96 68 59 }
+			}
+		}
+	}
+#san'yo
+	k_sanyodo = { #chugoku inner
+		color = { 196 150 48 }
+
+		capital = 249
+		
+		allow = {
+			war = no
+		}
+		
+		d_nagato = {
+			color = { 172 65 96 }
+
+			capital = 291
+			allow = { war = no }
+
+			c_otsu = {
+				b_otsu_castle = {  }
+				b_otsu_city = { }
+				b_otsu_temple = { }
+				color = { 96 196 26 }
+			}
+			c_abu = {
+				b_abu_castle = {  }
+				b_abu_city = { }
+				b_abu_temple = { }
+				color = { 128 188 171 }
+			}
+			c_asa = {
+				b_asa_castle = {  }
+				b_asa_city = { }
+				b_asa_temple = { }
+				color = { 160 180 27 }
+			}
+		}
+		d_harima = {
+			color = { 88 170 96 }
+
+			capital = 249
+			allow = { war = no }
+
+			c_shikama = {
+				b_shikama_castle = {  }
+				b_shikama_city = { }
+				b_shikama_temple = { }
+				color = { 96 132 5 }
+			}
+			c_ittou = {
+				b_ittou_castle = {  }
+				b_ittou_city = { }
+				b_ittou_temple = { }
+				color = { 128 124 192 }
+			}
+			c_akashi = {
+				b_akashi_castle = {  }
+				b_akashi_city = { }
+				b_akashi_temple = { }
+				color = { 160 116 6 }
+			}
+			c_ako = {
+				b_ako_castle = {  }
+				b_ako_city = { }
+				b_ako_temple = { }
+				color = { 192 108 191 }
+			}
+			c_issai = {
+				b_issai_castle = {  }
+				b_issai_city = { }
+				b_issai_temple = { }
+				color = { 32 100 7 }
+			}
+			c_taka = {
+				b_taka_castle = {  }
+				b_taka_city = { }
+				b_taka_temple = { }
+				color = { 64 92 190 }
+			}
+			c_sayo = {
+				b_sayo_castle = {  }
+				b_sayo_city = { }
+				b_sayo_temple = { }
+				color = { 96 84 8 }
+			}
+		}
+		d_mimasaka = {
+			color = { 72 165 128 }
+
+			capital = 259
+			allow = { war = no }
+
+			c_tomata = {
+				b_tomata_castle = {  }
+				b_tomata_city = { }
+				b_tomata_temple = { }
+				color = { 32 52 10 }
+			}
+			c_katsuta = {
+				b_katsuta_castle = {  }
+				b_katsuta_city = { }
+				b_katsuta_temple = { }
+				color = { 64 44 187 }
+			}
+			c_mashima = {
+				b_mashima_castle = {  }
+				b_mashima_city = { }
+				b_mashima_temple = { }
+				color = { 96 36 11 }
+			}
+		}
+		d_bizen = {
+			color = { 64 45 144 }
+
+			capital = 262
+			allow = { war = no }
+
+			c_awasaka = {
+				b_awasaka_castle = {  }
+				b_awasaka_city = { }
+				b_awasaka_temple = { }
+				color = { 128 28 186 }
+			}
+			c_joto = {
+				b_joto_castle = {  }
+				b_joto_city = { }
+				b_joto_temple = { }
+				color = { 160 20 12 }
+			}
+			c_kojima = {
+				b_kojima_castle = {  }
+				b_kojima_city = { }
+				b_kojima_temple = { }
+				color = { 192 12 185 }
+			}
+			c_oku = {
+				b_oku_castle = {  }
+				b_oku_city = { }
+				b_oku_temple = { }
+				color = { 32 4 13 }
+			}
+		}
+		d_bingo = {
+			color = { 48 50 176 }
+
+			capital = 269
+			allow = { war = no }
+
+			c_mitsugi = {
+				b_mitsugi_castle = {  }
+				b_mitsugi_city = { }
+				b_mitsugi_temple = { }
+				color = { 160 172 15 }
+			}
+			c_jinseki = {
+				b_jinseki_castle = {  }
+				b_jinseki_city = { }
+				b_jinseki_temple = { }
+				color = { 192 164 182 }
+			}
+			c_mikami = {
+				b_mikami_castle = {  }
+				b_mikami_city = { }
+				b_mikami_temple = { }
+				color = { 32 156 16 }
+			}
+			c_eso = {
+				b_eso_castle = {  }
+				b_eso_city = { }
+				b_eso_temple = { }
+				color = { 64 148 181 }
+			}
+		}
+		d_bitchu = {
+			color = { 32 55 32 }
+
+			capital = 277
+			allow = { war = no }
+
+			c_kaya = {
+				b_kaya_castle = {  }
+				b_kaya_city = { }
+				b_kaya_temple = { }
+				color = { 32 108 19 }
+			}
+			c_aga = {
+				b_aga_castle = {  }
+				b_aga_city = { }
+				b_aga_temple = { }
+				color = { 64 100 178 }
+			}
+			c_kato = {
+				b_kato_castle = {  }
+				b_kato_city = { }
+				b_kato_temple = { }
+				color = { 96 92 20 }
+			}
+			c_tetta = {
+				b_tetta_castle = {  }
+				b_tetta_city = { }
+				b_tetta_temple = { }
+				color = { 128 84 177 }
+			}
+		}
+		d_aki = {
+			color = { 188 60 64 }
+
+			capital = 284
+			allow = { war = no }
+
+			c_aki = {
+				b_aki_castle = {  }
+				b_aki_city = { }
+				b_aki_temple = { }
+				color = { 64 52 175 }
+			}
+			c_saeki = {
+				b_saeki_castle = {  }
+				b_saeki_city = { }
+				b_saeki_temple = { }
+				b_hiroshima = { }
+				color = { 96 44 23 }
+			}
+			c_sata = {
+				b_sata_castle = {  }
+				b_sata_city = { }
+				b_sata_temple = { }
+				color = { 128 36 174 }
+			}
+			c_yamagata = {
+				b_yamagata_castle = {  }
+				b_yamagata_city = { }
+				b_yamagata_temple = { }
+				color = { 160 28 24 }
+			}
+		}
+		d_suo = {
+			color = { 180 145 80 }
+
+			capital = 288
+			allow = { war = no }
+
+			c_yoshiki = {
+				b_yoshiki_castle = {  }
+				b_yoshiki_city = { }
+				b_yoshiki_temple = { }
+				color = { 192 20 173 }
+			}
+			c_kuga = {
+				b_kuga_castle = {  }
+				b_kuga_city = { }
+				b_kuga_temple = { }
+				color = { 32 12 25 }
+			}
+			c_kumage = {
+				b_kumage_castle = {  }
+				b_kumage_city = { }
+				b_kumage_temple = { }
+				color = { 64 4 172 }
+			}
+		}
+	}
+#kanto
+	k_kanto = {
+		color={ 15 27 187 }
+		
+		capital = 71 #toshima
+		
+		allow = {
+			war = no
+		}
+		
+		d_hitachi = {
+			color = { 30 128 160 }
+
+			capital = 24
+			allow = { war = no }
+
+			c_ibaraki = {
+				b_ibaraki_castle = {  }
+				b_ibaraki_city = { }
+				b_ibaraki_temple = { }
+				color = { 185 192 12 }
+			}
+			c_niihari = {
+				b_niihari_castle = {  }
+				b_niihari_city = { }
+				b_niihari_temple = { }
+				color = { 13 32 4 }
+			}
+			c_kuji = {
+				b_kuji_castle = {  }
+				b_kuji_city = { }
+				b_kuji_temple = { }
+				color = { 184 64 196 }
+			}
+			c_omiya = {
+				b_omiya_castle = {  }
+				b_omiya_city = { }
+				b_omiya_temple = { }
+				color = { 14 96 188 }
+			}
+			c_hitachi = {
+				b_hitachi_castle = {  }
+				b_hitachi_city = { }
+				b_hitachi_temple = { }
+				color = { 183 128 180 }
+			}
+			c_makabe = {
+				b_makabe_castle = {  }
+				b_makabe_city = { }
+				b_makabe_temple = { }
+				color = { 15 160 172 }
+			}
+			c_kashima = {
+				b_kashima_castle = {  }
+				b_kashima_city = { }
+				b_kashima_temple = { }
+				color = { 182 192 164 }
+			}
+			c_tsukuba = {
+				b_tsukuba_castle = {  }
+				b_tsukuba_city = { }
+				b_tsukuba_temple = { }
+				color = { 16 32 156 }
+			}
+		}
+		d_kozuke = {
+			color = { 45 48 112 }
+
+			capital = 63
+			allow = { war = no }
+
+			c_gunma = {
+				b_gunma_castle = {  }
+				b_gunma_city = { }
+				b_gunma_temple = { }
+				color = { 32 96 100 }
+			}
+			c_agatsuma = {
+				b_agatsuma_castle = {  }
+				b_agatsuma_city = { }
+				b_agatsuma_temple = { }
+				color = { 165 128 92 }
+			}
+			c_tone = {
+				b_tone_castle = {  }
+				b_tone_city = { }
+				b_tone_temple = { }
+				color = { 33 160 84 }
+			}
+			c_usui = {
+				b_usui_castle = {  }
+				b_usui_city = { }
+				b_usui_temple = { }
+				color = { 164 192 76 }
+			}
+			c_kanra = {
+				b_kanra_castle = {  }
+				b_kanra_city = { }
+				b_kanra_temple = { }
+				color = { 34 32 68 }
+			}
+			c_seta = {
+				b_seta_castle = {  }
+				b_seta_city = { }
+				b_seta_temple = { }
+				color = { 163 64 60 }
+			}
+			c_nitta = {
+				b_nitta_castle = {  }
+				b_nitta_city = { }
+				b_nitta_temple = { }
+				color = { 35 96 52 }
+			}
+			c_midono = {
+				b_midono_castle = {  }
+				b_midono_city = { }
+				b_midono_temple = { }
+				color = { 162 128 44 }
+			}
+		}
+		d_musashi = {
+			color = { 175 64 104 }
+
+			capital = 71
+			allow = { war = no }
+
+			c_toshima = {
+				b_toshima_castle = {  }
+				b_toshima_city = { }
+				b_toshima_temple = { }
+				color = { 36 160 36 }
+			}
+			c_tama = {
+				b_tama_castle = {  }
+				b_tama_city = { }
+				b_tama_temple = { }
+				color = { 161 192 28 }
+			}
+			c_kodama = {
+				b_kodama_castle = {  }
+				b_kodama_city = { }
+				b_kodama_temple = { }
+				color = { 37 32 20 }
+			}
+			c_adachi = {
+				b_adachi_castle = {  }
+				b_adachi_city = { }
+				b_adachi_temple = { }
+				color = { 160 64 12 }
+			}
+			c_yokomi = {
+				b_yokomi_castle = {  }
+				b_yokomi_city = { }
+				b_yokomi_temple = { }
+				color = { 38 96 4 }
+			}
+			c_hiki = {
+				b_hiki_castle = {  }
+				b_hiki_city = { }
+				b_hiki_temple = { }
+				color = { 159 128 196 }
+			}
+			c_iruma = {
+				b_iruma_castle = {  }
+				b_iruma_city = { }
+				b_iruma_temple = { }
+				color = { 39 160 188 }
+			}
+			c_saitama = {
+				b_saitama_castle = {  }
+				b_saitama_city = { }
+				b_saitama_temple = { }
+				color = { 158 192 180 }
+			}
+			c_chichibu = {
+				b_chichibu_castle = {  }
+				b_chichibu_city = { }
+				b_chichibu_temple = { }
+				color = { 40 32 172 }
+			}
+			c_kuragi = {
+				b_kuragi_castle = {  }
+				b_kuragi_city = { }
+				b_kuragi_temple = { }
+				color = { 157 64 164 }
+			}
+		}
+		d_boshu = {
+			color = { 55 112 80 }
+
+			capital = 93
+			allow = { war = no }
+
+			c_heguri = {
+				b_heguri_castle = {  }
+				b_heguri_city = { }
+				b_heguri_temple = { }
+				color = { 47 96 60 }
+			}
+			c_nagasa = {
+				b_nagasa_castle = {  }
+				b_nagasa_city = { }
+				b_nagasa_temple = { }
+				color = { 150 128 52 }
+			}
+			c_awa = {
+				b_awa_castle = {  }
+				b_awa_city = { }
+				b_awa_temple = { }
+				color = { 48 160 44 }
+			}
+		}
+		d_sagami = {
+			color = { 165 128 72 }
+
+			capital = 96
+			allow = { war = no }
+
+			c_kamakura = {
+				b_kamakura_castle = {  }
+				b_kamakura_city = { }
+				b_kamakura_temple = { }
+				color = { 149 192 36 }
+			}
+			c_aiko = {
+				b_aiko_castle = {  }
+				b_aiko_city = { }
+				b_aiko_temple = { }
+				color = { 49 32 28 }
+			}
+			c_ashinokamki = {
+				b_ashinokamki_castle = {  }
+				b_ashinokamki_city = { }
+				b_ashinokamki_temple = { }
+				color = { 148 64 20 }
+			}
+			c_ashinoshimo = {
+				b_ashinoshimo_castle = {  }
+				b_ashinoshimo_city = { }
+				b_ashinoshimo_temple = { }
+				color = { 50 96 12 }
+			}
+		}
+		d_izu = {
+			color = { 60 144 64 }
+
+			capital = 100
+			allow = { war = no }
+
+			c_tagata = {
+				b_tagata_castle = {  }
+				b_tagata_city = { }
+				b_tagata_temple = { }
+				color = { 147 128 4 }
+			}
+			c_matsuzaki = {
+				b_matsuzaki_castle = {  }
+				b_matsuzaki_city = { }
+				b_matsuzaki_temple = { }
+				color = { 51 160 196 }
+			}
+			c_kimisawa = {
+				b_kimisawa_castle = {  }
+				b_kimisawa_city = { }
+				b_kimisawa_temple = { }
+				color = { 146 192 188 }
+			}
+		}	
+		d_shimosa = {
+			color = { 50 80 96 }
+
+			capital = 81
+			allow = { war = no }
+
+			c_katsushika = {
+				b_katsushika_castle = {  }
+				b_katsushika_city = { }
+				b_katsushika_temple = { }
+				color = { 41 96 156 }
+			}
+			c_katori = {
+				b_katori_castle = {  }
+				b_katori_city = { }
+				b_katori_temple = { }
+				color = { 156 128 148 }
+			}
+			c_soma = {
+				b_soma_castle = {  }
+				b_soma_city = { }
+				b_soma_temple = { }
+				color = { 42 160 140 }
+			}
+			c_chiba = {
+				b_chiba_castle = {  }
+				b_chiba_city = { }
+				b_chiba_temple = { }
+				color = { 155 192 132 }
+			}
+			c_sosa = {
+				b_sosa_castle = {  }
+				b_sosa_city = { }
+				b_sosa_temple = { }
+				color = { 43 32 124 }
+			}
+			c_yuki = {
+				b_yuki_castle = {  }
+				b_yuki_city = { }
+				b_yuki_temple = { }
+				color = { 154 64 116 }
+			}
+		}
+		d_kazusa = {
+			color = { 170 96 88 }
+
+			capital = 87
+			allow = { war = no }
+
+			c_unakami = {
+				b_unakami_castle = {  }
+				b_unakami_city = { }
+				b_unakami_temple = { }
+				color = { 44 96 108 }
+			}
+			c_susu = {
+				b_susu_castle = {  }
+				b_susu_city = { }
+				b_susu_temple = { }
+				color = { 153 128 100 }
+			}
+			c_isumi = {
+				b_isumi_castle = {  }
+				b_isumi_city = { }
+				b_isumi_temple = { }
+				color = { 45 160 92 }
+			}
+			c_amaha = {
+				b_amaha_castle = {  }
+				b_amaha_city = { }
+				b_amaha_temple = { }
+				color = { 152 192 84 }
+			}
+			c_nagara = {
+				b_nagara_castle = {  }
+				b_nagara_city = { }
+				b_nagara_temple = { }
+				color = { 46 32 76 }
+			}
+			c_musa = {
+				b_musa_castle = {  }
+				b_musa_city = { }
+				b_musa_temple = { }
+				color = { 151 64 68 }
+			}
+		}
+		d_shimotsuke = {
+			color = { 180 32 120 }
+
+			capital = 57
+			allow = { war = no }
+
+			c_tsuga = {
+				b_tsuga_castle = {  }
+				b_tsuga_city = { }
+				b_tsuga_temple = { }
+				color = { 29 96 148 }
+			}
+			c_nasu = {
+				b_nasu_castle = {  }
+				b_nasu_city = { }
+				b_nasu_temple = { }
+				color = { 168 128 140 }
+			}
+			c_haga = {
+				b_haga_castle = {  }
+				b_haga_city = { }
+				b_haga_temple = { }
+				color = { 30 160 132 }
+			}
+			c_shioya = {
+				b_shioya_castle = {  }
+				b_shioya_city = { }
+				b_shioya_temple = { }
+				color = { 167 192 124 }
+			}
+			c_samukawa = {
+				b_samukawa_castle = {  }
+				b_samukawa_city = { }
+				b_samukawa_temple = { }
+				color = { 31 32 116 }
+			}
+			c_ashikaga = {
+				b_ashikaga_castle = {  }
+				b_ashikaga_city = { }
+				b_ashikaga_temple = { }
+				color = { 166 64 108 }
+			}
+		}
+	}
+#hokuriku
+	k_hokuriku = {
+		color={ 155 25 3 }
+		
+		capital = 126 #imizu
+		
+		allow = {
+			war = no
+		}
+		
+		d_echizen = {
+			color = { 130 176 132 }
+
+			capital = 138
+			allow = { war = no }
+
+			c_niu = {
+				b_niu_castle = {  }
+				b_niu_city = { }
+				b_niu_temple = { }
+				color = { 60 188 192 }
+			}
+			c_tsuruga = {
+				b_tsuruga_castle = {  }
+				b_tsuruga_city = { }
+				b_tsuruga_temple = { }
+				color = { 52 10 32 }
+			}
+			c_imatachi = {
+				b_imatachi_castle = {  }
+				b_imatachi_city = { }
+				b_imatachi_temple = { }
+				color = { 44 187 64 }
+			}
+			c_ono = {
+				b_ono_castle = {  }
+				b_ono_city = { }
+				b_ono_temple = { }
+				color = { 36 11 96 }
+			}
+			c_sakai = {
+				b_sakai_castle = {  }
+				b_sakai_city = { }
+				b_sakai_temple = { }
+				color = { 28 186 128 }
+			}
+			c_asuwa = {
+				b_asuwa_castle = {  }
+				b_asuwa_city = { }
+				b_asuwa_temple = { }
+				color = { 20 12 160 }
+			}
+		}
+		d_noto = {
+			color = { 150 48 196 }
+
+			capital = 122
+			allow = { war = no }
+
+			c_noto = {
+				b_noto_castle = {  }
+				b_noto_city = { }
+				b_noto_temple = { }
+				color = { 188 196 64 }
+			}
+			c_suzu = {
+				b_suzu_castle = {  }
+				b_suzu_city = { }
+				b_suzu_temple = { }
+				color = { 180 2 96 }
+			}
+			c_fukeshi = {
+				b_fukeshi_castle = {  }
+				b_fukeshi_city = { }
+				b_fukeshi_temple = { }
+				color = { 172 195 128 }
+			}
+			c_hakui = {
+				b_hakui_castle = {  }
+				b_hakui_city = { }
+				b_hakui_temple = { }
+				color = { 164 3 160 }
+			}
+		}
+		d_etchu = {
+			color = { 75 64 188 }
+
+			capital = 126
+			allow = { war = no }
+
+			c_imizu = {
+				b_imizu_castle = {  }
+				b_imizu_city = { }
+				b_imizu_temple = { }
+				color = { 156 194 192 }
+			}
+			c_shimoniikawa = {
+				b_shimoniikawa_castle = {  }
+				b_shimoniikawa_city = { }
+				b_shimoniikawa_temple = { }
+				color = { 148 4 32 }
+			}
+			c_kaminiikawa = {
+				b_kaminiikawa_castle = {  }
+				b_kaminiikawa_city = { }
+				b_kaminiikawa_temple = { }
+				color = { 140 193 64 }
+			}
+			c_nei = {
+				b_nei_castle = {  }
+				b_nei_city = { }
+				b_nei_temple = { }
+				color = { 132 5 96 }
+			}
+			c_tonami = {
+				b_tonami_castle = {  }
+				b_tonami_city = { }
+				b_tonami_temple = { }
+				color = { 124 192 128 }
+			}
+		}
+		d_kaga = {
+			color = { 145 80 180 }
+
+			capital = 133
+			allow = { war = no }
+
+			c_ishikawa = {
+				b_ishikawa_castle = {  }
+				b_ishikawa_city = { }
+				b_ishikawa_temple = { }
+				color = { 100 7 32 }
+			}
+			c_nomi = {
+				b_nomi_castle = {  }
+				b_nomi_city = { }
+				b_nomi_temple = { }
+				color = { 116 6 160 }
+			}
+			c_kaga = {
+				b_kaga_castle = {  }
+				b_kaga_city = { }
+				b_kaga_temple = { }
+				color = { 108 191 192 }
+			}
+			c_enuma = {
+				b_enuma_castle = {  }
+				b_enuma_city = { }
+				b_enuma_temple = { }
+				color = { 92 190 64 }
+			}
+		}
+		d_sado = {
+			color = { 160 120 180 }
+
+			capital = 354
+			allow = { war = no }
+
+			c_sawata = {
+				b_sawata_castle = {  }
+				b_sawata_city = { }
+				b_sawata_temple = { }
+				color = { 192 92 140 }
+			}
+			c_hamochi = {
+				b_hamochi_castle = {  }
+				b_hamochi_city = { }
+				b_hamochi_temple = { }
+				color = { 32 84 58 }
+			}
+			c_ryotsu = {
+				b_ryotsu_castle = {  }
+				b_ryotsu_city = { }
+				b_ryotsu_temple = { }
+				color = { 64 76 139 }
+			}
+		}
+		d_echigo = {
+			color = { 185 176 136 }
+
+			capital = 42
+			allow = { war = no }
+
+			c_higashi-kubiki = {
+				b_higashi-kubiki_castle = {  }
+				b_higashi-kubiki_city = { }
+				b_higashi-kubiki_temple = { }
+				color = { 176 192 68 }
+			}
+			c_nutari = {
+				b_nutari_castle = {  }
+				b_nutari_city = { }
+				b_nutari_temple = { }
+				color = { 22 32 60 }
+			}
+			c_kanbara = {
+				b_kanbara_castle = {  }
+				b_kanbara_city = { }
+				b_kanbara_temple = { }
+				color = { 175 64 52 }
+			}
+			c_koshi = {
+				b_koshi_castle = {  }
+				b_koshi_city = { }
+				b_koshi_temple = { }
+				color = { 23 96 44 }
+			}
+			c_mishima = {
+				b_mishima_castle = {  }
+				b_mishima_city = { }
+				b_mishima_temple = { }
+				color = { 174 128 36 }
+			}
+			c_iwafune = {
+				b_iwafune_castle = {  }
+				b_iwafune_city = { }
+				b_iwafune_temple = { }
+				color = { 24 160 28 }
+			}
+			c_nishi-kubiki = {
+				b_nishi-kubiki_castle = {  }
+				b_nishi-kubiki_city = { }
+				b_nishi-kubiki_temple = { }
+				color = { 173 192 20 }
+			}
+			c_kita-uonuma = {
+				b_kita-uonuma_castle = {  }
+				b_kita-uonuma_city = { }
+				b_kita-uonuma_temple = { }
+				color = { 25 32 12 }
+			}
+			c_minami-uonuma = {
+				b_minami-uonuma_castle = {  }
+				b_minami-uonuma_city = { }
+				b_minami-uonuma_temple = { }
+				color = { 172 64 4 }
+			}
+		}
+		d_wakasa = {
+			color = { 140 112 164 }
+
+			capital = 167
+			allow = { war = no }
+
+			c_onyu = {
+				b_onyu_castle = {  }
+				b_onyu_city = { }
+				b_onyu_temple = { }
+				color = { 28 24 160 }
+			}
+			c_mikata = {
+				b_mikata_castle = {  }
+				b_mikata_city = { }
+				b_mikata_temple = { }
+				color = { 20 173 192 }
+			}
+			c_oi = {
+				b_oi_castle = {  }
+				b_oi_city = { }
+				b_oi_temple = { }
+				color = { 12 25 32 }
+			}
+		}
+	}
+#tohoku
+	k_tohoku = {
+		color={ 40 160 40 }
+		
+		capital = 11 #miyagi
+		
+		allow = {
+			war = no
+		}
+		
+		d_mutsu = {
+			color = { 20 64 192 }
+
+			capital = 1
+			allow = { war = no }
+
+			c_tsugaru = {
+				b_tsugaru_castle = {  }
+				b_tsugaru_city = { }
+				b_tsugaru_temple = { }
+				color = { 1 32 196 }
+			}
+			c_kazuno = {
+				b_kazuno_castle = {  }
+				b_kazuno_city = { }
+				b_kazuno_temple = { }
+				color = { 196 64 188 }
+			}
+			c_ninohe = {
+				b_ninohe_castle = {  }
+				b_ninohe_city = { }
+				b_ninohe_temple = { }
+				color = { 2 96 180 }
+			}
+			c_kita = {
+				b_kita_castle = {  }
+				b_kita_city = { }
+				b_kita_temple = { }
+				color = { 195 128 172 }
+			}
+			c_sannohe = {
+				b_sannohe_castle = {  }
+				b_sannohe_city = { }
+				b_sannohe_temple = { }
+				color = { 3 160 164 }
+			}
+		}
+		d_rikuchu = {
+			color = { 200 80 184 }
+
+			capital = 6
+			allow = { war = no }
+
+			c_iwate = {
+				b_iwate_castle = {  }
+				b_iwate_city = { }
+				b_iwate_temple = { }
+				color = { 194 192 156 }
+			}
+			c_hei = {
+				b_hei_castle = {  }
+				b_hei_city = { }
+				b_hei_temple = { }
+				color = { 4 32 148 }
+			}
+			c_kunohe = {
+				b_kunohe_castle = {  }
+				b_kunohe_city = { }
+				b_kunohe_temple = { }
+				color = { 193 64 140 }
+			}
+			c_iwai = {
+				b_iwai_castle = {  }
+				b_iwai_city = { }
+				b_iwai_temple = { }
+				color = { 5 96 132 }
+			}
+			c_waga = {
+				b_waga_castle = {  }
+				b_waga_city = { }
+				b_waga_temple = { }
+				color = { 192 128 124 }
+			}
+		}
+		d_rikuzen = {
+			color = { 25 96 176 }
+
+			capital = 11
+			allow = { war = no }
+
+			c_miyagi = {
+				b_miyagi_castle = {  }
+				b_miyagi_city = { }
+				b_miyagi_temple = { }
+				color = { 6 160 116 }
+			}
+			c_kurokawa = {
+				b_kurokawa_castle = {  }
+				b_kurokawa_city = { }
+				b_kurokawa_temple = { }
+				color = { 191 192 108 }
+			}
+			c_kami = {
+				b_kami_castle = {  }
+				b_kami_city = { }
+				b_kami_temple = { }
+				color = { 7 32 100 }
+			}
+			c_oshika = {
+				b_oshika_castle = {  }
+				b_oshika_city = { }
+				b_oshika_temple = { }
+				color = { 190 64 92 }
+			}
+			c_kesen = {
+				b_kesen_castle = {  }
+				b_kesen_city = { }
+				b_kesen_temple = { }
+				color = { 8 96 84 }
+			}
+			c_shibata = {
+				b_shibata_castle = {  }
+				b_shibata_city = { }
+				b_shibata_temple = { }
+				color = { 189 128 76 }
+			}
+			c_kurihara = {
+				b_kurihara_castle = {  }
+				b_kurihara_city = { }
+				b_kurihara_temple = { }
+				color = { 9 160 68 }
+			}
+		}
+		d_iwaki = {
+			color = { 195 112 168 }
+
+			capital = 18
+			allow = { war = no }
+
+			c_iwaki = {
+				b_iwaki_castle = {  }
+				b_iwaki_city = { }
+				b_iwaki_temple = { }
+				color = { 188 192 60 }
+			}
+			c_shirakawa = {
+				b_shirakawa_castle = {  }
+				b_shirakawa_city = { }
+				b_shirakawa_temple = { }
+				color = { 10 32 52 }
+			}
+			c_uta = {
+				b_uta_castle = {  }
+				b_uta_city = { }
+				b_uta_temple = { }
+				color = { 187 64 44 }
+			}
+			c_igu = {
+				b_igu_castle = {  }
+				b_igu_city = { }
+				b_igu_temple = { }
+				color = { 11 96 36 }
+			}
+			c_kikuta = {
+				b_kikuta_castle = {  }
+				b_kikuta_city = { }
+				b_kikuta_temple = { }
+				color = { 186 128 28 }
+			}
+			c_namekata = {
+				b_namekata_castle = {  }
+				b_namekata_city = { }
+				b_namekata_temple = { }
+				color = { 12 160 20 }
+			}
+		}
+		d_ugo = {
+			color = { 190 144 152 }
+
+			capital = 32
+			allow = { war = no }
+
+			c_ogachi = {
+				b_ogachi_castle = {  }
+				b_ogachi_city = { }
+				b_ogachi_temple = { }
+				color = { 181 64 148 }
+			}
+			c_hiyama = {
+				b_hiyama_castle = {  }
+				b_hiyama_city = { }
+				b_hiyama_temple = { }
+				color = { 17 96 140 }
+			}
+			c_yamamoto = {
+				b_yamamoto_castle = {  }
+				b_yamamoto_city = { }
+				b_yamamoto_temple = { }
+				color = { 180 128 132 }
+			}
+			c_yuri = {
+				b_yuri_castle = {  }
+				b_yuri_city = { }
+				b_yuri_temple = { }
+				color = { 18 160 124 }
+			}
+			c_akita = {
+				b_akita_castle = {  }
+				b_akita_city = { }
+				b_akita_temple = { }
+				color = { 179 192 116 }
+			}
+		}
+		d_uzen = {
+			color = { 35 160 144 }
+
+			capital = 37
+			allow = { war = no }
+
+			c_dewa = {
+				b_dewa_castle = {  }
+				b_dewa_city = { }
+				b_dewa_temple = { }
+				color = { 19 32 108 }
+			}
+			c_mogami = {
+				b_mogami_castle = {  }
+				b_mogami_city = { }
+				b_mogami_temple = { }
+				color = { 178 64 100 }
+			}
+			c_okitama = {
+				b_okitama_castle = {  }
+				b_okitama_city = { }
+				b_okitama_temple = { }
+				color = { 20 96 92 }
+			}
+			c_murayama = {
+				b_murayama_castle = {  }
+				b_murayama_city = { }
+				b_murayama_temple = { }
+				color = { 177 128 84 }
+			}
+			c_akumi = {
+				b_akumi_castle = {  }
+				b_akumi_city = { }
+				b_akumi_temple = { }
+				color = { 21 160 76 }
+			}
+		}
+		d_iwashiro = {
+			color = { 40 192 128 }
+
+			capital = 51
+			allow = { war = no }
+
+			c_kita-aizu = {
+				b_kita-aizu_castle = {  }
+				b_kita-aizu_city = { }
+				b_kita-aizu_temple = { }
+				color = { 26 96 196 }
+			}
+			c_asaka = {
+				b_asaka_castle = {  }
+				b_asaka_city = { }
+				b_asaka_temple = { }
+				color = { 171 128 188 }
+			}
+			c_yama = {
+				b_yama_castle = {  }
+				b_yama_city = { }
+				b_yama_temple = { }
+				color = { 27 160 180 }
+			}
+			c_minami-aizu = {
+				b_minami-aizu_castle = {  }
+				b_minami-aizu_city = { }
+				b_minami-aizu_temple = { }
+				color = { 170 192 172 }
+			}
+			c_iwase = {
+				b_iwase_castle = {  }
+				b_iwase_city = { }
+				b_iwase_temple = { }
+				color = { 28 32 164 }
+			}
+			c_date = {
+				b_date_castle = {  }
+				b_date_city = { }
+				b_date_temple = { }
+				color = { 169 64 156 }
+			}
+		}
+	}
+#chubu
+	k_chubu = {
+		color={ 176 110 32 }
+		
+		capital = 158 #aichi
+		
+		allow = {
+			war = no
+		}
+		
+		d_ise = {
+			color = { 184 200 80 }
+
+			capital = 180
+			allow = { war = no }
+
+			c_suzuka = {
+				b_suzuka_castle = {  }
+				b_suzuka_city = { }
+				b_suzuka_temple = { }
+				color = { 124 167 192 }
+			}
+			c_asake = {
+				b_asake_castle = {  }
+				b_asake_city = { }
+				b_asake_temple = { }
+				color = { 116 31 32 }
+			}
+			c_ichishi = {
+				b_ichishi_castle = {  }
+				b_ichishi_city = { }
+				b_ichishi_temple = { }
+				color = { 108 166 64 }
+			}
+			c_iino = {
+				b_iino_castle = {  }
+				b_iino_city = { }
+				b_iino_temple = { }
+				color = { 100 32 96 }
+			}
+			c_iitaka = {
+				b_iitaka_castle = {  }
+				b_iitaka_city = { }
+				b_iitaka_temple = { }
+				color = { 92 165 128 }
+			}
+			c_kawawa = {
+				b_kawawa_castle = {  }
+				b_kawawa_city = { }
+				b_kawawa_temple = { }
+				color = { 84 33 160 }
+			}
+			c_kuwana = {
+				b_kuwana_castle = {  }
+				b_kuwana_city = { }
+				b_kuwana_temple = { }
+				color = { 76 164 192 }
+			}
+			c_mie = {
+				b_mie_castle = {  }
+				b_mie_city = { }
+				b_mie_temple = { }
+				color = { 68 34 32 }
+			}
+			c_watarai = {
+				b_watarai_castle = {  }
+				b_watarai_city = { }
+				b_watarai_temple = { }
+				color = { 60 163 64 }
+			}
+		}
+		d_shima = {
+			color = { 176 10 96 }
+
+			capital = 189
+			allow = { war = no }
+
+			c_saki = {
+				b_saki_castle = {  }
+				b_saki_city = { }
+				b_saki_temple = { }
+				color = { 52 35 96 }
+			}
+			c_ago = {
+				b_ago_castle = {  }
+				b_ago_city = { }
+				b_ago_temple = { }
+				color = { 44 162 128 }
+			}
+			c_toshi = {
+				b_toshi_castle = {  }
+				b_toshi_city = { }
+				b_toshi_temple = { }
+				color = { 36 36 160 }
+			}
+		}
+		d_owari = {
+			color = { 90 160 140 }
+
+			capital = 158
+			allow = { war = no }
+
+			c_aichi = {
+				b_aichi_castle = {  }
+				b_aichi_city = { }
+				b_aichi_temple = { }
+				color = { 100 178 64 }
+			}
+			c_nakashima = {
+				b_nakashima_castle = {  }
+				b_nakashima_city = { }
+				b_nakashima_temple = { }
+				color = { 92 20 96 }
+			}
+			c_chita = {
+				b_chita_castle = {  }
+				b_chita_city = { }
+				b_chita_temple = { }
+				color = { 84 177 128 }
+			}
+			c_yamada = {
+				b_yamada_castle = {  }
+				b_yamada_city = { }
+				b_yamada_temple = { }
+				color = { 76 21 160 }
+			}
+			c_kasugai = {
+				b_kasugai_castle = {  }
+				b_kasugai_city = { }
+				b_kasugai_temple = { }
+				color = { 68 176 192 }
+			}
+			c_haguri = {
+				b_haguri_castle = {  }
+				b_haguri_city = { }
+				b_haguri_temple = { }
+				color = { 60 22 32 }
+			}
+			c_niwa = {
+				b_niwa_castle = {  }
+				b_niwa_city = { }
+				b_niwa_temple = { }
+				color = { 52 175 64 }
+			}
+			c_kaito = {
+				b_kaito_castle = {  }
+				b_kaito_city = { }
+				b_kaito_temple = { }
+				color = { 44 23 96 }
+			}
+			c_kaisei = {
+				b_kaisei_castle = {  }
+				b_kaisei_city = { }
+				b_kaisei_temple = { }
+				color = { 36 174 128 }
+			}
+		}
+		d_hida = {
+			color = { 80 96 172 }
+
+			capital = 135
+			allow = { war = no }
+
+			c_hida = {
+				b_hida_castle = {  }
+				b_hida_city = { }
+				b_hida_temple = { }
+				color = { 84 8 96 }
+			}
+			c_araki = {
+				b_araki_castle = {  }
+				b_araki_city = { }
+				b_araki_temple = { }
+				color = { 76 189 128 }
+			}
+			c_mashita = {
+				b_mashita_castle = {  }
+				b_mashita_city = { }
+				b_mashita_temple = { }
+				color = { 68 9 160 }
+			}
+		}
+		d_mino = {
+			color = { 85 128 156 }
+
+			capital = 144
+			allow = { war = no }
+
+			c_ishizu = {
+				b_ishizu_castle = {  }
+				b_ishizu_city = { }
+				b_ishizu_temple = { }
+				color = { 12 185 192 }
+			}
+			c_ikeda = {
+				b_ikeda_castle = {  }
+				b_ikeda_city = { }
+				b_ikeda_temple = { }
+				color = { 4 13 32 }
+			}
+			c_motosu = {
+				b_motosu_castle = {  }
+				b_motosu_city = { }
+				b_motosu_temple = { }
+				color = { 196 184 64 }
+			}
+			c_ahachi = {
+				b_ahachi_castle = {  }
+				b_ahachi_city = { }
+				b_ahachi_temple = { }
+				color = { 188 14 96 }
+			}
+			c_kagami = {
+				b_kagami_castle = {  }
+				b_kagami_city = { }
+				b_kagami_temple = { }
+				color = { 180 183 128 }
+			}
+			c_mugi = {
+				b_mugi_castle = {  }
+				b_mugi_city = { }
+				b_mugi_temple = { }
+				color = { 172 15 160 }
+			}
+			c_gujo = {
+				b_gujo_castle = {  }
+				b_gujo_city = { }
+				b_gujo_temple = { }
+				color = { 164 182 192 }
+			}
+			c_kani = {
+				b_kani_castle = {  }
+				b_kani_city = { }
+				b_kani_temple = { }
+				color = { 156 16 32 }
+			}
+			c_ena = {
+				b_ena_castle = {  }
+				b_ena_city = { }
+				b_ena_temple = { }
+				color = { 148 181 64 }
+			}
+		}
+		d_mikawa = {
+			color = { 135 144 148 }
+
+			capital = 153
+			allow = { war = no }
+
+			c_kamo = {
+				b_kamo_castle = {  }
+				b_kamo_city = { }
+				b_kamo_temple = { }
+				color = { 140 17 96 }
+			}
+			c_nukata = {
+				b_nukata_castle = {  }
+				b_nukata_city = { }
+				b_nukata_temple = { }
+				color = { 132 180 128 }
+			}
+			c_shitara = {
+				b_shitara_castle = {  }
+				b_shitara_city = { }
+				b_shitara_temple = { }
+				color = { 124 18 160 }
+			}
+			c_aomi = {
+				b_aomi_castle = {  }
+				b_aomi_city = { }
+				b_aomi_temple = { }
+				color = { 116 179 192 }
+			}
+			c_atsumi = {
+				b_atsumi_castle = {  }
+				b_atsumi_city = { }
+				b_atsumi_temple = { }
+				color = { 108 19 32 }
+			}
+		}
+		d_shinano = {
+			color = { 65 176 48 }
+
+			capital = 107
+			allow = { war = no }
+
+			c_tsukama = {
+				b_tsukama_castle = {  }
+				b_tsukama_city = { }
+				b_tsukama_temple = { }
+				color = { 54 160 148 }
+			}
+			c_takai = {
+				b_takai_castle = {  }
+				b_takai_city = { }
+				b_takai_temple = { }
+				color = { 143 192 140 }
+			}
+			c_hanishina = {
+				b_hanishina_castle = {  }
+				b_hanishina_city = { }
+				b_hanishina_temple = { }
+				color = { 55 32 132 }
+			}
+			c_azumi = {
+				b_azumi_castle = {  }
+				b_azumi_city = { }
+				b_azumi_temple = { }
+				color = { 142 64 124 }
+			}
+			c_chiisagata = {
+				b_chiisagata_castle = {  }
+				b_chiisagata_city = { }
+				b_chiisagata_temple = { }
+				color = { 56 96 116 }
+			}
+			c_saku = {
+				b_saku_castle = {  }
+				b_saku_city = { }
+				b_saku_temple = { }
+				color = { 141 128 108 }
+			}
+			c_suwa = {
+				b_suwa_castle = {  }
+				b_suwa_city = { }
+				b_suwa_temple = { }
+				color = { 57 160 100 }
+			}
+		}
+		d_suruga = {
+			color = { 155 192 40 }
+
+			capital = 114
+			allow = { war = no }
+
+			c_abe = {
+				b_abe_castle = {  }
+				b_abe_city = { }
+				b_abe_temple = { }
+				color = { 140 192 92 }
+			}
+			c_suruga = {
+				b_suruga_castle = {  }
+				b_suruga_city = { }
+				b_suruga_temple = { }
+				color = { 58 32 84 }
+			}
+			c_mashizu = {
+				b_mashizu_castle = {  }
+				b_mashizu_city = { }
+				b_mashizu_temple = { }
+				color = { 139 64 76 }
+			}
+			c_fuji = {
+				b_fuji_castle = {  }
+				b_fuji_city = { }
+				b_fuji_temple = { }
+				color = { 59 96 68 }
+			}
+		}
+		d_totomi = {
+			color = { 70 32 32 }
+
+			capital = 118
+			allow = { war = no }
+
+			c_kiko = {
+				b_kiko_castle = {  }
+				b_kiko_city = { }
+				b_kiko_temple = { }
+				color = { 138 128 60 }
+			}
+			c_yamaga = {
+				b_yamaga_castle = {  }
+				b_yamaga_city = { }
+				b_yamaga_temple = { }
+				color = { 60 160 52 }
+			}
+			c_fuchi = {
+				b_fuchi_castle = {  }
+				b_fuchi_city = { }
+				b_fuchi_temple = { }
+				color = { 137 192 44 }
+			}
+			c_iwata = {
+				b_iwata_castle = {  }
+				b_iwata_city = { }
+				b_iwata_temple = { }
+				color = { 196 1 32 }
+			}
+		}
+		d_kai = {
+			color = { 160 160 56 }
+
+			capital = 103
+			allow = { war = no }
+
+			c_yamanashi = {
+				b_yamanashi_castle = {  }
+				b_yamanashi_city = { }
+				b_yamanashi_temple = { }
+				color = { 52 32 180 }
+			}
+			c_koma = {
+				b_koma_castle = {  }
+				b_koma_city = { }
+				b_koma_temple = { }
+				color = { 145 64 172 }
+			}
+			c_tsuru = {
+				b_tsuru_castle = {  }
+				b_tsuru_city = { }
+				b_tsuru_temple = { }
+				color = { 53 96 164 }
+			}
+			c_yatsushiro = {
+				b_yatsushiro_castle = {  }
+				b_yatsushiro_city = { }
+				b_yatsushiro_temple = { }
+				color = { 144 128 156 }
+			}
+		}
+	}
+#kyushu
+	k_saikaido = {
+		color={ 97 154 94 }
+		
+		capital = 297 #Hakake
+		
+		culture = japanese
+		
+		allow = {
+			war = no
+		}
+		
+		d_buzen = {
+			color = { 164 140 112 }
+
+			capital = 294
+			allow = { war = no }
+
+			c_miyako = {
+				b_miyako_castle = {  }
+				b_miyako_city = { }
+				b_miyako_temple = { }
+				color = { 192 172 170 }
+			}
+			c_nakatsu = {
+				b_nakatsu_castle = {  }
+				b_nakatsu_city = { }
+				b_nakatsu_temple = { }
+				color = { 32 164 28 }
+			}
+			c_usa = {
+				b_usa_castle = {  }
+				b_usa_city = { }
+				b_usa_temple = { }
+				color = { 64 156 169 }
+			}
+		}
+		d_chikuzen = {
+			color = { 156 70 128 }
+
+			capital = 297
+			allow = { war = no }
+
+			c_mushiroda = {
+				b_mushiroda_castle = {  }
+				b_mushiroda_city = { }
+				b_mushiroda_temple = { }
+				color = { 96 148 29 }
+			}
+			c_geza = {
+				b_geza_castle = {  }
+				b_geza_city = { }
+				b_geza_temple = { }
+				color = { 128 140 168 }
+			}
+			c_ito = {
+				b_ito_castle = {  }
+				b_ito_city = { }
+				b_ito_temple = { }
+				color = { 160 132 30 }
+			}
+			c_kama = {
+				b_kama_castle = {  }
+				b_kama_city = { }
+				b_kama_temple = { }
+				color = { 192 124 167 }
+			}
+			c_munakata = {
+				b_munakata_castle = {  }
+				b_munakata_city = { }
+				b_munakata_temple = { }
+				color = { 32 116 31 }
+			}
+		}
+		d_hizen = {
+			color = { 148 135 144 }
+
+			capital = 302
+			allow = { war = no }
+
+			c_saka = {
+				b_saka_castle = {  }
+				b_saka_city = { }
+				b_saka_temple = { }
+				color = { 64 108 166 }
+			}
+			c_kishima = {
+				b_kishima_castle = {  }
+				b_kishima_city = { }
+				b_kishima_temple = { }
+				color = { 96 100 32 }
+			}
+			c_matsura = {
+				b_matsura_castle = {  }
+				b_matsura_city = { }
+				b_matsura_temple = { }
+				b_hirado = { }
+				color = { 128 92 165 }
+			}
+			c_sonoki = {
+				b_sonoki_castle = {  }
+				b_sonoki_city = { }
+				b_sonoki_temple = { }
+				b_dejima = { }
+				b_nagasaki = { }
+				color = { 160 84 33 }
+			}
+			c_takaku = {
+				b_takaku_castle = {  }
+				b_takaku_city = { }
+				b_takaku_temple = { }
+				color = { 192 76 164 }
+			}
+			c_yabu = {
+				b_yabu_castle = {  }
+				b_yabu_city = { }
+				b_yabu_temple = { }
+				color = { 32 68 34 }
+			}
+			c_goto = {
+				b_goto_castle = {  }
+				b_goto_city = { }
+				b_goto_temple = { }
+				color = { 160 52 60 }
+			}
+		}
+		d_chikugo = {
+			color = { 140 75 160 }
+
+			capital = 308
+			allow = { war = no }
+
+			c_ikuha = {
+				b_ikuha_castle = {  }
+				b_ikuha_city = { }
+				b_ikuha_temple = { }
+				color = { 64 60 163 }
+			}
+			c_kozuma = {
+				b_kozuma_castle = {  }
+				b_kozuma_city = { }
+				b_kozuma_temple = { }
+				color = { 96 52 35 }
+			}
+			c_mii = {
+				b_mii_castle = {  }
+				b_mii_city = { }
+				b_mii_temple = { }
+				color = { 128 44 162 }
+			}
+			c_mizuma = {
+				b_mizuma_castle = {  }
+				b_mizuma_city = { }
+				b_mizuma_temple = { }
+				color = { 160 36 36 }
+			}
+		}
+		d_bungo = {
+			color = { 132 130 176 }
+
+			capital = 312
+			allow = { war = no }
+
+			c_oita = {
+				b_oita_castle = {  }
+				b_oita_city = { }
+				b_oita_temple = { }
+				color = { 192 28 161 }
+			}
+			c_ama = {
+				b_ama_castle = {  }
+				b_ama_city = { }
+				b_ama_temple = { }
+				color = { 32 20 37 }
+			}
+			c_hayami = {
+				b_hayami_castle = {  }
+				b_hayami_city = { }
+				b_hayami_temple = { }
+				color = { 64 12 160 }
+			}
+			c_hita = {
+				b_hita_castle = {  }
+				b_hita_city = { }
+				b_hita_temple = { }
+				color = { 96 4 38 }
+			}
+			c_kunisaki = {
+				b_kunisaki_castle = {  }
+				b_kunisaki_city = { }
+				b_kunisaki_temple = { }
+				color = { 128 196 159 }
+			}
+			c_taguchi = {
+				b_taguchi_castle = {  }
+				b_taguchi_city = { }
+				b_taguchi_temple = { }
+				color = { 160 188 39 }
+			}
+		}
+		d_higo = {
+			color = { 64 192 5 }
+
+			capital = 318
+			allow = { war = no }
+
+			c_mashiki = {
+				b_mashiki_castle = {  }
+				b_mashiki_city = { }
+				b_mashiki_temple = { }
+				color = { 192 180 158 }
+			}
+			c_takuma = {
+				b_takuma_castle = {  }
+				b_takuma_city = { }
+				b_takuma_temple = { }
+				color = { 32 172 40 }
+			}
+			c_ashikita = {
+				b_ashikita_castle = {  }
+				b_ashikita_city = { }
+				b_ashikita_temple = { }
+				color = { 64 164 157 }
+			}
+			c_aso = {
+				b_aso_castle = {  }
+				b_aso_city = { }
+				b_aso_temple = { }
+				color = { 96 156 41 }
+			}
+			c_kuma = {
+				b_kuma_castle = {  }
+				b_kuma_city = { }
+				b_kuma_temple = { }
+				color = { 128 148 156 }
+			}
+			c_tamana = {
+				b_tamana_castle = {  }
+				b_tamana_city = { }
+				b_tamana_temple = { }
+				color = { 160 140 42 }
+			}
+		}
+		d_hyuga = {
+			color = { 96 184 200 }
+
+			capital = 324
+			allow = { war = no }
+
+			c_koyu = {
+				b_koyu_castle = {  }
+				b_koyu_city = { }
+				b_koyu_temple = { }
+				color = { 192 132 155 }
+			}
+			c_murakata = {
+				b_murakata_castle = {  }
+				b_murakata_city = { }
+				b_murakata_temple = { }
+				color = { 32 124 43 }
+			}
+			c_usuki = {
+				b_usuki_castle = {  }
+				b_usuki_city = { }
+				b_usuki_temple = { }
+				color = { 64 116 154 }
+			}
+		}
+		d_satsuma = {
+			color = { 128 176 10 }
+
+			capital = 327
+			allow = { war = no }
+
+			c_kagoshima = {
+				b_kagoshima_castle = {  }
+				b_kagoshima_city = { }
+				b_kagoshima_temple = { }
+				color = { 96 108 44 }
+			}
+			c_ata = {
+				b_ata_castle = {  }
+				b_ata_city = { }
+				b_ata_temple = { }
+				color = { 128 100 153 }
+			}
+			c_satsuma = {
+				b_satsuma_castle = {  }
+				b_satsuma_city = { }
+				b_satsuma_temple = { }
+				color = { 160 92 45 }
+			}
+			c_taki = {
+				b_taki_castle = {  }
+				b_taki_city = { }
+				b_taki_temple = { }
+				color = { 192 84 152 }
+			}
+		}
+		d_osumi = {
+			color = { 160 168 195 }
+
+			capital = 331
+			allow = { war = no }
+
+			c_osumi = {
+				b_osumi_castle = {  }
+				b_osumi_city = { }
+				b_osumi_temple = { }
+				color = { 32 76 46 }
+			}
+			c_kuwahara = {
+				b_kuwahara_castle = {  }
+				b_kuwahara_city = { }
+				b_kuwahara_temple = { }
+				color = { 64 68 151 }
+			}
+			c_soo = {
+				b_soo_castle = {  }
+				b_soo_city = { }
+				b_soo_temple = { }
+				color = { 96 60 47 }
+			}
+			c_tanegashima = {
+				b_tanegashima_castle = {  }
+				b_tanegashima_city = { }
+				b_tanegashima_temple = { }
+				b_yakushima = { }
+				color = { 6 160 116 }
+			}
+		}
+		d_iki = {
+			color = { 32 104 175 }
+
+			capital = 358
+			allow = { war = no }
+
+			c_iki = {
+				b_iki_castle = {  }
+				b_iki_city = { }
+				b_iki_temple = { }
+				color = { 128 60 138 }
+			}
+		}
+		d_tsushima = {
+			color = { 96 88 170 }
+
+			capital = 360
+			allow = { war = no }
+
+			c_tsushima = {
+				b_tsushima_castle = {  }
+				b_tsushima_city = { }
+				b_tsushima_temple = { }
+				color = { 192 44 137 }
+			}
+		}
+	}
+}

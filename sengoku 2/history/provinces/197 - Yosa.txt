@@ -1,0 +1,14 @@
+# 197 - Yosa
+
+# Kokujin Title
+title = c_yosa
+
+#Settlements
+max_settlements = 3
+b_yosa_castle = castle
+b_yosa_city = city
+#b_yosa_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

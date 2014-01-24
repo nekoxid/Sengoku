@@ -1,0 +1,112 @@
+26 = {
+name="Akiyoshi"
+dynasty=19
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 4
+martial = 4
+intrigue = 3
+add_trait = envious
+add_trait = amateurish_plotter
+1421.4.8={
+	birth="1421.4.8"
+}
+1492.7.17={
+	death="1492.7.17"
+}
+} 
+550 = {
+name="Tomomune"
+dynasty=19
+culture = japanese
+religion = buddhism
+father=878
+
+diplomacy = 10
+martial = 6
+intrigue = 13
+add_trait = charismatic_negotiator
+
+1509.1.1={
+birth="1509.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1555.1.1={
+death="1555.1.1"
+}
+} 
+80 = {
+name="Akitomo"
+dynasty=19
+culture = japanese
+religion = buddhism
+father=26
+diplomacy = 4
+martial = 2
+intrigue = 4
+add_trait = naive_appeaser
+
+1441.2.18={
+	birth="1441.2.18"
+}
+1522.8.4={
+	death="1522.8.4"
+}
+} 
+878 = {
+name="Tomonaga"
+dynasty=19
+culture = japanese
+religion = buddhism
+diplomacy = 10
+martial = 10
+intrigue = 10
+add_trait = charismatic_negotiator
+
+1487.1.1={
+birth="1487.1.1"
+}
+1541.1.1={
+death="1541.1.1"
+}
+} 
+879 = {
+name="Tomonobu"
+dynasty=19
+culture = japanese
+religion = buddhism
+father=878
+
+diplomacy = 7
+martial = 8
+intrigue = 7
+add_trait = naive_appeaser
+
+1513.1.1={
+birth="1513.1.1"
+}
+1562.1.1={
+death="1562.1.1"
+}
+} 
+880 = {
+name="Tomokazu"
+dynasty=19
+culture = japanese
+religion = buddhism
+father=550
+diplomacy = 7
+martial = 7
+intrigue = 4
+add_trait = naive_appeaser
+
+1532.1.1={
+birth="1532.1.1"
+}
+1562.1.1={
+death="1562.1.1"
+}
+} 

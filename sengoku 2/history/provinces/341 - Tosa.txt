@@ -1,0 +1,14 @@
+# 341 - Tosa
+
+# Kokujin Title
+title = c_tosa
+
+#Settlements
+max_settlements = 3
+b_tosa_castle = castle
+b_tosa_city = city
+#b_tosa_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,18 @@
+126 = {
+name="Mototsuna"
+dynasty=57
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 4
+intrigue = 3
+add_trait = naive_appeaser
+add_trait = poet
+
+1441.4.18={
+	birth="1441.4.18"
+}
+1504.7.14={
+	death="1504.7.14"
+}
+} 

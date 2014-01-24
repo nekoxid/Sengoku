@@ -1,0 +1,77 @@
+21 = {
+name="Norimichi"
+dynasty=14
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 4
+martial = 6
+intrigue = 4
+add_trait = misguided_warrior
+add_trait = just
+1420.2.1={
+	birth="1420.2.1"
+}
+1500.7.24={
+	death="1500.7.24"
+}
+} 
+
+75 = {
+name="Michinobu"
+dynasty=14
+culture = japanese
+religion = buddhism
+father=21
+diplomacy = 3
+martial = 4
+intrigue = 3
+add_trait = misguided_warrior
+
+1452.2.7={
+	birth="1452.2.7"
+}
+1519.12.3={
+	death="1519.12.3"
+}
+} 
+
+269 = {
+name="Michiharu"
+dynasty=14
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 3
+intrigue = 3
+add_trait = slow
+add_trait = misguided_warrior
+1421.3.15={
+	birth="1421.3.15"
+}
+1482.9.8={
+	death="1482.9.8"
+}
+} 
+
+537 = {
+name="Michinobu"
+dynasty=14
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 8
+intrigue = 8
+add_trait = flamboyant_schemer
+
+1522.1.1={
+birth="1522.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1581.1.1={
+death="1581.1.1"
+}
+} 

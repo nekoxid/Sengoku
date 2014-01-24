@@ -1,0 +1,14 @@
+# 279 - Kato
+
+# Kokujin Title
+title = c_kato
+
+#Settlements
+max_settlements = 3
+b_kato_castle = castle
+b_kato_city = city
+#b_kato_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

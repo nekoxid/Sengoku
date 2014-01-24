@@ -1,0 +1,21 @@
+592 = {
+name="Yoshiharu"
+dynasty=227
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 5
+intrigue = 7
+add_trait = flamboyant_schemer
+
+1528.1.1={
+birth="1528.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1603.1.1={
+death="1603.1.1"
+}
+} 

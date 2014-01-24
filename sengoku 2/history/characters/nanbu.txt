@@ -1,0 +1,111 @@
+27 = {
+name="Nobutoki"
+dynasty=20
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 5
+martial = 5
+intrigue = 3
+add_trait = ambitious
+add_trait = misguided_warrior
+1442.9.27={
+	birth="1442.9.27"
+}
+1501.12.3={
+	death="1501.12.3"
+}
+} 
+551 = {
+name="Harumasa"
+dynasty=20
+culture = japanese
+religion = buddhism
+father=883
+
+diplomacy = 11
+martial = 11
+intrigue = 11
+add_trait = skilled_tactician
+
+1517.1.1={
+birth="1517.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1582.1.27={
+death="1582.1.27"
+}
+} 
+81 = {
+name="Nobuyoshi"
+dynasty=20
+culture = japanese
+religion = buddhism
+father=27
+diplomacy = 0
+martial = 0
+intrigue = 0
+
+1462.9.15={
+	birth="1462.9.15"
+}
+1503.6.18={
+	death="1503.6.18"
+}
+} 
+883 = {
+name="Yasunobu"
+dynasty=20
+culture = japanese
+religion = buddhism
+father=884
+diplomacy = 9
+martial = 9
+intrigue = 9
+add_trait = tough_soldier
+
+1493.1.1={
+birth="1493.1.1"
+}
+1541.1.1={
+death="1541.1.1"
+}
+} 
+884 = {
+name="Masayasu"
+dynasty=20
+culture = japanese
+religion = buddhism
+diplomacy = 8
+martial = 9
+intrigue = 8
+add_trait = underhanded_rogue
+
+1461.1.1={
+birth="1461.1.1"
+}
+1521.1.1={
+death="1521.1.1"
+}
+} 
+886 = {
+name="Nobunao"
+dynasty=20
+culture = japanese
+religion = buddhism
+father=551
+diplomacy = 12
+martial = 11
+intrigue = 11
+add_trait = charismatic_negotiator
+add_trait = proud
+
+1546.4.1={
+birth="1546.4.1"
+}
+1599.11.22={
+death="1599.11.22"
+}
+} 

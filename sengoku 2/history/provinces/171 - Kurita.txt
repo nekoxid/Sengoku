@@ -1,0 +1,14 @@
+# 171 - Kurita
+
+# Kokujin Title
+title = c_kurita
+
+#Settlements
+max_settlements = 3
+b_kurita_castle = castle
+b_kurita_city = city
+#b_kurita_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

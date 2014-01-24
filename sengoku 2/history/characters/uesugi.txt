@@ -1,0 +1,200 @@
+100 = {
+name="Sadamasa"
+dynasty=42
+culture = japanese
+religion = buddhism
+father=107
+diplomacy = 3
+martial = 3
+intrigue = 3
+add_trait = content
+add_trait = naive_appeaser
+
+1453.12.3={
+	birth="1453.12.3"
+}
+1488.5.5={
+	death="1488.5.5"
+}
+} 
+107 = {
+name="Fusasada"
+dynasty=42
+culture = japanese
+religion = buddhism
+diplomacy = 8
+martial = 5
+intrigue = 6
+add_trait = charismatic_negotiator
+add_trait = patient
+
+1431.12.18={
+	birth="1431.12.18"
+}
+1494.11.14={
+	death="1494.11.14"
+}
+} 
+256 = {
+name="Norifusa"
+dynasty=42
+culture = japanese
+religion = buddhism
+diplomacy = 3
+intrigue = 3
+martial = 3
+add_trait = deceitful
+add_trait = amateurish_plotter
+father=50
+1477.5.19={
+	birth="1477.5.19"
+}
+1525.8.12={
+	death="1525.8.12"
+}
+} 
+257 = {
+name="Mochitomo"
+dynasty=42
+culture = japanese
+religion = buddhism
+diplomacy = 4
+intrigue = 2
+martial = 3
+add_trait = just
+add_trait = tough_soldier
+1416.5.2={
+	birth="1416.5.2"
+}
+1467.5.26 = {
+	employer=406
+}
+1467.9.6={
+	death="1467.9.6"
+}
+} 
+404 = {
+name="Fusayoshi"
+dynasty=42
+culture = japanese
+religion = buddhism
+diplomacy = 1
+martial = 0
+intrigue = 2
+add_trait = amateurish_plotter
+father=107
+1458.10.21={
+	birth="1458.10.21"
+}
+1507.6.14={
+	death="1507.6.14"
+}
+} 
+405 = {
+name="Akifusa"
+dynasty=42
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 3
+intrigue = 3
+add_trait = misguided_warrior
+father=257
+1435.12.7={
+	birth="1435.12.7"
+}
+1455.7.16={
+	death="1455.7.16"
+}
+} 
+406 = {
+name="Masazane"
+dynasty=42
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 3
+intrigue = 3
+add_trait = misguided_warrior
+father=405
+1455.9.11={
+	birth="1455.9.11"
+}
+1473.10.2={
+	death="1473.10.2"
+}
+} 
+407 = {
+name="Sadamasa"
+dynasty=42
+culture = japanese
+religion = buddhism
+diplomacy = 3
+intrigue = 3
+martial = 2
+add_trait = paranoid
+add_trait = amateurish_plotter
+father=257
+1446.4.8={
+	birth="1446.4.8"
+}
+1494.8.9={
+	death="1494.8.9"
+}
+} 
+408 = {
+name="Fusazane"
+dynasty=42
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 4
+intrigue = 3
+add_trait = naive_appeaser
+1443.2.5={
+	birth="1443.2.5"
+}
+1508.4.10={
+	death="1508.4.10"
+}
+} 
+50 = {
+name="Akisada"
+dynasty=42
+culture = japanese
+religion = buddhism
+father=107
+#is_clan_leader = yes
+diplomacy = 5
+martial = 4
+intrigue = 4
+add_trait = misguided_warrior
+add_trait = amateurish_plotter
+1454.9.7={
+	birth="1454.9.7"
+}
+1510.7.25={
+	death="1510.7.25"
+}
+} 
+587 = {
+name="Norimasa"
+dynasty=42
+culture = japanese
+religion = buddhism
+
+martial = 5
+diplomacy = 4 
+intrigue = 4 
+add_trait = misguided_warrior
+
+1523.1.1={
+birth="1523.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1579.4.13={
+death="1579.4.13"
+}
+} 

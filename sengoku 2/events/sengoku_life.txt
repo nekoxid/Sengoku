@@ -1,0 +1,483 @@
+##
+#5 Komachi
+#10 Lifestyle Go/Calligraphy
+#901 GO Play
+#
+namespace = SENGOKU_LIFE
+
+#Komachi
+character_event = {
+	id = SENGOKU_LIFE.5
+	desc = "EVTDESCSENGOKU_LIFE.5"
+	picture = "GFX_evt_jugglers"
+	
+	is_triggered_only = yes
+	
+	min_age = 20
+	only_playable = yes
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		culture = japanese
+		war = no
+		in_command = no
+		NOT = { has_character_flag = poet_help }
+		NOT = {
+			trait = cynical
+			trait = shy
+		}
+		any_vassal = {
+			war = no
+			NOT = {
+				family = ROOT
+			}
+			diplomacy = 15
+			OR = {
+				trait = gregarious
+				trait = kind
+				trait = charitable
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+		
+		modifier = {
+			factor = 5
+			trait = paranoid
+		}
+		
+		modifier = {
+			factor = 0.8
+			trait = trusting
+		}
+	}
+	
+	option = {
+		name = "EVTOPTASENGOKU_LIFE.5"
+		add_trait = cynical
+	}
+
+	option = {
+		name = "EVTOPTCSENGOKU_LIFE.5"
+		add_trait = trusting
+	}
+	
+	option = {
+		name = "EVTOPTDSENGOKU_LIFE.5"
+		tooltip_info = gregarious
+		trigger = {
+			trait = gregarious
+		}
+		prestige = 10
+	}
+	
+	option = {
+		name = "EVTOPTESENGOKU_LIFE.5"
+		tooltip_info = poet
+		trigger = {
+			trait = poet
+		}
+		change_diplomacy = 1
+		set_character_flag = poet_help
+	}
+}
+
+### Lifestyle Go/Calligraphy
+
+#Go-player - Start
+character_event = {
+	id = SENGOKU_LIFE.10
+	desc = "EVTDESCSENGOKU_LIFE.10"
+	
+	min_age = 25
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		in_command = no
+		NOT = {
+			lifestyle_traits = 1
+		}
+		NOT = {
+			has_character_flag = LE_ST
+		}
+		culture_group = asian
+	}
+	
+	immediate = {
+		set_character_flag = LE_ST
+	}
+	
+	mean_time_to_happen = {
+		months = 260
+		
+		modifier = {
+			factor = 0.2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 2
+			trait = content
+		}
+		modifier = {
+			factor = 1.3
+			trait = naive_appeaser
+		}
+		modifier = {
+			factor = 1.2
+			trait = underhanded_rogue
+		}
+		modifier = {
+			factor = 0.2
+			trait = grey_eminence
+		}
+		modifier = {
+			factor = 0.4
+			trait = charismatic_negotiator
+		}
+	}
+	
+	option = {
+		name = "EVTOPTASENGOKU_LIFE.10" #Go!
+		character_event = {
+			id = SENGOKU_LIFE.11
+			days = 10
+			tooltip = "EVTTOOLTIPSENGOKU_LIFE.13"
+		}
+	}
+	
+	option = {
+		name = "EVTOPTBSENGOKU_LIFE.10" #Calligraphy!
+		character_event = {
+			id = SENGOKU_LIFE.12
+			days = 10
+			tooltip = "EVTTOOLTIPSENGOKU_LIFE.12"
+		}
+	}
+}
+
+#Go!
+character_event = {
+	id = SENGOKU_LIFE.11
+	desc = "EVTDESCSENGOKU_LIFE.11"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTASENGOKU_LIFE.11" #I'll try calligraphy
+		character_event = {
+			id = SENGOKU_LIFE.12
+			days = 20
+			tooltip = "EVTTOOLTIPSENGOKU_LIFE.12"
+		}
+	}
+	
+	option = {
+		name = "EVTOPTBSENGOKU_LIFE.11" #More!
+		character_event = { 
+			id = SENGOKU_LIFE.13
+			days = 30
+			tooltip = "EVTTOOLTIPSENGOKU_LIFE.13"
+		}
+	}
+}
+
+#Calligraphy!
+character_event = {
+	id = SENGOKU_LIFE.12
+	desc = "EVTDESCSENGOKU_LIFE.12"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTASENGOKU_LIFE.12"
+		add_trait = calligraphist
+		clr_character_flag = LE_ST
+	}
+	option = {
+		name = "EVTOPTBSENGOKU_LIFE.12"
+		prestige = 5
+		clr_character_flag = LE_ST
+	}
+}
+
+#Go!
+character_event = {
+	id = SENGOKU_LIFE.13
+	desc = "EVTDESCSENGOKU_LIFE.13"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "EVTOPTASENGOKU_LIFE.13"
+		add_trait = go_player
+		clr_character_flag = LE_ST
+	}
+	option = {
+		name = "EVTOPTBSENGOKU_LIFE.13"
+		prestige = 5
+		clr_character_flag = LE_ST
+	}
+}
+
+### Go Play
+
+# AI Challenges
+character_event = {
+	id = SENGOKU_LIFE.900
+	hide_window = yes
+	
+	ai = yes
+	min_age = 16
+	max_age = 60
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		war = no
+		primary_title = { higher_tier_than = COUNT }
+		OR = {
+			liege = {
+				NOT = { has_character_flag = no_more_go }
+				ai = no
+				OR = {
+					culture_group = asian
+					trait = go_player
+				}
+				is_female = no
+				prisoner = no
+				age = 16
+				NOT = { age = 65 }
+				NOT = { trait = infirm }
+				NOT = { trait = incapable }
+			}
+			liege = {
+				any_realm_lord = {
+					ai = no
+					NOT = { has_character_flag = no_more_go }
+					same_liege = ROOT
+					OR = {
+						culture_group = asian
+						trait = go_player
+					}
+					is_female = no
+					prisoner = no
+					age = 16
+					NOT = { age = 65 }
+					NOT = { trait = infirm }
+					NOT = { trait = incapable }
+				}
+			}
+		}
+		OR = {
+			culture_group = asian
+			trait = go_player
+		}
+		is_female = no
+	}
+	
+	mean_time_to_happen = {
+		months = 1400
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				liege = {
+					OR = {
+						culture_group = asian
+						trait = go_player
+					}
+					ai = no
+				}
+			}
+			liege = {
+				character_event = { id = SENGOKU_LIFE.901 }
+			}
+		}
+		if = {
+			limit = {
+				liege = {
+					OR = {
+						culture_group = asian
+						trait = go_player
+					}
+					any_realm_lord = { ai = no }
+				}
+			}
+			liege = {
+				random_realm_lord = {
+					limit = { ai = no }
+					character_event = { id = SENGOKU_LIFE.901 }
+				}
+			}
+		}		
+	}
+	
+	option = {
+		name = OK
+	}
+}
+
+# Player is Challenged
+character_event = {
+	id = SENGOKU_LIFE.901
+	desc = EVTDESCSENGOKU_LIFE.901
+	picture = GFX_evt_jugglers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTASENGOKU_LIFE.901
+		custom_tooltip = go_accepted
+		hidden_tooltip = {
+			FROM = { set_character_flag = Go }
+			if = {
+				limit = {
+					NOT = { trait = wroth }
+				}
+				random_list = {
+					50 = {
+						character_event = { id = SENGOKU_LIFE.902 }
+					}
+					50 = {
+						character_event = { id = SENGOKU_LIFE.903 }
+					}
+				}
+			}
+			if = {
+				limit = { trait = wroth }
+				character_event = { id = SENGOKU_LIFE.904 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBSENGOKU_LIFE.901
+		custom_tooltip = go_declined
+	}
+}
+
+# Player Wins
+character_event = {
+	id = SENGOKU_LIFE.902
+	desc = EVTDESCSENGOKU_LIFE.902
+	picture = GFX_evt_jugglers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTASENGOKU_LIFE.902
+		prestige = 25
+		if = {
+			limit = { 
+				NOT = { culture_group = asian }
+			}
+			liege = {
+				any_realm_lord = {
+					limit = { has_character_flag = Go }
+					opinion = {
+						modifier = opinion_go_pos
+						who = ROOT
+					}
+					clr_character_flag = Go
+				}
+			}
+		}
+		if = {
+			limit = { culture_group = asian }
+			any_realm_lord = {
+				limit = { has_character_flag = Go }
+				opinion = {
+					modifier = opinion_go_pos
+					who = ROOT
+				}
+				clr_character_flag = Go
+			}
+		}
+	}
+}
+
+# Player Loses
+character_event = {
+	id = SENGOKU_LIFE.903
+	desc = EVTDESCSENGOKU_LIFE.903
+	picture = GFX_evt_jugglers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTASENGOKU_LIFE.903
+		if = {
+			limit = { 
+				NOT = { culture_group = asian }
+			}
+			liege = {
+				any_realm_lord = {
+					limit = { has_character_flag = Go }
+					opinion = {
+						modifier = opinion_go_pos
+						who = ROOT
+					}
+					clr_character_flag = Go
+				}
+			}
+		}
+		if = {
+			limit = { culture_group = asian }
+			any_realm_lord = {
+				limit = { has_character_flag = Go }
+				opinion = {
+					modifier = opinion_go_pos
+					who = ROOT
+				}
+				clr_character_flag = Go
+			}
+		}
+	}
+}
+
+# Player Goes Bananas
+character_event = {
+	id = SENGOKU_LIFE.904
+	desc = EVTDESCSENGOKU_LIFE.904
+	picture = GFX_evt_jugglers
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTASENGOKU_LIFE.904
+		prestige = -25
+		set_character_flag = no_more_go
+		if = {
+			limit = { 
+				NOT = { culture_group = asian }
+			}
+			liege = {
+				any_realm_lord = {
+					limit = { has_character_flag = Go }
+					opinion = {
+						modifier = opinion_go_neg
+						who = ROOT
+					}
+					clr_character_flag = Go
+				}
+			}
+		}
+		if = {
+			limit = { culture_group = asian }
+			any_realm_lord = {
+				limit = { has_character_flag = Go }
+				opinion = {
+					modifier = opinion_go_neg
+					who = ROOT
+				}
+				clr_character_flag = Go
+			}
+		}
+	}
+}

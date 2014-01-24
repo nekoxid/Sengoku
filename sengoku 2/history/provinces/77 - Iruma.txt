@@ -1,0 +1,14 @@
+# 77 - Iruma
+
+# Kokujin Title
+title = c_iruma
+
+#Settlements
+max_settlements = 3
+b_iruma_castle = castle
+b_iruma_city = city
+#b_iruma_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

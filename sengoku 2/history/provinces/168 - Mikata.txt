@@ -1,0 +1,14 @@
+# 168 - Mikata
+
+# Kokujin Title
+title = c_mikata
+
+#Settlements
+max_settlements = 3
+b_mikata_castle = castle
+b_mikata_city = city
+#b_mikata_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

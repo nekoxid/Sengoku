@@ -1,0 +1,14 @@
+# 67 - Kanra
+
+# Kokujin Title
+title = c_kanra
+
+#Settlements
+max_settlements = 3
+b_kanra_castle = castle
+b_kanra_city = city
+#b_kanra_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,55 @@
+220 = {
+name="Aritane"
+dynasty=151
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 5
+intrigue = 3
+add_trait = tough_soldier
+1449.1.16={
+	birth="1449.1.16"
+}
+1512.11.18={
+	death="1512.11.18"
+}
+} 
+574 = {
+name="Yasutane"
+dynasty=151
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 9
+intrigue = 6
+add_trait = misguided_warrior
+
+1499.1.1={
+birth="1499.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1576.3.1={
+death="1576.3.1"
+}
+} 
+848 = {
+name="Shigetane"
+dynasty=151
+culture = japanese
+religion = buddhism
+father=574
+diplomacy = 6
+martial = 6
+intrigue = 5
+add_trait = misguided_warrior
+
+1538.1.1={
+birth="1538.1.1"
+}
+1590.1.1={
+death="1590.1.1"
+}
+} 

@@ -1,0 +1,36 @@
+873 = {
+name="Morinari"
+dynasty=311
+culture = japanese
+religion = buddhism
+diplomacy = 9
+martial = 9
+intrigue = 5
+add_trait = amateurish_plotter
+
+1503.1.1={
+birth="1503.1.1"
+}
+1583.1.1={
+death="1583.1.1"
+}
+} 
+
+874 = {
+name="Sadaharu"
+dynasty=311
+culture = japanese
+religion = buddhism
+father=873
+diplomacy = 7
+martial = 6
+intrigue = 7
+add_trait = misguided_warrior
+
+1528.1.1={
+birth="1528.1.1"
+}
+1582.6.28={
+death="1582.6.28"
+}
+} 

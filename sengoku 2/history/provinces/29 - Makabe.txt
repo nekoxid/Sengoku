@@ -1,0 +1,14 @@
+# 29 - Makabe
+
+# Kokujin Title
+title = c_makabe
+
+#Settlements
+max_settlements = 3
+b_makabe_castle = castle
+b_makabe_city = city
+#b_makabe_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

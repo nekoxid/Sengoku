@@ -1,0 +1,14 @@
+# 76 - Hiki
+
+# Kokujin Title
+title = c_hiki
+
+#Settlements
+max_settlements = 3
+b_hiki_castle = castle
+b_hiki_city = city
+#b_hiki_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

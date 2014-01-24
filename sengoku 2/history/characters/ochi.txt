@@ -1,0 +1,57 @@
+276 = {
+name="Iehide"
+dynasty=195
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 5
+martial = 6
+intrigue = 6
+#add_trait = musician
+add_trait = arbitrary
+add_trait = intricate_webweaver
+1432.7.6={
+	birth="1432.7.6"
+}
+1500.9.27={
+	death="1500.9.27"
+}
+} 
+354 = {
+name="Ienori"
+dynasty=195
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 3
+intrigue = 2
+add_trait = quick
+father=276
+1460.11.2={
+	birth="1460.11.2"
+}
+1507.1.20={
+	death="1507.1.20"
+}
+} 
+558 = {
+name="Iehiro"
+dynasty=195
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 9
+intrigue = 6
+add_trait = misguided_warrior
+
+1519.1.1={
+birth="1519.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1557.1.1={
+death="1557.1.1"
+}
+} 

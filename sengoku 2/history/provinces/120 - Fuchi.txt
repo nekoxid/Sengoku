@@ -1,0 +1,14 @@
+# 120 - Fuchi
+
+# Kokujin Title
+title = c_fuchi
+
+#Settlements
+max_settlements = 3
+b_fuchi_castle = castle
+b_fuchi_city = city
+#b_fuchi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

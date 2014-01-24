@@ -1,0 +1,14 @@
+# 173 - Ika
+
+# Kokujin Title
+title = c_ika
+
+#Settlements
+max_settlements = 3
+b_ika_castle = castle
+b_ika_city = city
+#b_ika_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

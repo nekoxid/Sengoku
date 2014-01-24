@@ -1,0 +1,108 @@
+235 = {
+name="Takatoki"
+dynasty=166
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 5
+intrigue = 3
+add_trait = underhanded_rogue
+1412.10.12={
+	birth="1412.10.12"
+}
+1469.12.11={
+	death="1469.12.11"
+}
+} 
+364 = {
+name="Naotoshi"
+dynasty=166
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 4
+intrigue = 3
+add_trait = misguided_warrior
+father=235
+1435.6.15={
+	birth="1435.6.15"
+}
+1497.8.31={
+	death="1497.8.31"
+}
+} 
+871 = {
+name="Bokuzen"
+dynasty=166culture = japanese
+religion = buddhism
+diplomacy = 7
+martial = 11
+intrigue = 8
+add_trait = underhanded_rogue
+ 
+1512.1.1={
+birth="1512.1.1"
+}
+1571.6.4={
+death="1571.6.4"
+}
+} 
+872 = {
+name="Naomasa"
+dynasty=166culture = japanese
+religion = buddhism
+father=871
+diplomacy = 9
+martial = 8
+intrigue = 7
+add_trait = tough_soldier
+
+1536.1.1={
+birth="1536.1.1"
+}
+1583.1.1={
+death="1583.1.1"
+}
+} 
+900 = {
+name="Sadanao"
+dynasty=166
+culture = japanese
+religion = buddhism
+diplomacy = 11
+martial = 11
+intrigue = 11
+add_trait = tough_soldier
+add_trait = content
+
+1504.1.1={
+birth="1504.1.1"
+}
+1504.1.1={
+employer=544
+}
+1570.1.1={
+death="1570.1.1"
+}
+} 
+901 = {
+name="Morimune"
+dynasty=166
+culture = japanese
+religion = buddhism
+father=900
+diplomacy = 13
+martial = 9
+intrigue = 12
+add_trait = flamboyant_schemer
+
+1534.1.1={
+birth="1534.1.1"
+}
+1534.1.1={
+employer=544
+}
+1591.1.1={
+death="1591.1.1"
+}
+} 

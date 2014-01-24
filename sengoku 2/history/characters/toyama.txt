@@ -1,0 +1,69 @@
+232 = {
+name="Yorikage"
+dynasty=163
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 3
+intrigue = 2
+add_trait = patient
+1449.6.6={
+	birth="1449.6.6"
+}
+1521.8.14={
+	death="1521.8.14"
+}
+} 
+643 = {
+name="Tsunakage"
+dynasty=163
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 10
+intrigue = 11
+add_trait = charismatic_negotiator
+
+1513.1.1={
+birth="1513.1.1"
+}
+1564.1.1={
+death="1564.1.1"
+}
+} 
+644 = {
+name="Masakage"
+dynasty=163
+culture = japanese
+religion = buddhism
+father=643
+
+diplomacy = 10
+martial = 11
+intrigue = 9
+add_trait = underhanded_rogue
+
+1535.1.1={
+birth="1535.1.1"
+}
+1580.3.23={
+death="1580.3.23"
+}
+} 
+867 = {
+name="Kageto"
+dynasty=163culture = japanese
+religion = buddhism
+diplomacy = 6
+martial = 7
+intrigue = 6
+add_trait = misguided_warrior
+
+1537.1.1={
+birth="1537.1.1"
+}
+1573.1.6={
+death="1573.1.6"
+}
+} 

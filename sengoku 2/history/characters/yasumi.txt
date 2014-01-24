@@ -1,0 +1,73 @@
+243 = {
+name="Kiyotoki"
+dynasty=174
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 2
+intrigue = 5
+#add_trait = bushi
+add_trait = underhanded_rogue
+1430.1.1={
+	birth="1430.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+322 = {
+name="Kiyoshige"
+dynasty=174
+culture = japanese
+religion = buddhism
+diplomacy = 1
+martial = 0
+intrigue = 1
+father=243
+1460.1.1={
+	birth="1460.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+620 = {
+name="Naomasa"
+dynasty=174
+culture = japanese
+religion = buddhism
+
+diplomacy = 12
+martial = 7
+intrigue = 12
+add_trait = flamboyant_schemer
+
+1513.1.1={
+birth="1513.1.1"
+}
+1551.4.9={
+employer=518
+}
+1571.1.1={
+death="1571.1.1"
+}
+} 
+722 = {
+name="Naoharu"
+dynasty=174
+culture = japanese
+religion = buddhism
+father=620
+
+diplomacy = 8
+martial = 8
+intrigue = 6
+add_trait = naive_appeaser
+
+1536.1.1={
+birth="1536.1.1"
+}
+1592.1.1={
+death="1592.1.1"
+}
+} 

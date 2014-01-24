@@ -1,0 +1,14 @@
+# 32 - Ogachi
+
+# Kokujin Title
+title = c_ogachi
+
+#Settlements
+max_settlements = 3
+b_ogachi_castle = castle
+b_ogachi_city = city
+#b_ogachi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

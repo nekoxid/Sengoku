@@ -1,0 +1,43 @@
+1185.1.1={
+	law = centralization_4
+	law = succ_primogeniture
+	#law = succ_seniority
+	law = agnatic_succession
+	#liege = "e_japan"
+}
+1336.1.1 = {
+	law = centralization_1
+	#law = tax_privileges_2
+	#liege = "e_japan"
+}
+1338.1.1 = {
+	holder = 1101 #takauji
+}
+1358.6.8 = {
+	holder = 1102 #Yoshiakira
+}
+1367.12.28 = {
+	holder = 1109 #yoshimitsu
+}
+1394.1.1 = {
+	holder = 1111 #yoshimochi
+}
+1423.1.1 = {
+	holder = 1112 #yoshikazu
+}
+1425.1.1 = {
+	holder = 1111 #yoshimochi
+}
+1429.1.1 = {
+	holder = 378 #yoshinori
+}
+1441.7.12 = {
+	holder = 1100 #yoshikatsu
+}
+1443.8.16 = {
+	holder = 2
+}
+1551.4.9 = {
+	law = centralization_0
+	holder=506
+}

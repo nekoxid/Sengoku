@@ -1,0 +1,109 @@
+######;#;#;#;;#;;;;;;;;;x
+immortal;Immortal;Immortel;Unsterblich;;Immortal;;;;;;;;;x;;
+immortal2;Immortal;Immortel;Unsterblich;;Immortal;;;;;;;;;x;;
+immortal2_desc;This character appears to be immune to age and disease.;Ce personnage semble immunisé contre l'age et la maladie.;Dieser Charakter ist gegen Alterung und Krankheit immun.;;This character appears to be immune to age and disease.;;;;;;;;;x;;
+immortal_desc;This character appears to be immune to age and disease.;Ce personnage semble immunisé contre l'age et la maladie.;Dieser Charakter ist gegen Alterung und Krankheit immun.;;This character appears to be immune to age and disease.;;;;;;;;;x;;
+######;#;#;#;;#;;;;;;;;;x
+opinion_father;Father;Père;Vater;;Father;;;;;;;;;x;;
+opinion_mother;Mother;Mère;Mutter;;Mother;;;;;;;;;x;;
+opinion_nephew;Nephew;Neveu;Neffe;;Nephew;;;;;;;;;x;;
+opinion_niece;Niece;Nièce;Nichte;;Niece;;;;;;;;;x;;
+opinion_grandchild;Grandchild;Petit-Enfant;Enkel;;Grandchild;;;;;;;;;x;;
+opinion_grandfather;Grandfather;Grand-Père;Großvater;;Grandfather;;;;;;;;;x;;
+opinion_grandmother;Grandmother;Grand-Mère;Großmutter;;Grandmother;;;;;;;;;x;;
+opinion_cousin;Cousin;Cousin;Cousine;;Cousin;;;;;;;;;x;;
+opinion_aunt;Aunt;Tante;Tante;;Aunt;;;;;;;;;x;;
+opinion_uncle;Uncle;Oncle;Onkel;;Uncle;;;;;;;;;x;;
+opinion_sibling;Sibling;Enfant;Geschwister;;Sibling;;;;;;;;;x;;
+attempted_murder_of_close_kin;Attempted Murder of Close Kin;Tentative de meurtre de parents proches;Sippenmörder;;Attempted Murder of Close Kin;;;;;;;;;x;;
+executed_kin;Executed Relative;Parent exécuté;Hingerichteter Verwandter;;Executed Relative;;;;;;;x;;;;
+######;#;#;#;;#;;;;;;;;;x
+TYRANTTOOLTIP10;Gain §R10§! Tyranny\n;Gain §R10§! Tyrannie\n;Erhalte §R10§! Tyrannei\n;;Gain §R10§! Tyranny\n;;;;;;;;;x
+TYRANTTOOLTIP15;Gain §R15§! Tyranny\n;Gain §R15§! Tyrannie\n;Erhalte §R15§! Tyrannei\n;;Gain §R15§! Tyranny\n;;;;;;;;;x
+TYRANTTOOLTIP20;Gain §R20§! Tyranny\n;Gain §R20§! Tyrannie\n;Erhalte §R20§! Tyrannei\n;;Gain §R20§! Tyranny\n;;;;;;;;;x
+TYRANTTOOLTIP30;Gain §R30§! Tyranny\n;Gain §R30§! Tyrannie\n;Erhalte §R30§! Tyrannei\n;;Gain §R30§! Tyranny\n;;;;;;;;;x
+TYRANTTOOLTIP40;Gain §R40§! Tyranny\n;Gain §R40§! Tyrannie\n;Erhalte §R40§! Tyrannei\n;;Gain §R40§! Tyranny\n;;;;;;;;;x
+TYRANTTOOLTIP5;Gain §R5§! Tyranny\n;Gain §R5§! Tyrannie\n;Erhalte §R5§! Tyrannei\n;;Gain §R5§! Tyranny\n;;;;;;;;;x
+######;#;#;#;;#;;;;;;;;;x
+dishonorable1;Dishonorable;Déshonorant;Unehrenhaft;;Dishonorable;;;;;;;x;;;;
+dishonorable10;Dishonorable;Déshonorant;Unehrenhaft;;Dishonorable;;;;;;;x;;;;
+dishonorable10_desc;This character has a reputation for underhanded scheming.;Ce personnage a la réputation de concevoir des projets sournois.;Dieser Charakter hat den Ruf eines hinterhältigen Verschwörers.;;This character has a reputation for underhanded scheming.;;;;;;;x;;;;
+dishonorable1_desc;This character has a reputation for underhanded scheming.;Ce personnage a la réputation de concevoir des projets sournois.;Dieser Charakter hat den Ruf eines hinterhältigen Verschwörers.;;This character has a reputation for underhanded scheming.;;;;;;;x;;;;
+dishonorable2;Dishonorable;Déshonorant;Unehrenhaft;;Dishonorable;;;;;;;x;;;;
+dishonorable2_desc;This character has a reputation for underhanded scheming.;Ce personnage a la réputation de concevoir des projets sournois.;Dieser Charakter hat den Ruf eines hinterhältigen Verschwörers.;;This character has a reputation for underhanded scheming.;;;;;;;x;;;;
+dishonorable3;Dishonorable;Déshonorant;Unehrenhaft;;Dishonorable;;;;;;;x;;;;
+dishonorable3_desc;This character has a reputation for underhanded scheming.;Ce personnage a la réputation de concevoir des projets sournois.;Dieser Charakter hat den Ruf eines hinterhältigen Verschwörers.;;This character has a reputation for underhanded scheming.;;;;;;;x;;;;
+dishonorable4;Dishonorable;Déshonorant;Unehrenhaft;;Dishonorable;;;;;;;x;;;;
+dishonorable4_desc;This character has a reputation for underhanded scheming.;Ce personnage a la réputation de concevoir des projets sournois.;Dieser Charakter hat den Ruf eines hinterhältigen Verschwörers.;;This character has a reputation for underhanded scheming.;;;;;;;x;;;;
+dishonorable5;Dishonorable;Déshonorant;Unehrenhaft;;Dishonorable;;;;;;;x;;;;
+dishonorable5_desc;This character has a reputation for underhanded scheming.;Ce personnage a la réputation de concevoir des projets sournois.;Dieser Charakter hat den Ruf eines hinterhältigen Verschwörers.;;This character has a reputation for underhanded scheming.;;;;;;;x;;;;
+dishonorable6;Dishonorable;Déshonorant;Unehrenhaft;;Dishonorable;;;;;;;x;;;;
+dishonorable6_desc;This character has a reputation for underhanded scheming.;Ce personnage a la réputation de concevoir des projets sournois.;Dieser Charakter hat den Ruf eines hinterhältigen Verschwörers.;;This character has a reputation for underhanded scheming.;;;;;;;x;;;;
+dishonorable7;Dishonorable;Déshonorant;Unehrenhaft;;Dishonorable;;;;;;;x;;;;
+dishonorable7_desc;This character has a reputation for underhanded scheming.;Ce personnage a la réputation de concevoir des projets sournois.;Dieser Charakter hat den Ruf eines hinterhältigen Verschwörers.;;This character has a reputation for underhanded scheming.;;;;;;;x;;;;
+dishonorable8;Dishonorable;Déshonorant;Unehrenhaft;;Dishonorable;;;;;;;x;;;;
+dishonorable8_desc;This character has a reputation for underhanded scheming.;Ce personnage a la réputation de concevoir des projets sournois.;Dieser Charakter hat den Ruf eines hinterhältigen Verschwörers.;;This character has a reputation for underhanded scheming.;;;;;;;x;;;;
+dishonorable9;Dishonorable;Déshonorant;Unehrenhaft;;Dishonorable;;;;;;;x;;;;
+dishonorable9_desc;This character has a reputation for underhanded scheming.;Ce personnage a la réputation de concevoir des projets sournois.;Dieser Charakter hat den Ruf eines hinterhältigen Verschwörers.;;This character has a reputation for underhanded scheming.;;;;;;;x;;;;
+######;#;#;#;;#;;;;;;;;;x
+dyn_dishonorable1;Dynastic Stain;Souillure dynastique;Dynastischer Fleck;;Dynastic Stain;;;;;;;x;;;;
+dyn_dishonorable10;Dynastic Stain;Souillure dynastique;Dynastischer Fleck;;Dynastic Stain;;;;;;;x;;;;
+dyn_dishonorable10_desc;This character's dynasty is notoriously underhanded, causing others to fear and mistrust them.;La dynastie de ce personnage est notoirement sournoise, suscitant la crainte et la méfiance des autres.;Die Dynastie dieses Charakters steht im Ruf, notorisch verräterisch zu sein, weswegen ihnen niemand vertraut.;;This character's dynasty is notoriously underhanded, causing others to fear and mistrust them.;;;;;;;x;;;;
+dyn_dishonorable1_desc;This character's dynasty is notoriously underhanded, causing others to fear and mistrust them.;La dynastie de ce personnage est notoirement sournoise, suscitant la crainte et la méfiance des autres.;Die Dynastie dieses Charakters steht im Ruf, notorisch verräterisch zu sein, weswegen ihnen niemand vertraut.;;This character's dynasty is notoriously underhanded, causing others to fear and mistrust them.;;;;;;;x;;;;
+dyn_dishonorable2;Dynastic Stain;Souillure dynastique;Dynastischer Fleck;;Dynastic Stain;;;;;;;x;;;;
+dyn_dishonorable2_desc;This character's dynasty is notoriously underhanded, causing others to fear and mistrust them.;La dynastie de ce personnage est notoirement sournoise, suscitant la crainte et la méfiance des autres.;Die Dynastie dieses Charakters steht im Ruf, notorisch verräterisch zu sein, weswegen ihnen niemand vertraut.;;This character's dynasty is notoriously underhanded, causing others to fear and mistrust them.;;;;;;;x;;;;
+dyn_dishonorable3;Dynastic Stain;Souillure dynastique;Dynastischer Fleck;;Dynastic Stain;;;;;;;x;;;;
+dyn_dishonorable3_desc;This character's dynasty is notoriously underhanded, causing others to fear and mistrust them.;La dynastie de ce personnage est notoirement sournoise, suscitant la crainte et la méfiance des autres.;Die Dynastie dieses Charakters steht im Ruf, notorisch verräterisch zu sein, weswegen ihnen niemand vertraut.;;This character's dynasty is notoriously underhanded, causing others to fear and mistrust them.;;;;;;;x;;;;
+dyn_dishonorable4;Dynastic Stain;Souillure dynastique;Dynastischer Fleck;;Dynastic Stain;;;;;;;x;;;;
+dyn_dishonorable4_desc;This character's dynasty is notoriously underhanded, causing others to fear and mistrust them.;La dynastie de ce personnage est notoirement sournoise, suscitant la crainte et la méfiance des autres.;Die Dynastie dieses Charakters steht im Ruf, notorisch verräterisch zu sein, weswegen ihnen niemand vertraut.;;This character's dynasty is notoriously underhanded, causing others to fear and mistrust them.;;;;;;;x;;;;
+dyn_dishonorable5;Dynastic Stain;Souillure dynastique;Dynastischer Fleck;;Dynastic Stain;;;;;;;x;;;;
+dyn_dishonorable5_desc;This character's dynasty is notoriously underhanded, causing others to fear and mistrust them.;La dynastie de ce personnage est notoirement sournoise, suscitant la crainte et la méfiance des autres.;Die Dynastie dieses Charakters steht im Ruf, notorisch verräterisch zu sein, weswegen ihnen niemand vertraut.;;This character's dynasty is notoriously underhanded, causing others to fear and mistrust them.;;;;;;;x;;;;
+dyn_dishonorable6;Dynastic Stain;Souillure dynastique;Dynastischer Fleck;;Dynastic Stain;;;;;;;x;;;;
+dyn_dishonorable6_desc;This character's dynasty is notoriously underhanded, causing others to fear and mistrust them.;La dynastie de ce personnage est notoirement sournoise, suscitant la crainte et la méfiance des autres.;Die Dynastie dieses Charakters steht im Ruf, notorisch verräterisch zu sein, weswegen ihnen niemand vertraut.;;This character's dynasty is notoriously underhanded, causing others to fear and mistrust them.;;;;;;;x;;;;
+dyn_dishonorable7;Dynastic Stain;Souillure dynastique;Dynastischer Fleck;;Dynastic Stain;;;;;;;x;;;;
+dyn_dishonorable7_desc;This character's dynasty is notoriously underhanded, causing others to fear and mistrust them.;La dynastie de ce personnage est notoirement sournoise, suscitant la crainte et la méfiance des autres.;Die Dynastie dieses Charakters steht im Ruf, notorisch verräterisch zu sein, weswegen ihnen niemand vertraut.;;This character's dynasty is notoriously underhanded, causing others to fear and mistrust them.;;;;;;;x;;;;
+dyn_dishonorable8;Dynastic Stain;Souillure dynastique;Dynastischer Fleck;;Dynastic Stain;;;;;;;x;;;;
+dyn_dishonorable8_desc;This character's dynasty is notoriously underhanded, causing others to fear and mistrust them.;La dynastie de ce personnage est notoirement sournoise, suscitant la crainte et la méfiance des autres.;Die Dynastie dieses Charakters steht im Ruf, notorisch verräterisch zu sein, weswegen ihnen niemand vertraut.;;This character's dynasty is notoriously underhanded, causing others to fear and mistrust them.;;;;;;;x;;;;
+dyn_dishonorable9;Dynastic Stain;Souillure dynastique;Dynastischer Fleck;;Dynastic Stain;;;;;;;x;;;;
+dyn_dishonorable9_desc;This character's dynasty is notoriously underhanded, causing others to fear and mistrust them.;La dynastie de ce personnage est notoirement sournoise, suscitant la crainte et la méfiance des autres.;Die Dynastie dieses Charakters steht im Ruf, notorisch verräterisch zu sein, weswegen ihnen niemand vertraut.;;This character's dynasty is notoriously underhanded, causing others to fear and mistrust them.;;;;;;;x;;;;
+######;#;#;#;;#;;;;;;;;;x
+tyrant1;Tyrant;Tyran;Tyrann;;Tyrant;;;;;;;;;x;;
+tyrant10;Tyrant;Tyran;Tyrann;;Tyrant;;;;;;;;;x;;
+tyrant10_desc;This character has accumulated §R50§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;Ce personnage a la réputation de bafouer les droits de ses vassaux.;Dieser Charakter ist bekannt für die Mißachtung der Rechte seiner Vasallen.;;This character has accumulated §R50§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;;;;;;;;;x;;
+tyrant11;Tyrant;Tyran;Tyrann;;Tyrant;;;;;;;;;x;;
+tyrant11_desc;This character has accumulated §R55§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;Ce personnage a la réputation de bafouer les droits de ses vassaux.;Dieser Charakter ist bekannt für die Mißachtung der Rechte seiner Vasallen.;;This character has accumulated §R55§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;;;;;;;;;x;;
+tyrant12;Tyrant;Tyran;Tyrann;;Tyrant;;;;;;;;;x;;
+tyrant12_desc;This character has accumulated §R60§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;Ce personnage a la réputation de bafouer les droits de ses vassaux.;Dieser Charakter ist bekannt für die Mißachtung der Rechte seiner Vasallen.;;This character has accumulated §R60§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;;;;;;;;;x;;
+tyrant13;Tyrant;Tyran;Tyrann;;Tyrant;;;;;;;;;x;;
+tyrant13_desc;This character has accumulated §R65§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;Ce personnage a la réputation de bafouer les droits de ses vassaux.;Dieser Charakter ist bekannt für die Mißachtung der Rechte seiner Vasallen.;;This character has accumulated §R65§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;;;;;;;;;x;;
+tyrant14;Tyrant;Tyran;Tyrann;;Tyrant;;;;;;;;;x;;
+tyrant14_desc;This character has accumulated §R70§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;Ce personnage a la réputation de bafouer les droits de ses vassaux.;Dieser Charakter ist bekannt für die Mißachtung der Rechte seiner Vasallen.;;This character has accumulated §R70§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;;;;;;;;;x;;
+tyrant15;Tyrant;Tyran;Tyrann;;Tyrant;;;;;;;;;x;;
+tyrant15_desc;This character has accumulated §R75§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;Ce personnage a la réputation de bafouer les droits de ses vassaux.;Dieser Charakter ist bekannt für die Mißachtung der Rechte seiner Vasallen.;;This character has accumulated §R75§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;;;;;;;;;x;;
+tyrant16;Tyrant;Tyran;Tyrann;;Tyrant;;;;;;;;;x;;
+tyrant16_desc;This character has accumulated §R80§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;Ce personnage a la réputation de bafouer les droits de ses vassaux.;Dieser Charakter ist bekannt für die Mißachtung der Rechte seiner Vasallen.;;This character has accumulated §R80§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;;;;;;;;;x;;
+tyrant17;Tyrant;Tyran;Tyrann;;Tyrant;;;;;;;;;x;;
+tyrant17_desc;This character has accumulated §R85§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;Ce personnage a la réputation de bafouer les droits de ses vassaux.;Dieser Charakter ist bekannt für die Mißachtung der Rechte seiner Vasallen.;;This character has accumulated §R85§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;;;;;;;;;x;;
+tyrant18;Tyrant;Tyran;Tyrann;;Tyrant;;;;;;;;;x;;
+tyrant18_desc;This character has accumulated §R90§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;Ce personnage a la réputation de bafouer les droits de ses vassaux.;Dieser Charakter ist bekannt für die Mißachtung der Rechte seiner Vasallen.;;This character has accumulated §R90§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;;;;;;;;;x;;
+tyrant19;Tyrant;Tyran;Tyrann;;Tyrant;;;;;;;;;x;;
+tyrant19_desc;This character has accumulated §R95§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;Ce personnage a la réputation de bafouer les droits de ses vassaux.;Dieser Charakter ist bekannt für die Mißachtung der Rechte seiner Vasallen.;;This character has accumulated §R95§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;;;;;;;;;x;;
+tyrant1_desc;This character has accumulated §R5§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;Ce personnage a la réputation de bafouer les droits de ses vassaux.;Dieser Charakter ist bekannt für die Mißachtung der Rechte seiner Vasallen.;;This character has accumulated §R5§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;;;;;;;;;x;;
+tyrant2;Tyrant;Tyran;Tyrann;;Tyrant;;;;;;;;;x;;
+tyrant20;Tyrant;Tyran;Tyrann;;Tyrant;;;;;;;;;x;;
+tyrant20_desc;This character has accumulated §R100§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;Ce personnage a la réputation de bafouer les droits de ses vassaux.;Dieser Charakter ist bekannt für die Mißachtung der Rechte seiner Vasallen.;;This character has accumulated §R100§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;;;;;;;;;x;;
+tyrant2_desc;This character has accumulated §R10§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;Ce personnage a la réputation de bafouer les droits de ses vassaux.;Dieser Charakter ist bekannt für die Mißachtung der Rechte seiner Vasallen.;;This character has accumulated §R10§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;;;;;;;;;x;;
+tyrant3;Tyrant;Tyran;Tyrann;;Tyrant;;;;;;;;;x;;
+tyrant3_desc;This character has accumulated §R15§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;Ce personnage a la réputation de bafouer les droits de ses vassaux.;Dieser Charakter ist bekannt für die Mißachtung der Rechte seiner Vasallen.;;This character has accumulated §R15§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;;;;;;;;;x;;
+tyrant4;Tyrant;Tyran;Tyrann;;Tyrant;;;;;;;;;x;;
+tyrant4_desc;This character has accumulated §R20§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;Ce personnage a la réputation de bafouer les droits de ses vassaux.;Dieser Charakter ist bekannt für die Mißachtung der Rechte seiner Vasallen.;;This character has accumulated §R20§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;;;;;;;;;x;;
+tyrant5;Tyrant;Tyran;Tyrann;;Tyrant;;;;;;;;;x;;
+tyrant5_desc;This character has accumulated §R25§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;Ce personnage a la réputation de bafouer les droits de ses vassaux.;Dieser Charakter ist bekannt für die Mißachtung der Rechte seiner Vasallen.;;This character has accumulated §R25§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;;;;;;;;;x;;
+tyrant6;Tyrant;Tyran;Tyrann;;Tyrant;;;;;;;;;x;;
+tyrant6_desc;This character has accumulated §R30§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;Ce personnage a la réputation de bafouer les droits de ses vassaux.;Dieser Charakter ist bekannt für die Mißachtung der Rechte seiner Vasallen.;;This character has accumulated §R30§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;;;;;;;;;x;;
+tyrant7;Tyrant;Tyran;Tyrann;;Tyrant;;;;;;;;;x;;
+tyrant7_desc;This character has accumulated §R35§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;Ce personnage a la réputation de bafouer les droits de ses vassaux.;Dieser Charakter ist bekannt für die Mißachtung der Rechte seiner Vasallen.;;This character has accumulated §R35§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;;;;;;;;;x;;
+tyrant8;Tyrant;Tyran;Tyrann;;Tyrant;;;;;;;;;x;;
+tyrant8_desc;This character has accumulated §R40§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;Ce personnage a la réputation de bafouer les droits de ses vassaux.;Dieser Charakter ist bekannt für die Mißachtung der Rechte seiner Vasallen.;;This character has accumulated §R40§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;;;;;;;;;x;;
+tyrant9;Tyrant;Tyran;Tyrann;;Tyrant;;;;;;;;;x;;
+tyrant9_desc;This character has accumulated §R45§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;Ce personnage a la réputation de bafouer les droits de ses vassaux.;Dieser Charakter ist bekannt für die Mißachtung der Rechte seiner Vasallen.;;This character has accumulated §R45§! points of tyranny. Tyranny goes away at the rate of §Y5§! points every §Y5§! years.;;;;;;;;;x;;

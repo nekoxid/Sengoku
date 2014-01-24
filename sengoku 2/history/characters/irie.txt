@@ -1,0 +1,55 @@
+1019 = {
+name="Motohide"
+dynasty=91
+culture = japanese
+religion = buddhism
+
+diplomacy = 8
+martial = 8
+intrigue = 7
+add_trait = tough_soldier
+
+1522.1.1={
+birth="1522.1.1"
+}
+1522.1.1={
+employer = 543
+}
+1569.1.1={
+death="1569.1.1"
+}
+} 
+160 = {
+name="Haruyori"
+dynasty=91
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 3
+intrigue = 5
+add_trait = kind
+add_trait = tough_soldier
+1430.1.1={
+	birth="1430.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+288 = {
+name="Haruyori"
+dynasty=91
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 2
+intrigue = 2
+add_trait = arbitrary
+father=160
+1458.5.7={
+	birth="1458.5.7"
+}
+1499.11.4={
+	death="1499.11.4"
+}
+} 

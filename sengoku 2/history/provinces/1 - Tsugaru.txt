@@ -1,0 +1,14 @@
+# 1 - Tsugaru
+
+# Kokujin Title
+title = c_tsugaru
+
+#Settlements
+max_settlements = 3
+b_tsugaru_castle = castle
+b_tsugaru_city = city
+#b_tsugaru_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

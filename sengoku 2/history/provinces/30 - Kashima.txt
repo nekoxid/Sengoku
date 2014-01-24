@@ -1,0 +1,15 @@
+# 30 - Kashima
+
+# Kokujin Title
+title = c_kashima
+
+#Settlements
+max_settlements = 3
+b_kashima_castle = castle
+b_kashima_city = city
+b_kashima_temple = temple
+
+#building=shinto_shrine
+#Misc
+religion = shinto
+culture = japanese

@@ -1,0 +1,34 @@
+179 = {
+name="Motosuke"
+dynasty=110
+culture = japanese
+religion = buddhism
+diplomacy = 5
+martial = 4
+intrigue = 4
+add_trait = just
+add_trait = naive_appeaser
+1415.9.27={
+	birth="1415.9.27"
+}
+1479.6.23={
+	death="1479.6.23"
+}
+} 
+292 = {
+name="Motosuna"
+dynasty=110
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 3
+intrigue = 4
+add_trait = naive_appeaser
+father=179
+1447.6.23={
+	birth="1447.6.23"
+}
+1509.12.7={
+	death="1509.12.7"
+}
+} 

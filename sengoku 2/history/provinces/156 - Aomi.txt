@@ -1,0 +1,14 @@
+# 156 - Aomi
+
+# Kokujin Title
+title = c_aomi
+
+#Settlements
+max_settlements = 3
+b_aomi_castle = castle
+b_aomi_city = city
+#b_aomi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

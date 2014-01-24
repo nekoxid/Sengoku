@@ -1,0 +1,14 @@
+# 199 - Amata
+
+# Kokujin Title
+title = c_amata
+
+#Settlements
+max_settlements = 3
+b_amata_castle = castle
+b_amata_city = city
+#b_amata_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,14 @@
+# 155 - Shitara
+
+# Kokujin Title
+title = c_shitara
+
+#Settlements
+max_settlements = 3
+b_shitara_castle = castle
+b_shitara_city = city
+#b_shitara_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

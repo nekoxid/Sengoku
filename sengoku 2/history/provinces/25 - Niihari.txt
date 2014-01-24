@@ -1,0 +1,14 @@
+# 25 - Niihari
+
+# Kokujin Title
+title = c_niihari
+
+#Settlements
+max_settlements = 3
+b_niihari_castle = castle
+b_niihari_city = city
+#b_niihari_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

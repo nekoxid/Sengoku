@@ -1,0 +1,44 @@
+738 = {
+name="Tadakatsu"
+dynasty=251
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 9
+intrigue = 10
+add_trait = underhanded_rogue
+
+1501.1.1={
+birth="1501.1.1"
+}
+1551.4.9={
+employer=568
+}
+1586.1.1={
+death="1586.1.1"
+}
+} 
+739 = {
+name="Hisaaki"
+dynasty=251
+culture = japanese
+religion = buddhism
+father=738
+
+diplomacy = 14
+martial = 9
+intrigue = 12
+add_trait = skilled_tactician
+add_trait = quick
+
+1536.1.1={
+birth="1536.1.1"
+}
+1551.4.9={
+employer=568
+}
+1568.1.1={
+death="1568.1.1"
+}
+} 

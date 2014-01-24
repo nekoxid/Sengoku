@@ -1,0 +1,18 @@
+# 311 - Mizuma
+
+# Kokujin Title
+title = c_mizuma
+
+#Settlements
+max_settlements = 3
+b_mizuma_castle = castle
+b_mizuma_city = city
+#b_mizuma_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

@@ -1,0 +1,5 @@
+# Japanese
+
+japanesegfx = {
+	skin_tone = 1
+}

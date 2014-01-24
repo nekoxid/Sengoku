@@ -1,0 +1,14 @@
+# 280 - Tetta
+
+# Kokujin Title
+title = c_tetta
+
+#Settlements
+max_settlements = 3
+b_tetta_castle = castle
+b_tetta_city = city
+#b_tetta_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

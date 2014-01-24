@@ -1,0 +1,14 @@
+# 201 - Hikami
+
+# Kokujin Title
+title = c_hikami
+
+#Settlements
+max_settlements = 3
+b_hikami_castle = castle
+b_hikami_city = city
+#b_hikami_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

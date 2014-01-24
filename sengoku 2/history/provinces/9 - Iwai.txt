@@ -1,0 +1,14 @@
+# 9 - Iwai
+
+# Kokujin Title
+title = c_iwai
+
+#Settlements
+max_settlements = 3
+b_iwai_castle = castle
+b_iwai_city = city
+#b_iwai_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,14 @@
+# 16 - Shibata
+
+# Kokujin Title
+title = c_shibata
+
+#Settlements
+max_settlements = 3
+b_shibata_castle = castle
+b_shibata_city = city
+#b_shibata_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

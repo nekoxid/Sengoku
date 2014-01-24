@@ -1,0 +1,269 @@
+immortal = { #132
+	immortal = yes
+	customizer = no
+}
+
+dishonorable1 = { #134
+	general_opinion = -10
+	monthly_character_piety = -0.1
+	customizer = no
+}
+
+dishonorable2 = { #135
+	general_opinion = -20
+	monthly_character_piety = -0.2
+	customizer = no
+}
+
+dishonorable3 = { #136
+	general_opinion = -30
+	monthly_character_piety = -0.3
+	customizer = no
+}
+
+dishonorable4 = { #137
+	general_opinion = -40
+	monthly_character_piety = -0.4
+	customizer = no
+}
+
+dishonorable5 = { #138
+	general_opinion = -50
+	monthly_character_piety = -0.5
+	customizer = no
+}
+
+dishonorable6 = { #139
+	general_opinion = -60
+	monthly_character_piety = -0.6
+	customizer = no
+}
+
+dishonorable7 = { #140
+	general_opinion = -70
+	monthly_character_piety = -0.7
+	customizer = no
+}
+
+dishonorable8 = { #141
+	general_opinion = -80
+	monthly_character_piety = -0.8
+	customizer = no
+}
+
+dishonorable9 = { #142
+	general_opinion = -90
+	monthly_character_piety = -0.9
+	customizer = no
+}
+
+dishonorable10 = { #143
+	general_opinion = -100
+	monthly_character_piety = -1.0
+	customizer = no
+}
+dyn_dishonorable1 = { #146
+	general_opinion = -5
+	customizer = no
+}
+
+dyn_dishonorable2 = { #147	
+	general_opinion = -10
+	customizer = no
+}
+
+dyn_dishonorable3 = { #148
+	general_opinion = -15
+	customizer = no
+}
+
+dyn_dishonorable4 = { #149
+	general_opinion = -20
+	customizer = no
+}
+
+dyn_dishonorable5 = { #150
+	general_opinion = -25
+	customizer = no
+}
+
+dyn_dishonorable6 = { #151
+	general_opinion = -30
+	customizer = no
+}
+
+dyn_dishonorable7 = { #152
+	general_opinion = -35
+	customizer = no
+}
+
+dyn_dishonorable8 = { #153
+	general_opinion = -40
+	customizer = no
+}
+
+dyn_dishonorable9 = { #154
+	general_opinion = -45
+	customizer = no
+}
+
+dyn_dishonorable10 = { #155
+	general_opinion = -50
+	customizer = no
+}
+
+tyrant1 = { #159
+	monthly_character_prestige = -0.05
+	general_opinion = -5
+	customizer = no
+}
+
+tyrant2 = { #160
+	monthly_character_prestige = -0.10
+	general_opinion = -10
+	customizer = no
+}
+
+tyrant3 = { #161
+	monthly_character_prestige = -0.15
+	general_opinion = -15
+	customizer = no
+}
+
+tyrant4 = { #162
+	monthly_character_prestige = -0.20
+	general_opinion = -20
+	customizer = no
+}
+
+tyrant5 = { #163
+	monthly_character_prestige = -0.25
+	general_opinion = -25
+	global_revolt_risk = 0.01
+	customizer = no
+}
+
+tyrant6 = { #164
+	monthly_character_prestige = -0.30
+	general_opinion = -30
+	global_revolt_risk = 0.01
+	customizer = no
+}
+
+tyrant7 = { #165
+	monthly_character_prestige = -0.35
+	general_opinion = -35
+	global_revolt_risk = 0.01
+	customizer = no
+}
+
+tyrant8 = { #166
+	monthly_character_prestige = -0.40
+	general_opinion = -40
+	global_revolt_risk = 0.01
+	customizer = no
+}
+
+tyrant9 = { #167
+	monthly_character_prestige = -0.45
+	general_opinion = -45
+	global_revolt_risk = 0.02
+	customizer = no
+}
+
+tyrant10 = { #168
+	monthly_character_prestige = -0.50
+	general_opinion = -50
+	global_revolt_risk = 0.02
+	land_morale = -0.1
+	customizer = no
+}
+
+tyrant11 = { #169
+	monthly_character_prestige = -0.55
+	general_opinion = -55
+	global_revolt_risk = 0.02
+	land_morale = -0.2
+	customizer = no
+}
+
+tyrant12 = { #170
+	monthly_character_prestige = -0.60
+	general_opinion = -60
+	global_revolt_risk = 0.02
+	land_morale = -0.3
+	customizer = no
+}
+
+tyrant13 = { #171
+	monthly_character_prestige = -0.65
+	general_opinion = -65
+	global_revolt_risk = 0.03
+	land_morale = -0.4
+	customizer = no
+}
+
+tyrant14 = { #172
+	monthly_character_prestige = -0.70
+	general_opinion = -70
+	global_revolt_risk = 0.03
+	land_morale = -0.5
+	customizer = no
+}
+
+tyrant15 = { #173
+	monthly_character_prestige = -0.75
+	general_opinion = -75
+	global_revolt_risk = 0.03
+	land_morale = -0.6
+	global_tax_modifier = -0.1
+	customizer = no
+}
+
+tyrant16 = { #174
+	monthly_character_prestige = -0.80
+	general_opinion = -80
+	global_revolt_risk = 0.03
+	land_morale = -0.7
+	global_tax_modifier = -0.2
+	customizer = no
+}
+
+tyrant17 = { #175
+	monthly_character_prestige = -0.85
+	general_opinion = -85
+	global_revolt_risk = 0.04
+	land_morale = -0.8
+	global_tax_modifier = -0.3
+	customizer = no
+}
+
+tyrant18 = { #176
+	monthly_character_prestige = -0.90
+	general_opinion = -90
+	global_revolt_risk = 0.04
+	land_morale = -0.9
+	global_tax_modifier = -0.4
+	customizer = no
+}
+
+tyrant19 = { #177
+	monthly_character_prestige = -0.95
+	general_opinion = -95
+	global_revolt_risk = 0.04
+	land_morale = -1.0
+	global_tax_modifier = -0.5
+	customizer = no
+}
+
+tyrant20 = { #178
+	monthly_character_prestige = -1.0
+	general_opinion = -100
+	global_revolt_risk = 0.04
+	land_morale = -1.5
+	global_tax_modifier = -0.75
+	customizer = no
+}
+
+immortal2 = { #191
+}

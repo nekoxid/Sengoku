@@ -1,0 +1,14 @@
+# 123 - Suzu
+
+# Kokujin Title
+title = c_suzu
+
+#Settlements
+max_settlements = 3
+b_suzu_castle = castle
+b_suzu_city = city
+#b_suzu_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

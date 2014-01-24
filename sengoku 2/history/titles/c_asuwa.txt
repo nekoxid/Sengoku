@@ -1,0 +1,12 @@
+1318.3.29 = {
+	liege="d_echizen"
+}
+1467.5.26 = {
+	holder=131
+}
+1551.4.9 = {
+	liege="d_echizen"
+}
+1551.4.9 = {
+	holder=505
+}

@@ -1,0 +1,14 @@
+# 138 - Niu
+
+# Kokujin Title
+title = c_niu
+
+#Settlements
+max_settlements = 3
+b_niu_castle = castle
+b_niu_city = city
+#b_niu_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

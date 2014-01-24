@@ -1,0 +1,14 @@
+# 45 - Koshi
+
+# Kokujin Title
+title = c_koshi
+
+#Settlements
+max_settlements = 3
+b_koshi_castle = castle
+b_koshi_city = city
+#b_koshi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

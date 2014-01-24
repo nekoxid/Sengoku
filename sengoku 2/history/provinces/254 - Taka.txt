@@ -1,0 +1,14 @@
+# 254 - Taka
+
+# Kokujin Title
+title = c_taka
+
+#Settlements
+max_settlements = 3
+b_taka_castle = castle
+b_taka_city = city
+#b_taka_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

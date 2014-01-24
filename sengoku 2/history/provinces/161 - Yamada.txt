@@ -1,0 +1,18 @@
+# 161 - Yamada
+
+# Kokujin Title
+title = c_yamada
+
+#Settlements
+max_settlements = 3
+b_yamada_castle = castle
+b_yamada_city = city
+#b_yamada_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

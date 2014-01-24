@@ -1,0 +1,56 @@
+185 = {
+name="Shigeru"
+dynasty=116
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 4
+intrigue = 2
+#add_trait = tea_master
+add_trait = tough_soldier
+1423.2.19={
+	birth="1423.2.19"
+}
+1492.7.18={
+	death="1492.7.18"
+}
+} 
+332 = {
+name="Sadamu"
+dynasty=116
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 4
+intrigue = 3
+add_trait = misguided_warrior
+father=185
+1449.5.9={
+	birth="1449.5.9"
+}
+1497.1.16={
+	death="1497.1.16"
+}
+} 
+541 = {
+name="Takanobu"
+dynasty=116
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 10
+intrigue = 11
+add_trait = charismatic_negotiator
+add_trait = quick
+
+1529.1.1={
+birth="1529.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1599.4.30={
+death="1599.4.30"
+}
+} 

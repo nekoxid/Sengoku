@@ -1,0 +1,52 @@
+140 = {
+name="Michinaga"
+dynasty=71
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 5
+intrigue = 3
+add_trait = misguided_warrior
+
+1450.4.9={
+	birth="1450.4.9"
+}
+1494.11.21={
+	death="1494.11.21"
+}
+} 
+941 = {
+name="Tadamichi"
+dynasty=71
+culture = japanese
+religion = buddhism
+diplomacy = 7
+martial = 8
+intrigue = 7
+add_trait = naive_appeaser
+
+1508.1.1={
+birth="1508.1.1"
+}
+1564.7.13={
+death="1564.7.13"
+}
+} 
+942 = {
+name="Tadamichi"
+dynasty=71
+culture = japanese
+religion = buddhism
+father=941diplomacy = 6
+martial = 7
+intrigue = 7
+add_trait = tough_soldier
+add_trait = ill
+
+1538.1.1={
+birth="1538.1.1"
+}
+1567.8.20={
+death="1567.8.20"
+}
+} 

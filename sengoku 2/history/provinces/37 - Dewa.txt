@@ -1,0 +1,15 @@
+# 37 - Dewa
+
+# Kokujin Title
+title = c_dewa
+
+#Settlements
+max_settlements = 3
+b_dewa_castle = castle
+b_dewa_city = city
+b_dewa_temple = temple
+
+#building=shinto_shrine
+#Misc
+religion = shinto
+culture = japanese

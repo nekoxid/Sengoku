@@ -1,0 +1,55 @@
+216 = {
+name="Morimoto"
+dynasty=147
+culture = japanese
+religion = buddhism
+diplomacy = 3
+intrigue = 2
+martial = 4
+add_trait = brave
+add_trait = misguided_warrior
+1418.8.21={
+	birth="1418.8.21"
+}
+1479.10.6={
+	death="1479.10.6"
+}
+} 
+321 = {
+name="Moriteru"
+dynasty=147
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 2
+intrigue = 4
+add_trait = amateurish_plotter
+father=216
+1442.4.4={
+	birth="1442.4.4"
+}
+1505.8.7={
+	death="1505.8.7"
+}
+} 
+573 = {
+name="Morinobu"
+dynasty=147
+culture = japanese
+religion = buddhism
+
+diplomacy = 12
+martial = 9
+intrigue = 8
+add_trait = tough_soldier
+
+1513.1.1={
+birth="1513.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1593.1.1={
+death="1593.1.1"
+}
+} 

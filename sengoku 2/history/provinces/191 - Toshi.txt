@@ -1,0 +1,14 @@
+# 191 - Toshi
+
+# Kokujin Title
+title = c_toshi
+
+#Settlements
+max_settlements = 3
+b_toshi_castle = castle
+b_toshi_city = city
+#b_toshi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

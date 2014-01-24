@@ -1,0 +1,14 @@
+# 271 - Mikami
+
+# Kokujin Title
+title = c_mikami
+
+#Settlements
+max_settlements = 3
+b_mikami_castle = castle
+b_mikami_city = city
+#b_mikami_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

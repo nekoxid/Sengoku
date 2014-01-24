@@ -1,0 +1,16 @@
+# 109 - Hanishina
+
+# Kokujin Title
+title = c_hanishina
+
+#Settlements
+max_settlements = 3
+b_hanishina_castle = castle
+b_hanishina_city = city
+b_hanishina_temple = temple
+
+#building=buddhist_temple
+
+#Misc
+religion = buddhism
+culture = japanese

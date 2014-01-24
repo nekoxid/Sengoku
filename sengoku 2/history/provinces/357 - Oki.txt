@@ -1,0 +1,14 @@
+# 357 - Oki
+
+# Kokujin Title
+title = c_oki
+
+#Settlements
+max_settlements = 3
+b_oki_castle = castle
+b_oki_city = city
+#b_oki_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

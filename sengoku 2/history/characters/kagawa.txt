@@ -1,0 +1,17 @@
+164 = {
+name="Motoaki"
+dynasty=95
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 6
+intrigue = 5
+add_trait = brave
+add_trait = tough_soldier
+1430.1.1={
+	birth="1430.1.1"
+}
+1467.8.13={
+	death="1467.8.13"
+}
+} 

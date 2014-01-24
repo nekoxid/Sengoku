@@ -1,0 +1,35 @@
+154 = {
+name="Shigemitsu"
+dynasty=85
+culture = japanese
+religion = buddhism
+diplomacy = 5
+martial = 3
+intrigue = 2
+#add_trait = bushi
+add_trait = skilled_tactician
+1430.1.1={
+	birth="1430.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+286 = {
+name="Shigenaga"
+dynasty=85
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 2
+intrigue = 3
+add_trait = patient
+add_trait = brave
+father=154
+1453.2.27={
+	birth="1453.2.27"
+}
+1505.1.12={
+	death="1505.1.12"
+}
+} 

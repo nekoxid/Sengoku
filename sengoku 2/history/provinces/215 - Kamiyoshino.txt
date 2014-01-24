@@ -1,0 +1,14 @@
+# 215 - Kamiyoshino
+
+# Kokujin Title
+title = c_kamiyoshino
+
+#Settlements
+max_settlements = 3
+b_kamiyoshino_castle = castle
+b_kamiyoshino_city = city
+#b_kamiyoshino_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,14 @@
+# 281 - Ano
+
+# Kokujin Title
+title = c_ano
+
+#Settlements
+max_settlements = 3
+b_ano_castle = castle
+b_ano_city = city
+#b_ano_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

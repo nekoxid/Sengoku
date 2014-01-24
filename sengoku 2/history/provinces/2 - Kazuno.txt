@@ -1,0 +1,14 @@
+# 2 - Kazuno
+
+# Kokujin Title
+title = c_kazuno
+
+#Settlements
+max_settlements = 3
+b_kazuno_castle = castle
+b_kazuno_city = city
+#b_kazuno_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

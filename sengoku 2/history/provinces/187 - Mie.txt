@@ -1,0 +1,14 @@
+# 187 - Mie
+
+# Kokujin Title
+title = c_mie
+
+#Settlements
+max_settlements = 3
+b_mie_castle = castle
+b_mie_city = city
+#b_mie_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

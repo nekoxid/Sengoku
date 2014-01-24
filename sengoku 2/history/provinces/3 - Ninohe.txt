@@ -1,0 +1,14 @@
+# 3 - Ninohe
+
+# Kokujin Title
+title = c_ninohe
+
+#Settlements
+max_settlements = 3
+b_ninohe_castle = castle
+b_ninohe_city = city
+#b_ninohe_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

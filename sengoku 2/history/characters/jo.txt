@@ -1,0 +1,18 @@
+732 = {
+name="Chikafuyu"
+dynasty=249
+culture = japanese
+religion = buddhism
+
+diplomacy = 8
+martial = 7
+intrigue = 7
+add_trait = amateurish_plotter
+
+1511.1.1={
+birth="1511.1.1"
+}
+1575.1.1={
+death="1575.1.1"
+}
+} 

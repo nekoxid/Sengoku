@@ -1,0 +1,14 @@
+# 115 - Suruga
+
+# Kokujin Title
+title = c_suruga
+
+#Settlements
+max_settlements = 3
+b_suruga_castle = castle
+b_suruga_city = city
+#b_suruga_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

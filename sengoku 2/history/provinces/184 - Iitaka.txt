@@ -1,0 +1,14 @@
+# 184 - Iitaka
+
+# Kokujin Title
+title = c_iitaka
+
+#Settlements
+max_settlements = 3
+b_iitaka_castle = castle
+b_iitaka_city = city
+#b_iitaka_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

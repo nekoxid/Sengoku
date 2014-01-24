@@ -1,0 +1,14 @@
+# 219 - Uda
+
+# Kokujin Title
+title = c_uda
+
+#Settlements
+max_settlements = 3
+b_uda_castle = castle
+b_uda_city = city
+b_uda_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

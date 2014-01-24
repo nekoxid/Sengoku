@@ -1,0 +1,14 @@
+# 274 - Iishi
+
+# Kokujin Title
+title = c_iishi
+
+#Settlements
+max_settlements = 3
+b_iishi_castle = castle
+b_iishi_city = city
+#b_iishi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

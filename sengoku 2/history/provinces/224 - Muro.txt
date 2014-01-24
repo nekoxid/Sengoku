@@ -1,0 +1,14 @@
+# 224 - Muro
+
+# Kokujin Title
+title = c_muro
+
+#Settlements
+max_settlements = 3
+b_muro_castle = castle
+b_muro_city = city
+#b_muro_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

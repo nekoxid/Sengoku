@@ -1,0 +1,18 @@
+# 243 - Teshima
+
+# Kokujin Title
+title = c_teshima
+
+#Settlements
+max_settlements = 3
+b_teshima_castle = castle
+b_teshima_city = city
+#b_teshima_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

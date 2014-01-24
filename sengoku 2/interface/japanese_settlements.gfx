@@ -1,0 +1,20 @@
+objectTypes = {
+	EMFXActorType = {
+		name = "japanesegfx_castle_1"
+		actorfile = "gfx\anims\castle00.xac"
+		scale = 0.6f
+		use_animation = no
+	}
+	EMFXActorType = {
+		name = "japanesegfx_castle_2"
+		actorfile = "gfx\anims\castle01.xac"
+		scale = 0.6f
+		use_animation = no
+	}
+	EMFXActorType = {
+		name = "japanesegfx_castle_3"
+		actorfile = "gfx\anims\castle05.xac"
+		scale = 0.6f
+		use_animation = no
+	}
+}

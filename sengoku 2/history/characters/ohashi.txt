@@ -1,0 +1,32 @@
+207 = {
+name="Nobuyoshi"
+dynasty=138
+culture = japanese
+religion = buddhism
+diplomacy = 5
+martial = 3
+intrigue = 3
+add_trait = misguided_warrior
+1430.1.1={
+	birth="1430.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+400 = {
+name="Nobushige"
+dynasty=138
+culture = japanese
+religion = buddhism
+diplomacy = 0
+martial = 1
+intrigue = 1
+father=207
+1460.1.1={
+	birth="1460.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 

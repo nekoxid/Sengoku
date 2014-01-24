@@ -1,0 +1,18 @@
+# 330 - Taki
+
+# Kokujin Title
+title = c_taki
+
+#Settlements
+max_settlements = 3
+b_taki_castle = castle
+b_taki_city = city
+#b_taki_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

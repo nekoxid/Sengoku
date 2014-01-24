@@ -1,0 +1,14 @@
+# 114 - Abe
+
+# Kokujin Title
+title = c_abe
+
+#Settlements
+max_settlements = 3
+b_abe_castle = castle
+b_abe_city = city
+#b_abe_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

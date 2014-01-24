@@ -1,0 +1,18 @@
+# 319 - Takuma
+
+# Kokujin Title
+title = c_takuma
+
+#Settlements
+max_settlements = 3
+b_takuma_castle = castle
+b_takuma_city = city
+#b_takuma_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

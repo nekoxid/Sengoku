@@ -1,0 +1,19 @@
+604 = {
+name="Fuyuyasu"
+dynasty=64
+culture = japanese
+religion = buddhism
+father=612
+
+diplomacy = 11
+martial = 13
+intrigue = 12
+add_trait = charismatic_negotiator
+
+1528.1.1={
+birth="1528.1.1"
+}
+1564.6.17={
+death="1564.6.17"
+}
+}

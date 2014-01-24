@@ -1,0 +1,14 @@
+# 147 - Ahachi
+
+# Kokujin Title
+title = c_ahachi
+
+#Settlements
+max_settlements = 3
+b_ahachi_castle = castle
+b_ahachi_city = city
+#b_ahachi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

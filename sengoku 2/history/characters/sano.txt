@@ -1,0 +1,55 @@
+936 = {
+name="Yasutsuna"
+dynasty=323
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 9
+intrigue = 9
+add_trait = underhanded_rogue
+
+1488.1.1={
+birth="1488.1.1"
+}
+1560.1.1={
+death="1560.1.1"
+}
+} 
+937 = {
+name="Toyotsuna"
+dynasty=323
+culture = japanese
+religion = buddhism
+father=936
+diplomacy = 8
+martial = 6
+intrigue = 7
+add_trait = misguided_warrior
+
+1504.1.1={
+birth="1504.1.1"
+}
+1559.1.1={
+death="1559.1.1"
+}
+} 
+938 = {
+name="Masatsuna"
+dynasty=323
+culture = japanese
+religion = buddhism
+father=936
+
+diplomacy = 8
+martial = 9
+intrigue = 9
+add_trait = underhanded_rogue
+
+1529.1.1={
+birth="1529.1.1"
+}
+1574.4.28={
+death="1574.4.28"
+}
+} 

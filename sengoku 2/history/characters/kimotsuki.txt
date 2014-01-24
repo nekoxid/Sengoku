@@ -1,0 +1,57 @@
+172 = {
+name="Kanetsura"
+dynasty=103
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 4
+intrigue = 5
+add_trait = content
+add_trait = misguided_warrior
+1430.1.1={
+	birth="1430.1.1"
+}
+1483.8.27={
+	death="1483.8.27"
+}
+} 
+531 = {
+name="Kanetsugu"
+dynasty=103
+culture = japanese
+religion = buddhism
+
+diplomacy = 11
+martial = 11
+intrigue = 11
+add_trait = tough_soldier
+
+1511.1.1={
+birth="1511.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1566.12.26={
+death="1566.12.26"
+}
+} 
+744 = {
+name="Yoshikane"
+dynasty=103
+culture = japanese
+religion = buddhism
+father=531
+
+diplomacy = 9
+martial = 11
+intrigue = 11
+add_trait = tough_soldier
+
+1535.1.1={
+birth="1535.1.1"
+}
+1571.1.1={
+death="1571.1.1"
+}
+} 

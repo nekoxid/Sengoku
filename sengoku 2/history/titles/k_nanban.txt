@@ -1,0 +1,7 @@
+1.1.1 = {
+	active = no
+}
+1543.1.1 = {
+	active = yes
+	holder=1500
+}

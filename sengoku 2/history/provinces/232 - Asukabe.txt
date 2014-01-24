@@ -1,0 +1,14 @@
+# 232 - Asukabe
+
+# Kokujin Title
+title = c_asukabe
+
+#Settlements
+max_settlements = 3
+b_asukabe_castle = castle
+b_asukabe_city = city
+#b_asukabe_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

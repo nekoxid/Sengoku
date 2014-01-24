@@ -1,0 +1,14 @@
+# 11 - Miyagi
+
+# Kokujin Title
+title = c_miyagi
+
+#Settlements
+max_settlements = 3
+b_miyagi_castle = castle
+b_miyagi_city = city
+#b_miyagi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,14 @@
+# 69 - Nitta
+
+# Kokujin Title
+title = c_nitta
+
+#Settlements
+max_settlements = 3
+b_nitta_castle = castle
+b_nitta_city = city
+#b_nitta_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

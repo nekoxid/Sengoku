@@ -1,0 +1,14 @@
+# 129 - Nei
+
+# Kokujin Title
+title = c_nei
+
+#Settlements
+max_settlements = 3
+b_nei_castle = castle
+b_nei_city = city
+#b_nei_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

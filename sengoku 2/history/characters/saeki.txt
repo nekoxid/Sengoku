@@ -1,0 +1,34 @@
+210 = {
+name="Koreyo"
+dynasty=141
+culture = japanese
+religion = buddhism
+diplomacy = 3
+intrigue = 5
+martial = 4
+add_trait = tough_soldier
+1430.1.1={
+	birth="1430.1.1"
+}
+1485.11.16={
+	death="1485.11.16"
+}
+} 
+699 = {
+name="Korenori"
+dynasty=141
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 13
+intrigue = 9
+add_trait = tough_soldier
+
+1524.1.1={
+birth="1524.1.1"
+}
+1578.1.1={
+death="1578.1.1"
+}
+} 

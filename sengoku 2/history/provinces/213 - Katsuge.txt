@@ -1,0 +1,14 @@
+# 213 - Katsuge
+
+# Kokujin Title
+title = c_katsuge
+
+#Settlements
+max_settlements = 3
+b_katsuge_castle = castle
+b_katsuge_city = city
+#b_katsuge_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

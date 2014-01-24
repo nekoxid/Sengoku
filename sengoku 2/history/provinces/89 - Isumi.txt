@@ -1,0 +1,14 @@
+# 89 - Isumi
+
+# Kokujin Title
+title = c_isumi
+
+#Settlements
+max_settlements = 3
+b_isumi_castle = castle
+b_isumi_city = city
+#b_isumi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

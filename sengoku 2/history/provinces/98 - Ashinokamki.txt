@@ -1,0 +1,14 @@
+# 98 - Ashinokamki
+
+# Kokujin Title
+title = c_ashinokamki
+
+#Settlements
+max_settlements = 3
+b_ashinokamki_castle = castle
+b_ashinokamki_city = city
+#b_ashinokamki_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

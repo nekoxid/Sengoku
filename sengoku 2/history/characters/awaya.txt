@@ -1,0 +1,50 @@
+134 = {
+name="Kataie"
+dynasty=65
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 6
+intrigue = 4
+add_trait = tough_soldier
+
+1440.9.14={
+	birth="1440.9.14"
+}
+1503.3.17={
+	death="1503.3.17"
+}
+} 
+284 = {
+name="Shinei"
+dynasty=65
+culture = japanese
+religion = buddhism
+diplomacy = 0
+martial = 0
+intrigue = 1
+father=134
+1462.6.12={
+	birth="1462.6.12"
+}
+1507.5.30={
+	death="1507.5.30"
+}
+} 
+842 = {
+name="Katsuhisa"
+dynasty=65
+culture = japanese
+religion = buddhism
+diplomacy = 8
+martial = 8
+intrigue = 8
+add_trait = tough_soldier
+
+1529.1.1={
+birth="1529.1.1"
+}
+1585.1.1={
+death="1585.1.1"
+}
+} 

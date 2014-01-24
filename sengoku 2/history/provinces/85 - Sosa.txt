@@ -1,0 +1,14 @@
+# 85 - Sosa
+
+# Kokujin Title
+title = c_sosa
+
+#Settlements
+max_settlements = 3
+b_sosa_castle = castle
+b_sosa_city = city
+#b_sosa_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

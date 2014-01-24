@@ -1,0 +1,14 @@
+# 181 - Asake
+
+# Kokujin Title
+title = c_asake
+
+#Settlements
+max_settlements = 3
+b_asake_castle = castle
+b_asake_city = city
+#b_asake_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

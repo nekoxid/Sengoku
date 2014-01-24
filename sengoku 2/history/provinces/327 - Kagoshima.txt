@@ -1,0 +1,18 @@
+# 327 - Kagoshima
+
+# Kokujin Title
+title = c_kagoshima
+
+#Settlements
+max_settlements = 3
+b_kagoshima_castle = castle
+b_kagoshima_city = city
+#b_kagoshima_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

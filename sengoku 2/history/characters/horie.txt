@@ -1,0 +1,18 @@
+801 = {
+name="Kagetada"
+dynasty=300
+culture = japanese
+religion = buddhism
+diplomacy = 8  
+martial = 9
+intrigue = 5
+add_trait = naive_appeaser
+add_trait = deceitful
+
+1532.1.1={
+birth="1532.1.1"
+}
+1576.4.1={
+death="1576.4.1"
+}
+}

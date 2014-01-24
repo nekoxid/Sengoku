@@ -1,0 +1,14 @@
+# 186 - Kuwana
+
+# Kokujin Title
+title = c_kuwana
+
+#Settlements
+max_settlements = 3
+b_kuwana_castle = castle
+b_kuwana_city = city
+#b_kuwana_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,135 @@
+113 = {
+name="Shigeuji"
+dynasty=188
+culture = japanese
+religion = buddhism
+#is_clan_leader=yes
+diplomacy = 7
+martial = 6
+intrigue = 6
+add_trait = flamboyant_schemer
+add_trait = proud
+#add_trait = ruthless
+add_trait = deceitful #trusting
+
+1438.4.27={
+	birth="1438.4.27"
+}
+1497.10.25={
+	death="1497.10.25"
+}
+} 
+
+99 = {
+name="Akizane"
+dynasty=188
+culture = japanese
+religion = buddhism
+father=113
+diplomacy = 1 
+martial = 1
+intrigue = 1
+
+1458.7.14={
+	birth="1458.7.14"
+}
+1515.6.19={
+	death="1515.6.19"
+}
+}
+
+418 = {
+name="Masauji"
+dynasty=188
+culture = japanese
+religion = buddhism
+diplomacy = 0
+martial = 0
+intrigue = 0
+father=113
+1466.4.30={
+	birth="1466.4.30"
+}
+1531.2.19={
+	death="1531.2.19"
+}
+} 
+
+535 = {
+name="Haruuji"
+dynasty=188
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 8
+intrigue = 7
+add_trait = underhanded_rogue
+
+1508.1.1={
+birth="1508.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1560.6.20={
+death="1560.6.20"
+}
+} 
+
+943 = {
+name="Yoshiuji"
+dynasty=188
+culture = japanese
+religion = buddhism
+father=535
+diplomacy = 5
+martial = 4
+intrigue = 6
+add_trait = naive_appeaser
+
+1541.2.10={
+birth="1541.2.10"
+}
+1583.2.13={
+death="1583.2.13"
+}
+} 
+
+944 = {
+name="Fujiuji"
+dynasty=188
+culture = japanese
+religion = buddhism
+father=535
+diplomacy = 7
+martial = 6
+intrigue = 6
+add_trait = amateurish_plotter
+
+1529.1.1={
+birth="1529.1.1"
+}
+1566.1.1={
+death="1566.1.1"
+}
+} 
+
+945 = {
+name="Fujimasa"
+dynasty=188
+culture = japanese
+religion = buddhism
+father=535
+diplomacy = 7
+martial = 7
+intrigue = 5
+add_trait = amateurish_plotter
+
+1545.1.1={
+birth="1545.1.1"
+}
+1574.1.1={
+death="1574.1.1"
+}
+} 

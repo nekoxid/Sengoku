@@ -1,0 +1,68 @@
+17 = {
+name="Yoshitada"
+dynasty=10
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 4
+martial = 3
+intrigue = 2
+add_trait = trusting
+add_trait = tough_soldier
+1436.2.26={
+	birth="1436.2.26"
+}
+1456.1.1={
+	#add_spouse=426
+}
+1476.3.1={
+	death="1476.3.1"
+}
+} 
+
+523 = {
+name="Yoshimoto"
+dynasty=10
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 14
+intrigue = 10
+add_trait = grey_eminence
+add_trait = quick
+add_trait = poet
+
+1519.1.1={
+birth="1519.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1560.6.12={
+death="1560.6.12"
+}
+} 
+
+677 = {
+name="Ujizane"
+dynasty=10
+culture = japanese
+religion = buddhism
+father=523
+mother=678
+
+diplomacy = 12
+martial = 7
+intrigue = 5
+add_trait = underhanded_rogue
+add_trait = poet
+add_trait = craven
+
+1538.1.1={
+birth="1538.1.1"
+}
+1615.1.27={
+death="1615.1.27"
+}
+} 

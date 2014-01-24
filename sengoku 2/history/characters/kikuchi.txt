@@ -1,0 +1,39 @@
+20 = {
+name="Shigetomo"
+dynasty=13
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 3
+martial = 5
+intrigue = 5
+add_trait = misguided_warrior
+1449.11.25={
+	birth="1449.11.25"
+}
+1493.12.7={
+	death="1493.12.7"
+}
+} 
+
+1010 = {
+name="Yoshitake"
+dynasty=13
+culture = japanese
+religion = buddhism
+
+diplomacy = 6
+martial = 7
+intrigue = 6
+add_trait = amateurish_plotter
+
+1505.1.1={
+birth="1505.1.1"
+}
+1520.1.1={
+employer=563
+}
+1554.12.14={
+death="1554.12.14"
+}
+} 

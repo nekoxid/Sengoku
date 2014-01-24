@@ -1,0 +1,14 @@
+# 97 - Aiko
+
+# Kokujin Title
+title = c_aiko
+
+#Settlements
+max_settlements = 3
+b_aiko_castle = castle
+b_aiko_city = city
+#b_aiko_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

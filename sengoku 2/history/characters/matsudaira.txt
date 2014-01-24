@@ -1,0 +1,96 @@
+184 = {
+name="Nobumitsu"
+dynasty=115
+culture = japanese
+religion = buddhism
+diplomacy = 5
+intrigue = 4
+martial = 3
+add_trait = humble
+add_trait = underhanded_rogue
+1404.9.14={
+	birth="1404.9.14"
+}
+1488.5.19={
+	death="1488.5.19"
+}
+} 
+293 = {
+name="Chikatada"
+dynasty=115
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 4
+intrigue = 3
+add_trait = misguided_warrior
+father=184
+1431.7.20={
+	birth="1431.7.20"
+}
+1501.12.29={
+	death="1501.12.29"
+}
+} 
+691 = {
+name="Hirotada"
+dynasty=115
+culture = japanese
+religion = buddhism
+father=692
+
+diplomacy = 12
+martial = 11
+intrigue = 9
+add_trait = charismatic_negotiator
+
+1532.6.9={
+birth="1532.6.9"
+}
+1549.4.3={
+death="1549.4.3"
+}
+} 
+692 = {
+name="Kiyoyasu"
+dynasty=115
+culture = japanese
+religion = buddhism
+
+diplomacy = 11
+martial = 15
+intrigue = 13
+add_trait = grey_eminence
+add_trait = quick
+add_trait = brave
+
+1511.9.28={
+birth="1511.9.28"
+}
+1535.12.29={
+death="1535.12.29"
+}
+} 
+693 = {
+name="Motoyasu"
+#Alternative name: Tokugawa Ieyasu
+dynasty=115
+culture = japanese
+religion = buddhism
+father=691
+
+diplomacy = 11
+martial = 14
+intrigue = 13
+add_trait = grey_eminence
+add_trait = genius
+add_trait = brave
+add_trait = patient
+
+1550.1.21={
+birth="1550.1.21"
+}
+1616.5.22={
+death="1616.5.22"
+}
+} 

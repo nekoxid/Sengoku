@@ -1,0 +1,117 @@
+123 = {
+name="Kiyosada"
+dynasty=54
+culture = japanese
+religion = buddhism
+diplomacy = 6
+martial = 5
+intrigue = 6
+add_trait = underhanded_rogue
+add_trait = ambitious
+
+1410.10.28={
+	birth="1410.10.28"
+}
+1487.3.17={
+	death="1487.3.17"
+}
+} 
+310 = {
+name="Tsunehisa"
+dynasty=54
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 2
+intrigue = 4
+add_trait = charitable
+add_trait = genius
+father=123
+1458.5.2={
+	birth="1458.5.2"
+}
+1541.10.14={
+	death="1541.10.14"
+}
+} 
+503 = {
+name="Haruhisa"
+dynasty=54
+culture = japanese
+religion = buddhism
+
+diplomacy = 16 
+martial = 11
+intrigue = 14
+add_trait = skilled_tactician
+#add_trait = ruthless
+
+1514.3.8={
+birth="1514.3.8"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1561.1.9={
+death="1561.1.9"
+}
+} 
+775 = {
+name="Kunihisa"
+dynasty=54
+culture = japanese
+religion = buddhism
+
+diplomacy = 8
+martial = 12
+intrigue = 7
+add_trait = skilled_tactician
+add_trait = brave
+add_trait = envious
+
+1492.1.1={
+birth="1492.1.1"
+}
+1554.11.25={
+death="1554.11.25"
+}
+} 
+776 = {
+name="Sanehisa"
+dynasty=54
+culture = japanese
+religion = buddhism
+father = 775
+
+diplomacy = 3
+martial = 13
+intrigue = 6
+add_trait = skilled_tactician
+add_trait = brave
+
+1510.1.1={
+birth="1510.1.1"
+}
+1554.1.1={
+death="1554.1.1"
+}
+} 
+780 = {
+name="Yoshihisa"
+dynasty=54
+culture = japanese
+religion = buddhism
+father = 503
+
+diplomacy = 4
+martial = 5
+intrigue = 3
+add_trait = amateurish_plotter
+
+1540.1.1={
+birth="1540.1.1"
+}
+1610.10.14={
+death="1610.10.14"
+}
+} 

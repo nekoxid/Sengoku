@@ -1,0 +1,53 @@
+157 = {
+name="Mitsumasa"
+dynasty=88
+culture = japanese
+religion = buddhism
+diplomacy = 4
+intrigue = 3
+martial = 2
+add_trait = humble
+add_trait = scholar
+add_trait = naive_appeaser
+1428.1.10={
+	birth="1428.1.10"
+}
+1482.8.8={
+	death="1482.8.8"
+}
+	
+} 
+287 = {
+name="Sademasa"
+dynasty=88
+culture = japanese
+religion = buddhism
+diplomacy = 1
+martial = 2
+intrigue = 0
+father=157
+1458.5.2={
+	birth="1458.5.2"
+}
+1508.8.22={
+	death="1508.8.22"
+}
+} 
+638 = {
+name="Nagamasa"
+dynasty=88
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 10
+intrigue = 7
+add_trait = tough_soldier
+
+1512.1.1={
+birth="1512.1.1"
+}
+1563.1.1={
+death="1563.1.1"
+}
+} 

@@ -1,0 +1,547 @@
+spriteTypes = {
+	#CK2+
+	
+	spriteType = {
+		name = "GFX_trait_tall"
+		texturefile = "gfx/CK2Plus/tall.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_not_dejure_liege"
+		texturefile = "gfx/CK2Plus/not_dejure_liege.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_dishonorable1"
+		texturefile = "gfx/CK2Plus/dishonorable.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_dishonorable2"
+		texturefile = "gfx/CK2Plus/dishonorable.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_dishonorable3"
+		texturefile = "gfx/CK2Plus/dishonorable.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_dishonorable4"
+		texturefile = "gfx/CK2Plus/dishonorable.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_dishonorable5"
+		texturefile = "gfx/CK2Plus/dishonorable.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_dishonorable6"
+		texturefile = "gfx/CK2Plus/dishonorable.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_dishonorable7"
+		texturefile = "gfx/CK2Plus/dishonorable.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_dishonorable8"
+		texturefile = "gfx/CK2Plus/dishonorable.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_dishonorable9"
+		texturefile = "gfx/CK2Plus/dishonorable.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_dishonorable10"
+		texturefile = "gfx/CK2Plus/dishonorable.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_dyn_dishonorable1"
+		texturefile = "gfx/CK2Plus/dynasticstain.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_dyn_dishonorable2"
+		texturefile = "gfx/CK2Plus/dynasticstain.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_dyn_dishonorable3"
+		texturefile = "gfx/CK2Plus/dynasticstain.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_dyn_dishonorable4"
+		texturefile = "gfx/CK2Plus/dynasticstain.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_dyn_dishonorable5"
+		texturefile = "gfx/CK2Plus/dynasticstain.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_dyn_dishonorable6"
+		texturefile = "gfx/CK2Plus/dynasticstain.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_dyn_dishonorable7"
+		texturefile = "gfx/CK2Plus/dynasticstain.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_dyn_dishonorable8"
+		texturefile = "gfx/CK2Plus/dynasticstain.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_dyn_dishonorable9"
+		texturefile = "gfx/CK2Plus/dynasticstain.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_dyn_dishonorable10"
+		texturefile = "gfx/CK2Plus/dynasticstain.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_crowned_by_pope"
+		texturefile = "gfx/CK2Plus/crowned_by_pope.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	spriteType = {
+		name = "GFX_trait_recent_civil_war"
+		texturefile = "gfx/CK2Plus/placeholder.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_placeholder"
+		texturefile = "gfx/CK2Plus/placeholder.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_tyrant1"
+		texturefile = "gfx/CK2Plus/tyrant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tyrant2"
+		texturefile = "gfx/CK2Plus/tyrant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_tyrant3"
+		texturefile = "gfx/CK2Plus/tyrant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tyrant4"
+		texturefile = "gfx/CK2Plus/tyrant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_tyrant5"
+		texturefile = "gfx/CK2Plus/tyrant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_tyrant6"
+		texturefile = "gfx/CK2Plus/tyrant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tyrant7"
+		texturefile = "gfx/CK2Plus/tyrant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_tyrant8"
+		texturefile = "gfx/CK2Plus/tyrant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tyrant9"
+		texturefile = "gfx/CK2Plus/tyrant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tyrant10"
+		texturefile = "gfx/CK2Plus/tyrant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_tyrant11"
+		texturefile = "gfx/CK2Plus/tyrant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_tyrant12"
+		texturefile = "gfx/CK2Plus/tyrant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tyrant13"
+		texturefile = "gfx/CK2Plus/tyrant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_tyrant14"
+		texturefile = "gfx/CK2Plus/tyrant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_tyrant15"
+		texturefile = "gfx/CK2Plus/tyrant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tyrant16"
+		texturefile = "gfx/CK2Plus/tyrant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_tyrant17"
+		texturefile = "gfx/CK2Plus/tyrant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tyrant18"
+		texturefile = "gfx/CK2Plus/tyrant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_tyrant19"
+		texturefile = "gfx/CK2Plus/tyrant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_tyrant20"
+		texturefile = "gfx/CK2Plus/tyrant.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_old50"
+		texturefile = "gfx/CK2Plus/old.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_old60"
+		texturefile = "gfx/CK2Plus/old.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_old70"
+		texturefile = "gfx/CK2Plus/old.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_old80"
+		texturefile = "gfx/CK2Plus/old.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_old90"
+		texturefile = "gfx/CK2Plus/old.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_immortal"
+		texturefile = "gfx/CK2Plus/immortal.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_immortal2"
+		texturefile = "gfx/CK2Plus/immortal.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_divine_blood"
+		texturefile = "gfx/CK2Plus/divine_blood.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}		
+
+	spriteType = {
+		name = "GFX_trait_loyalist"
+		texturefile = "gfx/CK2Plus/loyalist.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_rebel"
+		texturefile = "gfx/CK2Plus/rebel.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	
+	spriteType = {
+		name = "GFX_trait_eunuch"
+		texturefile = "gfx/traits/eunuch.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_blinded"
+		texturefile = "gfx/traits/blinded.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_born_in_the_purple"
+		texturefile = "gfx/traits/born_in_the_purple.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_augustus"
+		texturefile = "gfx/traits/augustus.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	spriteType = {
+		name = "GFX_trait_flat_terrain_leader"
+		texturefile = "gfx/traits/flat_terrain_leader.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_rough_terrain_leader"
+		texturefile = "gfx/traits/rough_terrain_leader.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_mountain_terrain_leader"
+		texturefile = "gfx/traits/mountain_terrain_leader.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_desert_terrain_leader"
+		texturefile = "gfx/traits/desert_terrain_leader.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_holy_warrior"
+		texturefile = "gfx/traits/holy_warrior.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	
+	spriteType = {
+		name = "GFX_trait_unyielding_leader"
+		texturefile = "gfx/traits/unyielding_leader.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_young16"
+		texturefile = "gfx/CK2Plus/young.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
+		name = "GFX_trait_young6"
+		texturefile = "gfx/CK2Plus/child.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	spriteType = {
+		name = "GFX_trait_young1"
+		texturefile = "gfx/CK2Plus/child.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	spriteType = {
+		name = "GFX_trait_bloodlust"
+		texturefile = "gfx/CK2Plus/not_dejure_liege.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}

@@ -1,0 +1,14 @@
+# 246 - Mikumi
+
+# Kokujin Title
+title = c_mikumi
+
+#Settlements
+max_settlements = 3
+b_mikumi_castle = castle
+b_mikumi_city = city
+#b_mikumi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

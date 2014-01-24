@@ -1,0 +1,14 @@
+# 92 - Musa
+
+# Kokujin Title
+title = c_musa
+
+#Settlements
+max_settlements = 3
+b_musa_castle = castle
+b_musa_city = city
+#b_musa_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

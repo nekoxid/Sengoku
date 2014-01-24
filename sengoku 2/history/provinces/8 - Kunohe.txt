@@ -1,0 +1,14 @@
+# 8 - Kunohe
+
+# Kokujin Title
+title = c_kunohe
+
+#Settlements
+max_settlements = 3
+b_kunohe_castle = castle
+b_kunohe_city = city
+#b_kunohe_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,77 @@
+#############################################
+# CHARACTER NICKNAMES
+# Independent dukes, kings and emperors only
+#
+# 'factor' is the percentage per year of 
+# gaining the nickname
+#
+#############################################
+
+# TRIGGERED ONLY
+################
+
+nick_red_monk = { } #Aka-nyudo
+nick_ronin = { } #exile
+
+# GIVEN BY TRAITS
+#################
+
+nick_dishonorable = {
+	allow = {
+		age = 20
+		OR = {
+			trait = dishonorable1
+			trait = dishonorable2
+			trait = dishonorable3
+			trait = dishonorable4
+			trait = dishonorable5
+			trait = dishonorable6
+			trait = dishonorable7
+			trait = dishonorable8
+			trait = dishonorable9
+			trait = dishonorable10
+		}
+	}
+	chance = {
+		factor = 2
+		modifier = {
+			factor = 2
+			trait = dishonorable2
+		}
+		modifier = {
+			factor = 3
+			trait = dishonorable3
+		}
+		modifier = {
+			factor = 4
+			trait = dishonorable4
+		}
+		modifier = {
+			factor = 5
+			trait = dishonorable5
+		}
+		modifier = {
+			factor = 6
+			trait = dishonorable6
+		}
+		modifier = {
+			factor = 7
+			trait = dishonorable7
+		}
+		modifier = {
+			factor = 8
+			trait = dishonorable8
+		}
+		modifier = {
+			factor = 9
+			trait = dishonorable9
+		}
+		modifier = {
+			factor = 10
+			trait = dishonorable10
+		}
+	}
+}
+
+# GIVEN BY RULE
+################

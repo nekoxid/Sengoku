@@ -1,0 +1,971 @@
+###################################
+#
+# Religious Flavor Events
+# ID# 1000109493 - 1000109500 Buddhist Events
+#
+# Fired from on actions
+#
+###################################
+
+################################
+# Buddhist Events
+################################
+
+# TO hunt or not?
+character_event = {
+	id = 1000109493
+	desc = "EVTDESC1000109493"
+	picture = GFX_evt_hunt
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	only_men = yes
+	
+	trigger = {
+		is_ruler = yes
+		war = no
+		in_command = no
+		religion_group = taoic_group
+		OR = {
+			trait = hunter
+			trait = falconer
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.5
+			trait = craven
+		}
+		modifier = {
+			factor = 2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}		
+		modifier = {
+			factor = 2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.5
+			trait = patient
+		}
+		modifier = {
+			factor = 2
+			trait = hedonist
+		}
+		modifier = {
+			factor = 0.5
+			trait = celibate
+		}
+		modifier = {
+			factor = 2
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.5
+			trait = temperate
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA1000109493" #Bah who cares
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 0.5
+				trait = just
+			}
+			modifier = {
+				factor = 2
+				trait = cruel
+			}
+			modifier = {
+				factor = 0.5
+				trait = kind
+			}
+		}
+		piety = -2
+		prestige = 4
+	}		
+	option = {
+		name = "EVTOPTB1000109493" #Hmm...
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				trait = kind
+			}
+			modifier = {
+				factor = 0.5
+				trait = cruel
+			}
+			modifier = {
+				factor = 2
+				trait = zealous
+			}
+			modifier = {
+				factor = 0.5
+				trait = cynical
+			}
+		}
+		piety = 5
+		if = {
+			limit = {
+				trait = hunter
+			}
+			remove_trait = hunter
+		}
+		if = {
+			limit = {
+				trait = falconer
+			}
+			remove_trait = falconer
+		}
+	}				
+}
+
+# A Buddhist master
+character_event = {
+	id = 1000109494
+	desc = "EVTDESC1000109494"
+	picture = GFX_evt_monk_eastern_group
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = yes
+		war = no
+		in_command = no
+		religion_group = taoic_group
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = content
+		}
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}		
+		modifier = {
+			factor = 2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.5
+			trait = cynical
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA1000109494" #Me angry
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 0.5
+				trait = just
+			}
+			modifier = {
+				factor = 2
+				trait = wroth
+			}
+			modifier = {
+				factor = 0.5
+				trait = patient
+			}
+		}
+		custom_tooltip = {
+			text = where_did_he_go
+		}
+		if = {
+			limit = {
+				NOT = { trait = wroth }
+			}
+			random_list = {
+				75 = { }
+				25 = { add_trait = wroth }
+			}			
+		}
+	}		
+	option = {
+		name = "EVTOPTB1000109494" #Ok
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				trait = kind
+			}
+			modifier = {
+				factor = 0.5
+				trait = cruel
+			}
+			modifier = {
+				factor = 2
+				trait = patient
+			}
+			modifier = {
+				factor = 0.5
+				trait = wroth
+			}
+		}
+		piety = 4
+		if = {
+			limit = {
+				trait = wroth
+			}
+			random_list = {
+				75 = { }
+				25 = { remove_trait = wroth }
+			}			
+		}
+	}				
+}
+
+# Death of a bodyguard
+character_event = {
+	id = 1000109496
+	desc = "EVTDESC1000109496"
+	picture = GFX_evt_death_eastern_group
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = yes
+		war = no
+		in_command = no
+		religion_group = taoic_group
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.5
+			trait = brave
+		}
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}		
+		modifier = {
+			factor = 2
+			trait = charitable
+		}
+		modifier = {
+			factor = 0.5
+			trait = greedy
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA1000109496" #Sad
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				trait = gregarious
+			}
+			modifier = {
+				factor = 0.5
+				trait = shy
+			}
+		}
+		prestige = 2
+		if = {
+			limit = {
+				NOT = { trait = depressed }
+			}
+			random_list = {
+				90 = { }
+				10 = { add_trait = depressed }
+			}			
+		}
+	}		
+	option = {
+		name = "EVTOPTB1000109496" #Ok
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				trait = zealous
+			}
+			modifier = {
+				factor = 0.5
+				trait = gregarious
+			}
+			modifier = {
+				factor = 2
+				trait = patient
+			}
+			modifier = {
+				factor = 0.5
+				trait = wroth
+			}
+		}
+		piety = 2
+	}				
+}
+
+# Bodhidharma
+character_event = {
+	id = 1000109497
+	desc = "EVTDESC1000109497"
+	picture = GFX_evt_buddhist_pagoda
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = yes
+		war = no
+		in_command = no
+		religion_group = taoic_group
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = content
+		}
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}		
+		modifier = {
+			factor = 2
+			trait = charitable
+		}
+		modifier = {
+			factor = 0.5
+			trait = greedy
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = proud
+		}
+		modifier = {
+			factor = 0.5
+			trait = humble
+		}
+		modifier = {
+			factor = 2
+			trait = zealous
+		}
+		modifier = {
+			factor = 0.5
+			trait = cynical
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA1000109497" #lolwut
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				trait = proud
+			}
+			modifier = {
+				factor = 0.5
+				trait = humble
+			}
+		}
+		prestige = 3
+	}		
+	option = {
+		name = "EVTOPTB1000109497" #Oh!
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				trait = humble
+			}
+			modifier = {
+				factor = 0.5
+				trait = proud
+			}
+		}
+		piety = 5
+	}				
+}
+
+# Nature is to save
+character_event = {
+	id = 1000109498
+	desc = "EVTDESC1000109498"
+	picture = GFX_evt_monk_eastern_group
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = yes
+		war = no
+		in_command = no
+		religion_group = taoic_group
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 2
+			trait = ambitious
+		}
+		modifier = {
+			factor = 0.5
+			trait = content
+		}
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}		
+		modifier = {
+			factor = 2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.5
+			trait = craven
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA1000109498" #lolwut
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				trait = proud
+			}
+			modifier = {
+				factor = 0.5
+				trait = humble
+			}
+		}
+		piety = 2
+		if = {
+			limit = {
+				NOT = { trait = kind }
+			}
+			random_list = {
+				90 = { }
+				10 = { add_trait = kind }
+			}			
+		}
+	}					
+}
+
+# Begging monks
+character_event = {
+	id = 1000109499
+	desc = "EVTDESC1000109499"
+	picture = GFX_evt_buddhist_pagoda
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		is_ruler = yes
+		war = no
+		in_command = no
+		religion_group = taoic_group
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 2
+			trait = content
+		}
+		modifier = {
+			factor = 0.5
+			trait = ambitious
+		}
+		modifier = {
+			factor = 2
+			trait = slothful
+		}
+		modifier = {
+			factor = 0.5
+			trait = diligent
+		}		
+		modifier = {
+			factor = 2
+			trait = brave
+		}
+		modifier = {
+			factor = 0.5
+			trait = craven
+		}
+		modifier = {
+			factor = 2
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.5
+			trait = shy
+		}
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = arbitrary
+		}
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA1000109499" #away vile beggars
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				trait = greedy
+			}
+			modifier = {
+				factor = 0.5
+				trait = charitable
+			}
+			modifier = {
+				factor = 2
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 0.5
+				trait = kind
+			}
+		}
+		piety = -5
+		add_character_modifier = {
+			name = the_greedy
+			duration = 365
+		}
+		if = {
+			limit = {
+				NOT = { trait = greedy }
+			}
+			random_list = {
+				66 = { }
+				34 = { add_trait = greedy }
+			}			
+		}
+	}	
+	option = {
+		name = "EVTOPTB1000109499" #Leftovers
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				trait = patient
+			}
+			modifier = {
+				factor = 0.5
+				trait = greedy
+			}
+		}
+		piety = 3
+		wealth = -1
+		if = {
+			limit = {
+				trait = greedy
+			}
+			random_list = {
+				85 = { }
+				15 = { remove_trait = greedy }
+			}			
+		}
+	}	
+	option = {
+		name = "EVTOPTC1000109499" #Food
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				trait = charitable
+			}
+			modifier = {
+				factor = 0.5
+				trait = greedy
+			}
+			modifier = {
+				factor = 2
+				trait = kind
+			}
+			modifier = {
+				factor = 0.5
+				trait = envious
+			}
+			modifier = {
+				factor = 2
+				trait = zealous
+			}
+			modifier = {
+				factor = 0.5
+				trait = arbitrary
+			}
+		}
+		piety = 7
+		wealth = -10
+		if = {
+			limit = {
+				trait = greedy
+			}
+			random_list = {
+				60 = { }
+				40 = { remove_trait = greedy }
+			}			
+		}
+		if = {
+			limit = {
+				NOT = { trait = charitable }
+			}
+			random_list = {
+				60 = { }
+				40 = { add_trait = charitable }
+			}			
+		}
+	}					
+}
+
+
+# Stop with the incense!
+character_event = {
+	id = 1000109500
+	desc = "EVTDESC1000109500"
+	picture = GFX_evt_death_eastern_group
+	
+	is_triggered_only = yes
+	
+	min_age = 16
+	capable_only = yes
+	prisoner = no
+	only_men = yes
+	
+	trigger = {
+		is_ruler = yes
+		war = no
+		in_command = no
+		religion_group = taoic_group
+		is_married = yes
+		prisoner = no
+		spouse = {
+			religion_group = taoic_group
+			prisoner = no
+			is_alive = yes
+			is_abroad = no
+			at_location = ROOT
+			OR = {
+				trait = zealous
+				trait = mystic
+				trait = temperate
+				trait = diligent
+			}
+			NOT = { trait = incapable }
+			NOT = { trait = cynical }
+			NOT = { trait = slothful }
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		
+		modifier = {
+			factor = 2
+			trait = hedonist
+		}
+		modifier = {
+			factor = 0.5
+			trait = content
+		}
+		modifier = {
+			factor = 2
+			trait = kind
+		}
+		modifier = {
+			factor = 0.5
+			trait = slothful
+		}		
+		modifier = {
+			factor = 2
+			trait = just
+		}
+		modifier = {
+			factor = 0.5
+			trait = zealous
+		}
+		modifier = {
+			factor = 2
+			trait = wroth
+		}
+		modifier = {
+			factor = 0.5
+			trait = patient
+		}
+		modifier = {
+			factor = 2
+			trait = humble
+		}
+		modifier = {
+			factor = 0.5
+			trait = proud
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA1000109500" #stop it
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				trait = wroth
+			}
+			modifier = {
+				factor = 0.5
+				trait = patient
+			}
+			modifier = {
+				factor = 2
+				trait = arbitrary
+			}
+			modifier = {
+				factor = 0.5
+				trait = just
+			}
+		}
+		prestige = 4
+		spouse = {
+			opinion = {
+				modifier = opinion_unhappy
+				who = ROOT
+				years = 1
+			}
+		}
+
+	}	
+	option = {
+		name = "EVTOPTB1000109500" #it hurts people
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				trait = kind
+			}
+			modifier = {
+				factor = 0.5
+				trait = envious
+			}
+			modifier = {
+				factor = 2
+				trait = just
+			}
+			modifier = {
+				factor = 0.5
+				trait = zealous
+			}
+		}
+		piety = 2
+		prestige = 2
+		if = {
+			limit = {
+				spouse = {
+					NOT = { trait = kind }
+					NOT = { trait = zealous }
+				}
+			}
+			spouse = {
+				opinion = {
+					modifier = opinion_furious
+					who = ROOT
+					years = 1
+				}
+			}
+		}
+		if = {
+			limit = {
+				spouse = {
+					OR = {
+						trait = kind
+						trait = zealous
+					}
+				}
+			}
+			spouse = {
+				opinion = {
+					modifier = opinion_convinced
+					who = ROOT
+					years = 1
+				}
+			}
+		}
+	}	
+	option = {
+		name = "EVTOPTC1000109500" #Don't care
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 2
+				trait = slothful
+			}
+			modifier = {
+				factor = 0.5
+				trait = diligent
+			}
+			modifier = {
+				factor = 2
+				trait = content
+			}
+			modifier = {
+				factor = 0.5
+				trait = just
+			}
+		}
+		prestige = -2
+		if = {
+			limit = {
+				NOT = { trait = arbitrary }
+			}
+			random_list = {
+				85 = { }
+				15 = { add_trait = arbitrary }
+			}			
+		}
+	}					
+}

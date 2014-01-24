@@ -1,0 +1,14 @@
+# 263 - Joto
+
+# Kokujin Title
+title = c_joto
+
+#Settlements
+max_settlements = 3
+b_joto_castle = castle
+b_joto_city = city
+#b_joto_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

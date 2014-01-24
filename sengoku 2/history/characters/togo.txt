@@ -1,0 +1,55 @@
+1023 = {
+name="Yoriyuki"
+dynasty=149
+culture = japanese
+religion = buddhism
+
+diplomacy = 8
+martial = 8
+intrigue = 9
+add_trait = tough_soldier
+
+1517.1.1={
+birth="1517.1.1"
+}
+1517.1.1={
+employer = 531
+}
+1566.1.1={
+death="1566.1.1"
+}
+} 
+218 = {
+name="Shigenobu"
+dynasty=149
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 2	
+intrigue = 3
+add_trait = quick
+add_trait = scholar
+add_trait = charismatic_negotiator
+1430.1.1={
+	birth="1430.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+397 = {
+name="Shigetada"
+dynasty=149
+culture = japanese
+religion = buddhism
+diplomacy = 0
+martial = 1
+intrigue = 1
+father=218
+1460.1.1={
+	birth="1460.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 

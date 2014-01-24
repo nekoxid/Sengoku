@@ -1,0 +1,14 @@
+# 126 - Imizu
+
+# Kokujin Title
+title = c_imizu
+
+#Settlements
+max_settlements = 3
+b_imizu_castle = castle
+b_imizu_city = city
+#b_imizu_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

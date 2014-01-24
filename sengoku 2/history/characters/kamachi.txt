@@ -1,0 +1,70 @@
+167 = {
+name="Yoshihisa"
+dynasty=98
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 4
+intrigue = 5
+add_trait = amateurish_plotter
+1406.9.14={
+	birth="1406.9.14"
+}
+1469.10.12={
+	death="1469.10.12"
+}
+} 
+263 = {
+name="Shigehisa"
+dynasty=98
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 3
+intrigue = 3
+add_trait = naive_appeaser
+father=167
+1429.11.22={
+	birth="1429.11.22"
+}
+1506.5.13={
+	death="1506.5.13"
+}
+} 
+528 = {
+name="Akimori"
+dynasty=98
+culture = japanese
+religion = buddhism
+
+diplomacy = 13
+martial = 11
+intrigue = 14
+add_trait = skilled_tactician
+
+1520.1.1={
+birth="1520.1.1"
+}
+1578.12.7={
+death="1578.12.7"
+}
+} 
+740 = {
+name="Shigenami"
+dynasty=98
+culture = japanese
+religion = buddhism
+father=528
+
+diplomacy = 11
+martial = 10
+intrigue = 9
+add_trait = skilled_tactician
+
+1547.1.1={
+birth="1547.1.1"
+}
+1581.7.18={
+death="1581.7.18"
+}
+} 

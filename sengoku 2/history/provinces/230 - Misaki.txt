@@ -1,0 +1,14 @@
+# 230 - Misaki
+
+# Kokujin Title
+title = c_misaki
+
+#Settlements
+max_settlements = 3
+b_misaki_castle = castle
+b_misaki_city = city
+#b_misaki_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

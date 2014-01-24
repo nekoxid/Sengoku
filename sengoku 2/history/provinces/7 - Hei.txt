@@ -1,0 +1,14 @@
+# 7 - Hei
+
+# Kokujin Title
+title = c_hei
+
+#Settlements
+max_settlements = 3
+b_hei_castle = castle
+b_hei_city = city
+b_hei_temple = temple
+
+#Misc
+religion = pure_land_buddhism
+culture = japanese

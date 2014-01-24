@@ -1,0 +1,14 @@
+# 354 - Sawata
+
+# Kokujin Title
+title = c_sawata
+
+#Settlements
+max_settlements = 3
+b_sawata_castle = castle
+b_sawata_city = city
+#b_sawata_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

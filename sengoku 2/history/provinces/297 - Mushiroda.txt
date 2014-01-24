@@ -1,0 +1,22 @@
+# 297 - Mushiroda
+
+# Kokujin Title
+title = c_mushiroda
+
+#Settlements
+max_settlements = 3
+b_mushiroda_castle = castle
+b_mushiroda_city = city
+#b_mushiroda_temple = temple
+
+#building=inn
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9={
+	#building=marketplace
+
+	#effect = { western = yes }
+}

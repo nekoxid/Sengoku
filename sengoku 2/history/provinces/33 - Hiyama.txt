@@ -1,0 +1,14 @@
+# 33 - Hiyama
+
+# Kokujin Title
+title = c_hiyama
+
+#Settlements
+max_settlements = 3
+b_hiyama_castle = castle
+b_hiyama_city = city
+#b_hiyama_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,19 @@
+# 221 - Nagusa
+
+# Kokujin Title
+title = c_nagusa
+
+#Settlements
+max_settlements = 3
+b_nagusa_castle = castle
+b_nagusa_city = city
+#b_nagusa_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#building=gunsmith
+	#effect = { western = yes }
+}

@@ -1,0 +1,10 @@
+spriteTypes = {
+	#sengoku
+	spriteType = {
+		name = "GFX_obj_become_emperor"
+		texturefile = "gfx/CK2Plus/obj_be_emperor.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+}

@@ -1,0 +1,14 @@
+# 336 - Uwa
+
+# Kokujin Title
+title = c_uwa
+
+#Settlements
+max_settlements = 3
+b_uwa_castle = castle
+b_uwa_city = city
+#b_uwa_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

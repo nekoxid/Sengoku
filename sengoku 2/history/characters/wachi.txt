@@ -1,0 +1,21 @@
+591 = {
+name="Masaharu"
+dynasty=226
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 5
+intrigue = 9
+add_trait = amateurish_plotter
+
+1528.1.1={
+birth="1528.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1568.1.1={
+death="1568.1.1"
+}
+} 

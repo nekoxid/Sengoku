@@ -1,0 +1,14 @@
+# 258 - Yakami
+
+# Kokujin Title
+title = c_yakami
+
+#Settlements
+max_settlements = 3
+b_yakami_castle = castle
+b_yakami_city = city
+#b_yakami_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

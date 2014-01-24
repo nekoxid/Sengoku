@@ -1,0 +1,14 @@
+# 192 - Ahai
+
+# Kokujin Title
+title = c_ahai
+
+#Settlements
+max_settlements = 3
+b_ahai_castle = castle
+b_ahai_city = city
+#b_ahai_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

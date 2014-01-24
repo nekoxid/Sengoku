@@ -1,0 +1,14 @@
+# 183 - Iino
+
+# Kokujin Title
+title = c_iino
+
+#Settlements
+max_settlements = 3
+b_iino_castle = castle
+b_iino_city = city
+b_iino_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

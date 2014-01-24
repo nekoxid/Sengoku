@@ -1,0 +1,14 @@
+# 121 - Iwata
+
+# Kokujin Title
+title = c_iwata
+
+#Settlements
+max_settlements = 3
+b_iwata_castle = castle
+b_iwata_city = city
+#b_iwata_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

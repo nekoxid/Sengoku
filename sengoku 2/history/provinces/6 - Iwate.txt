@@ -1,0 +1,14 @@
+# 6 - Iwate
+
+# Kokujin Title
+title = c_iwate
+
+#Settlements
+max_settlements = 3
+b_iwate_castle = castle
+b_iwate_city = city
+#b_iwate_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

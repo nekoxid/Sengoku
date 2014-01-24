@@ -1,0 +1,14 @@
+# 179 - Takashima
+
+# Kokujin Title
+title = c_takashima
+
+#Settlements
+max_settlements = 3
+b_takashima_castle = castle
+b_takashima_city = city
+#b_takashima_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

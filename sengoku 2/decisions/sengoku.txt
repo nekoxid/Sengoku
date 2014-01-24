@@ -1,0 +1,325 @@
+decisions = {
+
+	hold_a_budo  = {
+		is_high_prio = yes
+		potential = {
+			NOT = {
+				has_character_flag = epic_tournament_budo
+			}
+			independent = yes
+			is_female = no
+			OR = {
+				tier = king
+				tier = emperor
+			}
+			location = {
+				owner = { character = ROOT }
+			}
+			culture = japanese
+		}
+		allow = {
+			war = no
+			prisoner = no
+			in_command = no
+			age = 16
+			prestige = 500
+			wealth = 200
+		}
+		effect = {
+			set_character_flag = epic_tournament_budo
+			clr_character_flag = tournament_has_ended_budo
+			wealth = -200
+			prestige = 100
+			decadence = -2
+			character_event = { id = BUDO.283 tooltip = "budo_invite" }
+			hidden_tooltip = {
+				character_event = { id = BUDO.251 days = 60 } # Tournament start
+				clr_character_flag = tournament_has_ended_budo
+				any_realm_character = {
+					limit = {
+						is_feudal = yes
+						NOT = { has_job_title = job_spiritual }
+						age = 16
+						NOT = { age = 50 }
+						NOT = { trait = incapable }
+						prisoner = no
+						is_female = no
+					}
+					clr_character_flag = tournament_has_ended_budo
+					character_event = { id = BUDO.250 }
+				}
+				if = {
+					limit = { religion_group = muslim }
+					any_dynasty_member = {
+						limit = {
+							ai = no
+							NOT = { character = ROOT }
+							religion_group = muslim
+						}
+						character_event = { id = BUDO.300 }
+					}
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				NOT = {
+					OR = {
+						wealth = 1000
+						scaled_wealth = 3.0
+					}
+				}
+			}
+		}
+	}
+
+	claim_kyoto = {
+		is_high_prio = yes
+		potential = {
+			NOT = { has_landed_title = c_kadono }
+			has_landed_title = e_japan
+			any_realm_lord = {
+				ai = yes
+				has_landed_title = c_kadono
+			}
+		}
+		allow = {
+			NOT = { has_landed_title = c_kadono }
+			any_realm_lord = {
+				has_landed_title = c_kadono
+			}
+		}
+		effect = {
+			ROOT = {
+				c_kadono = {
+					usurp_title_plus_barony_if_unlanded_and_vassals = PREV
+				}
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	# make_kyoto_capital = {
+		# is_high_prio = yes
+		# potential = {
+			# has_landed_title = e_japan
+			# capital_scope = {
+				# NOT = { province_id = 203 }
+			# }
+			# any_realm_lord = {
+				# AND = {
+					# ai = yes
+					# has_landed_title = c_kadono
+				# }
+			# }
+			# any_realm_lord = {
+				# AND = {
+					# ai = yes
+					# has_landed_title = b_chrysanthemum_throne
+				# }
+			# }
+		# }
+		# allow = {
+			# has_landed_title = e_japan
+			# any_realm_lord = { has_landed_title = c_kadono }
+		# }
+		# effect = {
+			# custom_tooltip = kyoto_capital
+			# hidden_tooltip = {
+				# b_chrysanthemum_throne = { province_capital = yes }
+				# ROOT = {
+					# b_chrysanthemum_throne = {
+						# usurp_title = PREV
+					# }
+				# }
+				# b_chrysanthemum_throne = {
+					# ROOT = { capital = PREV }
+				# }
+			# }
+		# }
+		# ai_will_do = {
+			# factor = 0
+		# }
+	# }
+	# imperial_sanction  = {
+		# is_high_prio = yes
+		# potential = {
+			# is_feudal = yes
+			# NOT = {
+				# has_character_flag = wants_coronation
+			# }
+			# #not = { trait = excommunicated }
+			# independent = yes
+			# #religion = catholic
+			# religion_group = taoic_group
+			# NOT = { is_heretic = yes }
+			# NOT = { trait = incapable }
+			# NOT = { trait = sanctioned_by_emperor }
+			# tier = emperor
+			# has_landed_title = e_shogunate
+			# age = 16
+			# culture = japanese
+		# }
+		# allow = {
+			# war = no
+			# prisoner = no
+			# prestige = 1000
+			# wealth = 200
+			# piety = 200
+			# rightful_religious_head_scope = {
+				# not = {
+					# has_opinion_modifier = {
+						# who = ROOT
+						# modifier = coronation_rejected
+					# }
+				# }
+			# }
+							
+		# }
+		# effect = {
+			# set_character_flag = wants_coronation
+			# wealth = -200
+			# character_event = { id = 2002000 }
+		# }
+		# ai_will_do = {
+			# factor = 1
+		# }
+	# }
+	
+	give_to_charity = {
+		potential = {
+			ai = no
+			religion_group = taoic_group
+			age = 16
+			demesne_size = 1
+			NOT = { has_character_flag = voluntary_charity }
+			rightful_religious_head_scope = {	
+				NOT = {
+					character = ROOT
+				}
+				NOT = {
+					has_opinion_modifier = { who = ROOT modifier = opinion_charity }
+				}
+			}
+		}
+		allow = {
+			scaled_wealth = 1.0
+			is_heretic = no
+		}
+		effect = {
+			set_character_flag = voluntary_charity
+			scaled_wealth = -0.25
+			piety = 25
+			#custom_tooltip = RELIGIOUSFACTIONMOODPLUS
+			#change_variable = { which = "faction_mood_religious" value = 1 }
+			#hidden_tooltip = { random_courtier = { limit = { ai = yes } character_event = { id = 110073 days = 1 } } }
+			rightful_religious_head_scope = {
+				character_event = { id = 31000 days = 5 random = 12 tooltip = "give_voluntary_charity" }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				ai = yes
+				OR = {
+					NOT = { scaled_wealth = 10.0 }
+					piety = 0
+				}
+			}
+		}
+	}
+	
+	commit_seppuku = {
+		potential = {
+			age = 16
+			is_female = no
+			culture = japanese
+			NOT = { religion_group = christian }
+		}
+		allow = {
+			NOT = { trait = depressed }
+			NOT = { trait = incapable }
+			OR = {
+				#NOT = { prestige = 0 }
+				#NOT = { piety = 0 }
+				#trait = kinslayer
+				trait = dishonorable1
+				trait = dishonorable2
+				trait = dishonorable3
+				trait = dishonorable4
+				trait = dishonorable5
+				trait = dishonorable6
+				trait = dishonorable7
+				trait = dishonorable8
+				trait = dishonorable9
+				trait = dishonorable10
+			}
+		}
+		effect = {
+			prestige = 100
+			hidden_tooltip = {
+				remove_trait = dishonorable1
+				remove_trait = dishonorable2
+				remove_trait = dishonorable3
+				remove_trait = dishonorable4
+				remove_trait = dishonorable5
+				remove_trait = dishonorable6
+				remove_trait = dishonorable7
+				remove_trait = dishonorable8
+				remove_trait = dishonorable9
+				remove_trait = dishonorable10
+			}
+			death = { death_reason = death_suicide }
+		}
+		revoke_allowed = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
+			modifier = {
+				factor = 0
+				trait = craven
+			}
+			modifier = {
+				factor = 0
+				has_nickname = nick_ronin
+			}
+		}
+	}
+	
+	# commit_jigai = {
+		# potential = {
+			# age = 16
+			# is_female = yes
+			# culture = japanese
+			# NOT = { religion_group = christian }
+		# }
+		# allow = {
+			# NOT = { trait = depressed }
+			# NOT = { trait = incapable }
+			# is_married = no
+			# any_spouse_even_if_dead = {
+				# count = 1
+				# is_alive = no
+				# death_reason = death_suicide
+				# NOT = { trait = depressed }
+			# }
+		# }
+		# effect = {
+			# prestige = 100
+			# death = { death_reason = death_suicide }
+		# }
+		# revoke_allowed = {
+			# always = no
+		# }
+		# ai_will_do = {
+			# factor = 0
+		# }
+	# }
+}
+

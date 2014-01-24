@@ -1,0 +1,14 @@
+# 79 - Chichibu
+
+# Kokujin Title
+title = c_chichibu
+
+#Settlements
+max_settlements = 3
+b_chichibu_castle = castle
+b_chichibu_city = city
+#b_chichibu_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

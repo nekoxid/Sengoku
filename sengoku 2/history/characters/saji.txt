@@ -1,0 +1,50 @@
+215 = {
+name="Munetsuna"
+dynasty=146
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 2
+intrigue = 4
+add_trait = flamboyant_schemer
+1430.1.1={
+	birth="1430.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+401 = {
+name="Munesada"
+dynasty=146
+culture = japanese
+religion = buddhism
+diplomacy = 1
+martial = 1
+intrigue = 0
+father=215
+1460.1.1={
+	birth="1460.1.1"
+}
+1532.4.5={
+	death="1532.4.5"
+}
+} 
+676 = {
+name="Tamekage"
+dynasty=146
+culture = japanese
+religion = buddhism
+
+diplomacy = 6
+martial = 7
+intrigue = 7
+add_trait = amateurish_plotter
+
+1530.1.1={
+birth="1530.1.1"
+}
+1583.1.1={
+death="1583.1.1"
+}
+} 

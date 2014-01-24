@@ -1,0 +1,57 @@
+25 = {
+name="Yoshiharu"
+dynasty=18
+culture = japanese
+religion = shinto
+#is_clan_leader = yes
+diplomacy = 5
+martial = 4
+intrigue = 4
+add_trait = misguided_warrior
+1430.1.5={
+	birth="1430.1.5"
+}
+1474.4.7={
+	death="1474.4.7"
+}
+} 
+544 = {
+name="Yoshimori"
+dynasty=18
+culture = japanese
+religion = shinto
+
+diplomacy = 6
+martial = 7
+intrigue = 6
+add_trait = naive_appeaser
+
+1521.1.1={
+birth="1521.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1590.6.19={
+death="1590.6.19"
+}
+} 
+899 = {
+name="Yoshiaki"
+dynasty=18
+culture = japanese
+religion = shinto
+father=544
+diplomacy = 12
+martial = 11
+intrigue = 11
+add_trait = brilliant_strategist
+add_trait = quick
+
+1546.2.1={
+birth="1546.2.1"
+}
+1614.2.26={
+death="1614.2.26"
+}
+} 

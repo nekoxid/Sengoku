@@ -1,0 +1,52 @@
+182 = {
+name="Kanetaka"
+dynasty=113
+culture = japanese
+religion = buddhism
+diplomacy = 2
+intrigue = 3
+martial = 4
+add_trait = charitable
+add_trait = underhanded_rogue
+1423.3.14={
+	birth="1423.3.14"
+}
+1485.9.7={
+	death="1485.9.7"
+}
+} 
+372 = {
+name="Sadakane"
+dynasty=113
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 3
+intrigue = 2
+#add_trait = bushi
+father=182
+1455.10.8={
+	birth="1455.10.8"
+}
+1526.12.14={
+	death="1526.12.14"
+}
+} 
+635 = {
+name="Fujikane"
+dynasty=113
+culture = japanese
+religion = buddhism
+
+diplomacy = 11
+martial = 9
+intrigue = 11
+add_trait = tough_soldier
+
+1529.1.1={
+birth="1529.1.1"
+}
+1597.1.18={
+death="1597.1.18"
+}
+} 

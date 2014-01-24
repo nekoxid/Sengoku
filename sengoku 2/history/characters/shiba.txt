@@ -1,0 +1,235 @@
+108 = {
+name="Yoshitoshi"
+dynasty=33
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 5
+intrigue = 3
+add_trait = naive_appeaser
+add_trait = wroth
+
+1430.3.19={
+	birth="1430.3.19"
+}
+1467.5.26={
+	#is_civil_war_leader = yes
+}
+1490.12.1={
+	death="1490.12.1"
+}
+} 
+40 = {
+name="Yoshikado"
+dynasty=33
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 4
+martial = 6
+intrigue = 4
+add_trait = stressed
+add_trait = misguided_warrior
+1432.1.14={
+	birth="1432.1.14"
+}
+1480.9.28={
+	death="1480.9.28"
+}
+} 
+667 = {
+name="Yoshimune"
+dynasty=33
+culture = japanese
+religion = buddhism
+diplomacy = 8
+martial = 3
+intrigue = 6
+add_trait = naive_appeaser
+
+1513.1.1={
+birth="1513.1.1"
+}
+1551.4.9={
+	employer = 559
+}
+1554.8.10={
+death="1554.8.10"
+}
+} 
+668 = {
+name="Katsuie"
+dynasty=237
+culture = japanese
+religion = buddhism
+
+diplomacy = 14
+martial = 11
+intrigue = 12
+add_trait = skilled_tactician
+add_trait = brave
+add_trait = quick
+add_trait = trusting
+
+1522.1.1={
+birth="1522.1.1"
+}
+1583.6.14={
+death="1583.6.14"
+}
+} 
+675 = {
+name="Yoshikane"
+dynasty=33
+culture = japanese
+religion = buddhism
+father=667
+
+
+diplomacy = 7
+martial = 4
+intrigue = 5
+
+1540.1.1={
+birth="1540.1.1"
+}
+1551.4.9={ employer = 559 }
+1600.9.23={
+death="1600.9.23"
+}
+} 
+800 = {
+name="Hideyoshi"
+#Alternative name: Toyotomi Hideyoshi
+dynasty=337
+culture = japanese
+religion = buddhism
+
+diplomacy = 11
+martial = 13
+intrigue = 14
+add_trait = grey_eminence
+add_trait = genius
+add_trait = ambitious
+
+1537.3.17={
+birth="1537.3.17"
+}
+1537.3.17={
+employer = 523
+}
+1598.9.18={
+death="1598.9.18"
+}
+} 
+855 = {
+name="Tsunasada"
+dynasty=308
+culture = japanese
+religion = buddhism
+diplomacy = 7
+martial = 8
+intrigue = 5
+add_trait = amateurish_plotter
+
+1512.1.1={
+birth="1512.1.1"
+}
+1561.1.1={
+death="1561.1.1"
+}
+} 
+856 = {
+name="Nagaatsu"
+dynasty=308
+culture = japanese
+religion = buddhism
+father=855
+diplomacy = 9
+martial = 8
+intrigue = 8
+add_trait = tough_soldier
+
+1538.1.1={
+birth="1538.1.1"
+}
+1580.1.1={
+death="1580.1.1"
+}
+} 
+857 = {
+name="Shigeie"
+dynasty=308
+culture = japanese
+religion = buddhism
+father=855
+diplomacy = 6
+martial = 12
+intrigue = 8
+add_trait = skilled_tactician
+
+1547.1.1={
+birth="1547.1.1"
+}
+1587.11.25={
+death="1587.11.25"
+}
+} 
+891 = {
+name="Akizane"
+dynasty=316
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 8
+intrigue = 7
+add_trait = naive_appeaser
+
+1519.1.1={
+birth="1519.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1572.1.1={
+death="1572.1.1"
+}
+} 
+892 = {
+name="Akizane"
+dynasty=316
+culture = japanese
+religion = buddhism
+father=891
+diplomacy = 4
+martial = 7
+intrigue = 6
+add_trait = misguided_warrior
+
+1548.1.1={
+birth="1548.1.1"
+}
+1597.1.1={
+death="1597.1.1"
+}
+} 
+92 = {
+name="Yoshitoshi"
+dynasty=33
+culture = japanese
+religion = buddhism
+father=40
+diplomacy = 2
+martial = 3
+intrigue = 2
+add_trait = proud
+add_trait = naive_appeaser
+
+1458.7.21={
+	birth="1458.7.21"
+}
+1514.1.24={
+	death="1514.1.24"
+}
+} 

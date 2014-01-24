@@ -1,0 +1,22 @@
+# Types:
+# 0 - Light Infantry
+# 1 - Heavy Infantry
+# 2 - Pikemen
+# 3 - Light Cavalry
+# 4 - Heavy Cavalry
+# 5 - Archers
+# 6 - Horse Archers
+
+RETTYPE_CUL_JAP =
+{
+	first_type = 4
+	first_amount = 500
+	
+	potential = {
+		culture = japanese
+	}
+	
+	modifier = {
+		knights_offensive = 0.6
+	}		
+}

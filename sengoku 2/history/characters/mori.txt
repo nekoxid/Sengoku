@@ -1,0 +1,75 @@
+190 = {
+name="Toyomoto"
+dynasty=121
+culture = japanese
+religion = buddhism
+diplomacy = 4
+intrigue = 4
+martial = 4
+add_trait = flamboyant_schemer
+1444.7.1={
+	birth="1444.7.1"
+}
+1476.8.17={
+	death="1476.8.17"
+}
+} 
+296 = {
+name="Hiromoto"
+dynasty=121
+culture = japanese
+religion = buddhism
+diplomacy = 0
+martial = 0
+intrigue = 1
+father=190
+1466.2.14={
+	birth="1466.2.14"
+}
+1506.8.18={
+	death="1506.8.18"
+}
+} 
+545 = {
+name="Motonari"
+dynasty=121
+culture = japanese
+religion = buddhism
+
+diplomacy = 17
+martial = 10
+intrigue = 12
+add_trait = elusive_shadow
+add_trait = genius
+
+1497.4.16={
+birth="1497.4.16"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1571.7.6={
+death="1571.7.6"
+}
+} 
+783 = {
+name="Takamoto"
+dynasty=121
+culture = japanese
+religion = buddhism
+father = 545
+
+diplomacy = 11
+martial = 12
+intrigue = 11
+add_trait = charismatic_negotiator
+add_trait = brave
+add_trait = patient
+
+1523.1.1={
+birth="1523.1.1"
+}
+1563.9.18={
+death="1563.9.18"
+}
+} 

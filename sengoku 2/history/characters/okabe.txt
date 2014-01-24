@@ -1,0 +1,86 @@
+1001 = {
+name="Masatsuna"
+dynasty=240
+culture = japanese
+religion = buddhism
+father = 1024
+
+diplomacy = 7
+martial = 10
+intrigue = 8
+add_trait = tough_soldier
+
+1547.1.1={
+birth="1547.1.1"
+}
+1547.1.1={
+employer=523
+}
+1584.1.20={
+death="1584.1.20"
+}
+} 
+1024 = {
+name="Hisatsuna"
+dynasty=240
+culture = japanese
+religion = buddhism
+father = 685
+
+diplomacy = 7
+martial = 7
+intrigue = 8
+add_trait = naive_appeaser
+
+1522.1.1={
+birth="1522.1.1"
+}
+1547.1.1={
+employer=523
+}
+1551.4.9={
+death="1551.4.9"
+}
+} 
+685 = {
+name="Chikatsuna"
+dynasty=240
+culture = japanese
+religion = buddhism
+diplomacy = 12
+martial = 11
+intrigue = 11
+add_trait = skilled_tactician
+
+1498.1.1={
+birth="1498.1.1"
+}
+1551.4.9={
+employer=523
+}
+1562.1.1={
+death="1562.1.1"
+}
+} 
+686 = {
+name="Sadatsuna"
+dynasty=240
+culture = japanese
+religion = buddhism
+father = 685
+
+diplomacy = 7
+martial = 6
+intrigue = 6
+add_trait = misguided_warrior
+
+1525.1.1={
+birth="1525.1.1"
+}
+1551.4.9={
+employer=523
+}
+1575.1.1={
+death="1575.1.1"
+}
+} 

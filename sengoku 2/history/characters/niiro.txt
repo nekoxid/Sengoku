@@ -1,0 +1,22 @@
+737 = {
+name="Tadamoto"
+dynasty=252
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 11
+intrigue = 12
+add_trait = skilled_tactician
+add_trait = poet
+
+1526.1.1={
+birth="1526.1.1"
+}
+1551.4.9={
+employer=575
+}
+1611.1.16={
+death="1611.1.16"
+}
+} 

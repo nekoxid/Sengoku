@@ -1,0 +1,14 @@
+# 110 - Azumi
+
+# Kokujin Title
+title = c_azumi
+
+#Settlements
+max_settlements = 3
+b_azumi_castle = castle
+b_azumi_city = city
+#b_azumi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

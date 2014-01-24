@@ -1,0 +1,14 @@
+# 222 - Arida
+
+# Kokujin Title
+title = c_arida
+
+#Settlements
+max_settlements = 3
+b_arida_castle = castle
+b_arida_city = city
+#b_arida_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

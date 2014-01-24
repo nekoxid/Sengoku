@@ -1,0 +1,125 @@
+248 = {
+name="Nariie"
+dynasty=179
+culture = japanese
+religion = buddhism
+diplomacy = 3
+intrigue = 3
+martial = 3
+#add_trait = bushi
+add_trait = naive_appeaser
+1431.12.14={
+	birth="1431.12.14"
+}
+1490.5.22={
+	death="1490.5.22"
+}
+} 
+323 = {
+name="Narimori"
+dynasty=179
+culture = japanese
+religion = buddhism
+diplomacy = 1
+martial = 0
+intrigue = 1
+father=248
+1462.3.20={
+	birth="1462.3.20"
+}
+1483.9.11={
+	death="1483.9.11"
+}
+} 
+719 = {
+name="Naganori"
+dynasty=179
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 6
+intrigue = 11
+add_trait = intricate_webweaver
+
+1491.1.1={
+birth="1491.1.1"
+}
+1551.6.8={
+death="1551.6.8"
+}
+} 
+720 = {
+name="Shizuka"
+dynasty=179
+culture = japanese
+religion = buddhism
+
+father=719
+
+diplomacy = 7
+martial = 8
+intrigue = 6
+
+1531.1.1={
+birth="1531.1.1"
+}
+1595.1.1={
+death="1595.1.1"
+}
+} 
+721 = {
+name="Nobunori"
+dynasty=179
+culture = japanese
+religion = buddhism
+father=719
+
+diplomacy = 9
+martial = 8
+intrigue = 11
+add_trait = flamboyant_schemer
+
+1528.1.1={
+birth="1528.1.1"
+}
+1572.1.1={
+death="1572.1.1"
+}
+} 
+816 = {
+name="Tsugumitsu"
+dynasty=179
+culture = japanese
+religion = buddhism
+diplomacy = 9 
+martial = 7
+intrigue = 6
+add_trait = amateurish_plotter
+add_trait = envious
+
+1530.1.1={
+birth="1530.1.1"
+}
+1581.7.27={
+death="1581.7.27"
+}
+} 
+817 = {
+name="Morimitsu"
+dynasty=179
+culture = japanese
+religion = buddhism
+father=816
+diplomacy = 4 
+martial = 6
+intrigue = 4
+add_trait = amateurish_plotter
+
+1550.1.1={
+birth="1550.1.1"
+}
+1581.7.27={
+death="1581.7.27"
+}
+} 

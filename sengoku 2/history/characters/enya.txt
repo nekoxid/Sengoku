@@ -1,0 +1,16 @@
+221 = {
+name="Sadakiyo"
+dynasty=152
+culture = japanese
+religion = shinto
+diplomacy = 3	
+martial = 3	
+intrigue = 3	
+add_trait = misguided_warrior
+1449.2.1={
+	birth="1449.2.1"
+}
+1503.9.5={
+	death="1503.9.5"
+}
+} 

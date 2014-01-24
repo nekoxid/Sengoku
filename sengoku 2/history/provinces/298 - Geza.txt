@@ -1,0 +1,18 @@
+# 298 - Geza
+
+# Kokujin Title
+title = c_geza
+
+#Settlements
+max_settlements = 3
+b_geza_castle = castle
+b_geza_city = city
+#b_geza_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

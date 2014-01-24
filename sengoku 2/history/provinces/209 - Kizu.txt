@@ -1,0 +1,18 @@
+# 209 - Kizu
+
+# Kokujin Title
+title = c_kizu
+
+#Settlements
+max_settlements = 3
+b_kizu_castle = castle
+b_kizu_city = city
+#b_kizu_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

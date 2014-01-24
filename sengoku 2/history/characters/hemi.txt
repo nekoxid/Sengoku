@@ -1,0 +1,34 @@
+147 = {
+name="Shigetsune"
+dynasty=78
+culture = japanese
+religion = buddhism
+diplomacy = 5
+martial = 5
+intrigue = 4
+add_trait = tough_soldier
+
+1428.3.18={
+	birth="1428.3.18"
+}
+1470.10.5={
+	death="1470.10.5"
+}
+} 
+843 = {
+name="Masatsune"
+dynasty=78
+culture = japanese
+religion = buddhism
+diplomacy = 7
+martial = 7
+intrigue = 6
+add_trait = amateurish_plotter
+
+1522.1.1={
+birth="1522.1.1"
+}
+1581.4.29={
+death="1581.4.29"
+}
+} 

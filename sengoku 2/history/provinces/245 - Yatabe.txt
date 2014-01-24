@@ -1,0 +1,19 @@
+# 245 - Yatabe
+
+# Kokujin Title
+title = c_yatabe
+
+#Settlements
+max_settlements = 3
+b_yatabe_castle = castle
+b_yatabe_city = city
+#b_yatabe_temple = temple
+
+#building=inn
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

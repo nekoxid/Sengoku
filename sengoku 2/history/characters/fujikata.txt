@@ -1,0 +1,37 @@
+709 = {
+name="Tomonari"
+dynasty=245
+culture = japanese
+religion = buddhism
+father=710
+
+diplomacy = 10
+martial = 8
+intrigue = 9
+add_trait = flamboyant_schemer
+
+1530.1.1={
+birth="1530.1.1"
+}
+1597.1.1={
+death="1597.1.1"
+}
+} 
+710 = {
+name="Noriyoshi"
+dynasty=245
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 6
+intrigue = 6
+add_trait = misguided_warrior
+
+1508.1.1={
+birth="1508.1.1"
+}
+1576.1.1={
+death="1576.1.1"
+}
+} 

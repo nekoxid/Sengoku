@@ -1,0 +1,14 @@
+# 112 - Saku
+
+# Kokujin Title
+title = c_saku
+
+#Settlements
+max_settlements = 3
+b_saku_castle = castle
+b_saku_city = city
+#b_saku_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

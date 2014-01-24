@@ -1,0 +1,24 @@
+1318.3.29 = {
+	liege="e_japan"
+	law = succ_primogeniture
+}
+1338.2.23 = {
+	#de_jure_liege="e_shogunate"
+	liege="e_shogunate"
+}
+1403.5.22 = {
+	#liege= "k_saikaido"
+}
+1467.5.26 = {
+	#liege="k_clanleader_34"
+}
+1467.5.26 = {
+	holder=265
+}
+1551.4.9 = {
+	#liege="k_clanleader_34"
+	liege="e_shogunate"
+}
+1551.4.9 = {
+	holder=0 #575
+}

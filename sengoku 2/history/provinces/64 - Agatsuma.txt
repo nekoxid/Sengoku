@@ -1,0 +1,14 @@
+# 64 - Agatsuma
+
+# Kokujin Title
+title = c_agatsuma
+
+#Settlements
+max_settlements = 3
+b_agatsuma_castle = castle
+b_agatsuma_city = city
+#b_agatsuma_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

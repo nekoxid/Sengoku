@@ -1,0 +1,18 @@
+# 237 - Arima
+
+# Kokujin Title
+title = c_arima
+
+#Settlements
+max_settlements = 3
+b_arima_castle = castle
+b_arima_city = city
+#b_arima_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

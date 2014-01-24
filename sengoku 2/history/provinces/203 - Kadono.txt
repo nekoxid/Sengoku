@@ -1,0 +1,22 @@
+# 203 - Kadono
+
+# Kokujin Title
+title = c_kadono
+
+#Settlements
+max_settlements = 4
+b_kadono_castle = castle
+b_kadono_city = city
+b_kadono_temple = temple
+b_chrysanthemum_throne = castle
+
+#Misc
+religion = shinto #buddhism
+culture = japanese
+
+1333.1.1 = { capital = b_chrysanthemum_throne }
+1336.1.1 = { capital = b_kadono_castle }
+1428.8.30 = { capital = b_chrysanthemum_throne }
+1551.4.9={
+	#effect = { western = yes }
+}

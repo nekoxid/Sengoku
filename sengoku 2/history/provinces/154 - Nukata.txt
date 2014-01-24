@@ -1,0 +1,14 @@
+# 154 - Nukata
+
+# Kokujin Title
+title = c_nukata
+
+#Settlements
+max_settlements = 3
+b_nukata_castle = castle
+b_nukata_city = city
+#b_nukata_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

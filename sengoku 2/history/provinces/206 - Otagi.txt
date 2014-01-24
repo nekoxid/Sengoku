@@ -1,0 +1,18 @@
+# 206 - Otagi
+
+# Kokujin Title
+title = c_otagi
+
+#Settlements
+max_settlements = 3
+b_otagi_castle = castle
+b_otagi_city = city
+#b_otagi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

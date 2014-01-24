@@ -1,0 +1,152 @@
+131 = {
+name="Takakage"
+dynasty=62
+culture = japanese
+religion = buddhism
+diplomacy = 6
+martial = 7
+intrigue = 8
+add_trait = skilled_tactician
+add_trait = ambitious
+add_trait = deceitful
+add_trait = greedy
+
+1428.5.22={
+	birth="1428.5.22"
+}
+1481.1.29={
+	death="1481.1.29"
+}
+} 
+327 = {
+name="Ujikage"
+dynasty=62
+culture = japanese
+religion = buddhism
+diplomacy = 7
+martial = 4
+intrigue = 6
+add_trait = underhanded_rogue
+father=131
+1449.1.12={
+	birth="1449.1.12"
+}
+1486.11.28={
+	death="1486.11.28"
+}
+} 
+505 = {
+name="Yoshikage"
+dynasty=62
+culture = japanese
+religion = buddhism
+
+diplomacy = 4 
+martial = 6
+intrigue = 8 
+add_trait = charismatic_negotiator
+
+1533.10.12={
+birth="1533.10.12"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1573.9.16={
+death="1573.9.16"
+}
+} 
+802 = {
+name="Kageakira"
+dynasty=62
+culture = japanese
+religion = buddhism
+diplomacy = 8 
+martial = 9
+intrigue = 4
+add_trait = amateurish_plotter
+add_trait = envious
+add_trait = proud
+
+1536.1.1={
+birth="1536.1.1"
+}
+1574.5.4={
+death="1574.5.4"
+}
+} 
+803 = {
+name="Kagetoshi"
+dynasty=62
+culture = japanese
+religion = buddhism
+father = 806
+diplomacy = 7  
+martial = 6
+intrigue = 6
+add_trait = tough_soldier
+add_trait = humble
+
+1508.1.1={
+birth="1508.1.1"
+}
+1572.6.11={
+death="1572.6.11"
+}
+} 
+804 = {
+name="Kagemitsu"
+dynasty=62
+culture = japanese
+religion = buddhism
+father = 803
+diplomacy = 5  
+martial = 8
+intrigue = 2
+add_trait = misguided_warrior 
+
+1538.1.1={
+birth="1538.1.1"
+}
+1564.10.4={
+death="1564.10.4"
+}
+} 
+805 = {
+name="Kagetsune"
+dynasty=62
+culture = japanese
+religion = buddhism
+father = 803
+diplomacy = 7  
+martial = 8
+intrigue = 4
+add_trait = tough_soldier
+
+1545.1.1={
+birth="1545.1.1"
+}
+1570.10.27={
+death="1570.10.27"
+}
+} 
+806 = {
+name="Soteki"
+dynasty=62
+culture = japanese
+religion = buddhism
+diplomacy = 14 
+martial = 10
+intrigue = 13
+add_trait = skilled_tactician
+add_trait = quick
+#add_trait = tea_master
+add_trait = brave
+
+1477.1.1={
+birth="1477.1.1"
+}
+1555.9.23={
+death="1555.9.23"
+}
+} 

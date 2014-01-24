@@ -1,0 +1,32 @@
+236 = {
+name="Morotane"
+dynasty=167
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 3
+intrigue = 4
+add_trait = tough_soldier
+1430.1.1={
+	birth="1430.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+365 = {
+name="Tanesada"
+dynasty=167
+culture = japanese
+religion = buddhism
+diplomacy = 1
+martial = 1
+intrigue = 1
+father=236
+1460.1.1={
+	birth="1460.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 

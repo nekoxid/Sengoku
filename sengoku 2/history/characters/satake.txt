@@ -1,0 +1,77 @@
+38 = {
+name="Yoshitoshi"
+dynasty=31
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 3
+martial = 4
+intrigue = 3
+add_trait = depressed
+1420.11.19={
+	birth="1420.11.19"
+}
+1477.12.29={
+	death="1477.12.29"
+}
+} 
+571 = {
+name="Yoshiaki"
+dynasty=31
+culture = japanese
+religion = buddhism
+
+diplomacy = 11
+martial = 12
+intrigue = 11
+add_trait = charismatic_negotiator
+
+1531.10.5={
+birth="1531.10.5"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1565.11.25={
+death="1565.11.25"
+}
+} 
+90 = {
+name="Yoshiharu"
+dynasty=31
+culture = japanese
+religion = buddhism
+father=38
+diplomacy = 6
+martial = 4
+intrigue = 3
+add_trait = patient
+add_trait = underhanded_rogue
+
+1443.8.26={
+	birth="1443.8.26"
+}
+1490.5.14={
+	death="1490.5.14"
+}
+} 
+940 = {
+name="Yoshishige"
+dynasty=31
+culture = japanese
+religion = buddhism
+father=571
+diplomacy = 11
+martial = 11
+intrigue = 10
+add_trait = skilled_tactician
+add_trait = quick
+add_trait = ambitious
+
+1552.3.7={
+birth="1552.3.7"
+}
+1612.5.19={
+death="1612.5.19"
+}
+} 

@@ -1,0 +1,14 @@
+# 259 - Tomata
+
+# Kokujin Title
+title = c_tomata
+
+#Settlements
+max_settlements = 3
+b_tomata_castle = castle
+b_tomata_city = city
+#b_tomata_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

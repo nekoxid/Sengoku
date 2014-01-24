@@ -1,0 +1,14 @@
+# 13 - Kami
+
+# Kokujin Title
+title = c_kami
+
+#Settlements
+max_settlements = 3
+b_kami_castle = castle
+b_kami_city = city
+#b_kami_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,248 @@
+268 = {
+name="Motosuna"
+dynasty=38
+culture = japanese
+religion = buddhism
+diplomacy = 1
+intrigue = 3
+martial = 4
+add_trait = wroth
+add_trait = brave
+add_trait = tough_soldier
+1441.1.19={
+	birth="1441.1.19"
+}
+1505.4.5={
+	death="1505.4.5"
+}
+} 
+45 = {
+name="Nobumasa"
+dynasty=38
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 6
+martial = 5
+intrigue = 4
+add_trait = just
+add_trait = underhanded_rogue
+1447.2.1={
+	birth="1447.2.1"
+}
+1505.10.13={
+	death="1505.10.13"
+}
+} 
+46 = {
+name="Nobukata"
+dynasty=38
+culture = japanese
+religion = buddhism
+diplomacy = 4 
+martial = 5
+intrigue = 4 
+add_trait = misguided_warrior
+1420.6.27={
+	birth="1420.6.27"
+}
+1467.5.26={
+	#is_civil_war_leader = yes
+}
+1471.6.20={
+	death="1471.6.20"
+}
+} 
+582 = {
+name="Shingen"
+dynasty=38
+culture = japanese
+religion = buddhism
+father=679
+
+diplomacy = 12
+martial = 15
+intrigue = 14
+add_trait = grey_eminence
+add_trait = genius
+
+1521.12.1={
+birth="1521.12.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1573.5.13={
+death="1573.5.13"
+}
+} 
+593 = {
+name="Nobutoyo"
+dynasty=228
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 11
+intrigue = 7
+add_trait = tough_soldier
+
+1514.10.22={
+birth="1514.10.22"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1566.1.1={
+death="1566.1.1"
+}
+} 
+678 = {
+name="Jokeiin"
+dynasty=38
+culture = japanese
+religion = buddhism
+female=yes
+father=679
+
+diplomacy = 9
+martial = 6
+intrigue = 10
+
+1519.1.1={
+birth="1519.1.1"
+}
+1537.4.9={
+	add_spouse=523
+}
+1550.7.15={
+death="1550.7.15"
+}
+} 
+679 = {
+name="Nobutora"
+dynasty=38
+culture = japanese
+religion = buddhism
+
+diplomacy = 11
+martial = 13
+intrigue = 8
+add_trait = skilled_tactician
+#add_trait = ruthless
+add_trait = brave
+
+1494.2.11={
+birth="1494.2.11"
+}
+1541.6.14={
+employer = 523
+}
+1574.3.27={
+death="1574.3.27"
+}
+} 
+841 = {
+name="Yoshizumi"
+dynasty=228
+culture = japanese
+religion = buddhism
+father=593
+diplomacy = 6
+martial = 7
+intrigue = 7
+add_trait = misguided_warrior
+
+1536.1.1={
+birth="1536.1.1"
+}
+1566.1.1={
+death="1566.1.1"
+}
+} 
+967 = {
+name="Nobushige"
+dynasty=38
+culture = japanese
+religion = buddhism
+father=679
+diplomacy = 8
+martial = 14
+intrigue = 12
+add_trait = charismatic_negotiator
+add_trait = quick
+add_trait = poet
+#add_trait = bushi
+add_trait = patient
+
+1525.1.1={
+birth="1525.1.1"
+}
+1525.1.1={
+employer = 582
+}
+1561.10.18={
+death="1561.10.18"
+}
+} 
+968 = {
+name="Yoshinobu"
+dynasty=38
+culture = japanese
+religion = buddhism
+father=582
+diplomacy = 8
+martial = 10
+intrigue = 10
+add_trait = misguided_warrior
+add_trait = honest
+
+1538.1.1={
+birth="1538.1.1"
+}
+1567.11.19={
+death="1567.11.19"
+}
+} 
+970 = {
+name="Katsuyori"
+dynasty=38
+culture = japanese
+religion = buddhism
+father=582
+mother=969
+diplomacy = 10
+martial = 11
+intrigue = 8
+add_trait = tough_soldier
+
+1546.1.1={
+birth="1546.1.1"
+}
+1582.4.3={
+death="1582.4.3"
+}
+} 
+990 = {
+name="Nobukado"
+dynasty=38
+culture = japanese
+religion = buddhism
+father = 679
+
+diplomacy = 10
+martial = 8
+intrigue = 9
+add_trait = underhanded_rogue
+#add_trait = painter
+
+1532.1.1={
+birth="1532.1.1"
+}
+1532.1.1={
+employer = 582
+}
+1582.3.30={
+death="1582.3.30"
+}
+} 

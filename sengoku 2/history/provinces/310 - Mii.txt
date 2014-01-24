@@ -1,0 +1,18 @@
+# 310 - Mii
+
+# Kokujin Title
+title = c_mii
+
+#Settlements
+max_settlements = 3
+b_mii_castle = castle
+b_mii_city = city
+#b_mii_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

@@ -1,0 +1,14 @@
+# 153 - Kamo
+
+# Kokujin Title
+title = c_kamo
+
+#Settlements
+max_settlements = 3
+b_kamo_castle = castle
+b_kamo_city = city
+#b_kamo_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

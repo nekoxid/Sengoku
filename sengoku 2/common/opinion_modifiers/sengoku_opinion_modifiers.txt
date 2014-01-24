@@ -1,0 +1,14 @@
+
+opinion_go_pos = {
+	opinion = 15
+	months = 24
+}
+
+opinion_go_neg = {
+	opinion = -15
+	months = 24
+}
+
+opinion_charity = {
+	opinion = 15
+}

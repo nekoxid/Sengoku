@@ -1,0 +1,57 @@
+222 = {
+name="Motosuke"
+dynasty=153
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 5
+intrigue = 3
+add_trait = genius
+add_trait = skilled_tactician
+1439.9.11={
+	birth="1439.9.11"
+}
+1513.2.8={
+	death="1513.2.8"
+}
+} 
+577 = {
+name="Tamesuke"
+dynasty=153
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 7
+intrigue = 10
+add_trait = naive_appeaser
+
+1478.1.1={
+birth="1478.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1564.1.1={
+death="1564.1.1"
+}
+} 
+779 = {
+name="Takasuke"
+dynasty=153
+culture = japanese
+religion = buddhism
+father = 577
+
+diplomacy = 5
+martial = 6
+intrigue = 6
+add_trait = naive_appeaser
+
+1526.1.1={
+birth="1526.1.1"
+}
+1571.1.1={
+death="1571.1.1"
+}
+} 

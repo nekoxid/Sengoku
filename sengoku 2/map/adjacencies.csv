@@ -1,0 +1,19 @@
+From;To;Type;Through;-1;-1;-1;-1;Comment
+359;304;sea;369;-1;-1;-1;-1;Goto-Matsura
+304;358;sea;369;-1;-1;-1;-1;Matsura-Iki
+358;360;sea;369;-1;-1;-1;-1;Iki-Tsushima
+291;294;sea;369;-1;-1;-1;-1;Otsu-Miyako
+335;313;sea;370;-1;-1;-1;-1;Ikata-Ama
+350;353;sea;370;-1;-1;-1;-1;Itano-Mihara
+352;251;sea;370;-1;-1;-1;-1;Tsuna-Akashi
+351;230;sea;370;-1;-1;-1;-1;Awaji-Misaki
+357;273;sea;388;-1;-1;-1;-1;Oki-Shimane
+355;44;sea;367;-1;-1;-1;-1;Hamochi-Kanbara
+320;306;sea;373;-1;-1;-1;-1;Ashikita-Takaku
+286;334;sea;373;-1;-1;-1;-1;Sata-Kuwamura
+264;345;sea;373;-1;-1;-1;-1;Kojima-Kagawa
+331;361;sea;373;-1;-1;-1;-1;Osumi-Tanegashima
+372;382;portage;82;-1;-1;-1;-1;Fake Ocean-Lake Kasumigaura Portage
+385;386;portage;273;-1;-1;-1;-1;Shinji Lake-Nakaumi
+373;387;portage;305;-1;-1;-1;-1;Sea-Omura Bay
+-1;-1;;-1;-1;-1;-1;-1;-1

@@ -1,0 +1,18 @@
+# 291 - Otsu
+
+# Kokujin Title
+title = c_otsu
+
+#Settlements
+max_settlements = 3
+b_otsu_castle = castle
+b_otsu_city = city
+#b_otsu_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

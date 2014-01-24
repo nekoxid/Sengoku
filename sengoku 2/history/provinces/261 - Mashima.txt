@@ -1,0 +1,14 @@
+# 261 - Mashima
+
+# Kokujin Title
+title = c_mashima
+
+#Settlements
+max_settlements = 3
+b_mashima_castle = castle
+b_mashima_city = city
+#b_mashima_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

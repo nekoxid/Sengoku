@@ -1,0 +1,14 @@
+# 20 - Uta
+
+# Kokujin Title
+title = c_uta
+
+#Settlements
+max_settlements = 3
+b_uta_castle = castle
+b_uta_city = city
+#b_uta_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,14 @@
+# 21 - Igu
+
+# Kokujin Title
+title = c_igu
+
+#Settlements
+max_settlements = 3
+b_igu_castle = castle
+b_igu_city = city
+#b_igu_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

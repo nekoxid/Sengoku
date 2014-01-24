@@ -1,0 +1,17 @@
+324 = {
+name="Fujitsugu"
+dynasty=200
+culture = japanese
+religion = buddhism
+diplomacy = 5
+martial = 5
+intrigue = 4
+add_trait = ambitious
+add_trait = underhanded_rogue
+1449.8.17={
+	birth="1449.8.17"
+}
+1486.10.27={
+	death="1486.10.27"
+}
+} 

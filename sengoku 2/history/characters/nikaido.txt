@@ -1,0 +1,73 @@
+31 = {
+name="Yukiaki"
+dynasty=24
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 4
+martial = 3
+intrigue = 4
+add_trait = misguided_warrior 
+1451.2.12={
+	birth="1451.2.12"
+}
+1495.9.3={
+	death="1495.9.3"
+}
+} 
+555 = {
+name="Teruyuki"
+dynasty=24
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 7
+intrigue = 9
+add_trait = flamboyant_schemer
+
+1503.1.1={
+birth="1503.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1564.10.22={
+death="1564.10.22"
+}
+} 
+85 = {
+name="Yukikage"
+dynasty=24
+culture = japanese
+religion = buddhism
+father=31
+diplomacy = 5
+martial = 3
+intrigue = 2
+add_trait = naive_appeaser
+1469.8.19={
+	birth="1469.8.19"
+}
+1504.12.1={
+	death="1504.12.1"
+}
+} 
+910 = {
+name="Moriyoshi"
+dynasty=24
+culture = japanese
+religion = buddhism
+father=555
+diplomacy = 9
+martial = 9
+intrigue = 8
+add_trait = skilled_tactician
+
+1544.1.1={
+birth="1544.1.1"
+}
+1581.9.23={
+death="1581.9.23"
+}
+} 

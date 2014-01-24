@@ -1,0 +1,14 @@
+# 51 - Kita-Aizu
+
+# Kokujin Title
+title = c_kita-aizu
+
+#Settlements
+max_settlements = 3
+b_kita-aizu_castle = castle
+b_kita-aizu_city = city
+#b_kita-aizu_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

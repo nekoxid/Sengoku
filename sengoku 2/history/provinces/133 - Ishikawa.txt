@@ -1,0 +1,44 @@
+# 133 - Ishikawa
+
+# Kokujin Title
+title = c_ishikawa
+
+#Settlements
+max_settlements = 3
+b_ishikawa_castle = castle
+b_ishikawa_city = city
+b_ishikawa_temple = temple
+
+
+#Misc
+religion = pure_land_buddhism
+culture = japanese
+
+1551.4.9={
+	#building=castle_building
+	#building=eartwork_and_palisade
+	#building=stone_base
+	#building=moat
+	
+	#building=gunsmith
+
+	# effect={
+		# #western=yes
+		# set_province_flag = taken_by_ikko_ikki
+		
+		# set_variable = { which = ikko_ikki_city_level value = 0 }
+		# set_variable = { which = ikko_ikki_castle_level value = 4 }
+
+		# set_province_flag = ikko_ikki_stronghold
+		# set_province_flag = ikko_ikki_gunsmith
+
+		# add_province_modifier = {
+			# name = ikko_ikki_stronghold
+			# duration = -1
+		# }
+	# }
+	capital = b_ishikawa_temple
+}
+1592.12.17 = {
+	capital = b_ishikawa_castle
+}

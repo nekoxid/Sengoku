@@ -1,0 +1,36 @@
+823 = {
+name="Kazumasa"
+dynasty=302
+culture = japanese
+religion = buddhism
+diplomacy = 6  
+martial = 10
+intrigue = 8
+add_trait = tough_soldier
+add_trait = brave
+
+1502.1.1={
+birth="1502.1.1"
+}
+1587.1.1={
+death="1587.1.1"
+}
+} 
+824 = {
+name="Yukinobu"
+dynasty=302
+culture = japanese
+religion = buddhism
+father=823
+diplomacy = 7  
+martial = 7
+intrigue = 5
+add_trait = tough_soldier
+
+1530.1.1={
+birth="1530.1.1"
+}
+1590.1.1={
+death="1590.1.1"
+}
+} 

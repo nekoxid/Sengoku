@@ -1,0 +1,17 @@
+47 = {
+name="Masachika"
+dynasty=39
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 3 
+martial = 4
+intrigue = 3 
+add_trait = trusting 
+1455.7.4={
+	birth="1455.7.4"
+}
+1488.7.17={
+	death="1488.7.17"
+}
+} 

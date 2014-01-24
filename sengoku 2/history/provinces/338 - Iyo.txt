@@ -1,0 +1,14 @@
+# 338 - Iyo
+
+# Kokujin Title
+title = c_iyo
+
+#Settlements
+max_settlements = 3
+b_iyo_castle = castle
+b_iyo_city = city
+#b_iyo_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

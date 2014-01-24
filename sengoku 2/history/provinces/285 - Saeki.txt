@@ -1,0 +1,24 @@
+# 285 - Saeki
+
+# Kokujin Title
+title = c_saeki
+
+#Settlements
+max_settlements = 4
+b_saeki_castle = castle
+b_saeki_city = city
+b_saeki_temple = temple
+#b_hiroshima = castle
+
+#building=shinto_shrine
+
+#Misc
+religion = shinto
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}
+1589.1.1 = {
+	b_hiroshima = castle
+}

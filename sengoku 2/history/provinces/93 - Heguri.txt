@@ -1,0 +1,14 @@
+# 93 - Heguri
+
+# Kokujin Title
+title = c_heguri
+
+#Settlements
+max_settlements = 3
+b_heguri_castle = castle
+b_heguri_city = city
+#b_heguri_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

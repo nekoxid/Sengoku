@@ -1,0 +1,46 @@
+733 = {
+name="Kiyofusa"
+dynasty=250
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 10
+intrigue = 11
+add_trait = flamboyant_schemer
+add_trait = brave
+
+1512.1.1={
+birth="1512.1.1"
+}
+1551.4.9={
+employer=568
+}
+1585.1.1={
+death="1585.1.1"
+}
+} 
+735 = {
+name="Naoshige"
+dynasty=250
+culture = japanese
+religion = buddhism
+father=733
+
+diplomacy = 15
+martial = 11
+intrigue = 11
+add_trait = elusive_shadow
+add_trait = ambitious
+add_trait = quick
+
+1538.1.1={
+birth="1538.1.1"
+}
+1551.4.9={
+employer=568
+}
+1618.1.1={
+death="1618.1.1"
+}
+} 

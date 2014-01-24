@@ -1,0 +1,15 @@
+spriteTypes = {
+	#sengoku
+	spriteType = {
+		name = "GFX_hold_a_budo"
+		texturefile = "gfx\\interface\\decision_icon_tournament.dds"
+	}
+	spriteType = {
+		name = "GFX_commit_seppuku"
+		texturefile = "gfx\\interface\\decision_icon_commit_suicide.dds"
+	}
+	spriteType = {
+		name = "GFX_give_to_charity"
+		texturefile = "gfx\\interface\\decision_icon_sadaqah_saddka.dds"
+	}
+}

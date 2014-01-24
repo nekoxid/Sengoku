@@ -1,0 +1,116 @@
+110 = {
+name="Mochimasa"
+dynasty=49
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 6
+martial = 4
+intrigue = 6
+add_trait = underhanded_rogue
+add_trait = content
+
+1403.2.17={
+	birth="1403.2.17"
+}
+1471.6.7={
+	death="1471.6.7"
+}
+} 
+
+565 = {
+name="Takatomo"
+dynasty=49
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 8
+intrigue = 7
+add_trait = misguided_warrior
+
+1508.1.1={
+birth="1508.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1574.1.1={
+death="1574.1.1"
+}
+} 
+
+939 = {
+name="Hidetsuna"
+dynasty=49
+culture = japanese
+religion = buddhism
+father=565
+diplomacy = 5
+martial = 6
+intrigue = 6
+add_trait = naive_appeaser
+
+1529.1.1={
+birth="1529.1.1"
+}
+1603.8.3={
+death="1603.8.3"
+}
+} 
+
+971 = {
+name="Nobuari"
+dynasty=109
+culture = japanese
+religion = buddhism
+diplomacy = 7
+martial = 9
+intrigue = 8
+add_trait = naive_appeaser
+
+1505.1.1={
+birth="1505.1.1"
+}
+1552.2.17={
+death="1552.2.17"
+}
+} 
+
+972 = {
+name="Nobuari"
+dynasty=109
+culture = japanese
+religion = buddhism
+father=971
+diplomacy = 9
+martial = 8
+intrigue = 7
+add_trait = tough_soldier
+
+1540.1.1={
+birth="1540.1.1"
+}
+1565.9.14={
+death="1565.9.14"
+}
+} 
+
+973 = {
+name="Nobushige"
+dynasty=109
+culture = japanese
+religion = buddhism
+father=971
+diplomacy = 8
+martial = 10
+intrigue = 7
+add_trait = flamboyant_schemer
+
+1541.1.1={
+birth="1541.1.1"
+}
+1582.4.16={
+death="1582.4.16"
+}
+} 

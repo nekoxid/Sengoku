@@ -1,0 +1,194 @@
+character_event = {
+	id = 1400000
+	picture = "GFX_evt_holy_emperor"
+	is_triggered_only = yes
+
+	trigger = {
+		has_landed_title = c_kadono
+		religion = shinto
+		culture = japanese
+		rightful_religious_head_scope = { has_landed_title = e_japan }
+		religion_head = { NOT = { opinion = { who = ROOT value = 50 } } }
+		#NOT = { trait = excommunicated }
+		#NOT = { has_global_flag = excommunicated_rome }
+		NOT = { has_global_flag = shattered_world }
+	}
+
+	desc = "EVTDESC_JAPEMP.0"
+
+	mean_time_to_happen = {
+		days = 1
+		modifier = {
+			factor = 1.25
+			religion_head = { NOT = { opinion = { who = ROOT value = 25 } } }
+		}		
+		modifier = {
+			factor = 1.25
+			religion_head = { NOT = { opinion = { who = ROOT value = 0 } } }
+		}
+		modifier = {
+			factor = 1.25
+			religion_head = { NOT = { opinion = { who = ROOT value = -25 } } }
+		}
+		modifier = {
+			factor = 1.25
+			religion_head = { NOT = { opinion = { who = ROOT value = -50 } } }
+		}
+		modifier = {
+			factor = 1.25
+			religion_head = { NOT = { opinion = { who = ROOT value = -75 } } }
+		}
+		modifier = {
+			factor = 1.25
+			religion_head = { NOT = { opinion = { who = ROOT value = -100 } } }
+		}
+		modifier = {
+			factor = 0.75
+			piety = 200
+		}
+		modifier = {
+			factor = 0.75
+			piety = 100
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { piety = 0 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { piety = -100 }
+		}
+		modifier = {
+			factor = 2.0
+			NOT = { piety = -200 }
+		}
+		modifier = {
+			factor = 100.0
+			NOT = { demesne_size = 1 }
+		}
+	}
+
+
+	option = {
+		name = "EVTOPTA1400000"
+		ai_chance = { factor = 75 }
+		prestige = 100
+		piety = 50
+		if = {
+			limit = {
+				OR = {
+					has_landed_title = c_kadono
+					any_realm_lord = { has_landed_title = c_kadono }
+				}
+			}
+			religion_head = {
+				c_kadono = {
+					gain_title = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					has_landed_title = b_chrysanthemum_throne
+					any_realm_lord = { has_landed_title = b_chrysanthemum_throne }
+				}
+			}
+			religion_head = {
+				b_chrysanthemum_throne = {
+					gain_title = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					has_landed_title = b_kadono_castle
+					any_realm_lord = { has_landed_title = b_kadono_castle }
+				}
+			}
+			religion_head = {
+				b_kadono_castle = {
+					gain_title = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					has_landed_title = b_kadono_city
+					any_realm_lord = { has_landed_title = b_kadono_city }
+				}
+			}
+			religion_head = {
+				b_kadono_city = {
+					gain_title = PREV
+				}
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					has_landed_title = b_kadono_temple
+					any_realm_lord = { has_landed_title = b_kadono_temple }
+				}
+			}
+			religion_head = {
+				b_kadono_temple = {
+					gain_title = PREV
+				}
+			}
+		}
+		opinion = {
+			modifier = opinion_happy
+			who = ROOT
+			years = 10
+		}
+	}
+	option = {
+		name = "EVTOPTB1400000"
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 2.0
+				trait = cynical
+			}
+			modifier = {
+				factor = 0.5
+				trait = zealous
+			}
+			modifier = {
+				factor = 2.0
+				trait = ambitious
+			}
+			modifier = {
+				factor = 0.5
+				trait = content
+			}
+			modifier = {
+				factor = 2.0
+				trait = proud
+			}
+			modifier = {
+				factor = 0.5
+				trait = humble
+			}
+			modifier = {
+				factor = 2.0
+				trait = envious
+			}
+			modifier = {
+				factor = 0.5
+				trait = kind
+			}
+		}
+		prestige = -100
+		piety = -50
+		
+		opinion = {
+			modifier = opinion_hate
+			who = ROOT
+			years = 100
+		}
+	}
+}

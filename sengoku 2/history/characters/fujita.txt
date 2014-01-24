@@ -1,0 +1,20 @@
+989 = {
+name="Yasukuni"
+dynasty=329
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 7
+intrigue = 5
+add_trait = misguided_warrior
+
+1513.1.1={
+birth="1513.1.1"
+}1513.1.1={
+employer=520
+}
+1555.1.1={
+death="1555.1.1"
+}
+} 

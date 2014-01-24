@@ -1,0 +1,18 @@
+# 165 - Kaito
+
+# Kokujin Title
+title = c_kaito
+
+#Settlements
+max_settlements = 3
+b_kaito_castle = castle
+b_kaito_city = city
+#b_kaito_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

@@ -1,0 +1,70 @@
+144 = {
+name="Tanechika"
+dynasty=75
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 5
+intrigue = 4
+add_trait = misguided_warrior
+
+1412.3.27={
+	birth="1412.3.27"
+}
+1474.11.7={
+	death="1474.11.7"
+}
+} 
+370 = {
+name="Hirotane"
+dynasty=75
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 4
+intrigue = 3
+add_trait = misguided_warrior
+father=144
+1435.2.18={
+	birth="1435.2.18"
+}
+1496.6.14={
+	death="1496.6.14"
+}
+} 
+631 = {
+name="Takatane"
+dynasty=75
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 9
+intrigue = 7
+add_trait = amateurish_plotter
+
+1513.1.1={
+birth="1513.1.1"
+}
+1588.1.1={
+death="1588.1.1"
+}
+} 
+632 = {
+name="Chikatane"
+dynasty=75
+culture = japanese
+religion = buddhism
+father=631
+
+diplomacy = 3
+martial = 12
+intrigue = 9
+
+1543.1.1={
+birth="1543.1.1"
+}
+1574.4.1={
+death="1574.4.1"
+}
+} 

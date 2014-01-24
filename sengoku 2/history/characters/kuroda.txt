@@ -1,0 +1,48 @@
+770 = {
+name="Yoshitaka"
+dynasty=257
+culture = japanese
+religion = buddhism
+father = 771
+
+diplomacy = 15
+martial = 5
+intrigue = 12
+add_trait = elusive_shadowadd_trait = quick
+add_trait = ambitious
+
+1546.1.1={
+birth="1546.1.1"
+}
+1551.4.9={
+employer=767
+}
+1587.1.1={
+	religion = "catholic"
+	#name = "Simeao"
+}
+1604.1.1={
+death="1604.1.1"
+}
+} 
+771 = {
+name="Mototaka"
+dynasty=257
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 10
+intrigue = 13
+add_trait = charismatic_negotiator
+
+1524.1.1={
+birth="1524.1.1"
+}
+1551.4.9={
+employer=767
+}
+1585.1.1={
+death="1585.1.1"
+}
+} 

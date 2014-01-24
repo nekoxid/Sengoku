@@ -1,0 +1,14 @@
+# 24 - Ibaraki
+
+# Kokujin Title
+title = c_ibaraki
+
+#Settlements
+max_settlements = 3
+b_ibaraki_castle = castle
+b_ibaraki_city = city
+#b_ibaraki_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

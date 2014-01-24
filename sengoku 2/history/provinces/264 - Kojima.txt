@@ -1,0 +1,14 @@
+# 264 - Kojima
+
+# Kokujin Title
+title = c_kojima
+
+#Settlements
+max_settlements = 3
+b_kojima_castle = castle
+b_kojima_city = city
+#b_kojima_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

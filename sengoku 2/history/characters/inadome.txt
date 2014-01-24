@@ -1,0 +1,36 @@
+846 = {
+name="Sukehide"
+dynasty=306
+culture = japanese
+religion = buddhism
+diplomacy = 7
+martial = 9
+intrigue = 7
+add_trait = tough_soldier
+
+1508.1.1={
+birth="1508.1.1"
+}
+1567.1.1={
+death="1567.1.1"
+}
+}
+
+847 = {
+name="Naohide"
+dynasty=306
+culture = japanese
+religion = buddhism
+father=846
+diplomacy = 7
+martial = 6
+intrigue = 5
+add_trait = misguided_warrior
+
+1532.1.1={
+birth="1532.1.1"
+}
+1580.1.1={
+death="1580.1.1"
+}
+}

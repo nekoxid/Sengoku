@@ -1,0 +1,93 @@
+340 = {
+name="Ietsuna"
+dynasty=44
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 4
+intrigue = 3
+add_trait = misguided_warrior
+1415.5.13={
+	birth="1415.5.13"
+}
+1478.9.21={
+	death="1478.9.21"
+}
+} 
+344 = {
+name="Yasutsuna"
+dynasty=44
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 3
+intrigue = 3
+add_trait = naive_appeaser
+father=340
+1438.8.1={
+	birth="1438.8.1"
+}
+1502.1.18={
+	death="1502.1.18"
+}
+} 
+52 = {
+name="Masatsuna"
+dynasty=44
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 5
+martial = 4
+intrigue = 4
+add_trait = misguided_warrior
+
+1447.11.11={
+	birth="1447.11.11"
+}
+1477.10.7={
+	death="1477.10.7"
+}
+} 
+590 = {
+name="Hirotsuna"
+dynasty=44
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 8
+intrigue = 9
+add_trait = underhanded_rogue
+
+1545.1.1={
+birth="1545.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1576.8.30={
+death="1576.8.30"
+}
+} 
+746 = {
+name="Toyotsuna"
+dynasty=253
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 9
+intrigue = 7
+add_trait = tough_soldier
+
+1519.1.1={
+birth="1519.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1585.1.1={
+death="1585.1.1"
+}
+} 

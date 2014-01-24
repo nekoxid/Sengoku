@@ -1,0 +1,18 @@
+# 358 - Iki
+
+# Kokujin Title
+title = c_iki
+
+#Settlements
+max_settlements = 3
+b_iki_castle = castle
+b_iki_city = city
+#b_iki_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9={
+	#effect = { western = yes }
+}

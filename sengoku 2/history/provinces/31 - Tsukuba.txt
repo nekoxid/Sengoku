@@ -1,0 +1,14 @@
+# 31 - Tsukuba
+
+# Kokujin Title
+title = c_tsukuba
+
+#Settlements
+max_settlements = 3
+b_tsukuba_castle = castle
+b_tsukuba_city = city
+#b_tsukuba_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

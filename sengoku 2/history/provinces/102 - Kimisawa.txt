@@ -1,0 +1,14 @@
+# 102 - Kimisawa
+
+# Kokujin Title
+title = c_kimisawa
+
+#Settlements
+max_settlements = 3
+b_kimisawa_castle = castle
+b_kimisawa_city = city
+#b_kimisawa_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,87 @@
+137 = {
+name="Ujitsura"
+dynasty=68
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 4
+intrigue = 4
+add_trait = amateurish_plotter
+
+1404.4.9={
+	birth="1404.4.9"
+}
+1470.8.10={
+	death="1470.8.10"
+}
+} 
+329 = {
+name="Noritsura"
+dynasty=68
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 4
+intrigue = 4
+add_trait = misguided_warrior
+father=137
+1430.7.25={
+	birth="1430.7.25"
+}
+1488.9.6={
+	death="1488.9.6"
+}
+} 
+810 = {
+name="Tsugutsura"
+dynasty=68
+culture = japanese
+religion = buddhism
+diplomacy = 9
+martial = 10
+intrigue = 7
+add_trait = underhanded_rogue
+
+1520.1.1={
+birth="1520.1.1"
+}
+1577.10.26={
+death="1577.10.26"
+}
+} 
+811 = {
+name="Tsunatsura"
+dynasty=68
+culture = japanese
+religion = buddhism
+father = 810
+diplomacy = 7
+martial = 6
+intrigue = 6
+add_trait = charismatic_negotiator
+
+1539.1.1={
+birth="1539.1.1"
+}
+1577.10.26={
+death="1577.10.26"
+}
+} 
+812 = {
+name="Tsuratatsu"
+dynasty=68
+culture = japanese
+religion = buddhism
+father = 810
+diplomacy = 7
+martial = 8
+intrigue = 6
+add_trait = tough_soldier
+
+1546.9.9={
+birth="1546.9.9"
+}
+1619.3.18={
+death="1619.3.18"
+}
+} 

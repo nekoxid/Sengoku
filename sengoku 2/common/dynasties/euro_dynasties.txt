@@ -1,0 +1,155 @@
+###french
+848 = {
+	name = "d'Arc"
+	culture = frankish
+	used_for_random = no
+	coat_of_arms=
+	{
+		data=
+		{
+			1 0 19 28 2 2 2 0 2 0 2 2 2 0 0 0 0 1 2 0 0 0 0 1 2
+		}
+		religion="catholic"
+	}
+}
+849 = {
+	name = "Gladius Christi"
+	used_for_random = no
+	coat_of_arms=
+	{
+		data=
+		{
+			4 0 9 1 13 13 2 0 9 0 13 13 2 0 9 0 13 13 2 3 0 48 1 0 0
+		}
+		religion="catholic"
+	}
+}
+###english
+4040 = {
+	name="Butler"
+	culture = english
+}
+7305 = {
+	name="of Thornham"
+	culture = english
+}
+1027028 = {
+	name="of Ilchester"
+	culture = english
+}
+9500 = {
+	name="Becket"
+	culture = english
+}
+9108 = {
+	name="of Kendale"
+	culture = english
+}
+###dutch
+100076 = {
+	name="van Yperen"
+	culture = dutch
+}
+100082 = {
+	name="van Sticht"
+	culture = dutch
+}
+1031026 = {
+	name="Hoving"
+	culture = dutch
+}
+1246 = {
+	name="Fryske"
+	culture = dutch
+}
+1430 = {
+	name="De Graeff"
+	culture = dutch
+}
+###portuguese
+1769 = {
+	name="de Ribeira"
+	culture = portuguese
+}
+7047 = {
+	name="de Fonseca"
+	culture = portuguese
+}
+8628 = {
+	name="Froilies"
+	culture = portuguese
+}
+8795 = {
+	name="Hispano"
+	culture = portuguese
+}
+9008 = {
+	name="Pais"
+	culture = portuguese
+}
+###spanish
+10001 = {
+	name="de Soler"
+	culture = castillan
+}
+10024 = {
+	name="de Ribagorza"
+	culture = castillan
+}
+12147 = {
+	name = "Manrique"
+	culture = castillan
+}
+12148 = {
+	name = "Venegas"
+	culture = castillan
+}
+12171 = {
+	name = "Gelmírez"
+	culture = castillan
+}
+
+#greek
+7302 = {
+	name="Stryphnos"
+	culture = greek
+}
+
+8653 = {
+	name="Kauleas"
+	culture = greek
+}
+8663 = {
+	name="Grammatikos"
+	culture = greek
+}
+20067 = {
+	name="Axuchos"
+	culture = greek
+}
+20075 = {
+	name="Komnenos Doukas"
+	culture = greek
+}
+
+#italian
+22000 = {
+	name="di Acerenza"
+	culture = italian
+}
+100231 = {
+	name="de Saluces"
+	culture = italian
+}
+100243 = {
+	name="di Orvieto"
+	culture = italian
+}
+100325 = {
+	name="di Arborea"
+	culture = italian
+}
+100473 = {
+	name="Clavelli"
+	culture = italian
+}

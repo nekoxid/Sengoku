@@ -1,0 +1,12 @@
+1318.3.29 = {
+	liege="d_musashi"
+}
+1467.5.26 = {
+	holder=254
+}
+1551.4.9 = {
+	liege="d_musashi"
+}
+1551.4.9 = {
+	holder=520
+}

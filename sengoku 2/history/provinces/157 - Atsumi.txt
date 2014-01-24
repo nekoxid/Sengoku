@@ -1,0 +1,14 @@
+# 157 - Atsumi
+
+# Kokujin Title
+title = c_atsumi
+
+#Settlements
+max_settlements = 3
+b_atsumi_castle = castle
+b_atsumi_city = city
+#b_atsumi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

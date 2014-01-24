@@ -1,0 +1,52 @@
+151 = {
+name="Ujitada"
+dynasty=82
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 3
+intrigue = 3
+add_trait = ambitious
+1449.1.20={
+	birth="1449.1.20"
+}
+1511.4.14={
+	death="1511.4.14"
+}
+} 
+711 = {
+name="Ujiyoshi"
+dynasty=82
+culture = japanese
+religion = buddhism
+father=712
+
+diplomacy = 6
+martial = 10
+intrigue = 3
+
+1549.1.1={
+birth="1549.1.1"
+}
+1615.5.7={
+death="1615.5.7"
+}
+} 
+712 = {
+name="Ujitora"
+dynasty=82
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 9
+intrigue = 6
+add_trait = misguided_warrior
+
+1520.1.1={
+birth="1520.1.1"
+}
+1568.1.1={
+death="1568.1.1"
+}
+} 

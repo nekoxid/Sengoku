@@ -1,0 +1,14 @@
+# 58 - Nasu
+
+# Kokujin Title
+title = c_nasu
+
+#Settlements
+max_settlements = 3
+b_nasu_castle = castle
+b_nasu_city = city
+#b_nasu_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

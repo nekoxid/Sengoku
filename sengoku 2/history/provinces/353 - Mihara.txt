@@ -1,0 +1,18 @@
+# 353 - Mihara
+
+# Kokujin Title
+title = c_mihara
+
+#Settlements
+max_settlements = 3
+b_mihara_castle = castle
+b_mihara_city = city
+#b_mihara_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9={
+	#effect = { western = yes }
+}

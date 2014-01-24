@@ -1,0 +1,38 @@
+
+836 = {
+name="Sadahide"
+dynasty=305
+culture = japanese
+religion = buddhism
+diplomacy = 8  
+martial = 9
+intrigue = 6
+add_trait = flamboyant_schemer
+
+1508.1.1={
+birth="1508.1.1"
+}
+1579.4.22={
+death="1579.4.22"
+}
+} 
+837 = {
+name="Katahide"
+dynasty=305
+culture = japanese
+religion = buddhism
+father=836
+diplomacy = 4  
+martial = 9
+intrigue = 7
+add_trait = naive_appeaser
+add_trait = honest
+add_trait = craven
+
+1534.1.1={
+birth="1534.1.1"
+}
+1584.5.26={
+death="1584.5.26"
+}
+} 

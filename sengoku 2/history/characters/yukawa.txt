@@ -1,0 +1,75 @@
+246 = {
+name="Mitsuharu"
+dynasty=177
+culture = japanese
+religion = buddhism
+martial = 3
+diplomacy = 3
+intrigue = 3
+add_trait = tough_soldier 
+1450.4.29={
+	birth="1450.4.29"
+}
+1508.5.14={
+	death="1508.5.14"
+}
+} 
+602 = {
+name="Naomitsu"
+dynasty=177
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 10
+intrigue = 5
+add_trait = misguided_warrior
+
+1516.1.1={
+birth="1516.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1562.1.1={
+death="1562.1.1"
+}
+} 
+622 = {
+name="Naoharu"
+dynasty=177
+culture = japanese
+religion = buddhism
+father=602
+
+diplomacy = 7
+martial = 9
+intrigue = 3
+add_trait = misguided_warrior
+
+1537.1.1={
+birth="1537.1.1"
+}
+1586.1.1={
+death="1586.1.1"
+}
+} 
+716 = {
+name="Naoharu"
+dynasty=177
+culture = japanese
+religion = buddhism
+father=602
+
+diplomacy = 7
+martial = 9
+intrigue = 3
+add_trait = misguided_warrior
+
+1537.1.1={
+birth="1537.1.1"
+}
+1586.1.1={
+death="1586.1.1"
+}
+} 

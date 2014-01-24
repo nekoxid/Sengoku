@@ -1,0 +1,14 @@
+# 148 - Kagami
+
+# Kokujin Title
+title = c_kagami
+
+#Settlements
+max_settlements = 3
+b_kagami_castle = castle
+b_kagami_city = city
+#b_kagami_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

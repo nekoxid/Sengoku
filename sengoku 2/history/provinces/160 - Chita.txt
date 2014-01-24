@@ -1,0 +1,18 @@
+# 160 - Chita
+
+# Kokujin Title
+title = c_chita
+
+#Settlements
+max_settlements = 3
+b_chita_castle = castle
+b_chita_city = city
+#b_chita_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9={
+	#effect = { western = yes }
+}

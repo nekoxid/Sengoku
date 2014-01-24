@@ -1,0 +1,14 @@
+# 139 - Tsuruga
+
+# Kokujin Title
+title = c_tsuruga
+
+#Settlements
+max_settlements = 3
+b_tsuruga_castle = castle
+b_tsuruga_city = city
+#b_tsuruga_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,14 @@
+# 269 - Mitsugi
+
+# Kokujin Title
+title = c_mitsugi
+
+#Settlements
+max_settlements = 3
+b_mitsugi_castle = castle
+b_mitsugi_city = city
+#b_mitsugi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

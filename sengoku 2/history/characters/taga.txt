@@ -1,0 +1,32 @@
+226 = {
+name="Takatada"
+dynasty=157
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 4
+intrigue = 2
+add_trait = charismatic_negotiator
+1432.8.6={
+	birth="1432.8.6"
+}
+1486.1.8={
+	death="1486.1.8"
+}
+} 
+338 = {
+name="Takaie"
+dynasty=157
+culture = japanese
+religion = buddhism
+diplomacy = 0
+martial = 1
+intrigue = 1
+father=226
+1460.1.1={
+	birth="1460.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 

@@ -1,0 +1,14 @@
+# 90 - Amaha
+
+# Kokujin Title
+title = c_amaha
+
+#Settlements
+max_settlements = 3
+b_amaha_castle = castle
+b_amaha_city = city
+#b_amaha_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

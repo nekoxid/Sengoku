@@ -1,0 +1,94 @@
+952 = {
+name="Michitsuna"
+dynasty=324
+culture = japanese
+religion = buddhism
+diplomacy = 8
+martial = 8
+intrigue = 6
+add_trait = misguided_warrior
+
+1492.1.1={
+birth="1492.1.1"
+}
+1533.8.17={
+death="1533.8.17"
+}
+} 
+953 = {
+name="Tokishige"
+dynasty=324
+culture = japanese
+religion = buddhism
+father=952
+diplomacy = 10
+martial = 8
+intrigue = 12
+add_trait = skilled_tactician
+add_trait = brave
+
+1513.1.1={
+birth="1513.1.1"
+}
+1561.5.29={
+death="1561.5.29"
+}
+} 
+954 = {
+name="Nobushige"
+dynasty=324
+culture = japanese
+religion = buddhism
+father=953
+diplomacy = 8
+martial = 9
+intrigue = 7
+add_trait = tough_soldier
+
+1540.1.1={
+birth="1540.1.1"
+}
+1564.2.20={
+death="1564.2.20"
+}
+} 
+955 = {
+name="Tokitada"
+dynasty=324
+culture = japanese
+religion = buddhism
+father=952
+diplomacy = 9
+martial = 9
+intrigue = 8
+add_trait = tough_soldier
+
+1521.1.1={
+birth="1521.1.1"
+}
+1551.4.9={
+employer=953
+}
+1576.8.24={
+death="1576.8.24"
+}
+} 
+956 = {
+name="Tokimichi"
+dynasty=324
+culture = japanese
+religion = buddhism
+father=955
+
+diplomacy = 7
+martial = 8
+intrigue = 8
+add_trait = underhanded_rogue
+
+1545.1.1={
+birth="1545.1.1"
+}
+1575.12.10={
+	death="1575.12.10"
+}
+} 

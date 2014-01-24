@@ -1,0 +1,14 @@
+# 175 - Kanzaki
+
+# Kokujin Title
+title = c_kanzaki
+
+#Settlements
+max_settlements = 3
+b_kanzaki_castle = castle
+b_kanzaki_city = city
+#b_kanzaki_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

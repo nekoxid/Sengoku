@@ -1,0 +1,32 @@
+225 = {
+name="Chikamune"
+dynasty=156
+culture = japanese
+religion = buddhism
+diplomacy = 4
+intrigue = 3
+martial = 4
+add_trait = amateurish_plotter
+1438.5.3={
+	birth="1438.5.3"
+}
+1494.10.7={
+	death="1494.10.7"
+}
+} 
+337 = {
+name="Chikanobe"
+dynasty=156
+culture = japanese
+religion = buddhism
+diplomacy = 1
+martial = 0
+intrigue = 0
+father=225
+1465.9.14={
+	birth="1465.9.14"
+}
+1532.3.4={
+	death="1532.3.4"
+}
+} 

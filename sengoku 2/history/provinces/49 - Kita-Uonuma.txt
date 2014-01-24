@@ -1,0 +1,14 @@
+# 49 - Kita-Uonuma
+
+# Kokujin Title
+title = c_kita-uonuma
+
+#Settlements
+max_settlements = 3
+b_kita-uonuma_castle = castle
+b_kita-uonuma_city = city
+#b_kita-uonuma_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

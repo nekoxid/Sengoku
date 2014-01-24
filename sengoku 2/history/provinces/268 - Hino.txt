@@ -1,0 +1,14 @@
+# 268 - Hino
+
+# Kokujin Title
+title = c_hino
+
+#Settlements
+max_settlements = 3
+b_hino_castle = castle
+b_hino_city = city
+#b_hino_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

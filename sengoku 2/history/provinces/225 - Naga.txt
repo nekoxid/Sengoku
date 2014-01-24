@@ -1,0 +1,21 @@
+# 225 - Naga
+
+# Kokujin Title
+title = c_naga
+
+#Settlements
+max_settlements = 3
+b_naga_castle = castle
+b_naga_city = city
+b_naga_temple = temple
+
+#building=buddhist_temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#building=gunsmith
+	#effect = { western = yes }
+}

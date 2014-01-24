@@ -1,0 +1,15 @@
+# 82 - Katori
+
+# Kokujin Title
+title = c_katori
+
+#Settlements
+max_settlements = 3
+b_katori_castle = castle
+b_katori_city = city
+b_katori_temple = temple
+
+#building=shinto_shrine
+#Misc
+religion = shinto
+culture = japanese

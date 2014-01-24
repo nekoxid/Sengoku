@@ -1,0 +1,3635 @@
+##360 nanban traders
+
+1 = {
+	name="Ando"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 145 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+2 = {
+	name="Ashikaga"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 23 1 7 0
+		}
+		religion="buddhism"
+	}
+}
+
+3 = {
+	name="Ashina"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 18 1 4 0
+		}
+		religion="buddhism"
+	}
+}
+
+4 = {
+	name="Chiba"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 24 7 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+5 = {
+	name="Daihoji"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 3 0 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+6 = {
+	name="Date"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 27 8 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+7 = {
+	name="Hatakeyama"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 23 1 4 0
+		}
+		religion="buddhism"
+	}
+}
+
+8 = {
+	name="Honma"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 4 3 2 0
+		}
+		religion="buddhism"
+	}
+}
+
+9 = {
+	name="Hosokawa"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 2 99 8 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+10 = {
+	name="Imagawa"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 0 1 3 0
+		}
+		religion="buddhism"
+	}
+}
+
+11 = {
+	name="Isshiki"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 1 1 4 0
+		}
+		religion="buddhism"
+	}
+}
+
+12 = {
+	name="Kasai"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 64 8 1 0
+		}
+		religion="shinto"
+	}
+}
+
+13 = {
+	name="Kikuchi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 67 1 8 0
+		}
+		religion="buddhism"
+	}
+}
+
+14 = {
+	name="Kono"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 28 1 4 0
+		}
+		religion="buddhism"
+	}
+}
+
+15 = {
+	name="Kyogoku"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 8 1 4 0
+		}
+		religion="buddhism"
+	}
+}
+
+16 = {
+	name="Mariyatsu"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 111 1 7 0
+		}
+		religion="buddhism"
+	}
+}
+
+17 = {
+	name="Miura"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 18 1 8 0
+		}
+		religion="buddhism"
+	}
+}
+
+18 = {
+	name="Mogami"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 36 0 1 0
+		}
+		religion="shinto"
+	}
+}
+
+19 = {
+	name="Namioka"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 65 11 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+20 = {
+	name="Nanbu"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 100 1 4 0
+		}
+		religion="buddhism"
+	}
+}
+
+21 = {
+	name="Nasu"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 103 3 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+22 = {
+	name="Nihonmatsu"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 23 1 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+23 = {
+	name="Nikaho"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 89 3 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+24 = {
+	name="Nikaido"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 15 1 3 0
+		}
+		religion="buddhism"
+	}
+}
+
+25 = {
+	name="Ogasawara"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 6 8 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+26 = {
+	name="Onodera"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 0 4 2 0
+		}
+		religion="buddhism"
+	}
+}
+
+27 = {
+	name="Osaki"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 30 4 2 0
+		}
+		religion="buddhism"
+	}
+}
+
+28 = {
+	name="Otomo"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 118 3 2 0
+		}
+		religion="buddhism"
+	}
+}
+
+29 = {
+	name="Ouchi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 119 1 11 0
+		}
+		religion="shinto"
+	}
+}
+
+30 = {
+	name="Rokkaku"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 63 1 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+31 = {
+	name="Satake"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 132 1 4 0
+		}
+		religion="buddhism"
+	}
+}
+
+32 = {
+	name="Satomi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 23 0 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+33 = {
+	name="Shiba"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 36 5 2 0
+		}
+		religion="buddhism"
+	}
+}
+
+34 = {
+	name="Shimazu"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 136 4 1 0
+		}
+		religion="shinto"
+	}
+}
+
+35 = {
+	name="Shoni"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 63 2 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+36 = {
+	name="So"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 140 2 4 0
+		}
+		religion="buddhism"
+	}
+}
+
+37 = {
+	name="Soma"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 24 9 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+38 = {
+	name="Takeda"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 111 1 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+39 = {
+	name="Togashi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 5 2 8 0
+		}
+		religion="shinto"
+	}
+}
+
+40 = {
+	name="Toki"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 3 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+41 = {
+	name="Tozawa"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 6 3 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+42 = {
+	name="Uesugi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 159 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+43 = {
+	name="Uku"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 154 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+44 = {
+	name="Utsunomiya"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 14 0 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+45 = {
+	name="Yamana"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 36 1 4 0
+		}
+		religion="buddhism"
+	}
+}
+
+46 = {
+	name="Yanada"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 7 11 2 0
+		}
+		religion="buddhism"
+	}
+}
+
+47 = {
+	name="Yuki"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 31 1 7 0
+		}
+		religion="buddhism"
+	}
+}
+
+48 = {
+	name="Shirakawa"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 31 1 8 0
+		}
+		religion="buddhism"
+	}
+}
+
+49 = {
+	name="Oyama"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 53 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+50 = {
+	name="Sakai"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 31 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+51 = {
+	name="Akai"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 1 2 3 0
+		}
+		religion="buddhism"
+	}
+}
+
+52 = {
+	name="Akana"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 8 8 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+53 = {
+	name="Akizuki"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 7 1 3 0
+		}
+		religion="buddhism"
+	}
+}
+
+54 = {
+	name="Amago"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 8 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+55 = {
+	name="Amano"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 10 1 4 0
+		}
+		religion="buddhism"
+	}
+}
+
+56 = {
+	name="Anayama"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 9 2 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+57 = {
+	name="Anekoji"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 96 0 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+58 = {
+	name="Annaka"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 31 3 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+59 = {
+	name="Settsu-Arima"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 31 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+60 = {
+	name="Arita"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 23 8 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+61 = {
+	name="Asahina"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 31 1 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+62 = {
+	name="Asakura"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 16 0 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+63 = {
+	name="Aso"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 19 5 1 0
+		}
+		religion="shinto"
+	}
+}
+
+64 = {
+	name="Atagi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 6 1 4 0
+		}
+		religion="buddhism"
+	}
+}
+
+65 = {
+	name="Awaya"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 12 1 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+66 = {
+	name="Azai"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 15 4 2 0
+		}
+		religion="buddhism"
+	}
+}
+
+67 = {
+	name="Bessho"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 56 7 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+68 = {
+	name="Cho"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 13 1 8 0
+		}
+		religion="buddhism"
+	}
+}
+
+69 = {
+	name="Chosokabe"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 25 1 11 0
+		}
+		religion="buddhism"
+	}
+}
+
+70 = {
+	name="Daijo"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 14 1 8 0
+		}
+		religion="buddhism"
+	}
+}
+
+71 = {
+	name="Edo"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 31 7 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+72 = {
+	name="Gamo"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 16 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+73 = {
+	name="Goto"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 17 3 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+74 = {
+	name="Hachisuka"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 98 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+75 = {
+	name="Harada"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 66 1 4 0
+		}
+		religion="buddhism"
+	}
+}
+
+76 = {
+	name="Hatano"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 60 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+77 = {
+	name="Hatta"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 38 3 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+78 = {
+	name="Hemi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 36 1 3 0
+		}
+		religion="buddhism"
+	}
+}
+
+79 = {
+	name="Hongo"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 19 7 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+80 = {
+	name="Honjo"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 2 99 1 4 0
+		}
+		religion="buddhism"
+	}
+}
+
+81 = {
+	name="Horikoshi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 23 1 8 0
+		}
+		religion="buddhism"
+	}
+}
+
+82 = {
+	name="Horiuchi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 2 99 1 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+83 = {
+	name="Hoshino"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 20 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+84 = {
+	name="Iba"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 21 7 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+85 = {
+	name="Ichinomiya"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 174 0 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+86 = {
+	name="Ii"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 47 7 8 0
+		}
+		religion="buddhism"
+	}
+}
+
+87 = {
+	name="Ijuin"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 48 8 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+88 = {
+	name="Ikeda"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 49 9 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+89 = {
+	name="Imai"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 31 1 4 0
+		}
+		religion="buddhism"
+	}
+}
+
+90 = {
+	name="Inaba"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 28 1 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+91 = {
+	name="Irie"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 22 0 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+92 = {
+	name="Itami"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 58 0 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+93 = {
+	name="Ito"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 23 1 4 0
+		}
+		religion="buddhism"
+	}
+}
+
+94 = {
+	name="Jinbo"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 60 7 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+95 = {
+	name="Kagawa"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 95 11 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+96 = {
+	name="Kai"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 17 1 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+97 = {
+	name="Kakizaki"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 49 11 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+98 = {
+	name="Kamachi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 15 3 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+99 = {
+	name="Kaneko"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 24 1 8 0
+		}
+		religion="buddhism"
+	}
+}
+
+100 = {
+	name="Kashima"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 31 8 1 0
+		}
+		religion="shinto"
+	}
+}
+
+101 = {
+	name="Kii"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 31 9 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+102 = {
+	name="Kikkawa"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 66 1 5 0
+		}
+		religion="shinto"
+	}
+}
+
+103 = {
+	name="Kimotsuki"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 68 0 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+104 = {
+	name="Kira"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 36 1 7 0
+		}
+		religion="buddhism"
+	}
+}
+
+105 = {
+	name="Kiryu"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 56 8 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+106 = {
+	name="Kiso"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 65 0 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+107 = {
+	name="Kitabatake"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 65 1 3 0
+		}
+		religion="shinto"
+	}
+}
+
+108 = {
+	name="Kizawa"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 151 1 11 0
+		}
+		religion="buddhism"
+	}
+}
+
+109 = {
+	name="Koyamada"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 87 2 3 0
+		}
+		religion="buddhism"
+	}
+}
+
+110 = {
+	name="Kozai"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 26 3 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+111 = {
+	name="Kuki"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 72 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+112 = {
+	name="Kutami"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 17 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+113 = {
+	name="Masuda"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 40 7 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+114 = {
+	name="Matsuda"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 78 7 8 0
+		}
+		religion="buddhism"
+	}
+}
+
+115 = {
+	name="Matsudaira"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 154 8 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+116 = {
+	name="Matsuura"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 19 8 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+117 = {
+	name="Miki"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 27 9 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+118 = {
+	name="Mimura"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 83 11 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+120 = {
+	name="Miyoshi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 28 0 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+121 = {
+	name="Mori"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 89 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+122 = {
+	name="Munakata"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 29 1 3 0
+		}
+		religion="buddhism"
+	}
+}
+
+123 = {
+	name="Murakami"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 92 1 4 0
+		}
+		religion="buddhism"
+	}
+}
+
+124 = {
+	name="Nagano"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 94 8 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+125 = {
+	name="Nagao"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 95 0 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+126 = {
+	name="Nagato-Naito"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 30 1 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+127 = {
+	name="Nanjo"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 31 0 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+128 = {
+	name="Niki"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 36 1 8 0
+		}
+		religion="buddhism"
+	}
+}
+
+129 = {
+	name="Nishina"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 50 1 8 0
+		}
+		religion="buddhism"
+	}
+}
+
+130 = {
+	name="Nose"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 33 1 11 0
+		}
+		religion="buddhism"
+	}
+}
+
+131 = {
+	name="Nukui"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 64 9 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+132 = {
+	name="Numa"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 110 2 3 0
+		}
+		religion="buddhism"
+	}
+}
+
+133 = {
+	name="Obata"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 34 3 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+134 = {
+	name="Oda"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 13 2 0 0
+		}
+		religion="buddhism"
+	}
+}
+
+135 = {
+	name="Ohara"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 82 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+136 = {
+	name="Ohira"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 13 7 8 0
+		}
+		religion="buddhism"
+	}
+}
+
+137 = {
+	name="Omura"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 114 5 1 0
+		}
+		religion="shinto"
+	}
+}
+
+138 = {
+	name="Ohashi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 50 2 0 0
+		}
+		religion="buddhism"
+	}
+}
+
+139 = {
+	name="Oi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 174 1 3 0
+		}
+		religion="buddhism"
+	}
+}
+
+140 = {
+	name="Ryuzoji"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 9 7 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+141 = {
+	name="Saeki"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 41 7 8 0
+		}
+		religion="buddhism"
+	}
+}
+
+142 = {
+	name="Sagara"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 2 85 8 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+143 = {
+	name="Saigo"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 67 9 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+144 = {
+	name="Saionji"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 56 9 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+145 = {
+	name="Saito"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 189 11 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+146 = {
+	name="Saji"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 132 0 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+147 = {
+	name="Seki"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 133 0 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+148 = {
+	name="Shibita"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 51 2 0 0
+		}
+		religion="buddhism"
+	}
+}
+
+149 = {
+	name="Togo"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 135 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+150 = {
+	name="Shiga"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 93 9 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+151 = {
+	name="Shiina"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 135 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+152 = {
+	name="Enya"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 147 1 3 0
+		}
+		religion="shinto"
+	}
+}
+
+153 = {
+	name="Sho"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 38 1 4 0
+		}
+		religion="buddhism"
+	}
+}
+
+154 = {
+	name="Sue"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 39 1 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+155 = {
+	name="Sugi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 24 8 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+156 = {
+	name="Tabaru"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 93 7 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+157 = {
+	name="Taga"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 41 1 8 0
+		}
+		religion="buddhism"
+	}
+}
+
+158 = {
+	name="Takahashi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 20 1 11 0
+		}
+		religion="buddhism"
+	}
+}
+
+159 = {
+	name="Tamaki"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 38 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+160 = {
+	name="Tannowa"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 33 2 3 0
+		}
+		religion="buddhism"
+	}
+}
+
+161 = {
+	name="To"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 24 11 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+163 = {
+	name="Toyama"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 23 3 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+164 = {
+	name="Tsuchimochi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 156 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+165 = {
+	name="Uchigashima"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 45 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+166 = {
+	name="Ujiie"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 56 11 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+167 = {
+	name="Unakami"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 40 7 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+168 = {
+	name="Urakami"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 94 9 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+169 = {
+	name="Usui"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 24 0 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+170 = {
+	name="Fujiwara"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 96 0 1 0
+		}
+		religion="shinto"
+	}
+}
+
+171 = {
+	name="Yabe"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 194 1 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+172 = {
+	name="Yakushiji"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 46 7 8 0
+		}
+		religion="buddhism"
+	}
+}
+
+173 = {
+	name="Yamauchi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 47 8 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+174 = {
+	name="Yasumi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 96 1 4 0
+		}
+		religion="buddhism"
+	}
+}
+
+175 = {
+	name="Yasutomi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 48 9 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+176 = {
+	name="Yoshimi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 23 9 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+177 = {
+	name="Yukawa"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 111 3 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+179 = {
+	name="Yusa"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 115 11 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+180 = {
+	name="Akamatsu"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 10 0 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+181 = {
+	name="Ota"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 37 1 3 0
+		}
+		religion="buddhism"
+	}
+}
+
+182 = {
+	name="Oishi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 36 1 4 0
+		}
+		religion="buddhism"
+	}
+}
+
+183 = {
+	name="Narita"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 102 1 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+184 = {
+	name="Takanashi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 42 1 7 0
+		}
+		religion="buddhism"
+	}
+}
+
+185 = {
+	name="Omori"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 168 1 8 0
+		}
+		religion="buddhism"
+	}
+}
+
+186 = {
+	name="Mita"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 31 11 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+187 = {
+	name="Toshima"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 24 1 3 0
+		}
+		religion="buddhism"
+	}
+}
+
+188 = {
+	name="Koga-Ashikaga"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 23 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+189 = {
+	name="Hara"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 18 1 11 0
+		}
+		religion="shinto"
+	}
+}
+
+190 = {
+	name="Tominaga"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 43 2 3 0
+		}
+		religion="buddhism"
+	}
+}
+
+191 = {
+	name="Kano"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 23 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+192 = {
+	name="Tsutsui"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 44 3 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+193 = {
+	name="Toichi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 96 1 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+194 = {
+	name="Furuichi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 15 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+195 = {
+	name="Ochi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 35 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+196 = {
+	name="Kodera"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 25 7 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+197 = {
+	name="Toda"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 39 7 8 0
+		}
+		religion="buddhism"
+	}
+}
+
+198 = {
+	name="Tojo"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 36 8 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+199 = {
+	name="Suganuma"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 40 9 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+200 = {
+	name="Kudo"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 66 1 7 0
+		}
+		religion="buddhism"
+	}
+}
+
+201 = {
+	name="Suwa"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 143 11 1 0
+		}
+		religion="shinto"
+	}
+}
+
+202 = {
+	name="Ise"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 14 7 8 0
+		}
+		religion="buddhism"
+	}
+}
+
+203 = {
+	name="Ninagawa"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 32 0 1 0
+		}
+		religion="buddhism"
+	}
+}
+204 = {
+	name="Hino"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 90 1 3 0
+		}
+		religion="buddhism"
+	}
+}
+
+205 = {
+	name="Honekawa"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 2 110 1 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+# 209 = {
+	# name="IKKOIKKI"
+	# culture = japanese
+	# religion = pure_land_buddhism
+	# forced_coa_religiongroup = "taoic_group"
+# }
+
+210 = {
+	name="Asonuma"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 31 0 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+211 = {
+	name="Ema"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 41 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+212 = {
+	name="Arima"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 13 1 3 0
+		}
+		religion="buddhism"
+	}
+}
+
+213 = {
+	name="Hojo"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 152 1 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+214 = {
+	name="Ichijo"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 46 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+215 = {
+	name="Innoshima-Murakami"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 92 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+216 = {
+	name="Iwaki"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 54 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+217 = {
+	name="Kanbe"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 133 11 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+218 = {
+	name="Kobayakawa"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 56 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+219 = {
+	name="Kokubun"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 24 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+220 = {
+	name="Motoyama"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 94 1 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+221 = {
+	name="Noto-Hatakeyama"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 23 7 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+222 = {
+	name="Rusu"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 2 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+225 = {
+	name="Tsuge"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 56 1 8 0
+		}
+		religion="buddhism"
+	}
+}
+
+226 = {
+	name="Wachi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 53 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+227 = {
+	name="Waga"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 65 1 7 0
+		}
+		religion="buddhism"
+	}
+}
+
+228 = {
+	name="Wakasa-Takeda"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 111 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+229 = {
+	name="Sogo"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 55 1 7 0
+		}
+		religion="buddhism"
+	}
+}
+
+230 = {
+	name="Matsunaga"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 80 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+231 = {
+	name="Tanba-Naito"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 56 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+232 = {
+	name="Daidoji"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 133 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+233 = {
+	name="Tachibana"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 154 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+234 = {
+	name="Kasahara"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 161 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+235 = {
+	name="Sase"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 147 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+236 = {
+	name="Sakuma"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 66 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+237 = {
+	name="Shibata"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 134 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+238 = {
+	name="Maeda"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 76 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+240 = {
+	name="Okabe"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 56 1 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+241 = {
+	name="Udono"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 158 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+242 = {
+	name="Usuki"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 118 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+243 = {
+	name="Takita"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 118 1 7 0
+		}
+		religion="buddhism"
+	}
+}
+
+244 = {
+	name="Kozukuri"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 111 2 4 0
+		}
+		religion="buddhism"
+	}
+}
+
+245 = {
+	name="Fujikata"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 65 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+246 = {
+	name="Tsuda"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 75 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+247 = {
+	name="Saika"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 57 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+248 = {
+	name="Ido"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 58 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+249 = {
+	name="Jo"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 67 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+250 = {
+	name="Nabeshima"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 59 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+251 = {
+	name="Kawakami"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 60 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+252 = {
+	name="Niiro"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 61 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+253 = {
+	name="Iyo-Utsunomiya"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 31 2 0 0
+		}
+		religion="buddhism"
+	}
+}
+
+254 = {
+	name="Ono"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 43 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+255 = {
+	name="Uno"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 31 1 0 0
+		}
+		religion="buddhism"
+	}
+}
+
+256 = {
+	name="Ukita"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 62 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+257 = {
+	name="Kuroda"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 110 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+258 = {
+	name="Akashi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 63 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+259 = {
+	name="Oki"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 222 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+260 = {
+	name="Sugihara"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 64 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+261 = {
+	name="Tanegashima"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 41 3 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+300 = {
+	name="Horie"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 10 9 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+301 = {
+	name="Akao"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 66 1 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+302 = {
+	name="Isono"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 84 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+303 = {
+	name="Kutsuki"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 63 7 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+304 = {
+	name="Mikumo"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 67 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+305 = {
+	name="Omi-Gamo"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 68 11 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+306 = {
+	name="Inadome"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 69 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+307 = {
+	name="Naoe"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 70 3 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+308 = {
+	name="Echigo-Shibata"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 19 0 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+309 = {
+	name="Yamayoshi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 71 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+310 = {
+	name="Akechi"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 3 1 4 0
+		}
+		religion="buddhism"
+	}
+}
+
+311 = {
+	name="Mino-Ando"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 72 8 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+312 = {
+	name="Oura"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 73 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+313 = {
+	name="Ishikawa"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 100 1 3 0
+		}
+		religion="buddhism"
+	}
+}
+
+314 = {
+	name="Kita"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 100 1 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+315 = {
+	name="Kunohe"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 100 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+316 = {
+	name="Kosuiji-Shiba"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 74 3 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+317 = {
+	name="Kanagami"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 133 1 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+318 = {
+	name="Inawashiro"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 18 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+319 = {
+	name="Kurokawa"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 74 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+320 = {
+	name="Kashiyama"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 75 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+321 = {
+	name="Yura"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 23 1 6 0
+		}
+		religion="buddhism"
+	}
+}
+
+322 = {
+	name="Numata"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 14 1 4 0
+		}
+		religion="buddhism"
+	}
+}
+
+323 = {
+	name="Sano"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 2 121 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+
+324 = {
+	name="Masaki"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 66 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+325 = {
+	name="Sanada"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 130 1 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+326 = {
+	name="Kozuke-Akai"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 10 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+327 = {
+	name="Hitachi-Ota"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 226 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+328 = {
+	name="Ueda"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 135 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+329 = {
+	name="Fujita"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 72 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+330 = {
+	name="Katsurayama"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 76 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+331 = {
+	name="Matsui"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 77 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+332 = {
+	name="Takenaka"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 78 1 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+333 = {
+	name="Sato"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 3 79 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+334 = {
+	name="Magara"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 221 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+335 = {
+	name="Jinzai"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 23 2 5 0
+		}
+		religion="buddhism"
+	}
+}
+
+336 = {
+	name="Hironaka"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 168 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+337 = {
+	name="Hashiba"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 126 5 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+338 = {
+	name="Tokugawa"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 154 2 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+339 = {
+	name="Showa"
+	culture = japanese
+	
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 0
+			emblem = 0
+			color = 0
+			color = 0
+			color = 0
+		}
+		religion="shinto"
+	}
+	used_for_random = no
+}
+
+340 = {
+	name="Taira"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 133 3 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+341 = {
+	name="Minamoto"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 65 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+343 = {
+	name="Yanagisawa"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 1 37 4 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+344 = {
+	name="Takayama"
+	culture = japanese
+	forced_coa_religiongroup = "taoic_group"
+	coat_of_arms = {
+		data = {
+			0 0 0 72 0 1 0
+		}
+		religion="buddhism"
+	}
+}
+
+360 = {
+	name="the English"
+	culture=english
+}
+361 = {
+	name="de Nederlandse"
+	culture=dutch
+}
+362 = {
+	name="los Españoles"
+	culture=castillan
+}
+363 = {
+	name="Português"
+	culture=portuguese
+}
+364 = {
+	name="the Chinese"
+	culture=chinese
+	forced_coa_religiongroup = "taoic_group"
+}
+
+
+###chinese
+1029032 = {
+	name="Wang"
+	culture = chinese
+	forced_coa_religiongroup = "taoic_group"
+}
+1029033 = {
+	name="Li"
+	culture = chinese
+	forced_coa_religiongroup = "taoic_group"
+}
+1029093 = {
+	name="Zhang"
+	culture = chinese
+	forced_coa_religiongroup = "taoic_group"
+}
+1029094 = {
+	name="Wan"
+	culture = chinese
+	forced_coa_religiongroup = "taoic_group"
+}
+1029095 = {
+	name="Xue"
+	culture = chinese
+	forced_coa_religiongroup = "taoic_group"
+}
+### korean
+1370 = {
+	name = "Kim"
+	culture = korean
+	forced_coa_religiongroup = "taoic_group"
+}
+
+1371 = {
+	name = "Yi"
+	culture = korean
+	forced_coa_religiongroup = "taoic_group"
+}
+
+1372 = {
+	name = "Pak"
+	culture = korean
+	forced_coa_religiongroup = "taoic_group"
+}
+
+1373 = {
+	name = "Ch'oe"
+	culture = korean
+	forced_coa_religiongroup = "taoic_group"
+}
+
+1374 = {
+	name = "Chong"
+	culture = korean
+	forced_coa_religiongroup = "taoic_group"
+}

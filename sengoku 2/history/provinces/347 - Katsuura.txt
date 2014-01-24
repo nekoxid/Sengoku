@@ -1,0 +1,18 @@
+# 347 - Katsuura
+
+# Kokujin Title
+title = c_katsuura
+
+#Settlements
+max_settlements = 3
+b_katsuura_castle = castle
+b_katsuura_city = city
+#b_katsuura_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

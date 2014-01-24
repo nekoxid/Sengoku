@@ -1,0 +1,33 @@
+253 = {
+name="Ujiyori"
+dynasty=185
+culture = japanese
+religion = buddhism
+diplomacy = 3
+intrigue = 3
+martial = 5
+add_trait = brave
+add_trait = brilliant_strategist
+1418.8.9={
+	birth="1418.8.9"
+}
+1494.11.13={
+	death="1494.11.13"
+}
+} 
+355 = {
+name="Saneyori"
+dynasty=185
+culture = japanese
+religion = buddhism
+diplomacy = 0
+martial = 1
+intrigue = 0
+father=253
+1460.1.1={
+	birth="1460.1.1"
+}
+1486.12.31={
+	death="1486.12.31"
+}
+} 

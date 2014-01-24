@@ -1,0 +1,14 @@
+# 113 - Suwa
+
+# Kokujin Title
+title = c_suwa
+
+#Settlements
+max_settlements = 3
+b_suwa_castle = castle
+b_suwa_city = city
+b_suwa_temple = temple
+
+#Misc
+religion = shinto #buddhism
+culture = japanese

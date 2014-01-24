@@ -1,0 +1,14 @@
+# 91 - Nagara
+
+# Kokujin Title
+title = c_nagara
+
+#Settlements
+max_settlements = 3
+b_nagara_castle = castle
+b_nagara_city = city
+#b_nagara_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,35 @@
+255 = {
+name="Nobuyasu"
+dynasty=187
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 2
+intrigue = 3
+add_trait = honest
+add_trait = flamboyant_schemer
+1410.7.29={
+	birth="1410.7.29"
+}
+1474.10.28={
+	death="1474.10.28"
+}
+} 
+362 = {
+name="Tsunesuke"
+dynasty=187
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 5
+intrigue = 3
+add_trait = brave
+add_trait = tough_soldier
+father=255
+1432.7.2={
+	birth="1432.7.2"
+}
+1475.3.11={
+	death="1475.3.11"
+}
+} 

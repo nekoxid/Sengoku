@@ -1,0 +1,14 @@
+# 39 - Okitama
+
+# Kokujin Title
+title = c_okitama
+
+#Settlements
+max_settlements = 3
+b_okitama_castle = castle
+b_okitama_city = city
+#b_okitama_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

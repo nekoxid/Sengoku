@@ -1,0 +1,171 @@
+# TITULAR KINGDOMS
+
+e_shogunate = {
+	color={ 202 26 26 }
+	
+	capital = 205 #203 #kadono/kyoto?
+	
+	title = "SHOGUN"
+	foa = "SHOGUN_FOA"
+	title_prefix = "SHOGUNATE_OF"
+	#short_name = yes
+
+	culture = japanese
+	religion = shinto
+	
+	dignity = 200 # Never want to change primary title
+
+	# Cannot be held as a secondary title
+	#primary = yes
+
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+
+	# Cannot be vassalized
+	#independent = yes
+	
+	creation_requires_capital = no
+	
+	duchy_revokation=yes # The Emperor can revoke duchies at no prestige cost and no opinion penalty with other vassals
+
+	allow = {
+		war = no
+		#NOT = { trait = showa }
+		NOT = { tier = emperor }
+		
+		OR = {
+			culture = japanese
+			e_shogunate = { OR = { is_titular = no has_holder = yes } }
+		}
+	}
+}
+
+k_ikko-ikki = {
+	color = { 220  138  57 }
+	capital = 133 #ishikawa #236 nishinari
+
+	culture = japanese
+	religion = pure_land_buddhism
+	
+	dignity = 200 # Never want to change primary title
+
+	# Cannot be held as a secondary title
+	#primary = yes
+
+	dynasty_title_names = no 	# Will not be named "Seljuk", etc.
+
+	creation_requires_capital = no
+
+	allow = {
+		war = no
+		OR = {
+			is_theocracy = yes
+			k_ikko-ikki = { OR = { is_titular = no has_holder = yes } }
+		}
+	}
+}
+
+k_chugoku = {
+	color = { 192 140 143 }
+	
+	capital = 285 #saeki
+	culture = japanese
+	
+	allow = {
+		war = no
+		always = no
+	}
+}
+k_tokai = { #chubu subregion
+	color = { 140 200 230 }
+	
+	culture = japanese
+	
+	allow = {
+		war = no
+		always = no
+	}
+}
+
+k_kansai = {
+	color = { 32 60 22 }
+	
+	capital = 203 #kadono
+	culture = japanese
+	
+	allow = {
+		war = no
+		always = no
+	}
+}
+
+k_shikoku = {
+	color={ 136 157 23 }
+	
+	capital = 341 #Kochi
+	culture = japanese
+	
+	allow = {
+		war = no
+		always = no
+	}
+}
+
+k_kyushu = {
+	color = { 128 176 10 }
+	
+	capital = 297 #Hakake
+	culture = japanese
+	
+	allow = {
+		war = no
+		always = no
+	}
+}
+	
+### possible europeans
+
+k_england = {
+	color={ 202 26 26 }
+	
+	culture = english
+	religion = catholic
+}
+
+k_netherlands = {
+	color = { 220  138  57 }
+	
+	culture = dutch
+	religion = catholic
+}
+
+k_portugal = {
+	color={ 182 88 5 }
+	
+	culture = portuguese
+	religion = catholic
+}
+
+k_castille = { #Spain
+	color={ 243 209 23 }
+	
+	culture = castillan
+	religion = catholic
+}
+
+e_spain = { #Spain
+	color={ 243 209 23 }
+	
+	culture = castillan
+	religion = catholic
+	short_name = yes
+
+	# Cannot be held as a secondary title
+	primary = yes
+}
+
+k_rus = {
+	color={ 124  143  231 }
+	
+	culture = russian
+	religion = orthodox
+}

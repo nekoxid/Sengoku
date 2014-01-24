@@ -1,0 +1,53 @@
+250 = {
+name="Akishige"
+dynasty=182
+culture = japanese
+religion = buddhism
+diplomacy = 6
+intrigue = 4
+martial = 5
+add_trait = underhanded_rogue
+1439.7.2={
+	birth="1439.7.2"
+}
+1514.12.22={
+	death="1514.12.22"
+}
+} 
+650 = {
+name="Sadahisa"
+dynasty=182
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 9
+intrigue = 11
+add_trait = underhanded_rogue
+
+1499.1.1={
+birth="1499.1.1"
+}
+1565.1.1={
+death="1565.1.1"
+}
+} 
+651 = {
+name="Sadanaga"
+dynasty=182
+culture = japanese
+religion = buddhism
+father=650
+
+diplomacy = 10
+martial = 8
+intrigue = 9
+add_trait = underhanded_rogue
+
+1534.12.21={
+birth="1534.12.21"
+}
+1590.3.6={
+death="1590.3.6"
+}
+} 

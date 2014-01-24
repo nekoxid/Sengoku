@@ -1,0 +1,32 @@
+191 = {
+name="Ujisato"
+dynasty=122
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 3
+intrigue = 3
+add_trait = underhanded_rogue
+1432.3.26={
+	birth="1432.3.26"
+}
+1494.2.9={
+	death="1494.2.9"
+}
+} 
+374 = {
+name="Ujisada"
+dynasty=122
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 1
+intrigue = 1
+father=191
+1458.1.10={
+	birth="1458.1.10"
+}
+1512.4.22={
+	death="1512.4.22"
+}
+} 

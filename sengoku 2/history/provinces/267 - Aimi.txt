@@ -1,0 +1,14 @@
+# 267 - Aimi
+
+# Kokujin Title
+title = c_aimi
+
+#Settlements
+max_settlements = 3
+b_aimi_castle = castle
+b_aimi_city = city
+#b_aimi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,75 @@
+273 = {
+name="Junei"
+dynasty=192
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 4
+martial = 4
+intrigue = 4
+add_trait = just
+add_trait = amateurish_plotter
+1420.1.23={
+	birth="1420.1.23"
+}
+1476.8.21={
+	death="1476.8.21"
+}
+} 
+363 = {
+name="Junson"
+dynasty=192
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 4
+intrigue = 4
+add_trait = amateurish_plotter
+father=273
+1451.9.8={
+	birth="1451.9.8"
+}
+1489.4.6={
+	death="1489.4.6"
+}
+} 
+586 = {
+name="Junkei"
+dynasty=192
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 11
+intrigue = 11
+add_trait = charismatic_negotiator
+
+1549.3.31={
+birth="1549.3.31"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1584.9.15={
+death="1584.9.15"
+}
+} 
+728 = {
+name="Junsei"
+dynasty=192
+culture = japanese
+religion = buddhism
+#father=586
+
+diplomacy = 9
+martial = 6
+intrigue = 9
+add_trait = underhanded_rogue
+
+1540.1.1={
+birth="1540.1.1"
+}
+1564.4.29={
+death="1564.4.29"
+}
+} 

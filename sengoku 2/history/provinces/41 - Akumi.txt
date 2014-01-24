@@ -1,0 +1,14 @@
+# 41 - Akumi
+
+# Kokujin Title
+title = c_akumi
+
+#Settlements
+max_settlements = 3
+b_akumi_castle = castle
+b_akumi_city = city
+#b_akumi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,39 @@
+536 = {
+name="Moriuji"
+dynasty=219
+culture = japanese
+religion = buddhism
+
+diplomacy = 8
+martial = 8
+intrigue = 6
+add_trait = underhanded_rogue
+
+1506.1.1={
+birth="1506.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1575.1.1={
+death="1575.1.1"
+}
+} 
+903 = {
+name="Moriaki"
+dynasty=219
+culture = japanese
+religion = buddhism
+father=536
+diplomacy = 7
+martial = 9
+intrigue = 7
+add_trait = naive_appeaser
+
+1532.1.1={
+birth="1532.1.1"
+}
+1578.5.20={
+death="1578.5.20"
+}
+} 

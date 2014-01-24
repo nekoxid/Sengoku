@@ -1,0 +1,70 @@
+127 = {
+name="Tadachika"
+dynasty=58
+culture = japanese
+religion = buddhism
+diplomacy = 5
+martial = 4
+intrigue = 5
+add_trait = amateurish_plotter
+
+1413.10.17={
+	birth="1413.10.17"
+}
+1506.12.7={
+	death="1506.12.7"
+}
+} 
+925 = {
+name="Tadamasa"
+dynasty=58
+culture = japanese
+religion = buddhism
+diplomacy = 9
+martial = 7
+intrigue = 9
+add_trait = tough_soldieradd_trait = brave
+
+1515.1.1={
+birth="1515.1.1"
+}
+1564.1.1={
+death="1564.1.1"
+}
+} 
+926 = {
+name="Tadashige"
+dynasty=58
+culture = japanese
+religion = buddhism
+father=925
+diplomacy = 6
+martial = 8
+intrigue = 7
+add_trait = naive_appeaser
+
+1533.1.1={
+birth="1533.1.1"
+}
+1575.6.29={
+death="1575.6.29"
+}
+} 
+927 = {
+name="Tadamoto"
+dynasty=58
+culture = japanese
+religion = buddhism
+father=925
+diplomacy = 7
+martial = 7
+intrigue = 5
+add_trait = misguided_warrior
+
+1535.1.1={
+birth="1535.1.1"
+}
+1591.1.1={
+death="1591.1.1"
+}
+} 

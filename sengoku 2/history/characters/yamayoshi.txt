@@ -1,0 +1,35 @@
+859 = {
+name="Masahisa"
+dynasty=309
+culture = japanese
+religion = buddhism
+diplomacy = 8
+martial = 9
+intrigue = 5
+add_trait = amateurish_plotter
+
+1496.1.1={
+birth="1496.1.1"
+}
+1556.1.1={
+death="1556.1.1"
+}
+} 
+860 = {
+name="Toyomori"
+dynasty=309
+culture = japanese
+religion = buddhism
+father=859
+diplomacy = 8
+martial = 8
+intrigue = 7
+add_trait = naive_appeaser
+
+1525.1.1={
+birth="1525.1.1"
+}
+1575.1.1={
+death="1575.1.1"
+}
+} 

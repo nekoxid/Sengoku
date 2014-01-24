@@ -1,0 +1,16 @@
+254 = {
+name="Ujimune"
+dynasty=186
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 4
+intrigue = 4
+add_trait = underhanded_rogue
+1430.1.1={
+	birth="1430.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 

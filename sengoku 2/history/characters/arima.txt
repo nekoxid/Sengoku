@@ -1,0 +1,40 @@
+504 = {
+name="Haruzumi"
+dynasty=212
+culture = japanese
+religion = buddhism
+
+diplomacy = 13 
+martial = 10
+intrigue = 11 
+add_trait = elusive_shadow
+
+1483.1.1={
+birth="1483.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1566.3.19={
+death="1566.3.19"
+}
+} 
+742 = {
+name="Yoshisada"
+dynasty=212
+culture = japanese
+religion = buddhism
+father=504
+
+diplomacy = 10
+martial = 8
+intrigue = 6
+add_trait = naive_appeaser
+
+1521.1.1={
+birth="1521.1.1"
+}
+1576.1.1={
+death="1576.1.1"
+}
+} 

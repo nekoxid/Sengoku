@@ -1,0 +1,288 @@
+194 = {
+name="Tadakage"
+dynasty=125
+culture = japanese
+religion = buddhism
+diplomacy = 4
+intrigue = 4
+martial = 4
+add_trait = tough_soldier
+
+1430.1.1={
+	birth="1430.1.1"
+}
+1501.4.25={
+	death="1501.4.25"
+}
+} 
+379 = {
+name="Kagenobu"
+dynasty=125
+culture = japanese
+religion = buddhism
+diplomacy = 3
+intrigue = 2
+martial = 4
+#add_trait = bushi
+add_trait = tough_soldier
+
+1413.9.15={
+	birth="1413.9.15"
+}
+1473.6.22={
+	death="1473.6.22"
+}
+} 
+380 = {
+name="Fusakage"
+dynasty=125
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 3
+intrigue = 4
+add_trait = naive_appeaser
+1430.1.1={
+	birth="1430.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+381 = {
+name="Takakage"
+dynasty=125
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 4
+intrigue = 2
+add_trait = misguided_warrior
+1430.1.1={
+	birth="1430.1.1"
+}
+1498.10.3={
+	death="1498.10.3"
+}
+} 
+382 = {
+name="Yorikage"
+dynasty=125
+culture = japanese
+religion = buddhism
+diplomacy = 5
+martial = 4
+intrigue = 5
+add_trait = content
+add_trait = flamboyant_schemer
+1390.2.19={
+	birth="1390.2.19"
+}
+1469.12.26={
+	death="1469.12.26"
+}
+} 
+383 = {
+name="Shigekage"
+dynasty=125
+culture = japanese
+religion = buddhism
+diplomacy = 6
+martial = 5
+intrigue = 5
+add_trait = patient
+add_trait = underhanded_rogue
+father=382
+1425.5.18={
+	birth="1425.5.18"
+}
+1482.8.14={
+	death="1482.8.14"
+}
+} 
+384 = {
+name="Yoshikage"
+dynasty=125
+culture = japanese
+religion = buddhism
+diplomacy = 1
+martial = 1
+intrigue = 2
+add_trait = ambitious
+father=383
+1459.2.13={
+	birth="1459.2.13"
+}
+1506.11.19={
+	death="1506.11.19"
+}
+} 
+385 = {
+name="Kagetaka"
+dynasty=125
+culture = japanese
+religion = buddhism
+father=380
+diplomacy = 4
+intrigue = 2
+martial = 2
+add_trait = brave
+add_trait = flamboyant_schemer
+
+1460.1.1={
+	birth="1460.1.1"
+}
+1526.1.25={
+	death="1526.1.25"
+}
+} 
+386 = {
+name="Kageharu"
+dynasty=125
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 7
+intrigue = 6
+add_trait = envious
+add_trait = skilled_tactician
+father=379
+1443.6.7={
+	birth="1443.6.7"
+}
+1514.9.10={
+	death="1514.9.10"
+}
+} 
+387 = {
+name="Akitada"
+dynasty=125
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 4
+intrigue = 4
+add_trait = misguided_warrior
+father=381
+1450.1.1={
+	birth="1450.1.1"
+}
+1509.8.23={
+	death="1509.8.23"
+}
+} 
+548 = {
+name="Kagetora"
+dynasty=125
+culture = japanese
+religion = buddhism
+
+diplomacy = 13
+martial = 13
+intrigue = 11
+add_trait = brilliant_strategist
+add_trait = genius
+
+1530.2.18={
+birth="1530.2.18"
+}
+1551.4.9={
+#is_clan_leader = yes
+dynasty=42
+}
+1559.12.1={
+name="Kenshin"
+}
+1578.4.19={
+death="1578.4.19"
+}
+} 
+849 = {
+name="Fusanaga"
+dynasty=125
+culture = japanese
+religion = buddhism
+diplomacy = 7
+martial = 9
+intrigue = 7
+add_trait = naive_appeaser
+
+1494.1.1={
+birth="1494.1.1"
+}
+1552.9.3={
+death="1552.9.3"
+}
+} 
+850 = {
+name="Masakage"
+dynasty=125
+culture = japanese
+religion = buddhism
+father=849
+diplomacy = 9
+martial = 8
+intrigue = 4
+add_trait = misguided_warrior
+add_trait = envious
+
+1526.1.1={
+birth="1526.1.1"
+}
+1564.8.21={
+death="1564.8.21"
+}
+} 
+851 = {
+name="Kagenobu"
+dynasty=125
+culture = japanese
+religion = buddhism
+diplomacy = 7
+martial = 8
+intrigue = 7
+add_trait = naive_appeaser
+
+1511.1.1={
+birth="1511.1.1"
+}
+1578.7.15={
+death="1578.7.15"
+}
+} 
+852 = {
+name="Tamekage"
+dynasty=125
+culture = japanese
+religion = buddhism
+diplomacy = 13
+martial = 10
+intrigue = 12
+add_trait = skilled_tactician
+add_trait = wroth
+add_trait = ambitious
+
+1489.1.1={
+birth="1489.1.1"
+}
+1543.1.29={
+death="1543.1.29"
+}
+} 
+930 = {
+name="Masanaga"
+dynasty=125
+culture = japanese
+religion = buddhism
+diplomacy = 9
+martial = 8
+intrigue = 7
+add_trait = naive_appeaser
+
+1527.1.1={
+birth="1527.1.1"
+}
+1569.8.27={
+death="1569.8.27"
+}
+} 

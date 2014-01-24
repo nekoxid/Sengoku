@@ -1,0 +1,99 @@
+120 = {
+name="Naoie"
+dynasty=51
+culture = japanese
+religion = buddhism
+diplomacy = 5
+martial = 4
+intrigue = 4
+add_trait = naive_appeaser
+
+1430.1.1={
+	birth="1430.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+
+281 = {
+name="Tadaie"
+dynasty=51
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 3
+intrigue = 2
+add_trait = skilled_tactician
+#father=120
+1439.4.17={
+	birth="1439.4.17"
+}
+1486.6.13={
+	death="1486.6.13"
+}
+} 
+
+502 = {
+name="Tokiie"
+dynasty=51
+culture = japanese
+religion = buddhism
+
+diplomacy = 7 
+martial = 6
+intrigue = 8
+add_trait = flamboyant_schemer
+
+1494.1.1={
+birth="1494.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1581.1.1={
+death="1581.1.1"
+}
+} 
+
+766 = {
+name="Naomasa"
+dynasty=51
+culture = japanese
+religion = buddhism
+father=502
+
+diplomacy = 10
+martial = 12
+intrigue = 12
+add_trait = skilled_tactician
+
+1529.1.1={
+birth="1529.1.1"
+}
+1578.4.8={
+death="1578.4.8"
+}
+} 
+
+957 = {
+name="Terukage"
+dynasty=326
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 7
+intrigue = 6
+add_trait = amateurish_plotter
+
+1528.1.1={
+birth="1528.1.1"
+}
+1551.4.9={
+employer=587
+}
+1578.1.1={
+death="1578.1.1"
+}
+} 

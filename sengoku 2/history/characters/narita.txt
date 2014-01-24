@@ -1,0 +1,52 @@
+251 = {
+name="Shoto"
+dynasty=183
+culture = japanese
+religion = buddhism
+diplomacy = 4
+intrigue = 3
+martial = 4
+add_trait = amateurish_plotter
+1423.5.21={
+	birth="1423.5.21"
+}
+1482.9.14={
+	death="1482.9.14"
+}
+} 
+641 = {
+name="Nagayasu"
+dynasty=183
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 10
+intrigue = 9
+add_trait = tough_soldier
+
+1495.1.1={
+birth="1495.1.1"
+}
+1574.1.9={
+death="1574.1.9"
+}
+} 
+642 = {
+name="Ujinaga"
+dynasty=183
+culture = japanese
+religion = buddhism
+father=641
+
+diplomacy = 11
+martial = 12
+intrigue = 10add_trait = flamboyant_schemer
+
+1542.1.1={
+birth="1542.1.1"
+}
+1596.1.10={
+death="1596.1.10"
+}
+} 

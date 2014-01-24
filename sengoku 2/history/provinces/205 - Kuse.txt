@@ -1,0 +1,18 @@
+# 205 - Kuse
+
+# Kokujin Title
+title = c_kuse
+
+#Settlements
+max_settlements = 3
+b_kuse_castle = castle
+b_kuse_city = city
+#b_kuse_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

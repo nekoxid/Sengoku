@@ -1,0 +1,56 @@
+162 = {
+name="Suketaga"
+dynasty=93
+culture = japanese
+religion = buddhism
+diplomacy = 5
+martial = 5
+intrigue = 6
+add_trait = deceitful
+add_trait = flamboyant_schemer
+1409.1.16={
+	birth="1409.1.16"
+}
+1485.11.22={
+	death="1485.11.22"
+}
+} 
+395 = {
+name="Sukekuni"
+dynasty=93
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 5
+intrigue = 4
+add_trait = tough_soldier
+father=162
+1450.5.9={
+	birth="1450.5.9"
+}
+1485.9.8={
+	death="1485.9.8"
+}
+} 
+596 = {
+name="Yoshisuke"
+dynasty=93
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 9
+intrigue = 7
+add_trait = underhanded_rogue
+add_trait = brave
+
+1512.1.1={
+birth="1512.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1585.8.29={
+death="1585.8.29"
+}
+} 

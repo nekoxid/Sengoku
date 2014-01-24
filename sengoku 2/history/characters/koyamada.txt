@@ -1,0 +1,32 @@
+178 = {
+name="Nobumitsu"
+dynasty=109
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 3
+intrigue = 2
+add_trait = charismatic_negotiator
+1428.2.18={
+	birth="1428.2.18"
+}
+1486.6.9={
+	death="1486.6.9"
+}
+} 
+291 = {
+name="Nobunaga"
+dynasty=109
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 3
+intrigue = 3
+father=178
+1452.4.4={
+	birth="1452.4.4"
+}
+1508.11.3={
+	death="1508.11.3"
+}
+} 

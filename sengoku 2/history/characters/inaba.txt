@@ -1,0 +1,68 @@
+159 = {
+name="Michisada"
+dynasty=90
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 3
+intrigue = 4
+add_trait = honest
+add_trait = intricate_webweaver
+1430.1.1={
+	birth="1430.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+868 = {
+name="Ittetsu"
+dynasty=90culture = japanese
+religion = buddhismdiplomacy = 6
+martial = 12
+intrigue = 11
+add_trait = tough_soldier
+add_trait = charitable
+add_trait = just
+
+1515.1.1={
+birth="1515.1.1"
+}
+1589.1.5={
+death="1589.1.5"
+}
+} 
+869 = {
+name="Shigemichi"
+dynasty=90culture = japanese
+religion = buddhism
+father=868
+diplomacy = 8
+martial = 8
+intrigue = 7
+add_trait = underhanded_rogue
+
+1544.1.1={
+birth="1544.1.1"
+}
+1598.1.11={
+death="1598.1.11"
+}
+} 
+870 = {
+name="Sadamichi"
+dynasty=90culture = japanese
+religion = buddhism
+father=868
+diplomacy = 8
+martial = 9
+intrigue = 8
+add_trait = tough_soldier
+
+1546.1.1={
+birth="1546.1.1"
+}
+1603.10.17={
+death="1603.10.17"
+}
+} 

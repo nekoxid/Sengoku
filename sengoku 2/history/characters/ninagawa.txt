@@ -1,0 +1,20 @@
+415 = {
+name="Chikamoto"
+dynasty=203
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 1
+intrigue = 2
+##add_trait = calligraphist
+add_trait = naive_appeaser
+1433.8.9={
+	birth="1433.8.9"
+}
+1467.5.26={
+	employer=2
+}
+1488.7.4={
+	death="1488.7.4"
+}
+} 

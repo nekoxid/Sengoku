@@ -1,0 +1,18 @@
+772 = {
+name="Kagechika"
+dynasty=258
+culture = japanese
+religion = buddhism
+
+diplomacy = 12
+martial = 8
+intrigue = 11
+add_trait = intricate_webweaver
+
+1520.1.1={
+birth="1520.1.1"
+}
+1589.1.1={
+death="1589.1.1"
+}
+} 

@@ -1,0 +1,935 @@
+# Wiz Event Range
+
+character_event = {
+	id = 110031
+	is_triggered_only = yes
+
+	trigger = {
+		is_ruler = no
+		OR = {
+			trait = tyrant1
+			trait = tyrant2
+			trait = tyrant3
+			trait = tyrant4
+			trait = tyrant5
+			trait = tyrant6
+			trait = tyrant7
+			trait = tyrant8
+			trait = tyrant9
+			trait = tyrant10
+			trait = tyrant11
+			trait = tyrant12
+			trait = tyrant13
+			trait = tyrant14
+			trait = tyrant15
+			trait = tyrant16
+			trait = tyrant17
+			trait = tyrant18
+			trait = tyrant19
+			trait = tyrant20
+		}
+	}
+
+	desc = "AI_EVENT"
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "OK"
+		remove_trait = tyrant1
+		remove_trait = tyrant2
+		remove_trait = tyrant3
+		remove_trait = tyrant4
+		remove_trait = tyrant5
+		remove_trait = tyrant6
+		remove_trait = tyrant7
+		remove_trait = tyrant8
+		remove_trait = tyrant9
+		remove_trait = tyrant10
+		remove_trait = tyrant11
+		remove_trait = tyrant12
+		remove_trait = tyrant13
+		remove_trait = tyrant14
+		remove_trait = tyrant15
+		remove_trait = tyrant16
+		remove_trait = tyrant17
+		remove_trait = tyrant18
+		remove_trait = tyrant19
+		remove_trait = tyrant20
+	}
+}
+
+character_event = {
+	id = 110043
+	is_triggered_only = yes
+
+	trigger = {
+		trait = sanctioned_by_emperor
+		NOT = { has_landed_title = e_shogunate }
+	}
+
+	desc = "EVTDESC110043"
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+
+	option = {
+		name = "EVTOPTA110043"
+		remove_trait = sanctioned_by_emperor
+	}
+}
+
+character_event = {
+	id = 110044
+	picture = "GFX_evt_death"
+
+	hide_window = yes
+	is_triggered_only = yes
+
+	desc = "EVTDESC110044"
+
+	immediate = {
+		hidden_tooltip = {
+			#fix wrong religion heirs
+			if = {
+				limit = {
+					ai = yes
+					is_ruler = yes
+					NOT = { is_feudal = yes }
+					current_heir = {
+						NOT = { religion_group = ROOT }
+					}
+				}
+				current_heir = {
+					religion = ROOT
+				}
+			}
+			#tyrant
+			if = {
+				limit = {
+					ai = no
+					OR = {
+						trait = tyrant3
+						trait = tyrant4
+						trait = tyrant5
+						trait = tyrant6
+						trait = tyrant7
+						trait = tyrant8
+						trait = tyrant9
+						trait = tyrant10
+						trait = tyrant11
+						trait = tyrant12
+						trait = tyrant13
+						trait = tyrant14
+						trait = tyrant15
+						trait = tyrant16
+						trait = tyrant17
+						trait = tyrant18
+						trait = tyrant19
+						trait = tyrant20
+					}
+				}
+				if = {
+					limit = {
+						trait = tyrant3
+					}
+					change_variable = { which = "tyrant" value = 1 }
+				}
+				if = {
+					limit = {
+						trait = tyrant4
+					}
+					change_variable = { which = "tyrant" value = 2 }
+				}
+				if = {
+					limit = {
+						trait = tyrant5
+					}
+					change_variable = { which = "tyrant" value = 3 }
+				}
+				if = {
+					limit = {
+						trait = tyrant6
+					}
+					change_variable = { which = "tyrant" value = 4 }
+				}
+				if = {
+					limit = {
+						trait = tyrant7
+					}
+					change_variable = { which = "tyrant" value = 5 }
+				}
+				if = {
+					limit = {
+						trait = tyrant8
+					}
+					change_variable = { which = "tyrant" value = 6 }
+				}
+				if = {
+					limit = {
+						trait = tyrant9
+					}
+					change_variable = { which = "tyrant" value = 7 }
+				}
+				if = {
+					limit = {
+						trait = tyrant10
+					}
+					change_variable = { which = "tyrant" value = 8 }
+				}
+				if = {
+					limit = {
+						trait = tyrant11
+					}
+					change_variable = { which = "tyrant" value = 9 }
+				}
+				if = {
+					limit = {
+						trait = tyrant12
+					}
+					change_variable = { which = "tyrant" value = 10 }
+				}
+				if = {
+					limit = {
+						trait = tyrant13
+					}
+					change_variable = { which = "tyrant" value = 11 }
+				}
+				if = {
+					limit = {
+						trait = tyrant14
+					}
+					change_variable = { which = "tyrant" value = 12 }
+				}
+				if = {
+					limit = {
+						trait = tyrant15
+					}
+					change_variable = { which = "tyrant" value = 13 }
+				}
+				if = {
+					limit = {
+						trait = tyrant16
+					}
+					change_variable = { which = "tyrant" value = 14 }
+				}
+				if = {
+					limit = {
+						trait = tyrant17
+					}
+					change_variable = { which = "tyrant" value = 15 }
+				}
+				if = {
+					limit = {
+						trait = tyrant18
+					}
+					change_variable = { which = "tyrant" value = 16 }
+				}
+				if = {
+					limit = {
+						trait = tyrant19
+					}
+					change_variable = { which = "tyrant" value = 17 }
+				}
+				if = {
+					limit = {
+						trait = tyrant20
+					}
+					change_variable = { which = "tyrant" value = 18 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant1 }
+					}
+					change_variable = { which = "tyrant" value = 1 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant2 }
+					}
+					change_variable = { which = "tyrant" value = 2 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant3 }
+					}
+					change_variable = { which = "tyrant" value = 3 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant4 }
+					}
+					change_variable = { which = "tyrant" value = 4 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant5 }
+					}
+					change_variable = { which = "tyrant" value = 5 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant6 }
+					}
+					change_variable = { which = "tyrant" value = 6 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant7 }
+					}
+					change_variable = { which = "tyrant" value = 7 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant8 }
+					}
+					change_variable = { which = "tyrant" value = 8 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant9 }
+					}
+					change_variable = { which = "tyrant" value = 9 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant10 }
+					}
+					change_variable = { which = "tyrant" value = 10 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant11 }
+					}
+					change_variable = { which = "tyrant" value = 11 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant12 }
+					}
+					change_variable = { which = "tyrant" value = 12 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant13 }
+					}
+					change_variable = { which = "tyrant" value = 13 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant14 }
+					}
+					change_variable = { which = "tyrant" value = 14 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant15 }
+					}
+					change_variable = { which = "tyrant" value = 15 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant16 }
+					}
+					change_variable = { which = "tyrant" value = 16 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant17 }
+					}
+					change_variable = { which = "tyrant" value = 17 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant18 }
+					}
+					change_variable = { which = "tyrant" value = 18 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant19 }
+					}
+					change_variable = { which = "tyrant" value = 19 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = tyrant20 }
+					}
+					change_variable = { which = "tyrant" value = 20 }
+				}
+				remove_trait = tyrant1
+				remove_trait = tyrant2
+				remove_trait = tyrant3
+				remove_trait = tyrant4
+				remove_trait = tyrant5
+				remove_trait = tyrant6
+				remove_trait = tyrant7
+				remove_trait = tyrant8
+				remove_trait = tyrant9
+				remove_trait = tyrant10
+				remove_trait = tyrant11
+				remove_trait = tyrant12
+				remove_trait = tyrant13
+				remove_trait = tyrant14
+				remove_trait = tyrant15
+				remove_trait = tyrant16
+				remove_trait = tyrant17
+				remove_trait = tyrant18
+				remove_trait = tyrant19
+				remove_trait = tyrant20
+				current_heir = {
+					remove_trait = tyrant1
+					remove_trait = tyrant2
+					remove_trait = tyrant3
+					remove_trait = tyrant4
+					remove_trait = tyrant5
+					remove_trait = tyrant6
+					remove_trait = tyrant7
+					remove_trait = tyrant8
+					remove_trait = tyrant9
+					remove_trait = tyrant10
+					remove_trait = tyrant11
+					remove_trait = tyrant12
+					remove_trait = tyrant13
+					remove_trait = tyrant14
+					remove_trait = tyrant15
+					remove_trait = tyrant16
+					remove_trait = tyrant17
+					remove_trait = tyrant18
+					remove_trait = tyrant19
+					remove_trait = tyrant20
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 0.9 }
+						NOT = { check_variable = { which = "tyrant" value = 1.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant1
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 1.9 }
+						NOT = { check_variable = { which = "tyrant" value = 2.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant2
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 2.9 }
+						NOT = { check_variable = { which = "tyrant" value = 3.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant3
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 3.9 }
+						NOT = { check_variable = { which = "tyrant" value = 4.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant4
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 4.9 }
+						NOT = { check_variable = { which = "tyrant" value = 5.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant5
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 5.9 }
+						NOT = { check_variable = { which = "tyrant" value = 6.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant6
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 6.9 }
+						NOT = { check_variable = { which = "tyrant" value = 7.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant7
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 7.9 }
+						NOT = { check_variable = { which = "tyrant" value = 8.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant8
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 8.9 }
+						NOT = { check_variable = { which = "tyrant" value = 9.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant9
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 9.9 }
+						NOT = { check_variable = { which = "tyrant" value = 10.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant10
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 10.9 }
+						NOT = { check_variable = { which = "tyrant" value = 11.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant11
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 11.9 }
+						NOT = { check_variable = { which = "tyrant" value = 12.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant12
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 12.9 }
+						NOT = { check_variable = { which = "tyrant" value = 13.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant13
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 13.9 }
+						NOT = { check_variable = { which = "tyrant" value = 14.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant14
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 14.9 }
+						NOT = { check_variable = { which = "tyrant" value = 15.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant15
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 15.9 }
+						NOT = { check_variable = { which = "tyrant" value = 16.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant16
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 16.9 }
+						NOT = { check_variable = { which = "tyrant" value = 17.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant17
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 17.9 }
+						NOT = { check_variable = { which = "tyrant" value = 18.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant18
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 18.9 }
+						NOT = { check_variable = { which = "tyrant" value = 19.9 } }
+					}
+					current_heir = {
+						add_trait = tyrant19
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "tyrant" value = 19.9 }
+					}
+					current_heir = {
+						add_trait = tyrant20
+					}
+				}
+			}
+			#dishonorable
+			if = {
+				limit = {
+					ai = no
+					OR = {
+						trait = dishonorable2
+						trait = dishonorable3
+						trait = dishonorable4
+						trait = dishonorable5
+						trait = dishonorable6
+						trait = dishonorable7
+						trait = dishonorable8
+						trait = dishonorable9
+						trait = dishonorable10
+					}
+				}
+				if = {
+					limit = {
+						trait = dishonorable2
+					}
+					change_variable = { which = "dishonorable" value = 1 }
+				}
+				if = {
+					limit = {
+						trait = dishonorable3
+					}
+					change_variable = { which = "dishonorable" value = 2 }
+				}
+				if = {
+					limit = {
+						trait = dishonorable4
+					}
+					change_variable = { which = "dishonorable" value = 3 }
+				}
+				if = {
+					limit = {
+						trait = dishonorable5
+					}
+					change_variable = { which = "dishonorable" value = 4 }
+				}
+				if = {
+					limit = {
+						trait = dishonorable6
+					}
+					change_variable = { which = "dishonorable" value = 5 }
+				}
+				if = {
+					limit = {
+						trait = dishonorable7
+					}
+					change_variable = { which = "dishonorable" value = 6 }
+				}
+				if = {
+					limit = {
+						trait = dishonorable8
+					}
+					change_variable = { which = "dishonorable" value = 7 }
+				}
+				if = {
+					limit = {
+						trait = dishonorable9
+					}
+					change_variable = { which = "dishonorable" value = 8 }
+				}
+				if = {
+					limit = {
+						trait = dishonorable10
+					}
+					change_variable = { which = "dishonorable" value = 9 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dishonorable1 }
+					}
+					change_variable = { which = "dishonorable" value = 1 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dishonorable2 }
+					}
+					change_variable = { which = "dishonorable" value = 2 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dishonorable3 }
+					}
+					change_variable = { which = "dishonorable" value = 3 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dishonorable4 }
+					}
+					change_variable = { which = "dishonorable" value = 4 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dishonorable5 }
+					}
+					change_variable = { which = "dishonorable" value = 5 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dishonorable6 }
+					}
+					change_variable = { which = "dishonorable" value = 6 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dishonorable7 }
+					}
+					change_variable = { which = "dishonorable" value = 7 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dishonorable8 }
+					}
+					change_variable = { which = "dishonorable" value = 8 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dishonorable9 }
+					}
+					change_variable = { which = "dishonorable" value = 9 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dishonorable10 }
+					}
+					change_variable = { which = "dishonorable" value = 10 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dyn_dishonorable1 }
+					}
+					change_variable = { which = "dishonorable" value = 1 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dyn_dishonorable2 }
+					}
+					change_variable = { which = "dishonorable" value = 2 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dyn_dishonorable3 }
+					}
+					change_variable = { which = "dishonorable" value = 3 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dyn_dishonorable4 }
+					}
+					change_variable = { which = "dishonorable" value = 4 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dyn_dishonorable5 }
+					}
+					change_variable = { which = "dishonorable" value = 5 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dyn_dishonorable6 }
+					}
+					change_variable = { which = "dishonorable" value = 6 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dyn_dishonorable7 }
+					}
+					change_variable = { which = "dishonorable" value = 7 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dyn_dishonorable8 }
+					}
+					change_variable = { which = "dishonorable" value = 8 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dyn_dishonorable9 }
+					}
+					change_variable = { which = "dishonorable" value = 9 }
+				}
+				if = {
+					limit = {
+						current_heir = { trait = dyn_dishonorable10 }
+					}
+					change_variable = { which = "dishonorable" value = 10 }
+				}
+				remove_trait = dishonorable1
+				remove_trait = dishonorable2
+				remove_trait = dishonorable3
+				remove_trait = dishonorable4
+				remove_trait = dishonorable5
+				remove_trait = dishonorable6
+				remove_trait = dishonorable7
+				remove_trait = dishonorable8
+				remove_trait = dishonorable9
+				remove_trait = dishonorable10
+				remove_trait = dyn_dishonorable1
+				remove_trait = dyn_dishonorable2
+				remove_trait = dyn_dishonorable3
+				remove_trait = dyn_dishonorable4
+				remove_trait = dyn_dishonorable5
+				remove_trait = dyn_dishonorable6
+				remove_trait = dyn_dishonorable7
+				remove_trait = dyn_dishonorable8
+				remove_trait = dyn_dishonorable9
+				remove_trait = dyn_dishonorable10
+				current_heir = {
+					remove_trait = dishonorable1
+					remove_trait = dishonorable2
+					remove_trait = dishonorable3
+					remove_trait = dishonorable4
+					remove_trait = dishonorable5
+					remove_trait = dishonorable6
+					remove_trait = dishonorable7
+					remove_trait = dishonorable8
+					remove_trait = dishonorable9
+					remove_trait = dishonorable10
+					remove_trait = dyn_dishonorable1
+					remove_trait = dyn_dishonorable2
+					remove_trait = dyn_dishonorable3
+					remove_trait = dyn_dishonorable4
+					remove_trait = dyn_dishonorable5
+					remove_trait = dyn_dishonorable6
+					remove_trait = dyn_dishonorable7
+					remove_trait = dyn_dishonorable8
+					remove_trait = dyn_dishonorable9
+					remove_trait = dyn_dishonorable10
+				}
+				if = {
+					limit = {
+						check_variable = { which = "dishonorable" value = 0.9 }
+						NOT = { check_variable = { which = "dishonorable" value = 1.9 } }
+					}
+					current_heir = {
+						add_trait = dyn_dishonorable1
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "dishonorable" value = 1.9 }
+						NOT = { check_variable = { which = "dishonorable" value = 2.9 } }
+					}
+					current_heir = {
+						add_trait = dyn_dishonorable2
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "dishonorable" value = 2.9 }
+						NOT = { check_variable = { which = "dishonorable" value = 3.9 } }
+					}
+					current_heir = {
+						add_trait = dyn_dishonorable3
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "dishonorable" value = 3.9 }
+						NOT = { check_variable = { which = "dishonorable" value = 4.9 } }
+					}
+					current_heir = {
+						add_trait = dyn_dishonorable4
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "dishonorable" value = 4.9 }
+						NOT = { check_variable = { which = "dishonorable" value = 5.9 } }
+					}
+					current_heir = {
+						add_trait = dyn_dishonorable5
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "dishonorable" value = 5.9 }
+						NOT = { check_variable = { which = "dishonorable" value = 6.9 } }
+					}
+					current_heir = {
+						add_trait = dyn_dishonorable6
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "dishonorable" value = 6.9 }
+						NOT = { check_variable = { which = "dishonorable" value = 7.9 } }
+					}
+					current_heir = {
+						add_trait = dyn_dishonorable7
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "dishonorable" value = 7.9 }
+						NOT = { check_variable = { which = "dishonorable" value = 8.9 } }
+					}
+					current_heir = {
+						add_trait = dyn_dishonorable8
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "dishonorable" value = 8.9 }
+						NOT = { check_variable = { which = "dishonorable" value = 9.9 } }
+					}
+					current_heir = {
+						add_trait = dyn_dishonorable9
+					}
+				}
+				if = {
+					limit = {
+						check_variable = { which = "dishonorable" value = 9.9 }
+					}
+					current_heir = {
+						add_trait = dyn_dishonorable10
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = "EVTOPTA110044"
+	}
+}
+
+#Remove just
+character_event = {
+	id = 110059
+	is_triggered_only = yes
+
+	trigger = {
+		trait = just
+	}
+
+	immediate = {
+		remove_trait = just
+	}
+
+	desc = "EVTDESC110059"
+
+	option = {
+		name = "EVTOPTA110059"
+		tooltip = { remove_trait = just }
+	}
+}

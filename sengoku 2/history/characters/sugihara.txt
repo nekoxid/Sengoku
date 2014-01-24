@@ -1,0 +1,43 @@
+786 = {
+name="Masaoki"
+dynasty=260
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 13
+intrigue = 10
+add_trait = underhanded_rogue
+
+1507.1.1={
+birth="1507.1.1"
+}
+1551.4.9={
+employer=564
+}
+1557.1.1={
+death="1557.1.1"
+}
+} 
+787 = {
+name="Morishige"
+dynasty=260
+culture = japanese
+religion = buddhism
+father=786
+
+diplomacy = 6
+martial = 12
+intrigue = 14
+add_trait = intricate_webweaver
+
+1533.1.1={
+birth="1533.1.1"
+}
+1551.4.9={
+employer=564
+}
+1582.1.19={
+death="1582.1.19"
+}
+} 

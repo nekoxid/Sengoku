@@ -1,0 +1,18 @@
+# 275 - izumo
+
+# Kokujin Title
+title = c_izumo
+
+#Settlements
+max_settlements = 3
+b_izumo_castle = castle
+b_izumo_city = city
+b_izumo_temple = temple
+
+#Misc
+religion = shinto
+culture = japanese
+
+1551.4.9 = {
+	#building=shinto_shrine
+}

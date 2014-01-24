@@ -1,0 +1,43 @@
+788 = {
+name="Satotoki"
+dynasty=261
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 8
+intrigue = 12
+add_trait = charismatic_negotiator 
+
+1503.1.1={
+birth="1503.1.1"
+}
+1551.4.9={
+employer=575
+}
+1567.1.1={
+death="1567.1.1"
+}
+} 
+789 = {
+name="Satotoki"
+dynasty=261
+culture = japanese
+religion = buddhism
+father=788
+
+diplomacy = 12
+martial = 10
+intrigue = 12
+add_trait = intricate_webweaver
+
+1528.1.1={
+birth="1528.1.1"
+}
+1551.4.9={
+employer=575
+}
+1579.1.1={
+death="1579.1.1"
+}
+} 

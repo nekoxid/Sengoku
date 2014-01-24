@@ -1,0 +1,18 @@
+854 = {
+name="Kagetsuna"
+dynasty=307
+culture = japanese
+religion = buddhism
+diplomacy = 10
+martial = 9
+intrigue = 9
+add_trait = underhanded_rogue
+add_trait = patient
+
+1509.1.1={
+birth="1509.1.1"
+}
+1577.3.24={
+death="1577.3.24"
+}
+} 

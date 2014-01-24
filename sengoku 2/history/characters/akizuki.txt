@@ -1,0 +1,69 @@
+122 = {
+name="Taneteru"
+dynasty=53
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 5
+intrigue = 4
+add_trait = misguided_warrior
+
+1443.10.6={
+	birth="1443.10.6"
+}
+1508.12.9={
+	death="1508.12.9"
+}
+} 
+325 = {
+name="Tanetomo"
+dynasty=53
+culture = japanese
+religion = buddhism
+diplomacy = 0
+martial = 0
+intrigue = 0
+father=122
+1467.2.18={
+	birth="1467.2.18"
+}
+1512.10.25={
+	death="1512.10.25"
+}
+} 
+627 = {
+name="Fumitane"
+dynasty=53
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 9
+intrigue = 6
+add_trait = tough_soldier
+
+1512.1.1={
+birth="1512.1.1"
+}
+1557.8.6={
+death="1557.8.6"
+}
+} 
+628 = {
+name="Harutane"
+dynasty=53
+culture = japanese
+religion = buddhism
+father=627
+
+diplomacy = 9
+martial = 10
+intrigue = 3
+
+1539.1.1={
+birth="1539.1.1"
+}
+1557.7.1={
+death="1557.7.1"
+}
+} 

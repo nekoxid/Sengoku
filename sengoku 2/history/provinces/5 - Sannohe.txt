@@ -1,0 +1,14 @@
+# 5 - Sannohe
+
+# Kokujin Title
+title = c_sannohe
+
+#Settlements
+max_settlements = 3
+b_sannohe_castle = castle
+b_sannohe_city = city
+#b_sannohe_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

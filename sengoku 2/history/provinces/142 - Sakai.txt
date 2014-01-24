@@ -1,0 +1,15 @@
+# 142 - Sakai
+
+# Kokujin Title
+title = c_sakai
+
+#Settlements
+max_settlements = 3
+b_sakai_castle = castle
+b_sakai_city = city
+#b_sakai_temple = temple
+
+#building=inn
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,14 @@
+# 87 - Unakami
+
+# Kokujin Title
+title = c_unakami
+
+#Settlements
+max_settlements = 3
+b_unakami_castle = castle
+b_unakami_city = city
+#b_unakami_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

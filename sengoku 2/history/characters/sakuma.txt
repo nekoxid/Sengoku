@@ -1,0 +1,39 @@
+672 = {
+name="Morishige"
+dynasty=236
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 13
+intrigue = 9
+add_trait = tough_soldier
+
+1519.1.1={
+birth="1519.1.1"
+}
+1560.1.1={
+death="1560.1.1"
+}
+} 
+673 = {
+name="Nobumori"
+dynasty=236
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 11
+intrigue = 11
+add_trait = underhanded_rogue
+
+1528.1.1={
+birth="1528.1.1"
+}
+1551.4.9={
+employer=672
+}
+1582.2.18={
+death="1582.2.18"
+}
+} 

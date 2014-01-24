@@ -1,0 +1,90 @@
+186 = {
+name="Hisayori"
+dynasty=117
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 3
+intrigue = 4
+add_trait = misguided_warrior
+1427.1.18={
+	birth="1427.1.18"
+}
+1485.3.3={
+	death="1485.3.3"
+}
+} 
+318 = {
+name="Shigeyori"
+dynasty=117
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 3
+intrigue = 4
+add_trait = naive_appeaser
+father=186
+1452.6.10={
+	birth="1452.6.10"
+}
+1516.11.4={
+	death="1516.11.4"
+}
+} 
+542 = {
+name="Naoyori"
+dynasty=117
+culture = japanese
+religion = buddhism
+
+diplomacy = 13
+martial = 11
+intrigue = 10
+add_trait = intricate_webweaver
+
+1497.1.1={
+birth="1497.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1554.1.1={
+death="1554.1.1"
+}
+} 
+875 = {
+name="Yoshiyori"
+dynasty=117
+culture = japanese
+religion = buddhism
+father=542
+diplomacy = 10
+martial = 10
+intrigue = 10
+add_trait = underhanded_rogue
+
+1520.1.1={
+birth="1520.1.1"
+}
+1572.12.16={
+death="1572.12.16"
+}
+} 
+876 = {
+name="Yoritsuna"
+dynasty=117
+culture = japanese
+religion = buddhism
+father=875
+diplomacy = 9
+martial = 12
+intrigue = 11
+add_trait = skilled_tactician
+
+1540.1.1={
+birth="1540.1.1"
+}
+1587.6.1={
+death="1587.6.1"
+}
+} 

@@ -1,0 +1,2580 @@
+##########################################
+#
+# Budo Tournament Events
+#
+##########################################
+
+namespace = BUDO
+
+# Invitation
+character_event = {
+	id = BUDO.250
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_250"
+	picture = "GFX_evt_emissary"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA88250"
+		prestige = 50
+		set_character_flag = attending_tournament_budo
+	}
+	option = {
+		name = "EVTOPTB88250"
+		prestige = -100
+	}
+}
+
+# Start of tournament
+character_event = {
+	id = BUDO.251
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_251"
+	picture = "GFX_evt_feast"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA88251"
+		trigger = {
+			war = no
+		}
+		hidden_tooltip = {
+			set_character_flag = tournament_begins_budo
+			set_character_flag = attending_tournament_budo
+			location = {
+				set_province_flag = tournament_60_days_budo
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTB88251"
+		trigger = {
+			war = yes
+		}
+		wealth = 200
+		prestige = -100
+		decadence = 2
+		hidden_tooltip = {
+			any_realm_character = {
+				limit = {
+					has_character_flag = attending_tournament_budo
+				}
+				character_event = { id = BUDO.287 }
+			}
+		}
+		clr_character_flag = epic_tournament_budo
+	}
+}
+
+# Tournament has been cancelled
+character_event = {
+	id = BUDO.287
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_287"
+	picture = "GFX_evt_joust"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA88287"
+		prestige = -50
+		clr_character_flag = attending_tournament_budo
+	}
+}
+
+# Message about death
+character_event = {
+	id = BUDO.288
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_288"
+	picture = "GFX_evt_death"
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_character_flag = no_msg_death_budo }
+		NOT = { has_character_flag = tournament_has_ended_budo }
+	}
+
+	option = {
+		name = "EVTOPTA88288"
+	}
+	option = {
+		name = "EVTOPTB88288"
+		set_character_flag = no_msg_death_budo
+	}
+}
+
+# Message about maimed
+character_event = {
+	id = BUDO.289
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_289"
+	picture = "GFX_evt_emissary"
+
+	is_triggered_only = yes
+
+	trigger = {
+		NOT = { has_character_flag = no_msg_maimed_budo }
+		NOT = { has_character_flag = tournament_has_ended_budo }
+	}
+
+	option = {
+		name = "EVTOPTA_BUDO_289"
+	}
+	option = {
+		name = "EVTOPTB88289"
+		set_character_flag = no_msg_maimed_budo
+	}
+}
+
+# Message about wounded
+character_event = {
+	id = BUDO.290
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_290"
+	picture = "GFX_evt_emissary"
+
+	trigger = {
+		NOT = { has_character_flag = no_msg_wounded_budo }
+		NOT = { has_character_flag = tournament_has_ended_budo }
+	}
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA88290"
+	}
+	option = {
+		name = "EVTOPTB88290"
+		set_character_flag = no_msg_wounded_budo
+	}
+}
+
+# Tournament is over
+province_event = {
+	id = BUDO.252
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_252"
+	picture = "GFX_evt_joust"
+
+	trigger = {
+		had_province_flag = {
+			flag = tournament_60_days_budo
+			days = 60
+		}
+		owner = {
+			has_character_flag = winner_budo
+			has_character_flag = second_place_budo
+			has_character_flag = third_place_budo
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = "EVTOPTA88252"
+		clr_province_flag = tournament_60_days_budo
+		owner = {
+			clr_character_flag = tournament_begins_budo
+			clr_character_flag = winner_budo
+			clr_character_flag = second_place_budo
+			clr_character_flag = third_place_budo
+			clr_character_flag = attending_tournament_budo
+			clr_character_flag = attending_tournament_event_budo
+			clr_character_flag = tournament_third_place_budo
+			clr_character_flag = tournament_second_place_budo
+			clr_character_flag = tournament_winner_budo
+			set_character_flag = tournament_has_ended_budo
+			any_realm_character = {
+				limit = {
+					has_character_flag = attending_tournament_budo
+					OR = {
+						has_character_flag = tournament_third_place_budo
+						has_character_flag = tournament_second_place_budo
+						has_character_flag = tournament_winner_budo
+					}
+				}
+				set_character_flag = tournament_has_ended_budo
+				clr_character_flag = tournament_third_place_budo
+				clr_character_flag = tournament_second_place_budo
+				clr_character_flag = tournament_winner_budo
+				opinion = {
+					modifier = opinion_tournament_participant
+					who = PREV
+					years = 2
+				}
+				clr_character_flag = attending_tournament_budo
+				clr_character_flag = attending_tournament_event_budo
+			}
+			any_realm_character = {
+				limit = {
+					has_character_flag = attending_tournament_budo
+					NOT = {
+						character = PREV
+					}
+					NOT = {
+						has_character_flag = tournament_third_place_budo
+					}
+					NOT = {
+						has_character_flag = tournament_second_place_budo
+					}
+					NOT = {
+						has_character_flag = tournament_winner_budo
+					}
+				}
+				hidden_tooltip = {
+					random_list = {
+						10 = {
+							character_event = { id = BUDO.253 }
+						}
+						10 = {
+							character_event = { id = BUDO.254 }
+						}
+						10 = {
+							character_event = { id = BUDO.255 }
+						}
+						10 = {
+							character_event = { id = BUDO.256 }
+						}
+						10 = {
+							character_event = { id = BUDO.257 }
+						}
+						10 = {
+							character_event = { id = BUDO.258 }
+						}
+					}
+				}
+				set_character_flag = tournament_has_ended_budo
+				opinion = {
+					modifier = opinion_tournament_participant
+					who = PREV
+					years = 2
+				}
+				clr_character_flag = attending_tournament_budo
+				clr_character_flag = attending_tournament_event_budo
+			}
+		}
+	}
+}
+
+# End of tournament event
+character_event = {
+	id = BUDO.253
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_253"
+	picture = "GFX_evt_joust"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA88253"
+		prestige = 50
+	}
+}
+
+# End of tournament event
+character_event = {
+	id = BUDO.254
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_254"
+	picture = "GFX_evt_joust"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA88254"
+		prestige = 100
+	}
+}
+
+# End of tournament event
+character_event = {
+	id = BUDO.255
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_255"
+	picture = "GFX_evt_joust"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA88255"
+		prestige = -50
+	}
+}
+
+# End of tournament event
+character_event = {
+	id = BUDO.256
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_256"
+	picture = "GFX_evt_joust"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA88256"
+		prestige = -100
+	}
+}
+
+# End of tournament event
+character_event = {
+	id = BUDO.257
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_257"
+	picture = "GFX_evt_joust"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA88257"
+		change_martial = 1
+	}
+}
+
+# End of tournament event
+character_event = {
+	id = BUDO.258
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_258"
+	picture = "GFX_evt_joust"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA88258"
+		change_martial = -1
+	}
+}
+
+# Character is killed
+character_event = {
+	id = BUDO.259
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_259"
+	picture = "GFX_evt_death"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = {
+			has_character_flag = tournament_has_ended_budo
+		}
+		top_liege = {
+			has_character_flag = tournament_begins_budo
+			NOT = {
+				has_character_flag = tournament_has_ended_budo
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 1000
+		modifier = {
+			factor = 1.25
+			martial = 8
+		}
+		modifier = {
+			factor = 1.25
+			martial = 10
+		}
+		modifier = {
+			factor = 1.25
+			martial = 12
+		}
+		modifier = {
+			factor = 1.25
+			martial = 14
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 7 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 5 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 3 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 1 }
+		}
+		modifier = {
+			factor = 2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.5
+			trait = brave
+		}
+		modifier = {
+			factor = 0.5
+			trait = maimed
+		}
+	}
+
+	immediate = {
+		clr_character_flag = attending_tournament_budo
+	}
+
+	option = {
+		name = "EVTOPTA88259"
+		death = {
+			death_reason = death_battle
+		}
+		hidden_tooltip = {
+			if = {
+				limit = {
+					top_liege = {
+						NOT = {
+							character = ROOT
+						}
+					}
+				}
+				top_liege = { character_event = { id = BUDO.288  } }
+			}
+		}
+	}
+}
+
+# Character is maimed
+character_event = {
+	id = BUDO.260
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_260"
+	picture = "GFX_evt_melee"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = {
+			trait = maimed
+		}
+		NOT = {
+			has_character_flag = tournament_has_ended_budo
+		}
+		top_liege = {
+			has_character_flag = tournament_begins_budo
+			NOT = {
+				has_character_flag = tournament_has_ended_budo
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 800
+		modifier = {
+			factor = 1.25
+			martial = 8
+		}
+		modifier = {
+			factor = 1.25
+			martial = 10
+		}
+		modifier = {
+			factor = 1.25
+			martial = 12
+		}
+		modifier = {
+			factor = 1.25
+			martial = 14
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 7 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 5 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 3 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 1 }
+		}
+		modifier = {
+			factor = 2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.5
+			trait = brave
+		}
+		modifier = {
+			factor = 0.5
+			trait = wounded
+		}
+	}
+
+	immediate = {
+		clr_character_flag = attending_tournament_budo
+	}
+
+	option = {
+		name = "EVTOPTA_BUDO_260"
+		add_trait = maimed
+		hidden_tooltip = {
+			if = {
+				limit = {
+					top_liege = {
+						NOT = {
+							character = ROOT
+						}
+					}
+				}
+				top_liege = { character_event = { id = BUDO.289 } }
+			}
+		}
+	}
+}
+
+# Character is wounded
+character_event = {
+	id = BUDO.261
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_261"
+	picture = "GFX_evt_council"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = { has_character_flag = attending_tournament_event_budo }
+		NOT = {
+			has_character_flag = tournament_has_ended_budo
+		}
+		NOT = {
+			trait = wounded
+		}
+		NOT = {
+			trait = maimed
+		}
+		top_liege = {
+			has_character_flag = tournament_begins_budo
+			NOT = {
+				has_character_flag = tournament_has_ended_budo
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 500
+		modifier = {
+			factor = 1.25
+			martial = 8
+		}
+		modifier = {
+			factor = 1.25
+			martial = 10
+		}
+		modifier = {
+			factor = 1.25
+			martial = 12
+		}
+		modifier = {
+			factor = 1.25
+			martial = 14
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 7 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 5 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 3 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 1 }
+		}
+		modifier = {
+			factor = 2
+			trait = craven
+		}
+		modifier = {
+			factor = 0.5
+			trait = brave
+		}
+	}
+
+	immediate = {
+		set_character_flag = attending_tournament_event_budo
+	}
+
+	option = {
+		name = "EVTOPTA_BUDO_261"
+		add_trait = wounded
+		hidden_tooltip = {
+			if = {
+				limit = {
+					top_liege = {
+						NOT = {
+							character = ROOT
+						}
+					}
+				}
+				top_liege = { character_event = { id = BUDO.290 } }
+			}
+		}
+	}
+}
+
+# Character becomes craven
+character_event = {
+	id = BUDO.262
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_262"
+	picture = "GFX_evt_melee"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = { has_character_flag = attending_tournament_event_budo }
+		NOT = {
+			has_character_flag = tournament_has_ended_budo
+		}
+		NOT = {
+			trait = craven
+		}
+		top_liege = {
+			has_character_flag = tournament_begins_budo
+			NOT = {
+				has_character_flag = tournament_has_ended_budo
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 250
+		modifier = {
+			factor = 1.25
+			martial = 8
+		}
+		modifier = {
+			factor = 1.25
+			martial = 10
+		}
+		modifier = {
+			factor = 1.25
+			martial = 12
+		}
+		modifier = {
+			factor = 1.25
+			martial = 14
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 7 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 5 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 3 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 1 }
+		}
+	}
+
+	immediate = {
+		set_character_flag = attending_tournament_event_budo
+	}
+
+	option = {
+		name = "EVTOPTA70012"
+		add_trait = craven
+	}
+}
+
+# Character becomes brave
+character_event = {
+	id = BUDO.263
+	title = "BUDOTITLE"
+	desc = "EVTDESC70013"
+	picture = "GFX_evt_melee"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = { has_character_flag = attending_tournament_event_budo }
+		NOT = {
+			has_character_flag = tournament_has_ended_budo
+		}
+		NOT = {
+			trait = brave
+		}
+		top_liege = {
+			has_character_flag = tournament_begins_budo
+			NOT = {
+				has_character_flag = tournament_has_ended_budo
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 250
+		modifier = {
+			factor = 0.75
+			martial = 8
+		}
+		modifier = {
+			factor = 0.75
+			martial = 10
+		}
+		modifier = {
+			factor = 0.75
+			martial = 12
+		}
+		modifier = {
+			factor = 0.75
+			martial = 14
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 7 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 5 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 3 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 1 }
+		}
+	}
+
+	immediate = {
+		set_character_flag = attending_tournament_event_budo
+	}
+
+	option = {
+		name = "EVTOPTA70013"
+		add_trait = brave
+	}
+}
+
+# Character becomes tough soldier
+character_event = {
+	id = BUDO.264
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_264"
+	picture = "GFX_evt_melee"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = { has_character_flag = attending_tournament_event_budo }
+		NOT = {
+			has_character_flag = tournament_has_ended_budo
+		}
+		trait = misguided_warrior
+		top_liege = {
+			has_character_flag = tournament_begins_budo
+			NOT = {
+				has_character_flag = tournament_has_ended_budo
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 250
+		modifier = {
+			factor = 0.75
+			martial = 8
+		}
+		modifier = {
+			factor = 0.75
+			martial = 10
+		}
+		modifier = {
+			factor = 0.75
+			martial = 12
+		}
+		modifier = {
+			factor = 0.75
+			martial = 14
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 7 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 5 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 3 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 1 }
+		}
+	}
+
+	immediate = {
+		set_character_flag = attending_tournament_event_budo
+	}
+
+	option = {
+		name = "EVTOPTA88264"
+		remove_trait = misguided_warrior
+		add_trait = tough_soldier
+	}
+}
+
+# Character becomes skilled tactician
+character_event = {
+	id = BUDO.265
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_265"
+	picture = "GFX_evt_melee"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = { has_character_flag = attending_tournament_event_budo }
+		NOT = {
+			has_character_flag = tournament_has_ended_budo
+		}
+		trait = tough_soldier
+		top_liege = {
+			has_character_flag = tournament_begins_budo
+			NOT = {
+				has_character_flag = tournament_has_ended_budo
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 250
+		modifier = {
+			factor = 0.75
+			martial = 8
+		}
+		modifier = {
+			factor = 0.75
+			martial = 10
+		}
+		modifier = {
+			factor = 0.75
+			martial = 12
+		}
+		modifier = {
+			factor = 0.75
+			martial = 14
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 7 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 5 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 3 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 1 }
+		}
+	}
+
+	immediate = {
+		set_character_flag = attending_tournament_event_budo
+	}
+
+	option = {
+		name = "EVTOPTA_BUDO_265"
+		remove_trait = tough_soldier
+		add_trait = skilled_tactician
+	}
+}
+
+# Character becomes brilliant strategist
+character_event = {
+	id = BUDO.266
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_266"
+	picture = "GFX_evt_council"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = { has_character_flag = attending_tournament_event_budo }
+		NOT = {
+			has_character_flag = tournament_has_ended_budo
+		}
+		trait = skilled_tactician
+		top_liege = {
+			has_character_flag = tournament_begins_budo
+			NOT = {
+				has_character_flag = tournament_has_ended_budo
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 250
+		modifier = {
+			factor = 0.75
+			martial = 8
+		}
+		modifier = {
+			factor = 0.75
+			martial = 10
+		}
+		modifier = {
+			factor = 0.75
+			martial = 12
+		}
+		modifier = {
+			factor = 0.75
+			martial = 14
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 7 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 5 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 3 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 1 }
+		}
+	}
+
+	immediate = {
+		set_character_flag = attending_tournament_event_budo
+	}
+
+	option = {
+		name = "EVTOPTA_BUDO_266"
+		remove_trait = skilled_tactician
+		add_trait = brilliant_strategist
+	}
+}
+
+# Character becomes skilled tactician
+character_event = {
+	id = BUDO.267
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_267"
+	picture = "GFX_evt_melee"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = { has_character_flag = attending_tournament_event_budo }
+		NOT = {
+			has_character_flag = tournament_has_ended_budo
+		}
+		trait = brilliant_strategist
+		top_liege = {
+			has_character_flag = tournament_begins_budo
+			NOT = {
+				has_character_flag = tournament_has_ended_budo
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 250
+		modifier = {
+			factor = 1.25
+			martial = 8
+		}
+		modifier = {
+			factor = 1.25
+			martial = 10
+		}
+		modifier = {
+			factor = 1.25
+			martial = 12
+		}
+		modifier = {
+			factor = 1.25
+			martial = 14
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 7 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 5 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 3 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 1 }
+		}
+	}
+
+	immediate = {
+		set_character_flag = attending_tournament_event_budo
+	}
+
+	option = {
+		name = "EVTOPTA88267"
+		remove_trait = brilliant_strategist
+		add_trait = skilled_tactician
+	}
+}
+
+# Character becomes tough soldier
+character_event = {
+	id = BUDO.268
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_268"
+	picture = "GFX_evt_council"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = { has_character_flag = attending_tournament_event_budo }
+		NOT = {
+			has_character_flag = tournament_has_ended_budo
+		}
+		trait = skilled_tactician
+		top_liege = {
+			has_character_flag = tournament_begins_budo
+			NOT = {
+				has_character_flag = tournament_has_ended_budo
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 250
+		modifier = {
+			factor = 1.25
+			martial = 8
+		}
+		modifier = {
+			factor = 1.25
+			martial = 10
+		}
+		modifier = {
+			factor = 1.25
+			martial = 12
+		}
+		modifier = {
+			factor = 1.25
+			martial = 14
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 7 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 5 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 3 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 1 }
+		}
+	}
+
+	immediate = {
+		set_character_flag = attending_tournament_event_budo
+	}
+
+	option = {
+		name = "EVTOPTA88268"
+		remove_trait = skilled_tactician
+		add_trait = tough_soldier
+	}
+}
+
+# Character becomes misguided warrior
+character_event = {
+	id = BUDO.269
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_269"
+	picture = "GFX_evt_melee"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = { has_character_flag = attending_tournament_event_budo }
+		NOT = {
+			has_character_flag = tournament_has_ended_budo
+		}
+		trait = tough_soldier
+		top_liege = {
+			has_character_flag = tournament_begins_budo
+			NOT = {
+				has_character_flag = tournament_has_ended_budo
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 250
+		modifier = {
+			factor = 1.25
+			martial = 8
+		}
+		modifier = {
+			factor = 1.25
+			martial = 10
+		}
+		modifier = {
+			factor = 1.25
+			martial = 12
+		}
+		modifier = {
+			factor = 1.25
+			martial = 14
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 7 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 5 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 3 }
+		}
+		modifier = {
+			factor = 0.75
+			NOT = { martial = 1 }
+		}
+	}
+
+	immediate = {
+		set_character_flag = attending_tournament_event_budo
+	}
+
+	option = {
+		name = "EVTOPTA_BUDO_269"
+		remove_trait = tough_soldier
+		add_trait = misguided_warrior
+	}
+}
+
+# Character wins the tournament
+character_event = {
+	id = BUDO.270
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_270"
+	picture = "GFX_evt_melee"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = {
+			has_character_flag = tournament_has_ended_budo
+		}
+		top_liege = {
+			had_character_flag = { flag = tournament_begins_budo days = 50 }
+			NOT = {
+				has_character_flag = winner_budo
+			}
+			NOT = {
+				has_character_flag = tournament_has_ended_budo
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 10
+		modifier = {
+			factor = 0.75
+			martial = 8
+		}
+		modifier = {
+			factor = 0.75
+			martial = 10
+		}
+		modifier = {
+			factor = 0.75
+			martial = 12
+		}
+		modifier = {
+			factor = 0.75
+			martial = 14
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 7 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 5 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 3 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 1 }
+		}
+	}
+
+	immediate = {
+		set_character_flag = attending_tournament_event_budo
+		set_character_flag = tournament_winner_budo
+		top_liege = {
+			set_character_flag = winner_budo
+		}
+	}
+
+	option = {
+		name = "EVTOPTA88270"
+		wealth = 100
+		prestige = 300
+		decadence = -5
+		hidden_tooltip = {
+			if = {
+				limit = {
+					top_liege = {
+						NOT = {
+							character = ROOT
+						}
+					}
+				}
+				top_liege = { character_event = { id = BUDO.284 } }
+			}
+			any_dynasty_member = {
+				limit = {
+					ai = no
+					NOT = { character = ROOT }
+				}
+				character_event = { id = BUDO.301 }
+			}
+		}
+	}
+}
+
+# Inform about winner
+character_event = {
+	id = BUDO.284
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_284"
+	picture = "GFX_evt_joust"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA88284"
+		FROM = {
+			opinion = {
+				modifier = opinion_tournament_winner
+					who = ROOT
+				years = 20
+			}
+		}
+	}
+}
+
+# Character wins second place in the tournament
+character_event = {
+	id = BUDO.271
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_271"
+	picture = "GFX_evt_melee"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = {
+			has_character_flag = tournament_has_ended_budo
+			has_character_flag = tournament_winner_budo
+		}
+		top_liege = {
+			had_character_flag = { flag = tournament_begins_budo days = 50 }
+			had_character_flag = { flag = winner_budo days = 1 }
+			NOT = { has_character_flag = second_place_budo }
+			NOT = {
+				has_character_flag = tournament_has_ended_budo
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 10
+		modifier = {
+			factor = 0.75
+			martial = 8
+		}
+		modifier = {
+			factor = 0.75
+			martial = 10
+		}
+		modifier = {
+			factor = 0.75
+			martial = 12
+		}
+		modifier = {
+			factor = 0.75
+			martial = 14
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 7 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 5 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 3 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 1 }
+		}
+	}
+
+	immediate = {
+		set_character_flag = attending_tournament_event_budo
+		set_character_flag = tournament_second_place_budo
+		top_liege = {
+			set_character_flag = second_place_budo
+		}
+	}
+
+	option = {
+		name = "EVTOPTA88271"
+		wealth = 75
+		prestige = 250
+		decadence = -3
+		hidden_tooltip = {
+			if = {
+				limit = {
+					top_liege = {
+						NOT = {
+							character = ROOT
+						}
+					}
+				}
+				top_liege = { character_event = { id = BUDO.285 } }
+			}
+			any_dynasty_member = {
+				limit = {
+					ai = no
+					NOT = { character = ROOT }
+				}
+				character_event = { id = BUDO.302 }
+			}
+		}
+	}
+}
+
+# Inform about second place
+character_event = {
+	id = BUDO.285
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_285"
+	picture = "GFX_evt_joust"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA88285"
+		FROM = {
+			opinion = {
+				modifier = opinion_tournament_second_place
+					who = ROOT
+				years = 15
+			}
+		}
+	}
+}
+
+# Character wins third place in the tournament
+character_event = {
+	id = BUDO.272
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_272"
+	picture = "GFX_evt_melee"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = {
+			has_character_flag = tournament_has_ended_budo
+			has_character_flag = tournament_winner_budo
+			has_character_flag = tournament_second_place_budo
+		}
+		top_liege = {
+			had_character_flag = { flag = tournament_begins_budo days = 50 }
+			had_character_flag = { flag = second_place_budo days = 1 }
+			NOT = { has_character_flag = third_place_budo }
+			NOT = {
+				has_character_flag = tournament_has_ended_budo
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 10
+		modifier = {
+			factor = 0.75
+			martial = 8
+		}
+		modifier = {
+			factor = 0.75
+			martial = 10
+		}
+		modifier = {
+			factor = 0.75
+			martial = 12
+		}
+		modifier = {
+			factor = 0.75
+			martial = 14
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 7 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 5 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 3 }
+		}
+		modifier = {
+			factor = 1.25
+			NOT = { martial = 1 }
+		}
+	}
+
+	immediate = {
+		set_character_flag = attending_tournament_event_budo
+		set_character_flag = tournament_third_place_budo
+		top_liege = {
+			set_character_flag = third_place_budo
+		}
+	}
+
+	option = {
+		name = "EVTOPTA88272"
+		wealth = 50
+		prestige = 200
+		decadence = -1
+		hidden_tooltip = {
+			if = {
+				limit = {
+					top_liege = {
+						NOT = {
+							character = ROOT
+						}
+					}
+				}
+				top_liege = { character_event = { id = BUDO.286 } }
+			}
+			any_dynasty_member = {
+				limit = {
+					ai = no
+					NOT = { character = ROOT }
+				}
+				character_event = { id = BUDO.303 }
+			}
+		}
+	}
+}
+
+# Inform about third place
+character_event = {
+	id = BUDO.286
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_286"
+	picture = "GFX_evt_joust"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA88286"
+		FROM = {
+			opinion = {
+				modifier = opinion_tournament_third_place
+				who = ROOT
+				years = 10
+			}
+		}
+	}
+}
+
+# Character becomes homosexual
+character_event = {
+	id = BUDO.273
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_273"
+	picture = "GFX_evt_lunatic"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = { has_character_flag = attending_tournament_event_budo }
+		NOT = { has_character_flag = tournament_has_ended_budo }
+		NOT = {
+			trait = homosexual
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 800
+		modifier = {
+			factor = 0.9
+			trait = drunkard
+		}
+		modifier = {
+			factor = 0.9
+			trait = excommunicated
+		}
+		modifier = {
+			factor = 0.9
+			trait = ugly
+		}
+		modifier = {
+			factor = 1.5
+			trait = fair
+		}
+		modifier = {
+			factor = 0.9
+			trait = celibate
+		}
+		modifier = {
+			factor = 0.9
+			trait = hedonist
+		}
+		modifier = {
+			factor = 0.5
+			trait = impaler
+		}
+		modifier = {
+			factor = 1.5
+			trait = lustful
+		}
+		modifier = {
+			factor = 0.9
+			trait = chaste
+		}
+		modifier = {
+			factor = 3
+			trait = zealous
+		}
+	}
+
+	immediate = {
+		set_character_flag = attending_tournament_event_budo
+	}
+
+	option = {
+		name = "EVTOPTA88273"
+		add_trait = homosexual
+	}
+}
+
+# Character becomes syphilitic
+character_event = {
+	id = BUDO.274
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_274"
+	picture = "GFX_evt_lovers"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = { has_character_flag = attending_tournament_event_budo }
+		NOT = { has_character_flag = tournament_has_ended_budo }
+		NOT = {
+			trait = syphilitic
+			trait = celibate
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 800
+		modifier = {
+			factor = 1.5
+			trait = ugly
+		}
+		modifier = {
+			factor = 0.9
+			trait = fair
+		}
+		modifier = {
+			factor = 0.9
+			trait = hedonist
+		}
+		modifier = {
+			factor = 0.5
+			trait = impaler
+		}
+		modifier = {
+			factor = 0.9
+			trait = lustful
+		}
+		modifier = {
+			factor = 2
+			trait = chaste
+		}
+		modifier = {
+			factor = 3
+			trait = zealous
+		}
+	}
+
+	immediate = {
+		set_character_flag = attending_tournament_event_budo
+	}
+
+	option = {
+		name = "EVTOPTA_BUDO_274"
+		add_trait = syphilitic
+	}
+}
+
+# Character becomes drunkard
+character_event = {
+	id = BUDO.275
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_275"
+	picture = "GFX_evt_drunk"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = { has_character_flag = attending_tournament_event_budo }
+		NOT = { has_character_flag = tournament_has_ended_budo }
+		NOT = {
+			trait = drunkard
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 500
+		modifier = {
+			factor = 0.5
+			trait = depressed
+		}
+		modifier = {
+			factor = 1.5
+			trait = strong
+		}
+		modifier = {
+			factor = 0.9
+			trait = dwarf
+		}
+		modifier = {
+			factor = 0.9
+			trait = gluttonous
+		}
+		modifier = {
+			factor = 0.9
+			trait = lustful
+		}
+		modifier = {
+			factor = 3
+			trait = temperate
+		}
+		modifier = {
+			factor = 0.9
+			trait = greedy
+		}
+	}
+
+	immediate = {
+		set_character_flag = attending_tournament_event_budo
+	}
+
+	option = {
+		name = "EVTOPTA70025"
+		add_trait = drunkard
+	}
+}
+
+# Character becomes duelist
+character_event = {
+	id = BUDO.276
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_276"
+	picture = "GFX_evt_melee"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = { has_character_flag = attending_tournament_event_budo }
+		NOT = { has_character_flag = tournament_has_ended_budo }
+		NOT = {
+			lifestyle_traits = 1
+		}
+	}
+
+	mean_time_to_happen = {
+		months = 500
+		modifier = {
+			factor = 0.9
+			trait = wroth
+		}
+		modifier = {
+			factor = 1.5
+			trait = kind
+		}
+		modifier = {
+			factor = 0.9
+			trait = proud
+		}
+		modifier = {
+			factor = 1.5
+			trait = humble
+		}
+		modifier = {
+			factor = 1.5
+			trait = craven
+		}
+		modifier = {
+			factor = 0.9
+			trait = brave
+		}
+		modifier = {
+			factor = 1.5
+			trait = just
+		}
+		modifier = {
+			factor = 0.9
+			trait = cruel
+		}
+	}
+
+	immediate = {
+		set_character_flag = attending_tournament_event_budo
+	}
+
+	option = {
+		name = "EVTOPTA_BUDO_276"
+		add_trait = duelist
+	}
+}
+
+# Character gains intrigue
+character_event = {
+	id = BUDO.277
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_277"
+	picture = "GFX_evt_whispers"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = { has_character_flag = attending_tournament_event_budo }
+		NOT = { has_character_flag = tournament_has_ended_budo }
+	}
+
+	mean_time_to_happen = {
+		months = 250
+		modifier = {
+			factor = 0.8
+			trait = elusive_shadow
+		}
+		modifier = {
+			factor = 0.9
+			trait = intricate_webweaver
+		}
+		modifier = {
+			factor = 1.1
+			trait = flamboyant_schemer
+		}
+		modifier = {
+			factor = 1.5
+			trait = amateurish_plotter
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				OR = {
+					trait = elusive_shadow
+					trait = intricate_webweaver
+					trait = flamboyant_schemer
+					trait = amateurish_plotter
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			trait = deceitful
+		}
+		modifier = {
+			factor = 1.5
+			trait = honest
+		}
+		modifier = {
+			factor = 4
+			martial = 10
+		}
+		modifier = {
+			factor = 0.8
+			NOT = {
+				martial = 5
+			}
+		}
+	}
+
+	immediate = {
+		set_character_flag = attending_tournament_event_budo
+	}
+
+	option = {
+		name = "EVTOPTA88277"
+		change_intrigue = 1
+	}
+}
+
+# Character loses intrigue
+character_event = {
+	id = BUDO.278
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_278"
+	picture = "GFX_evt_whispers"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = { has_character_flag = attending_tournament_event_budo }
+		NOT = { has_character_flag = tournament_has_ended_budo }
+	}
+
+	mean_time_to_happen = {
+		months = 250
+		modifier = {
+			factor = 1.5
+			trait = elusive_shadow
+		}
+		modifier = {
+			factor = 1.1
+			trait = intricate_webweaver
+		}
+		modifier = {
+			factor = 0.9
+			trait = flamboyant_schemer
+		}
+		modifier = {
+			factor = 0.8
+			trait = amateurish_plotter
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				OR = {
+					trait = elusive_shadow
+					trait = intricate_webweaver
+					trait = flamboyant_schemer
+					trait = amateurish_plotter
+				}
+			}
+		}
+		modifier = {
+			factor = 1.5
+			trait = deceitful
+		}
+		modifier = {
+			factor = 0.9
+			trait = honest
+		}
+		modifier = {
+			factor = 4
+			martial = 10
+		}
+		modifier = {
+			factor = 0.8
+			NOT = {
+				martial = 5
+			}
+		}
+	}
+
+	immediate = {
+		set_character_flag = attending_tournament_event_budo
+	}
+
+	option = {
+		name = "EVTOPTA88278"
+		change_intrigue = -1
+	}
+}
+
+# Character gains stewardship
+character_event = {
+	id = BUDO.279
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_279"
+	picture = "GFX_evt_market"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = { has_character_flag = attending_tournament_event_budo }
+		NOT = { has_character_flag = tournament_has_ended_budo }
+	}
+
+	mean_time_to_happen = {
+		months = 250
+		modifier = {
+			factor = 0.8
+			trait = midas_touched
+		}
+		modifier = {
+			factor = 0.9
+			trait = fortune_builder
+		}
+		modifier = {
+			factor = 1.1
+			trait = thrifty_clerk
+		}
+		modifier = {
+			factor = 1.5
+			trait = indulgent_wastrel
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				OR = {
+					trait = midas_touched
+					trait = fortune_builder
+					trait = thrifty_clerk
+					trait = indulgent_wastrel
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.5
+			trait = slothful
+		}
+		modifier = {
+			factor = 4
+			martial = 10
+		}
+		modifier = {
+			factor = 0.8
+			NOT = {
+				martial = 5
+			}
+		}
+	}
+
+	immediate = {
+		set_character_flag = attending_tournament_event_budo
+	}
+
+	option = {
+		name = "EVTOPTA88279"
+		change_stewardship = 1
+	}
+}
+
+# Character loses stewardship
+character_event = {
+	id = BUDO.280
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_280"
+	picture = "GFX_evt_market"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = { has_character_flag = attending_tournament_event_budo }
+		NOT = { has_character_flag = tournament_has_ended_budo }
+	}
+
+	mean_time_to_happen = {
+		months = 250
+		modifier = {
+			factor = 1.5
+			trait = midas_touched
+		}
+		modifier = {
+			factor = 1.1
+			trait = fortune_builder
+		}
+		modifier = {
+			factor = 0.9
+			trait = thrifty_clerk
+		}
+		modifier = {
+			factor = 0.8
+			trait = indulgent_wastrel
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				OR = {
+					trait = midas_touched
+					trait = fortune_builder
+					trait = thrifty_clerk
+					trait = indulgent_wastrel
+				}
+			}
+		}
+		modifier = {
+			factor = 1.5
+			trait = diligent
+		}
+		modifier = {
+			factor = 0.9
+			trait = slothful
+		}
+		modifier = {
+			factor = 4
+			martial = 10
+		}
+		modifier = {
+			factor = 0.8
+			NOT = {
+				martial = 5
+			}
+		}
+	}
+
+	immediate = {
+		set_character_flag = attending_tournament_event_budo
+	}
+
+	option = {
+		name = "EVTOPTA70030"
+		change_stewardship = -1
+	}
+}
+
+# Character gains diplomacy
+character_event = {
+	id = BUDO.281
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_281"
+	picture = "GFX_evt_council"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = { has_character_flag = attending_tournament_event_budo }
+		NOT = { has_character_flag = tournament_has_ended_budo }
+	}
+
+	mean_time_to_happen = {
+		months = 250
+		modifier = {
+			factor = 0.8
+			trait = grey_eminence
+		}
+		modifier = {
+			factor = 0.9
+			trait = charismatic_negotiator
+		}
+		modifier = {
+			factor = 1.1
+			trait = underhanded_rogue
+		}
+		modifier = {
+			factor = 1.5
+			trait = naive_appeaser
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				OR = {
+					trait = grey_eminence
+					trait = charismatic_negotiator
+					trait = underhanded_rogue
+					trait = naive_appeaser
+				}
+			}
+		}
+		modifier = {
+			factor = 0.9
+			trait = gregarious
+		}
+		modifier = {
+			factor = 1.5
+			trait = shy
+		}
+		modifier = {
+			factor = 4
+			martial = 10
+		}
+		modifier = {
+			factor = 0.8
+			NOT = {
+				martial = 5
+			}
+		}
+	}
+
+	immediate = {
+		set_character_flag = attending_tournament_event_budo
+	}
+
+	option = {
+		name = "EVTOPTA70031"
+		change_diplomacy = 1
+	}
+}
+
+# Character loses diplomacy
+character_event = {
+	id = BUDO.282
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_282"
+	picture = "GFX_evt_council"
+
+	min_age = 16
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+
+	trigger = {
+		has_character_flag = attending_tournament_budo
+		NOT = { has_character_flag = attending_tournament_event_budo }
+		NOT = { has_character_flag = tournament_has_ended_budo }
+	}
+
+	mean_time_to_happen = {
+		months = 250
+		modifier = {
+			factor = 1.5
+			trait = grey_eminence
+		}
+		modifier = {
+			factor = 1.1
+			trait = charismatic_negotiator
+		}
+		modifier = {
+			factor = 0.9
+			trait = underhanded_rogue
+		}
+		modifier = {
+			factor = 0.8
+			trait = naive_appeaser
+		}
+		modifier = {
+			factor = 1.5
+			NOT = {
+				OR = {
+					trait = grey_eminence
+					trait = charismatic_negotiator
+					trait = underhanded_rogue
+					trait = naive_appeaser
+				}
+			}
+		}
+		modifier = {
+			factor = 1.5
+			trait = gregarious
+		}
+		modifier = {
+			factor = 0.9
+			trait = shy
+		}
+		modifier = {
+			factor = 4
+			martial = 10
+		}
+		modifier = {
+			factor = 0.8
+			NOT = {
+				martial = 5
+			}
+		}
+	}
+
+	immediate = {
+		set_character_flag = attending_tournament_event_budo
+	}
+
+	option = {
+		name = "EVTOPTA70032"
+		change_diplomacy = -1
+	}
+}
+
+# Invitations have gone out
+character_event = {
+	id = BUDO.283
+	title = "BUDOTITLE"
+	desc = "EVTDESC70033"
+	picture = "GFX_evt_moors"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA70033"
+	}
+}
+
+# Ruler has died, the tournament is over
+character_event = {
+	id = BUDO.291
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_291"
+	picture = "GFX_evt_death"
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_character_flag = tournament_begins_budo
+	}
+
+	option = {
+		name = "EVTOPTA_BUDO_291"
+		clr_character_flag = tournament_begins_budo
+		clr_character_flag = winner_budo
+		clr_character_flag = second_place_budo
+		clr_character_flag = third_place_budo
+		clr_character_flag = attending_tournament_budo
+		clr_character_flag = attending_tournament_event_budo
+		clr_character_flag = tournament_third_place_budo
+		clr_character_flag = tournament_second_place_budo
+		clr_character_flag = tournament_winner_budo
+		any_vassal = {
+			limit = {
+				has_character_flag = attending_tournament_budo
+				NOT = {
+					character = PREV
+				}
+				NOT = {
+					has_character_flag = tournament_third_place_budo
+				}
+				NOT = {
+					has_character_flag = tournament_second_place_budo
+				}
+				NOT = {
+					has_character_flag = tournament_winner_budo
+				}
+			}
+			set_character_flag = tournament_has_ended_budo
+			clr_character_flag = attending_tournament_budo
+			clr_character_flag = attending_tournament_event_budo
+			letter_event = {
+				id = BUDO.292
+				days = 2
+				random = 2
+				tooltip = "EVTTOOLTIPBUDO.292"
+			}
+		}
+		any_vassal = {
+			limit = {
+				has_character_flag = attending_tournament_budo
+				OR = {
+					has_character_flag = tournament_third_place_budo
+					has_character_flag = tournament_second_place_budo
+					has_character_flag = tournament_winner_budo
+				}
+			}
+			letter_event = {
+				id = BUDO.292
+				days = 2
+				random = 2
+				tooltip = "EVTTOOLTIPBUDO.292"
+			}
+			set_character_flag = tournament_has_ended_budo
+			clr_character_flag = tournament_third_place_budo
+			clr_character_flag = tournament_second_place_budo
+			clr_character_flag = tournament_winner_budo
+			clr_character_flag = attending_tournament_budo
+			clr_character_flag = attending_tournament_event_budo
+		}
+	}
+}
+
+#The tournament has been cancelled due to Ruler's death
+letter_event = {
+	id = BUDO.292
+	title = "BUDOTITLE"
+	desc = "EVTDESC_BUDO_292"
+	picture = "GFX_evt_death"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA88292"
+	}
+}
+
+### Decadence notifications
+
+# Budo held
+character_event = {
+	id = BUDO.300
+	desc = "EVTDESC_BUDO_300"
+	picture = "GFX_evt_joust"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA88300"
+	}
+}
+
+# Tournament Winner
+character_event = {
+	id = BUDO.301
+	desc = "EVTDESC_BUDO_301"
+	picture = "GFX_evt_joust"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA88301"
+	}
+}
+
+# Tournament Second Place
+character_event = {
+	id = BUDO.302
+	desc = "EVTDESC_BUDO_302"
+	picture = "GFX_evt_joust"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA88302"
+	}
+}
+
+# Tournament Third Place
+character_event = {
+	id = BUDO.303
+	desc = "EVTDESC_BUDO_303"
+	picture = "GFX_evt_joust"
+
+	is_triggered_only = yes
+
+	option = {
+		name = "EVTOPTA88303"
+	}
+}
+
+#Tournaments
+character_event = {
+	id = BUDO.5
+	desc = "EVTDESC_BUDO_5"
+	picture = GFX_evt_joust
+	
+	is_triggered_only = yes
+	
+	min_age = 20
+	only_playable = yes
+	only_men = yes
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		culture = japanese
+		war = no
+		in_command = no
+		martial = 15
+		intrigue = 10
+		NOT = {
+			religion_group = muslim
+		}
+		OR = {
+			tier = duke
+			tier = count
+		}
+		NOT = {
+			trait = cynical
+		}
+		any_vassal = {
+			trait = brave
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 1
+		
+		modifier = {
+			factor = 5
+			trait = cynical
+		}
+	
+		modifier = {
+			factor = 2.5
+			trait = charitable
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA4125"
+		add_trait = cynical
+	}
+	
+	option = {
+		name = "EVTOPTB4125"
+		tooltip_info = wroth
+		trigger = {
+			trait = wroth
+		}
+		scaled_wealth = -0.05
+		prestige = 15
+	}
+	
+	option = {
+		name = "EVTOPTD4125"
+		tooltip_info = gregarious
+		trigger = {
+			trait = gregarious
+		}
+		piety = 10
+	}
+	
+	option = {
+		name = "EVTOPTE_BUDO_5"
+		trigger = {
+			NOT = { trait = craven }
+		}
+		random_vassal = {
+			limit = {
+				trait = brave
+			}
+			opinion = {
+				modifier = opinion_approves
+				who = ROOT
+				years = 10
+			}
+		}
+	}
+}

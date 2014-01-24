@@ -1,0 +1,14 @@
+# 150 - Gujo
+
+# Kokujin Title
+title = c_gujo
+
+#Settlements
+max_settlements = 3
+b_gujo_castle = castle
+b_gujo_city = city
+#b_gujo_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

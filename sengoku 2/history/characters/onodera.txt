@@ -1,0 +1,56 @@
+33 = {
+name="Yasumichi"
+dynasty=26
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 4
+martial = 5
+intrigue = 4
+add_trait = misguided_warrior
+1403.4.18={
+	birth="1403.4.18"
+}
+1477.12.30={
+	death="1477.12.30"
+}
+} 
+560 = {
+name="Kagemichi"
+dynasty=26
+culture = japanese
+religion = buddhism
+
+diplomacy = 8
+martial = 11
+intrigue = 10
+add_trait = charismatic_negotiator
+
+1534.1.1={
+birth="1534.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1597.1.1={
+death="1597.1.1"
+}
+} 
+87 = {
+name="Kagemichi"
+dynasty=26
+culture = japanese
+religion = buddhism
+father=33
+diplomacy = 5
+martial = 5
+intrigue = 4
+add_trait = tough_soldier
+
+1449.9.6={
+	birth="1449.9.6"
+}
+1521.3.9={
+	death="1521.3.9"
+}
+} 

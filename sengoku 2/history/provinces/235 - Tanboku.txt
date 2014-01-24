@@ -1,0 +1,14 @@
+# 235 - Tanboku
+
+# Kokujin Title
+title = c_tanboku
+
+#Settlements
+max_settlements = 3
+b_tanboku_castle = castle
+b_tanboku_city = city
+#b_tanboku_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

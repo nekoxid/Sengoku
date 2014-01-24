@@ -1,0 +1,54 @@
+198 = {
+name="Mochimori"
+dynasty=129
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 3
+intrigue = 5
+add_trait = charismatic_negotiator
+1423.6.3={
+	birth="1423.6.3"
+}
+1480.9.18={
+	death="1480.9.18"
+}
+} 
+307 = {
+name="Mochinao"
+dynasty=129
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 4
+intrigue = 2
+add_trait = misguided_warrior
+father=198
+1446.5.27={
+	birth="1446.5.27"
+}
+1513.1.7={
+	death="1513.1.7"
+}
+} 
+599 = {
+name="Morimasa"
+dynasty=129
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 6
+intrigue = 3
+add_trait = misguided_warrior
+
+1528.1.1={
+birth="1528.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1561.1.1={
+death="1561.1.1"
+}
+} 

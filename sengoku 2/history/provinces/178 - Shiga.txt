@@ -1,0 +1,15 @@
+# 178 - Shiga
+
+# Kokujin Title
+title = c_shiga
+
+#Settlements
+max_settlements = 3
+b_shiga_castle = castle
+b_shiga_city = city
+b_shiga_temple = temple
+
+#building=buddhist_temple
+#Misc
+religion = buddhism
+culture = japanese

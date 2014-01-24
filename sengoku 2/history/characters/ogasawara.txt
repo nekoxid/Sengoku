@@ -1,0 +1,36 @@
+32 = {
+name="Kiyomune"
+dynasty=25
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 3
+martial = 4
+intrigue = 4
+add_trait = amateurish_plotter
+1427.2.17={
+	birth="1427.2.17"
+}
+1478.6.15={
+	death="1478.6.15"
+}
+} 
+86 = {
+name="Nagatomo"
+dynasty=25
+culture = japanese
+religion = buddhism
+father=32
+diplomacy = 4
+martial = 2
+intrigue = 3
+add_trait = scholar
+add_trait = misguided_warrior
+
+1443.4.19={
+	birth="1443.4.19"
+}
+1501.7.2={
+	death="1501.7.2"
+}
+} 

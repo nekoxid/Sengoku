@@ -1,0 +1,14 @@
+# 185 - Kawawa
+
+# Kokujin Title
+title = c_kawawa
+
+#Settlements
+max_settlements = 3
+b_kawawa_castle = castle
+b_kawawa_city = city
+#b_kawawa_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

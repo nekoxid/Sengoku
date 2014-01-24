@@ -1,0 +1,14 @@
+# 118 - Kiko
+
+# Kokujin Title
+title = c_kiko
+
+#Settlements
+max_settlements = 3
+b_kiko_castle = castle
+b_kiko_city = city
+#b_kiko_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,14 @@
+# 340 - Nagaoka
+
+# Kokujin Title
+title = c_nagaoka
+
+#Settlements
+max_settlements = 3
+b_nagaoka_castle = castle
+b_nagaoka_city = city
+#b_nagaoka_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

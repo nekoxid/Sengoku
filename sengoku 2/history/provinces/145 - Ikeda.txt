@@ -1,0 +1,14 @@
+# 145 - Ikeda
+
+# Kokujin Title
+title = c_ikeda
+
+#Settlements
+max_settlements = 3
+b_ikeda_castle = castle
+b_ikeda_city = city
+#b_ikeda_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

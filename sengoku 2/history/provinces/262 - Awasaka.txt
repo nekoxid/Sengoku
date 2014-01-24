@@ -1,0 +1,14 @@
+# 262 - Awasaka
+
+# Kokujin Title
+title = c_awasaka
+
+#Settlements
+max_settlements = 3
+b_awasaka_castle = castle
+b_awasaka_city = city
+#b_awasaka_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

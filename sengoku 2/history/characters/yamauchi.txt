@@ -1,0 +1,52 @@
+242 = {
+name="Yasumichi"
+dynasty=173
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 2
+intrigue = 4
+add_trait = wroth
+add_trait = skilled_tactician
+1425.9.24={
+	birth="1425.9.24"
+}
+1481.12.17={
+	death="1481.12.17"
+}
+} 
+367 = {
+name="Toyonari"
+dynasty=173
+culture = japanese
+religion = buddhism
+diplomacy = 5
+martial = 6
+intrigue = 5
+add_trait = skilled_tactician
+father=242
+1451.8.30={
+	birth="1451.8.30"
+}
+1512.6.19={
+	death="1512.6.19"
+}
+} 
+662 = {
+name="Takamichi"
+dynasty=173
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 9
+intrigue = 6
+add_trait = misguided_warrior
+
+1530.1.1={
+birth="1530.1.1"
+}
+1586.1.1={
+death="1586.1.1"
+}
+} 

@@ -1,0 +1,46 @@
+1003 = {
+name="Shigemoto"
+dynasty=332
+culture = japanese
+religion = buddhism
+
+diplomacy = 8
+martial = 8
+intrigue = 9
+add_trait = tough_soldier
+
+1499.1.1={
+birth="1499.1.1"
+}
+1499.1.1={
+employer=570
+}
+1562.1.1={
+death="1562.1.1"
+}
+} 
+1004 = {
+name="Shigeharu"
+dynasty=332
+culture = japanese
+religion = buddhism
+father = 1003
+
+diplomacy = 9
+martial = 9
+intrigue = 15
+add_trait = skilled_tactician
+add_trait = quick
+add_trait = kind
+#add_trait = bushi
+
+1544.1.1={
+birth="1544.1.1"
+}
+1544.1.1={
+employer=570
+}
+1579.7.6={
+death="1579.7.6"
+}
+} 

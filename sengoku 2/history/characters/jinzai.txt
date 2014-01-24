@@ -1,0 +1,21 @@
+1008 = {
+name="Motomichi"
+dynasty=335
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 7
+intrigue = 6
+add_trait = naive_appeaser
+
+1527.1.1={
+birth="1527.1.1"
+}
+1527.1.1={
+employer=543
+}
+1578.8.6={
+death="1578.8.6"
+}
+} 

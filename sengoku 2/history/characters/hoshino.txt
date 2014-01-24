@@ -1,0 +1,54 @@
+1020 = {
+name="Akiyasu"
+dynasty=83
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 8
+intrigue = 8
+add_trait = tough_soldier
+
+1519.1.1={
+birth="1519.1.1"
+}
+1522.1.1={
+employer = 528
+}
+1559.1.1={
+death="1559.1.1"
+}
+} 
+152 = {
+name="Motoyuki"
+dynasty=83
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 3
+intrigue = 3
+add_trait = patient
+add_trait = underhanded_rogue
+1430.1.1={
+	birth="1430.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+330 = {
+name="Motozane"
+dynasty=83
+culture = japanese
+religion = buddhism
+diplomacy = 1
+martial = 1
+intrigue = 0
+father=152
+1460.1.1={
+	birth="1460.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 

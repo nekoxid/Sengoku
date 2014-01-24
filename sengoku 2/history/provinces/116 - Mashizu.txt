@@ -1,0 +1,14 @@
+# 116 - Mashizu
+
+# Kokujin Title
+title = c_mashizu
+
+#Settlements
+max_settlements = 3
+b_mashizu_castle = castle
+b_mashizu_city = city
+#b_mashizu_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,14 @@
+# 334 - Kuwamura
+
+# Kokujin Title
+title = c_kuwamura
+
+#Settlements
+max_settlements = 3
+b_kuwamura_castle = castle
+b_kuwamura_city = city
+#b_kuwamura_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

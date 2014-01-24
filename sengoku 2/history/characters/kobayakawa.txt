@@ -1,0 +1,19 @@
+534 = {
+name="Takakage"
+dynasty=218
+culture = japanese
+religion = buddhism
+father = 545
+
+diplomacy = 13
+martial = 15
+intrigue = 15
+add_trait = grey_eminence
+
+1533.1.1={
+birth="1533.1.1"
+}
+1597.7.26={
+death="1597.7.26"
+}
+} 

@@ -1,0 +1,34 @@
+265 = {
+name="Mochihisa"
+dynasty=79
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 4
+intrigue = 3
+add_trait = poet
+add_trait = underhanded_rogue
+1409.10.4={
+	birth="1409.10.4"
+}
+1470.2.21={
+	death="1470.2.21"
+}
+} 
+394 = {
+name="Toshihisa"
+dynasty=79
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 4
+intrigue = 3
+add_trait = misguided_warrior
+father=265
+1430.1.1={
+	birth="1430.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 

@@ -1,0 +1,18 @@
+# 359 - Goto
+
+# Kokujin Title
+title = c_goto
+
+#Settlements
+max_settlements = 3
+b_goto_castle = castle
+b_goto_city = city
+#b_goto_temple = temple
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9={
+	#effect = { western = yes }
+}
+

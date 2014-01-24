@@ -1,0 +1,77 @@
+11 = {
+name="Yasunao"
+dynasty=8
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 4 
+martial = 5
+intrigue = 5 
+add_trait = naive_appeaser
+1431.12.18={
+	birth="1431.12.18"
+}
+1494.4.5={
+	death="1494.4.5"
+}
+} 
+
+68 = {
+name="Yasutoki"
+dynasty=8
+culture = japanese
+religion = buddhism
+father=11
+diplomacy = 4
+martial = 3
+intrigue = 4
+add_trait = amateurish_plotter
+
+1463.5.30={
+	birth="1463.5.30"
+}
+1521.12.24={
+	death="1521.12.24"
+}
+} 
+
+521 = {
+name="Takanobu"
+dynasty=8
+culture = japanese
+religion = buddhism
+
+diplomacy = 8
+martial = 8
+intrigue = 3
+add_trait = naive_appeaser
+
+1514.1.1={
+birth="1514.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1575.1.1={
+death="1575.1.1"
+}
+} 
+
+861 = {
+name="Takasada"
+dynasty=8
+culture = japanese
+religion = buddhism
+father=521
+diplomacy = 6
+martial = 8
+intrigue = 5
+add_trait = tough_soldier
+
+1542.1.1={
+birth="1542.1.1"
+}
+1589.1.1={
+death="1589.1.1"
+}
+} 

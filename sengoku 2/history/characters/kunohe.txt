@@ -1,0 +1,54 @@
+888 = {
+name="Nobunaka"
+dynasty=315
+culture = japanese
+religion = buddhism
+diplomacy = 8
+martial = 9
+intrigue = 8
+add_trait = naive_appeaser
+
+1511.1.1={
+birth="1511.1.1"
+}
+1580.1.1={
+death="1580.1.1"
+}
+} 
+889 = {
+name="Masazane"
+dynasty=315
+culture = japanese
+religion = buddhism
+father=888
+diplomacy = 8
+martial = 12
+intrigue = 7
+add_trait = skilled_tactician
+add_trait = envious
+
+1536.1.1={
+birth="1536.1.1"
+}
+1591.11.6={
+death="1591.11.6"
+}
+} 
+890 = {
+name="Masazane"
+dynasty=315
+culture = japanese
+religion = buddhism
+father=888
+diplomacy = 8
+martial = 9
+intrigue = 8
+add_trait = tough_soldier
+
+1542.1.1={
+birth="1542.1.1"
+}
+1591.11.6={
+death="1591.11.6"
+}
+} 

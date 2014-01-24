@@ -1,0 +1,18 @@
+# 306 - Takaku
+
+# Kokujin Title
+title = c_takaku
+
+#Settlements
+max_settlements = 3
+b_takaku_castle = castle
+b_takaku_city = city
+#b_takaku_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

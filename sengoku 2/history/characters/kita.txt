@@ -1,0 +1,18 @@
+887 = {
+name="Nobuchika"
+dynasty=314
+culture = japanese
+religion = buddhism
+diplomacy = 8
+martial = 12
+intrigue = 13
+add_trait = charismatic_negotiator
+add_trait = charitable
+
+1523.1.1={
+birth="1523.1.1"
+}
+1613.10.1={
+death="1613.10.1"
+}
+} 

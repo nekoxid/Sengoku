@@ -1,0 +1,14 @@
+# 88 - Susu
+
+# Kokujin Title
+title = c_susu
+
+#Settlements
+max_settlements = 3
+b_susu_castle = castle
+b_susu_city = city
+#b_susu_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,44 @@
+# agnatically descended from showa emperors
+showa = {
+	customizer = no
+	agnatic = yes # Always inherited from fathers
+	
+	potential = {
+		culture = japanese
+	}
+	
+	monthly_character_prestige = 0.5
+}
+
+sanctioned_by_emperor = {
+	diplomacy = 2
+	#church_opinion = 10
+	vassal_opinion = 10
+	#monthly_character_piety = 0.25
+	monthly_character_prestige = 0.5
+	customizer = no
+}
+
+go_player = {
+	lifestyle = yes
+	
+	potential = {
+		culture_group = asian
+	}
+	
+	intrigue = 1
+	
+	same_opinion = 20
+}
+
+calligraphist = {
+	lifestyle = yes
+	
+	potential = {
+		culture_group = asian
+	}
+	
+	diplomacy = 1
+	
+	same_opinion = 20
+}

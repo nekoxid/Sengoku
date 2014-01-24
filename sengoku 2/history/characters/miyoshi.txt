@@ -1,0 +1,174 @@
+189 = {
+name="Nagayuki"
+dynasty=120
+culture = japanese
+religion = buddhism
+diplomacy = 2
+intrigue = 4
+martial = 4
+#add_trait = bushi
+add_trait = just
+add_trait = charismatic_negotiator
+1434.9.17={
+	birth="1434.9.17"
+}
+1493.4.21={
+	death="1493.4.21"
+}
+} 
+295 = {
+name="Yukinaga"
+dynasty=120
+culture = japanese
+religion = buddhism
+diplomacy = 3
+intrigue = 2
+martial = 4
+add_trait = brave 
+add_trait = tough_soldier 
+father=189
+1458.9.5={
+	birth="1458.9.5"
+}
+1520.11.13={
+	death="1520.11.13"
+}
+} 
+543 = {
+name="Nagayoshi"
+dynasty=120
+culture = japanese
+religion = buddhism
+father=612
+
+diplomacy = 12
+martial = 12
+intrigue = 10
+add_trait = grey_eminence
+add_trait = quick
+add_trait = poet
+
+1522.3.10={
+birth="1522.3.10"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1564.8.10={
+death="1564.8.10"
+}
+} 
+608 = {
+name="Masanaga"
+dynasty=120
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 7
+intrigue = 11
+add_trait = underhanded_rogue
+
+1508.1.1={
+birth="1508.1.1"
+}
+1549.7.18={
+death="1549.7.18"
+}
+} 
+611 = {
+name="Yoshikata"
+dynasty=120
+culture = japanese
+religion = buddhism
+father=612
+
+diplomacy = 10
+martial = 13
+intrigue = 11
+add_trait = grey_eminence
+#add_trait = tea_master
+add_trait = quick
+add_trait = brave
+
+1527.1.1={
+birth="1527.1.1"
+}
+1562.4.8={
+death="1562.4.8"
+}
+} 
+612 = {
+name="Motonaga"
+dynasty=120
+culture = japanese
+religion = buddhism
+
+diplomacy = 1
+martial = 1
+intrigue = 1
+
+1501.1.1={
+birth="1501.1.1"
+}
+1532.7.22={
+death="1532.7.22"
+}
+} 
+613 = {
+name="Yoshitsugu"
+dynasty=120
+culture = japanese
+religion = buddhism
+father=605
+
+diplomacy = 7
+martial = 8
+intrigue = 6
+
+1549.1.1={
+birth="1549.1.1"
+}
+1573.12.10={
+death="1573.12.10"
+}
+} 
+614 = {
+name="Nagaysu"
+dynasty=120
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 11
+intrigue = 11
+add_trait = flamboyant_schemer
+
+1514.1.1={
+birth="1514.1.1"
+}
+1551.4.9={
+employer=543
+}
+1578.1.1={
+death="1578.1.1"
+}
+} 
+615 = {
+name="Masayasu"
+dynasty=120
+culture = japanese
+religion = buddhism
+
+diplomacy = 11
+martial = 11
+intrigue = 8
+add_trait = tough_soldier
+
+1528.1.1={
+birth="1528.1.1"
+}
+1615.1.1={
+death="1615.1.1"
+}
+} 

@@ -1,0 +1,55 @@
+223 = {
+name="Hiromori"
+dynasty=154
+culture = japanese
+religion = buddhism
+diplomacy = 3
+intrigue = 3
+martial = 3
+add_trait = just
+add_trait = naive_appeaser
+1455.10.13={
+	birth="1455.10.13"
+}
+1482.6.13={
+	death="1482.6.13"
+}
+} 
+617 = {
+name="Harukata"
+dynasty=154
+culture = japanese
+religion = buddhism
+
+diplomacy = 16
+martial = 11
+intrigue = 13
+add_trait = skilled_tactician
+add_trait = brave
+
+
+1521.1.1={
+birth="1521.1.1"
+}
+1555.10.16={
+death="1555.10.16"
+}
+} 
+618 = {
+name="Nagafusa"
+dynasty=154
+culture = japanese
+religion = buddhism
+father=617
+
+diplomacy = 6
+martial = 10
+intrigue = 3
+
+1540.1.1={
+birth="1540.1.1"
+}
+1557.4.1={
+death="1557.4.1"
+}
+} 

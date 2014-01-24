@@ -1,0 +1,14 @@
+# 73 - Kodama
+
+# Kokujin Title
+title = c_kodama
+
+#Settlements
+max_settlements = 3
+b_kodama_castle = castle
+b_kodama_city = city
+#b_kodama_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

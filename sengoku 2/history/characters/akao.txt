@@ -1,0 +1,36 @@
+821 = {
+name="Kiyotsuna"
+dynasty=301
+culture = japanese
+religion = buddhism
+diplomacy = 11  
+martial = 10
+intrigue = 11
+add_trait = tough_soldier
+add_trait = content
+
+1514.1.1={
+birth="1514.1.1"
+}
+1573.9.1={
+death="1573.9.1"
+}
+} 
+822 = {
+name="Kiyofuyu"
+dynasty=301
+culture = japanese
+religion = buddhism
+father=821
+diplomacy = 6  
+martial = 7
+intrigue = 5
+add_trait = tough_soldier
+
+1546.1.1={
+birth="1546.1.1"
+}
+1594.1.1={
+death="1594.1.1"
+}
+} 

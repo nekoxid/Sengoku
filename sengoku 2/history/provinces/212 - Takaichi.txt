@@ -1,0 +1,14 @@
+# 212 - Takaichi
+
+# Kokujin Title
+title = c_takaichi
+
+#Settlements
+max_settlements = 3
+b_takaichi_castle = castle
+b_takaichi_city = city
+#b_takaichi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

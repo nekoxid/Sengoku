@@ -1,0 +1,14 @@
+# 125 - Hakui
+
+# Kokujin Title
+title = c_hakui
+
+#Settlements
+max_settlements = 3
+b_hakui_castle = castle
+b_hakui_city = city
+#b_hakui_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

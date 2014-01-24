@@ -1,0 +1,107 @@
+130 = {
+name="Yasunaga"
+dynasty=61
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 5
+intrigue = 6
+add_trait = amateurish_plotter
+
+1430.3.9={
+	birth="1430.3.9"
+}
+1492.6.18={
+	death="1492.6.18"
+}
+} 
+311 = {
+name="Yasuhiro"
+dynasty=61
+culture = japanese
+religion = buddhism
+diplomacy = 1
+martial = 1
+intrigue = 2
+add_trait = envious
+father=130
+1460.1.1={
+	birth="1460.1.1"
+}
+1512.12.18={
+	death="1512.12.18"
+}
+} 
+681 = {
+name="Yasutomo"
+dynasty=61
+culture = japanese
+religion = buddhism
+father=683
+
+diplomacy = 8
+martial = 11
+intrigue = 12
+add_trait = tough_soldier
+
+1530.1.1={
+birth="1530.1.1"
+}
+1582.1.1={
+death="1582.1.1"
+}
+} 
+682 = {
+name="Nobuoki"
+dynasty=61
+culture = japanese
+religion = buddhism
+father=684
+
+diplomacy = 8
+martial = 11
+intrigue = 7
+add_trait = tough_soldier
+
+1528.1.1={
+birth="1528.1.1"
+}
+1582.1.1={
+death="1582.1.1"
+}
+} 
+683 = {
+name="Yasuyoshi"
+dynasty=61
+culture = japanese
+religion = buddhism
+
+diplomacy = 13
+martial = 10
+intrigue = 9add_trait = tough_soldier
+
+1497.1.1={
+birth="1497.1.1"
+}
+1557.1.1={
+death="1557.1.1"
+}
+} 
+684 = {
+name="Motonaga"
+dynasty=61
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 9
+intrigue = 8
+add_trait = naive_appeaser
+
+1503.1.1={
+birth="1503.1.1"
+}
+1566.1.1={
+death="1566.1.1"
+}
+} 

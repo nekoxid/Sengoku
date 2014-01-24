@@ -1,0 +1,14 @@
+# 10 - Waga
+
+# Kokujin Title
+title = c_waga
+
+#Settlements
+max_settlements = 3
+b_waga_castle = castle
+b_waga_city = city
+#b_waga_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

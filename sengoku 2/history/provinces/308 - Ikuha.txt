@@ -1,0 +1,18 @@
+# 308 - Ikuha
+
+# Kokujin Title
+title = c_ikuha
+
+#Settlements
+max_settlements = 3
+b_ikuha_castle = castle
+b_ikuha_city = city
+#b_ikuha_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

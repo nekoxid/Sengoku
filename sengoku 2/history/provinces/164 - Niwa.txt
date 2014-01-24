@@ -1,0 +1,18 @@
+# 164 - Niwa
+
+# Kokujin Title
+title = c_niwa
+
+#Settlements
+max_settlements = 3
+b_niwa_castle = castle
+b_niwa_city = city
+#b_niwa_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

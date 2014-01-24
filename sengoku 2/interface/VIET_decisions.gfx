@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_become_a_vegetarian"
+		texturefile = "gfx\\VIET_interface\\decision_icon_become_a_vegetarian.dds"
+	}
+	spriteType = {
+		name = "GFX_go_on_retreat"
+		texturefile = "gfx\\VIET_interface\\decision_icon_go_on_retreat.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_succ_tanistry_ultimatum"
+		texturefile = "gfx\\VIET_interface\\decision_icon_faction_succ_tanistry_ultimatum.dds"
+	}
+	spriteType = {
+		name = "GFX_faction_succ_ultimogeniture_ultimatum"
+		texturefile = "gfx\\VIET_interface\\decision_icon_faction_succ_ultimogeniture_ultimatum.dds"
+	}
+}

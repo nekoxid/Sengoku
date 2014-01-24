@@ -1,0 +1,14 @@
+# 339 - Uma
+
+# Kokujin Title
+title = c_uma
+
+#Settlements
+max_settlements = 3
+b_uma_castle = castle
+b_uma_city = city
+#b_uma_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

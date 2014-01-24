@@ -1,0 +1,33 @@
+270 = {
+name="Tanefusa"
+dynasty=189
+culture = japanese
+religion = shinto
+diplomacy = 3
+martial = 4
+intrigue = 4
+add_trait = ambitious
+add_trait = misguided_warrior
+1400.2.22={
+	birth="1400.2.22"
+}
+1471.8.8={
+	death="1471.8.8"
+}
+} 
+346 = {
+name="Tanetaka"
+dynasty=189
+culture = japanese
+religion = shinto
+diplomacy = 1
+martial = 2
+intrigue = 2
+father=270
+1456.9.28={
+	birth="1456.9.28"
+}
+1536.1.11={
+	death="1536.1.11"
+}
+} 

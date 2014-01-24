@@ -1,0 +1,94 @@
+192 = {
+name="Masakiyo"
+dynasty=123
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 5
+intrigue = 4
+add_trait = misguided_warrior
+1421.1.12={
+	birth="1421.1.12"
+}
+1487.11.17={
+	death="1487.11.17"
+}
+} 
+306 = {
+name="Morimasa"
+dynasty=123
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 4
+intrigue = 3
+add_trait = misguided_warrior
+father=192
+1445.3.21={
+	birth="1445.3.21"
+}
+1502.12.14={
+	death="1502.12.14"
+}
+} 
+524 = {
+name="Takeyoshi"
+dynasty=215
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 12
+intrigue = 14
+add_trait = skilled_tactician
+
+1533.1.1={
+birth="1533.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1604.1.1={
+death="1604.1.1"
+}
+} 
+547 = {
+name="Yoshikiyo"
+dynasty=123
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 11
+intrigue = 12
+add_trait = brilliant_strategist
+add_trait = quick
+
+1501.3.29={
+birth="1501.3.29"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1573.2.3={
+death="1573.2.3"
+}
+} 
+977 = {
+name="Kunikiyo"
+dynasty=123
+culture = japanese
+religion = buddhism
+father=547
+diplomacy = 7
+martial = 8
+intrigue = 7
+add_trait = tough_soldier
+
+1546.1.1={
+birth="1546.1.1"
+}
+1594.1.1={
+death="1594.1.1"
+}
+} 

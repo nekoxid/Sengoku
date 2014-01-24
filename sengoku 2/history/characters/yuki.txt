@@ -1,0 +1,77 @@
+247 = {
+name="Ujihiro"
+dynasty=47
+culture = japanese
+religion = buddhism
+diplomacy = 3
+intrigue = 3
+martial = 2
+add_trait = naive_appeaser
+1451.6.11={
+	birth="1451.6.11"
+}
+1481.7.19={
+	death="1481.7.19"
+}
+} 
+576 = {
+name="Harutsuna"
+dynasty=48
+culture = japanese
+religion = buddhism
+
+diplomacy = 8
+martial = 7
+intrigue = 8
+add_trait = amateurish_plotter
+
+1520.1.1={
+birth="1520.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1573.1.1={
+death="1573.1.1"
+}
+} 
+595 = {
+name="Masakatsu"
+dynasty=47
+culture = japanese
+religion = buddhism
+
+diplomacy = 11
+martial = 12
+intrigue = 11
+add_trait = charismatic_negotiator
+
+1503.1.1={
+birth="1503.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1559.9.2={
+death="1559.9.2"
+}
+} 
+623 = {
+name="Harutomo"
+dynasty=47
+culture = japanese
+religion = buddhism
+father=595
+
+diplomacy = 11
+martial = 9
+intrigue = 12
+add_trait = charismatic_negotiator
+
+1534.9.18={
+birth="1534.9.18"
+}
+1614.8.25={
+death="1614.8.25"
+}
+} 

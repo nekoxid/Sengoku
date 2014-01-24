@@ -1,0 +1,266 @@
+102 = {
+name="Noritoyo"
+dynasty=45
+culture = japanese
+religion = buddhism
+father=53
+diplomacy = 4
+martial = 7
+intrigue = 4
+add_trait = amateurish_plotter
+add_trait = ill
+
+1424.2.13={
+	birth="1424.2.13"
+}
+1467.9.9={
+	death="1467.9.9"
+}
+} 
+103 = {
+name="Noritada"
+dynasty=45
+culture = japanese
+religion = buddhism
+diplomacy = 6
+martial = 2
+intrigue = 5
+add_trait = craven
+add_trait = charismatic_negotiator
+father=54
+1465.4.1={
+	birth="1465.4.1"
+}
+1467.5.26={
+	employer=53
+}
+1500.11.18={
+	death="1500.11.18"
+}
+} 
+104 = {
+name="Toyoyuki"
+dynasty=45
+culture = japanese
+religion = buddhism
+father=55
+diplomacy = 3
+martial = 3
+intrigue = 2
+add_trait = naive_appeaser
+
+1430.7.18={
+	birth="1430.7.18"
+}
+1471.10.31={
+	death="1471.10.31"
+}
+} 
+105 = {
+name="Toyotoki"
+dynasty=45
+culture = japanese
+religion = buddhism
+father=56
+diplomacy = 6
+martial = 6
+intrigue = 6
+add_trait = underhanded_rogue
+
+1458.3.11={
+	birth="1458.3.11"
+}
+1510.9.14={
+	death="1510.9.14"
+}
+} 
+261 = {
+name="Toyohisa"
+dynasty=45
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 3
+intrigue = 3
+1452.1.5={
+	birth="1452.1.5"
+}
+1522.11.17={
+	death="1522.11.17"
+}
+} 
+262 = {
+name="Masatoyo"
+dynasty=45
+culture = japanese
+religion = buddhism
+diplomacy = 5
+martial = 3
+intrigue = 4
+add_trait = misguided_warrior
+1441.3.29={
+	birth="1441.3.29"
+}
+1499.12.24={
+	death="1499.12.24"
+}
+} 
+53 = {
+name="Mochitoyo"
+dynasty=45
+culture = japanese
+religion = buddhism
+diplomacy = 3 #1
+martial = 6
+intrigue = 2
+add_trait = proud
+#add_trait = greedy
+add_trait = envious
+add_trait = wroth
+
+1404.7.6={
+	birth="1404.7.6"
+}
+1420.7.6 = {
+	name = "Sozen"
+	#add_trait = charismatic_negotiator
+	add_trait = scholarly_theologian
+	give_nickname= nick_red_monk
+}
+1433.1.1 = {
+#is_clan_leader = yes
+}
+1473.4.15={
+	death="1473.4.15"
+}
+} 
+54 = {
+name="Koretoyo"
+dynasty=45
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 6
+intrigue = 5
+add_trait = brave
+add_trait = misguided_warrior
+1440.11.29={
+	birth="1440.11.29"
+}
+1467.5.26={
+	employer=53
+}
+1475.6.13={
+	death="1475.6.13"
+}
+} 
+55 = {
+name="Noriyuki"
+dynasty=45
+culture = japanese
+religion = buddhism
+diplomacy = 5
+martial = 4
+intrigue = 4
+add_trait = just
+add_trait = flamboyant_schemer
+
+1408.8.3={
+	birth="1408.8.3"
+}
+1473.2.13={
+	death="1473.2.13"
+}
+} 
+56 = {
+name="Toyouji"
+dynasty=45
+culture = japanese
+religion = buddhism
+diplomacy = 5
+martial = 4
+intrigue = 5
+add_trait = amateurish_plotter
+
+1434.9.12={
+	birth="1434.9.12"
+}
+1492.4.16={
+	death="1492.4.16"
+}
+} 
+57 = {
+name="Masakiyo"
+dynasty=45
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 2
+intrigue = 2
+add_trait = naive_appeaser
+
+1436.1.7={
+	birth="1436.1.7"
+}
+1498.9.17={
+	death="1498.9.17"
+}
+} 
+594 = {
+name="Suketoyo"
+dynasty=45
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 10
+intrigue = 7
+add_trait = underhanded_rogue
+
+1511.1.1={
+birth="1511.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1580.7.2={
+death="1580.7.2"
+}
+} 
+777 = {
+name="Toyosada"
+dynasty=45
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 9
+intrigue = 8
+add_trait = underhanded_rogue
+
+1512.1.1={
+birth="1512.1.1"
+}
+1560.1.1={
+death="1560.1.1"
+}
+} 
+778 = {
+name="Toyokazu"
+dynasty=45
+culture = japanese
+religion = buddhism
+father = 777
+
+diplomacy = 8
+martial = 8
+intrigue = 6
+add_trait = naive_appeaser
+
+1535.1.1={
+birth="1535.1.1"
+}
+1564.1.1={
+death="1564.1.1"
+}
+} 

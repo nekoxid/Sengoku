@@ -1,0 +1,70 @@
+155 = {
+name="Naouji"
+dynasty=86
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 2
+intrigue = 5
+add_trait = deceitful
+add_trait = naive_appeaser
+1432.3.15={
+	birth="1432.3.15"
+}
+1499.12.11={
+	death="1499.12.11"
+}
+} 
+348 = {
+name="Naohira"
+dynasty=86
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 1
+intrigue = 1
+father=155
+1456.6.9={
+	birth="1456.6.9"
+}
+1518.9.14={
+	death="1518.9.14"
+}
+} 
+687 = {
+name="Naomori"
+dynasty=86
+culture = japanese
+religion = buddhism
+
+diplomacy = 8
+martial = 8
+intrigue = 9
+add_trait = misguided_warrior
+
+1506.1.1={
+birth="1506.1.1"
+}
+1560.6.12={
+death="1560.6.12"
+}
+} 
+688 = {
+name="Naotora"
+dynasty=86
+culture = japanese
+religion = buddhism
+female=yes
+father=687
+
+diplomacy = 13
+martial = 3
+intrigue = 13
+
+1540.1.1={
+birth="1540.1.1"
+}
+1582.9.12={
+death="1582.9.12"
+}
+} 

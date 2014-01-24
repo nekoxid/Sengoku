@@ -1,0 +1,57 @@
+28 = {
+name="Ujisuke"
+dynasty=21
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 5
+martial = 4
+intrigue = 4
+add_trait = misguided_warrior
+1402.12.8={
+	birth="1402.12.8"
+}
+1478.5.6={
+	death="1478.5.6"
+}
+} 
+552 = {
+name="Suketane"
+dynasty=21
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 9
+intrigue = 8
+add_trait = misguided_warrior
+
+1527.1.1={
+birth="1527.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1583.4.3={
+death="1583.4.3"
+}
+} 
+82 = {
+name="Akisuke"
+dynasty=21
+culture = japanese
+religion = buddhism
+father=28
+diplomacy = 6
+martial = 4
+intrigue = 6
+#add_trait = ruthless
+add_trait = flamboyant_schemer
+
+1439.9.14={
+	birth="1439.9.14"
+}
+1505.12.20={
+	death="1505.12.20"
+}
+} 

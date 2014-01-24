@@ -1,0 +1,220 @@
+8 = {
+name="Yoshinari"
+dynasty=7
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 4 
+martial = 5
+intrigue = 5 
+add_trait = proud
+add_trait = underhanded_rogue
+1437.7.15={
+	birth="1437.7.15"
+}
+1491.1.21={
+	death="1491.1.21"
+}
+} 
+
+9 = {
+name="Masanaga"
+dynasty=7
+culture = japanese
+religion = buddhism
+diplomacy = 6 
+martial = 4
+intrigue = 6
+add_trait = ambitious
+add_trait = charismatic_negotiator
+1442.9.12={
+	birth="1442.9.12"
+}
+1467.5.26={
+	#is_civil_war_leader = yes
+}
+1493.6.9={
+	death="1493.6.9"
+}
+} 
+
+10 = {
+name="Yoshimune"
+dynasty=7
+culture = japanese
+religion = buddhism
+diplomacy = 5 
+martial = 5
+intrigue = 4 
+add_trait = underhanded_rogue
+add_trait = tough_soldier
+1432.6.1={
+	birth="1432.6.1"
+}
+1497.9.16={
+	death="1497.9.16"
+}
+} 
+
+66 = {
+name="Masakuni"
+dynasty=7
+culture = japanese
+religion = buddhism
+father=8
+diplomacy = 2
+martial = 1
+intrigue = 1
+add_trait = naive_appeaser
+
+1457.6.12={
+	birth="1457.6.12"
+}
+1470.4.18={
+	death="1470.4.18"
+}
+} 
+
+67 = {
+name="Yoshimoto"
+dynasty=7
+culture = japanese
+religion = buddhism
+father=9
+diplomacy = 2
+martial = 3
+intrigue = 3
+add_trait = amateurish_plotter
+
+1459.11.14={
+	birth="1459.11.14"
+}
+1515.4.29={
+	death="1515.4.29"
+}
+} 
+
+518 = {
+name="Takamasa"
+dynasty=7
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 6
+intrigue = 6
+add_trait = underhanded_rogue
+
+1527.1.1={
+birth="1527.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1576.11.5={
+death="1576.11.5"
+}
+} 
+
+557 = {
+name="Yoshitsuna"
+dynasty=221
+culture = japanese
+religion = buddhism
+
+diplomacy = 5
+martial = 4
+intrigue = 3
+add_trait = naive_appeaser
+
+1530.1.1={
+birth="1530.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1594.2.11={
+death="1594.2.11"
+}
+} 
+
+717 = {
+name="Masakuni"
+dynasty=7
+culture = japanese
+religion = buddhism
+
+diplomacy = 8
+martial = 9
+intrigue = 8
+add_trait = naive_appeaser
+
+1507.1.1={
+birth="1507.1.1"
+}
+1550.9.22={
+death="1550.9.22"
+}
+} 
+
+718 = {
+name="Akitaka"
+dynasty=7
+culture = japanese
+religion = buddhism
+father=717
+
+diplomacy = 3
+martial = 5
+intrigue = 4
+add_trait = amateurish_plotter
+
+1534.1.1={
+birth="1534.1.1"
+}
+1573.7.23={
+death="1573.7.23"
+}
+} 
+
+807 = {
+name="Yoshitsugu"
+dynasty=221
+culture = japanese
+religion = buddhism
+father=808
+
+diplomacy = 5 
+martial = 4
+intrigue = 4
+add_trait = amateurish_plotter
+#add_trait = ruthless
+
+1511.1.1={
+birth="1511.1.1"
+}
+1590.4.16={
+death="1590.4.16"
+}
+} 
+
+808 = {
+name="Yoshifusa"
+dynasty=221
+culture = japanese
+religion = buddhism
+diplomacy = 7
+martial = 12
+intrigue = 13
+add_trait = charismatic_negotiator
+add_trait = quick
+add_trait = charitable
+add_trait = just
+
+1491.1.1={
+birth="1491.1.1"
+}
+1545.8.19={
+death="1545.8.19"
+}
+} 

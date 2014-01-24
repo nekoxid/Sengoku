@@ -1,0 +1,19 @@
+# 329 - Satsuma
+
+# Kokujin Title
+title = c_satsuma
+
+#Settlements
+max_settlements = 3
+b_satsuma_castle = castle
+b_satsuma_city = city
+#b_satsuma_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#building=gunsmith
+	#effect = { western = yes }
+}

@@ -1,0 +1,14 @@
+# 180 - Suzuka
+
+# Kokujin Title
+title = c_suzuka
+
+#Settlements
+max_settlements = 3
+b_suzuka_castle = castle
+b_suzuka_city = city
+#b_suzuka_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

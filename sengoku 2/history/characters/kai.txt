@@ -1,0 +1,80 @@
+1016 = {
+name="Chikanao"
+dynasty=96
+culture = japanese
+religion = buddhism
+
+diplomacy = 12
+martial = 10
+intrigue = 11
+add_trait = skilled_tactician
+add_trait = quick
+add_trait = brave
+#add_trait = ruthless
+
+1515.1.1={
+birth="1515.1.1"
+}
+1515.1.1={
+employer=507
+}
+1585.7.29={
+death="1585.7.29"
+}
+} 
+1017 = {
+name="Chikahide"
+dynasty=96
+culture = japanese
+religion = buddhism
+father = 1016
+
+diplomacy = 8
+martial = 9
+intrigue = 9
+add_trait = tough_soldier
+add_trait = kind
+
+1540.1.1={
+birth="1540.1.1"
+}
+1540.1.1={
+employer=507
+}
+1587.1.1={
+death="1587.1.1"
+}
+} 
+165 = {
+name="Toshimitsu"
+dynasty=96
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 3
+intrigue = 2
+add_trait = craven
+add_trait = naive_appeaser
+1431.11.24={
+	birth="1431.11.24"
+}
+1492.5.23={
+	death="1492.5.23"
+}
+} 
+350 = {
+name="Nobuhisa"
+dynasty=96
+culture = japanese
+religion = buddhism
+diplomacy = 1
+martial = 1
+intrigue = 1
+father=165
+1456.4.6={
+	birth="1456.4.6"
+}
+1472.2.7={
+	death="1472.2.7"
+}
+} 

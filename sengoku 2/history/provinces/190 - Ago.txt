@@ -1,0 +1,14 @@
+# 190 - Ago
+
+# Kokujin Title
+title = c_ago
+
+#Settlements
+max_settlements = 3
+b_ago_castle = castle
+b_ago_city = city
+#b_ago_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

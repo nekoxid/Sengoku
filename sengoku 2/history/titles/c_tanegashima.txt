@@ -1,0 +1,17 @@
+1318.3.29 = {
+	liege="d_osumi"
+}
+1467.5.26 = {
+	holder=264
+}
+1543.1.1 = {
+	liege="k_nanban"
+	de_jure_liege="k_nanban"
+	holder=1500
+}
+1551.4.9 = {
+	#liege="k_clanleader_103"
+}
+1551.4.9 = {
+	#holder=531
+}

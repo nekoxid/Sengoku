@@ -1,0 +1,14 @@
+# 282 - Naka
+
+# Kokujin Title
+title = c_naka
+
+#Settlements
+max_settlements = 3
+b_naka_castle = castle
+b_naka_city = city
+#b_naka_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

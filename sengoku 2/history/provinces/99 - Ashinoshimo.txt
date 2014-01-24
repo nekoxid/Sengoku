@@ -1,0 +1,14 @@
+# 99 - Ashinoshimo
+
+# Kokujin Title
+title = c_ashinoshimo
+
+#Settlements
+max_settlements = 3
+b_ashinoshimo_castle = castle
+b_ashinoshimo_city = city
+#b_ashinoshimo_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

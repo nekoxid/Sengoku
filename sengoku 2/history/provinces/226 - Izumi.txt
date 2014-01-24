@@ -1,0 +1,14 @@
+# 226 - Izumi
+
+# Kokujin Title
+title = c_izumi
+
+#Settlements
+max_settlements = 3
+b_izumi_castle = castle
+b_izumi_city = city
+#b_izumi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

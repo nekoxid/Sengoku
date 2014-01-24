@@ -1,0 +1,31 @@
+# 305 - Sonoki
+
+# Kokujin Title
+title = c_sonoki
+
+#Settlements
+max_settlements = 4 #5
+b_sonoki_castle = castle
+b_sonoki_city = city
+b_sonoki_temple = temple
+#b_dejima = city
+#b_nagasaki = city
+
+#Misc
+religion = shinto #buddhism
+culture = japanese
+
+1543.1.1 = {
+	#b_nagasaki = city
+	#b_nagasaki = ct_port_1
+}
+1551.4.9 = {
+	#effect = { western = yes }
+}
+1606.1.1 = { #the Rome of Japan
+	religion = catholic
+}
+1641.1.1 = {
+	b_dejima = city
+	trade_post = b_pat_dutch
+}

@@ -1,0 +1,20 @@
+763 = {
+name="Naoie"
+dynasty=256
+culture = japanese
+religion = buddhism
+
+diplomacy = 15
+martial = 7
+intrigue = 12
+add_trait = elusive_shadow
+add_trait = quick
+add_trait = ambitious
+
+1529.1.1={
+birth="1529.1.1"
+}
+1582.2.1={
+death="1582.2.1"
+}
+} 

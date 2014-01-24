@@ -1,0 +1,14 @@
+# 220 - Yamabe
+
+# Kokujin Title
+title = c_yamabe
+
+#Settlements
+max_settlements = 3
+b_yamabe_castle = castle
+b_yamabe_city = city
+#b_yamabe_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

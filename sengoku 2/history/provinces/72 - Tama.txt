@@ -1,0 +1,14 @@
+# 72 - Tama
+
+# Kokujin Title
+title = c_tama
+
+#Settlements
+max_settlements = 3
+b_tama_castle = castle
+b_tama_city = city
+#b_tama_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

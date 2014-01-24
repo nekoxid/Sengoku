@@ -1,0 +1,14 @@
+# 57 - Tsuga
+
+# Kokujin Title
+title = c_tsuga
+
+#Settlements
+max_settlements = 3
+b_tsuga_castle = castle
+b_tsuga_city = city
+#b_tsuga_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,112 @@
+183 = {
+name="Motozumi"
+dynasty=114
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 2
+intrigue = 5
+add_trait = wroth
+add_trait = flamboyant_schemer
+1419.1.8={
+	birth="1419.1.8"
+}
+1475.8.17={
+	death="1475.8.17"
+}
+} 
+373 = {
+name="Motonari"
+dynasty=114
+culture = japanese
+religion = buddhism
+diplomacy = 5
+martial = 5
+intrigue = 4
+add_trait = ambitious
+add_trait = underhanded_rogue
+father=183
+1443.4.11={
+	birth="1443.4.11"
+}
+1484.12.22={
+	death="1484.12.22"
+}
+} 
+540 = {
+name="Mototeru"
+dynasty=114
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 9
+intrigue = 9
+add_trait = misguided_warrior
+
+1512.1.1={
+birth="1512.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1568.7.29={
+death="1568.7.29"
+}
+} 
+648 = {
+name="Morihide"
+dynasty=114
+culture = japanese
+religion = buddhism
+
+diplomacy = 8
+martial = 9
+intrigue = 9
+add_trait = underhanded_rogue
+
+1499.1.1={
+birth="1499.1.1"
+}
+1559.1.1={
+death="1559.1.1"
+}
+} 
+649 = {
+name="Norihide"
+dynasty=114
+culture = japanese
+religion = buddhism
+father=648
+
+diplomacy = 11
+martial = 6
+intrigue = 11
+add_trait = charismatic_negotiator
+
+1519.1.1={
+birth="1519.1.1"
+}
+1590.3.6={
+death="1590.3.6"
+}
+} 
+768 = {
+name="Motokata"
+dynasty=114
+culture = japanese
+religion = buddhism
+father = 540
+
+diplomacy = 7
+martial = 6
+intrigue = 3
+add_trait = misguided_warrior
+
+1536.1.1={
+birth="1536.1.1"
+}
+1568.7.31={
+death="1568.7.31"
+}
+} 

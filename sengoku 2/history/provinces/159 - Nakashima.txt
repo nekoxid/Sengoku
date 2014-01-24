@@ -1,0 +1,18 @@
+# 159 - Nakashima
+
+# Kokujin Title
+title = c_nakashima
+
+#Settlements
+max_settlements = 3
+b_nakashima_castle = castle
+b_nakashima_city = city
+#b_nakashima_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9={
+	#effect = { western = yes }
+}

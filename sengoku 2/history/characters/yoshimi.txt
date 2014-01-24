@@ -1,0 +1,71 @@
+245 = {
+name="Nariyori"
+dynasty=176
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 3
+intrigue = 4
+##add_trait = calligraphist
+add_trait = misguided_warrior
+1428.8.23={
+	birth="1428.8.23"
+}
+1487.1.12={
+	death="1487.1.12"
+}
+} 
+368 = {
+name="Nobuyori"
+dynasty=176
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 3
+intrigue = 3
+#add_trait = ruthless
+father=245
+1454.3.28={
+	birth="1454.3.28"
+}
+1482.2.13={
+	death="1482.2.13"
+}
+} 
+619 = {
+name="Masayori"
+dynasty=176
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 11
+intrigue = 11
+add_trait = underhanded_rogue
+
+1513.1.1={
+birth="1513.1.1"
+}
+1588.6.15={
+death="1588.6.15"
+}
+} 
+621 = {
+name="Hiroyori"
+dynasty=176
+culture = japanese
+religion = buddhism
+father=619
+
+diplomacy = 10
+martial = 9
+intrigue = 9
+add_trait = naive_appeaser
+
+1535.1.1={
+birth="1535.1.1"
+}
+1613.1.1={
+death="1613.1.1"
+}
+} 

@@ -1,0 +1,14 @@
+# 216 - Soejimo
+
+# Kokujin Title
+title = c_soejimo
+
+#Settlements
+max_settlements = 3
+b_soejimo_castle = castle
+b_soejimo_city = city
+#b_soejimo_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

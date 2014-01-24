@@ -1,0 +1,14 @@
+# 128 - Kaminiikawa
+
+# Kokujin Title
+title = c_kaminiikawa
+
+#Settlements
+max_settlements = 3
+b_kaminiikawa_castle = castle
+b_kaminiikawa_city = city
+#b_kaminiikawa_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

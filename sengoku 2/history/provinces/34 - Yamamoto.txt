@@ -1,0 +1,14 @@
+# 34 - Yamamoto
+
+# Kokujin Title
+title = c_yamamoto
+
+#Settlements
+max_settlements = 3
+b_yamamoto_castle = castle
+b_yamamoto_city = city
+#b_yamamoto_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

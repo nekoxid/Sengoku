@@ -1,0 +1,96 @@
+249 = {
+name="Sukekiyo"
+dynasty=181
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 2
+intrigue = 3
+add_trait = patient
+add_trait = underhanded_rogue
+1411.1.19={
+	birth="1411.1.19"
+}
+1488.7.2={
+	death="1488.7.2"
+}
+} 
+356 = {
+name="Dokan"
+dynasty=181
+culture = japanese
+religion = buddhism
+diplomacy = 5
+intrigue = 2
+martial = 5
+add_trait = poet
+add_trait = trusting
+add_trait = skilled_tactician
+father=249
+1432.2.27={
+	birth="1432.2.27"
+}
+1486.4.10={
+	death="1486.4.10"
+}
+} 
+562 = {
+name="Masaharu"
+dynasty=327
+culture = japanese
+religion = buddhism
+
+diplomacy = 1
+martial = 1
+intrigue = 1
+
+1492.1.1={
+birth="1492.1.1"
+}
+1548.3.31={
+death="1548.3.31"
+}
+} 
+663 = {
+name="Ujiharu"
+dynasty=327
+culture = japanese
+religion = buddhism
+father=562
+
+diplomacy = 7
+martial = 7
+intrigue = 5
+add_trait = naive_appeaser
+
+1534.1.1={
+birth="1534.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1602.1.6={
+death="1602.1.6"
+}
+} 
+965 = {
+name="Yasusuke"
+dynasty=181
+culture = japanese
+religion = buddhism
+
+diplomacy = 4
+martial = 4
+intrigue = 5
+add_trait = misguided_warrior
+
+1531.1.1={
+birth="1531.1.1"
+}
+1551.4.9={
+employer=520
+}
+1581.11.8={
+death="1581.11.8"
+}
+} 

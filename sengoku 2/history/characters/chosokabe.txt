@@ -1,0 +1,79 @@
+138 = {
+name="Fumikane"
+dynasty=69
+culture = japanese
+religion = buddhism
+diplomacy = 6
+martial = 5
+intrigue = 6
+add_trait = underhanded_rogue
+add_trait = kind
+
+1418.2.28={
+	birth="1418.2.28"
+}
+1483.12.3={
+	death="1483.12.3"
+}
+} 
+285 = {
+name="Motokado"
+dynasty=69
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 3
+intrigue = 4
+add_trait = naive_appeaser
+father=138
+1439.11.7={
+	birth="1439.11.7"
+}
+1498.12.9={
+	death="1498.12.9"
+}
+} 
+512 = {
+name="Kunichika"
+dynasty=69
+culture = japanese
+religion = buddhism
+
+diplomacy = 15
+martial = 10
+intrigue = 12
+add_trait = intricate_webweaver
+add_trait = brave
+
+1504.1.1={
+birth="1504.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1560.7.8={
+death="1560.7.8"
+}
+} 
+756 = {
+name="Motochika"
+dynasty=69
+culture = japanese
+religion = buddhism
+father=512
+
+diplomacy = 13
+martial = 8
+intrigue = 12
+add_trait = brilliant_strategist
+add_trait = genius
+add_trait = ambitious
+add_trait = charitable
+
+1539.1.1={
+birth="1539.1.1"
+}
+1599.7.11={
+death="1599.7.11"
+}
+} 

@@ -1,0 +1,14 @@
+# 266 - Kume
+
+# Kokujin Title
+title = c_kume
+
+#Settlements
+max_settlements = 3
+b_kume_castle = castle
+b_kume_city = city
+#b_kume_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

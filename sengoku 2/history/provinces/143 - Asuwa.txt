@@ -1,0 +1,19 @@
+# 143 - Asuwa
+
+# Kokujin Title
+title = c_asuwa
+
+#Settlements
+max_settlements = 3
+b_asuwa_castle = castle
+b_asuwa_city = city
+#b_asuwa_temple = temple
+
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9={
+	#building=inn
+}

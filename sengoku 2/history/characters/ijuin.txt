@@ -1,0 +1,72 @@
+156 = {
+name="Masuhisa"
+dynasty=87
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 3
+intrigue = 3
+add_trait = arbitrary
+1448.8.15={
+	birth="1448.8.15"
+}
+1510.10.4={
+	death="1510.10.4"
+}
+} 
+349 = {
+name="Tadakami"
+dynasty=87
+culture = japanese
+religion = buddhism
+diplomacy = 1
+martial = 0
+intrigue = 1
+father=156
+1470.1.1={
+	birth="1470.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+730 = {
+name="Tadaaki"
+dynasty=87
+culture = japanese
+religion = buddhism
+
+diplomacy = 12
+martial = 12
+intrigue = 10
+add_trait = intricate_webweaver
+
+1502.1.1={
+birth="1502.1.1"
+}
+1551.4.9={
+employer=575
+}
+1566.1.1={
+death="1566.1.1"
+}
+} 
+731 = {
+name="Tadaao"
+dynasty=87
+culture = japanese
+religion = buddhism
+father=730
+
+diplomacy = 11
+martial = 12
+intrigue = 10
+add_trait = intricate_webweaver
+
+1523.1.1={
+birth="1523.1.1"
+}
+1567.1.1={
+death="1567.1.1"
+}
+} 

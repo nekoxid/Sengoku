@@ -1,0 +1,14 @@
+# 68 - Seta
+
+# Kokujin Title
+title = c_seta
+
+#Settlements
+max_settlements = 3
+b_seta_castle = castle
+b_seta_city = city
+#b_seta_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

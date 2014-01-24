@@ -1,0 +1,18 @@
+spriteTypes = {
+	# PLOTS
+	
+	spriteType = {
+		name = "GFX_faction_succ_tanistry"
+		texturefile = "gfx/VIET_ambitions/plot_succ_tanistry.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+	spriteType = {
+		name = "GFX_faction_succ_ultimogeniture"
+		texturefile = "gfx/VIET_ambitions/plot_succ_ultimogeniture.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}	
+}

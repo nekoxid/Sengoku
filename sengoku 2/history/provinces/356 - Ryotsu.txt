@@ -1,0 +1,14 @@
+# 356 - Ryotsu
+
+# Kokujin Title
+title = c_ryotsu
+
+#Settlements
+max_settlements = 3
+b_ryotsu_castle = castle
+b_ryotsu_city = city
+#b_ryotsu_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

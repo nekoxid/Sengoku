@@ -1,0 +1,18 @@
+# 241 - Shimashimo
+
+# Kokujin Title
+title = c_shimashimo
+
+#Settlements
+max_settlements = 3
+b_shimashimo_castle = castle
+b_shimashimo_city = city
+#b_shimashimo_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

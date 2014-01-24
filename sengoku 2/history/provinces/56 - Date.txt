@@ -1,0 +1,14 @@
+# 56 - Date
+
+# Kokujin Title
+title = c_date
+
+#Settlements
+max_settlements = 3
+b_date_castle = castle
+b_date_city = city
+#b_date_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

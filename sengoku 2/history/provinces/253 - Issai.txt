@@ -1,0 +1,14 @@
+# 253 - Issai
+
+# Kokujin Title
+title = c_issai
+
+#Settlements
+max_settlements = 3
+b_issai_castle = castle
+b_issai_city = city
+#b_issai_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

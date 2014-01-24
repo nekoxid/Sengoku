@@ -1,0 +1,32 @@
+max_provinces = 390 #1112
+sea_starts = 362 #936
+definitions = "definition.csv"
+provinces = "provinces.bmp"
+positions = "positions.txt"
+terrain = "terrain.bmp"
+rivers = "rivers.bmp"
+terrain_definition = "terrain.txt"
+heightmap = "topology.bmp"
+tree_definition = "trees.bmp"
+continent = "continent.txt"
+adjacencies = "adjacencies.csv"
+climate = "climate.txt"
+region = "region.txt"
+static = "static.txt"
+
+# Define which indices in trees.bmp palette which should count as trees for automatic terrain assignment
+tree = { 3 4 7 10 }
+major_rivers = 
+{
+	377 #Ogawara Lake
+	378 #Towada Lake
+	379 #Hachirogata Lake
+	380 #Tazawa Lake
+	381 #Inawashiro Lake
+	382 #Lake Kasumigaura
+	383 #Hinuma Lake
+	384 #Biwa Lake
+	385 #Shinji Lake
+	386 #Nakaumi
+	387 #Omura Bay
+}

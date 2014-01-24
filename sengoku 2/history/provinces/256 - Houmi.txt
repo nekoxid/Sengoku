@@ -1,0 +1,14 @@
+# 256 - Houmi
+
+# Kokujin Title
+title = c_houmi
+
+#Settlements
+max_settlements = 3
+b_houmi_castle = castle
+b_houmi_city = city
+#b_houmi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

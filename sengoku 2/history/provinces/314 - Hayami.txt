@@ -1,0 +1,18 @@
+# 314 - Hayami
+
+# Kokujin Title
+title = c_hayami
+
+#Settlements
+max_settlements = 3
+b_hayami_castle = castle
+b_hayami_city = city
+#b_hayami_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

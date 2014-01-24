@@ -1,0 +1,72 @@
+34 = {
+name="Masakane"
+dynasty=27
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 5
+martial = 5
+intrigue = 5
+add_trait = misguided_warrior
+1434.12.18={
+	birth="1434.12.18"
+}
+1487.9.22={
+	death="1487.9.22"
+}
+} 
+561 = {
+name="Yoshinao"
+dynasty=27
+culture = japanese
+religion = buddhism
+
+diplomacy = 6
+martial = 2
+intrigue = 4
+add_trait = amateurish_plotter
+
+1514.1.1={
+birth="1514.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1577.1.1={
+death="1577.1.1"
+}
+} 
+88 = {
+name="Yoshikane"
+dynasty=27
+culture = japanese
+religion = buddhism
+father=34
+diplomacy = 4
+martial = 2
+intrigue = 2
+add_trait = naive_appeaser
+1461.4.4={
+	birth="1461.4.4"
+}
+1529.9.12={
+	death="1529.9.12"
+}
+} 
+897 = {
+name="Yoshitaka"
+dynasty=27
+culture = japanese
+religion = buddhismfather=561
+diplomacy = 6
+martial = 9
+intrigue = 6
+add_trait = flamboyant_schemer
+
+1543.1.1={
+birth="1543.1.1"
+}
+1603.1.1={
+death="1603.1.1"
+}
+} 

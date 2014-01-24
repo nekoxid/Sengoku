@@ -1,0 +1,44 @@
+725 = {
+name="Shigeoki"
+dynasty=247
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 11
+intrigue = 11
+add_trait = skilled_tactician
+add_trait = brave
+
+1511.1.1={
+birth="1511.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1585.1.1={
+death="1585.1.1"
+}
+} 
+726 = {
+name="Shigehide"
+dynasty=247
+culture = japanese
+religion = buddhism
+father=725
+
+diplomacy = 4
+martial = 13
+intrigue = 13
+add_trait = skilled_tactician
+add_trait = brave
+add_trait = quick
+add_trait = paranoid
+
+1546.1.1={
+birth="1546.1.1"
+}
+1586.1.1={
+death="1586.1.1"
+}
+} 

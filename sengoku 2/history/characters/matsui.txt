@@ -1,0 +1,21 @@
+1002 = {
+name="Munenobu"
+dynasty=331
+culture = japanese
+religion = buddhism
+
+diplomacy = 8
+martial = 9
+intrigue = 7
+add_trait = tough_soldier
+
+1515.1.1={
+birth="1515.1.1"
+}
+1515.1.1={
+employer=523
+}
+1560.6.12={
+death="1560.6.12"
+}
+} 

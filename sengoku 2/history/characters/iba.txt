@@ -1,0 +1,17 @@
+153 = {
+name="Sadataka"
+dynasty=84
+culture = japanese
+religion = buddhism
+diplomacy = 3
+intrigue = 3
+martial = 3
+add_trait = wroth
+add_trait = flamboyant_schemer
+1449.8.1={
+	birth="1449.8.1"
+}
+1520.4.15={
+	death="1520.4.15"
+}
+} 

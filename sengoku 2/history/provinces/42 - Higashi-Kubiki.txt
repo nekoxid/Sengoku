@@ -1,0 +1,18 @@
+# 42 - Higashi-Kubiki
+
+# Kokujin Title
+title = c_higashi-kubiki
+
+#Settlements
+max_settlements = 3
+b_higashi-kubiki_castle = castle
+b_higashi-kubiki_city = city
+#b_higashi-kubiki_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9={
+	#building=castle_building
+}

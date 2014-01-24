@@ -1,0 +1,15 @@
+# 96 - Kamakura
+
+# Kokujin Title
+title = c_kamakura
+
+#Settlements
+max_settlements = 3
+b_kamakura_castle = castle
+b_kamakura_city = city
+b_kamakura_temple = temple
+
+#building=buddhist_temple
+#Misc
+religion = buddhism
+culture = japanese

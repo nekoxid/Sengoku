@@ -1,0 +1,14 @@
+# 337 - Ukena
+
+# Kokujin Title
+title = c_ukena
+
+#Settlements
+max_settlements = 3
+b_ukena_castle = castle
+b_ukena_city = city
+#b_ukena_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,56 @@
+274 = {
+name="Tokiyo"
+dynasty=193
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 5
+martial = 4
+intrigue = 4
+add_trait = patient
+add_trait = underhanded_rogue
+1430.1.1={
+	birth="1430.1.1"
+}
+1495.7.19={
+	death="1495.7.19"
+}
+} 
+360 = {
+name="Ensakae"
+dynasty=193
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 3
+intrigue = 3
+add_trait = naive_appeaser
+father=274
+1460.1.1={
+	birth="1460.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+727 = {
+name="Tokatsu"
+dynasty=193
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 11
+intrigue = 10
+add_trait = tough_soldier
+
+1530.1.1={
+birth="1530.1.1"
+}
+1551.4.9={
+employer=558
+}
+1569.1.1={
+death="1569.1.1"
+}
+} 

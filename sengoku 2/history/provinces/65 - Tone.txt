@@ -1,0 +1,14 @@
+# 65 - Tone
+
+# Kokujin Title
+title = c_tone
+
+#Settlements
+max_settlements = 3
+b_tone_castle = castle
+b_tone_city = city
+#b_tone_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

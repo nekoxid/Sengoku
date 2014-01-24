@@ -1,0 +1,23 @@
+647 = {
+name="Dosetsu"
+dynasty=233
+culture = japanese
+religion = buddhism
+
+diplomacy = 13
+martial = 10
+intrigue = 12
+add_trait = skilled_tactician
+add_trait = quick
+#add_trait = bushi
+
+1531.4.22={
+birth="1531.4.22"
+}
+1531.4.23={
+employer=563
+}
+1585.11.2={
+death="1585.11.2"
+}
+} 

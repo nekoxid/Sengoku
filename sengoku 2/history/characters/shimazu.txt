@@ -1,0 +1,157 @@
+264 = {
+name="Suehisa"
+dynasty=34
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 4
+intrigue = 4
+add_trait = envious
+add_trait = amateurish_plotter
+1413.7.7={
+	birth="1413.7.7"
+}
+1477.4.28={
+	death="1477.4.28"
+}
+} 
+41 = {
+name="Tadakuni"
+dynasty=34
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 5
+martial = 6
+intrigue = 4
+add_trait = ambitious
+add_trait = misguided_warrior
+1403.5.22={
+	birth="1403.5.22"
+}
+1470.2.21={
+	death="1470.2.21"
+}
+} 
+575 = {
+name="Takahisa"
+dynasty=34
+culture = japanese
+religion = buddhism
+
+diplomacy = 13
+martial = 11
+intrigue = 10
+add_trait = intricate_webweaver
+add_trait = quick
+
+1514.5.28={
+birth="1514.5.28"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1571.7.15={
+death="1571.7.15"
+}
+} 
+93 = {
+name="Tachuhisa"
+dynasty=34
+culture = japanese
+religion = buddhism
+father=41
+diplomacy = 5
+martial = 3
+intrigue = 5
+add_trait = just
+add_trait = craven
+add_trait = naive_appeaser
+1432.11.27={
+	birth="1432.11.27"
+}
+1474.4.26={
+	death="1474.4.26"
+}
+} 
+958 = {
+name="Yoshihisa"
+dynasty=34
+culture = japanese
+religion = buddhism
+father = 575
+diplomacy = 10
+martial = 13
+intrigue = 15
+add_trait = charismatic_negotiator
+add_trait = quick
+add_trait = patient
+add_trait = just
+
+1533.3.4={
+birth="1533.3.4"
+}
+1611.3.5={
+death="1611.3.5"
+}
+} 
+959 = {
+name="Yoshihiro"
+dynasty=34
+culture = japanese
+religion = buddhism
+father = 575
+diplomacy = 12
+martial = 10
+intrigue = 11
+add_trait = brilliant_strategist
+add_trait = genius
+add_trait = brave
+
+1535.8.21={
+birth="1535.8.21"
+}
+1619.8.30={
+death="1619.8.30"
+}
+} 
+960 = {
+name="Toshihisa"
+dynasty=34
+culture = japanese
+religion = buddhism
+father = 575
+diplomacy = 13
+martial = 9
+intrigue = 13
+add_trait = intricate_webweaver
+add_trait = quick
+#add_trait = bushi
+
+1537.8.15={
+birth="1537.8.15"
+}
+1592.8.25={
+death="1592.8.25"
+}
+} 
+961 = {
+name="Iehisa"
+dynasty=34
+culture = japanese
+religion = buddhism
+father = 575
+diplomacy = 10
+martial = 12
+intrigue = 12
+add_trait = skilled_tactician
+add_trait = quick
+
+
+1547.1.1={
+birth="1547.1.1"
+}
+1587.7.10={
+death="1587.7.10"
+}
+} 

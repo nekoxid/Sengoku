@@ -1,0 +1,14 @@
+# 94 - Nagasa
+
+# Kokujin Title
+title = c_nagasa
+
+#Settlements
+max_settlements = 3
+b_nagasa_castle = castle
+b_nagasa_city = city
+#b_nagasa_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

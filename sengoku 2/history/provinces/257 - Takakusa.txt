@@ -1,0 +1,14 @@
+# 257 - Takakusa
+
+# Kokujin Title
+title = c_takakusa
+
+#Settlements
+max_settlements = 3
+b_takakusa_castle = castle
+b_takakusa_city = city
+#b_takakusa_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

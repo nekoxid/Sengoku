@@ -1,0 +1,14 @@
+# 198 - Kuwada
+
+# Kokujin Title
+title = c_kuwada
+
+#Settlements
+max_settlements = 3
+b_kuwada_castle = castle
+b_kuwada_city = city
+#b_kuwada_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

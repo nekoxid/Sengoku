@@ -1,0 +1,15 @@
+# 278 - Aga
+
+# Kokujin Title
+title = c_aga
+
+#Settlements
+max_settlements = 3
+b_aga_castle = castle
+b_aga_city = city
+#b_aga_temple = temple
+
+#building=castle_building
+#Misc
+religion = buddhism
+culture = japanese

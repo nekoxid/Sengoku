@@ -1,0 +1,85 @@
+48 = {
+name="Shigeyori"
+dynasty=40
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 6 
+martial = 6
+intrigue = 5 
+add_trait = content
+add_trait = underhanded_rogue
+1442.7.28={
+	birth="1442.7.28"
+}
+1497.5.3={
+	death="1497.5.3"
+}
+} 
+
+97 = {
+name="Masafusa"
+dynasty=40
+culture = japanese
+religion = buddhism
+father=48
+diplomacy = 1
+martial = 2
+intrigue = 1
+#add_trait = musician
+add_trait = misguided_warrior
+
+1467.1.16={
+	birth="1467.1.16"
+}
+1519.7.12={
+	death="1519.7.12"
+}
+} 
+
+864 = {
+name="Yorinori"
+dynasty=40
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 6
+intrigue = 4
+add_trait = naive_appeaser
+#add_trait = painter
+
+1502.1.1={
+birth="1502.1.1"
+}
+1502.1.1={
+employer=570
+}
+1551.4.9={
+	#add_spouse= 330
+	}
+1582.12.18={
+death="1582.12.18"
+}
+} 
+
+865 = {
+name="Yoritsugu"
+dynasty=40
+culture = japanese
+religion = buddhism
+father=864
+diplomacy = 6
+martial = 5
+intrigue = 5
+add_trait = naive_appeaser
+
+1545.1.1={
+birth="1545.1.1"
+}
+1545.1.1={
+employer=570
+}
+1614.12.10={
+death="1614.12.10"
+}
+} 

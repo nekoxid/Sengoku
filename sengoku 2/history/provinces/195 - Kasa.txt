@@ -1,0 +1,14 @@
+# 195 - Kasa
+
+# Kokujin Title
+title = c_kasa
+
+#Settlements
+max_settlements = 3
+b_kasa_castle = castle
+b_kasa_city = city
+#b_kasa_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

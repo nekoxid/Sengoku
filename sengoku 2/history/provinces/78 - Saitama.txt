@@ -1,0 +1,14 @@
+# 78 - Saitama
+
+# Kokujin Title
+title = c_saitama
+
+#Settlements
+max_settlements = 3
+b_saitama_castle = castle
+b_saitama_city = city
+#b_saitama_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

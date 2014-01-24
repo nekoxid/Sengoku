@@ -1,0 +1,14 @@
+# 200 - Funai
+
+# Kokujin Title
+title = c_funai
+
+#Settlements
+max_settlements = 3
+b_funai_castle = castle
+b_funai_city = city
+#b_funai_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

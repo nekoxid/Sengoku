@@ -1,0 +1,18 @@
+# 307 - Yabu
+
+# Kokujin Title
+title = c_yabu
+
+#Settlements
+max_settlements = 3
+b_yabu_castle = castle
+b_yabu_city = city
+#b_yabu_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

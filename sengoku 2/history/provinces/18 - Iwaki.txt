@@ -1,0 +1,14 @@
+# 18 - Iwaki
+
+# Kokujin Title
+title = c_iwaki
+
+#Settlements
+max_settlements = 3
+b_iwaki_castle = castle
+b_iwaki_city = city
+#b_iwaki_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,43 @@
+
+
+obj_become_emperor = {
+	type = character
+	
+	allow = {
+		ai = no
+		age = 16
+		is_ruler = yes
+		is_landed = yes
+		NOT = { trait = incapable }
+		primary_title = { lower_tier_than = EMPEROR }
+		OR = {
+			primary_title = { tier = KING }
+			any_claim = { tier = EMPEROR }
+			liege = { primary_title = { tier = EMPEROR has_law = succ_feudal_elective } }
+			liege = { 
+				primary_title = { tier = EMPEROR has_law = succ_tanistry } 
+				dynasty = FROM
+			}
+		}	
+		NOT = { has_character_flag = obj_increase_title_3 }
+	}
+	chance = {
+		factor = 0
+	}
+	success = {
+		higher_tier_than = king
+	}
+	abort = {
+		OR = {
+			trait = incapable
+			is_ruler = no
+		}
+	}
+	abort_effect = {
+		set_character_flag = obj_aborted
+		clr_character_flag = obj_check
+	}
+	effect = {
+		prestige = 1500
+	}
+}

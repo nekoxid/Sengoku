@@ -1,0 +1,14 @@
+# 260 - Katsuta
+
+# Kokujin Title
+title = c_katsuta
+
+#Settlements
+max_settlements = 3
+b_katsuta_castle = castle
+b_katsuta_city = city
+#b_katsuta_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

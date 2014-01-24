@@ -1,0 +1,14 @@
+# 26 - Kuji
+
+# Kokujin Title
+title = c_kuji
+
+#Settlements
+max_settlements = 3
+b_kuji_castle = castle
+b_kuji_city = city
+#b_kuji_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

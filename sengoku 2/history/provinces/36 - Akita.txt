@@ -1,0 +1,14 @@
+# 36 - Akita
+
+# Kokujin Title
+title = c_akita
+
+#Settlements
+max_settlements = 3
+b_akita_castle = castle
+b_akita_city = city
+#b_akita_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

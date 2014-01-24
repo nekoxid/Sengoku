@@ -1,0 +1,14 @@
+# 140 - Imatachi
+
+# Kokujin Title
+title = c_imatachi
+
+#Settlements
+max_settlements = 3
+b_imatachi_castle = castle
+b_imatachi_city = city
+#b_imatachi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,14 @@
+# 265 - Oku
+
+# Kokujin Title
+title = c_oku
+
+#Settlements
+max_settlements = 3
+b_oku_castle = castle
+b_oku_city = city
+#b_oku_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,113 @@
+176 = {
+name="Noritomo"
+dynasty=107
+culture = japanese
+religion = shinto
+diplomacy = 3
+intrigue = 3
+martial = 3
+add_trait = skilled_tactician
+1423.7.19={
+	birth="1423.7.19"
+}
+1471.8.5={
+	death="1471.8.5"
+}
+} 
+316 = {
+name="Masasato"
+dynasty=107
+culture = japanese
+religion = shinto
+diplomacy = 3
+martial = 2
+intrigue = 3
+add_trait = misguided_warrior
+add_trait = charitable
+add_trait = scholar
+father=176
+1449.2.13={
+	birth="1449.2.13"
+}
+1508.12.17={
+	death="1508.12.17"
+}
+} 
+533 = {
+name="Harutomo"
+dynasty=107
+culture = japanese
+religion = shinto
+father=704
+
+diplomacy = 13
+martial = 9
+intrigue = 11
+add_trait = skilled_tactician
+add_trait = quick
+
+1503.1.1={
+birth="1503.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1563.10.4={
+death="1563.10.4"
+}
+} 
+704 = {
+name="Kichika"
+dynasty=107
+culture = japanese
+religion = shinto
+
+diplomacy = 1
+martial = 1
+intrigue = 1
+
+1468.1.1={
+birth="1468.1.1"
+}
+1517.1.1={
+death="1517.1.1"
+}
+} 
+705 = {
+name="Tomonori"
+dynasty=107
+culture = japanese
+religion = shinto
+father=533
+
+diplomacy = 10
+martial = 12
+intrigue = 5
+add_trait = tough_soldier
+#add_trait = bushi
+
+1528.1.1={
+birth="1528.1.1"
+}
+1576.12.15={
+death="1576.12.15"
+}
+} 
+706 = {
+name="Tomofusa"
+dynasty=107
+culture = japanese
+religion = shinto
+father=705
+
+diplomacy = 5
+martial = 6
+intrigue = 4
+
+1547.1.1={
+birth="1547.1.1"
+}
+1580.1.12={
+death="1580.1.12"
+}
+} 

@@ -1,0 +1,18 @@
+# 350 - Itano
+
+# Kokujin Title
+title = c_itano
+
+#Settlements
+max_settlements = 3
+b_itano_castle = castle
+b_itano_city = city
+#b_itano_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9={
+	#effect = { western = yes }
+}

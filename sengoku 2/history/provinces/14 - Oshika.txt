@@ -1,0 +1,14 @@
+# 14 - Oshika
+
+# Kokujin Title
+title = c_oshika
+
+#Settlements
+max_settlements = 3
+b_oshika_castle = castle
+b_oshika_city = city
+#b_oshika_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

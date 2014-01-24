@@ -1,0 +1,37 @@
+689 = {
+name="Nagamochi"
+dynasty=241
+culture = japanese
+religion = buddhism
+
+diplomacy = 8
+martial = 6
+intrigue = 7
+add_trait = amateurish_plotter
+
+1513.1.1={
+birth="1513.1.1"
+}
+1557.10.13={
+death="1557.10.13"
+}
+} 
+690 = {
+name="Nagateru"
+dynasty=241
+culture = japanese
+religion = buddhism
+father=689
+
+diplomacy = 6
+martial = 8
+intrigue = 6
+add_trait = amateurish_plotter
+
+1533.1.1={
+birth="1533.1.1"
+}
+1562.1.1={
+death="1562.1.1"
+}
+} 

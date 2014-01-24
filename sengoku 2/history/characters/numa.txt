@@ -1,0 +1,34 @@
+201 = {
+name="Kunikiyo"
+dynasty=132
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 3
+intrigue = 3
+add_trait = amateurish_plotter
+1430.1.1={
+	birth="1430.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+299 = {
+name="Kiyomichi"
+dynasty=132
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 2
+intrigue = 3
+add_trait = greedy
+add_trait = deceitful
+father=201
+1450.9.3={
+	birth="1450.9.3"
+}
+1523.12.5={
+	death="1523.12.5"
+}
+} 

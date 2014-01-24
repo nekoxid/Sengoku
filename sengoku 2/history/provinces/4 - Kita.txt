@@ -1,0 +1,14 @@
+# 4 - Kita
+
+# Kokujin Title
+title = c_kita
+
+#Settlements
+max_settlements = 3
+b_kita_castle = castle
+b_kita_city = city
+#b_kita_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,14 @@
+# 95 - Awa
+
+# Kokujin Title
+title = c_awa
+
+#Settlements
+max_settlements = 3
+b_awa_castle = castle
+b_awa_city = city
+#b_awa_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

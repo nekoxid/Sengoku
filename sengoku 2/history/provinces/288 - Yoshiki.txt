@@ -1,0 +1,22 @@
+# 288 - Yoshiki
+
+# Kokujin Title
+title = c_yoshiki
+
+#Settlements
+max_settlements = 3
+b_yoshiki_castle = castle
+b_yoshiki_city = city
+b_yoshiki_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9={
+	#building=christian_church
+	#building=inn
+
+	#effect = { western = yes }
+	religion = catholic
+}

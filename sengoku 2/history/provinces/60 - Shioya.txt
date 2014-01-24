@@ -1,0 +1,14 @@
+# 60 - Shioya
+
+# Kokujin Title
+title = c_shioya
+
+#Settlements
+max_settlements = 3
+b_shioya_castle = castle
+b_shioya_city = city
+b_shioya_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

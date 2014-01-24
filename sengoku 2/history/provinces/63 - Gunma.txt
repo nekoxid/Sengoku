@@ -1,0 +1,14 @@
+# 63 - Gunma
+
+# Kokujin Title
+title = c_gunma
+
+#Settlements
+max_settlements = 3
+b_gunma_castle = castle
+b_gunma_city = city
+#b_gunma_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,54 @@
+1318.3.29 = {
+	law = succ_primogeniture
+	law = agnatic_succession
+	liege = "e_japan"
+	holder = 1993 #daigo
+}
+1339.9.18 = {
+	holder = 1994 #murakami
+}
+1368.3.29 = {
+	holder = 1995 #chokei
+}
+1383.1.1 = {
+	holder = 1996 #kameyama
+}
+1392.10.21 = {
+	holder = 1997 #komatsu
+}
+1412.10.5 = {
+	holder = 1998 #shoko
+}
+1428.8.30 = {
+	holder = 1999 #hanazono
+}
+1464.8.21 = {
+	holder = 2001 #tsuchimikado
+}
+1500.10.21 = {
+	holder = 2002 #kashiwabara
+}
+1526.5.19 = {
+	holder = 2003 #nara
+}
+1557.9.27 = {
+	holder = 2004 #ogimachi
+}
+1586.12.17 = {
+	holder = 2005 #yozei
+}
+1611.5.9 = {
+	holder = 2006 #mizunoo
+}
+1629.12.22 = {
+	holder = 2007 #empress meisho
+}
+1643.11.14 = {
+	holder = 2008 #komyo
+}
+1654.10.30 = {
+	holder = 2009 #sai
+}
+1663.3.5 = {
+	holder = 2010 #reigen
+}

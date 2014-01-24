@@ -1,0 +1,14 @@
+# 105 - Tsuru
+
+# Kokujin Title
+title = c_tsuru
+
+#Settlements
+max_settlements = 3
+b_tsuru_castle = castle
+b_tsuru_city = city
+#b_tsuru_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

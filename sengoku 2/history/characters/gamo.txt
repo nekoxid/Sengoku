@@ -1,0 +1,38 @@
+141 = {
+name="Nobukiyo"
+dynasty=72
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 5
+intrigue = 4
+add_trait = misguided_warrior
+
+1442.9.12={
+	birth="1442.9.12"
+}
+1497.3.7={
+	death="1497.3.7"
+}
+} 
+517 = {
+name="Norikiyo"
+dynasty=72
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 10
+intrigue = 7
+add_trait = tough_soldier
+
+1524.1.1={
+birth="1524.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1574.1.1={
+death="1574.1.1"
+}
+} 

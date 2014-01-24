@@ -1,0 +1,35 @@
+128 = {
+name="Motoie"
+dynasty=59
+culture = japanese
+religion = buddhism
+diplomacy = 6
+martial = 4
+intrigue = 6
+add_trait = amateurish_plotter
+add_trait = greedy
+
+1409.5.6={
+	birth="1409.5.6"
+}
+1468.10.17={
+	death="1468.10.17"
+}
+} 
+282 = {
+name="Norihide"
+dynasty=59
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 3
+intrigue = 4
+add_trait = amateurish_plotter
+father=128
+1433.4.1={
+	birth="1433.4.1"
+}
+1495.7.9={
+	death="1495.7.9"
+}
+} 

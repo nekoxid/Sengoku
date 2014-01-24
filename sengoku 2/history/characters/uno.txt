@@ -1,0 +1,40 @@
+761 = {
+name="Masayori"
+dynasty=255
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 6
+intrigue = 3
+add_trait = misguided_warrior
+
+1521.1.1={
+birth="1521.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1580.1.1={
+death="1580.1.1"
+}
+} 
+762 = {
+name="Mitsukage"
+dynasty=255
+culture = japanese
+religion = buddhism
+father = 761
+
+diplomacy = 8
+martial = 8
+intrigue = 6
+add_trait = amateurish_plotter
+
+1544.1.1={
+birth="1544.1.1"
+}
+1574.1.1={
+death="1574.1.1"
+}
+} 

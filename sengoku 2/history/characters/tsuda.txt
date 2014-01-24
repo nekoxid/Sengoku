@@ -1,0 +1,40 @@
+723 = {
+name="Kazunaga"
+dynasty=246
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 12
+intrigue = 11
+add_trait = skilled_tactician
+
+1499.1.1={
+birth="1499.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1568.1.21={
+death="1568.1.21"
+}
+} 
+724 = {
+name="Kazumasa"
+dynasty=246
+culture = japanese
+religion = buddhism
+father=723
+
+diplomacy = 10
+martial = 10
+intrigue = 9
+add_trait = tough_soldier
+
+1533.1.1={
+birth="1533.1.1"
+}
+1585.4.22={
+death="1585.4.22"
+}
+} 

@@ -1,0 +1,13 @@
+1318.3.29 = {
+	liege="d_kii"
+}
+1467.5.26 = {
+	holder=151
+}
+1551.4.9 = {
+	#liege="k_clanleader_107"
+	liege="d_ise"
+}
+1551.4.9 = {
+	holder=712
+}

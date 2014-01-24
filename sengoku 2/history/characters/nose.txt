@@ -1,0 +1,54 @@
+1022 = {
+name="Yoriyuki"
+dynasty=130
+culture = japanese
+religion = buddhism
+
+diplomacy = 8
+martial = 6
+intrigue = 7
+add_trait = amateurish_plotter
+
+1532.1.1={
+birth="1532.1.1"
+}
+1532.1.1={
+employer = 506
+}
+1579.1.1={
+death="1579.1.1"
+}
+} 
+199 = {
+name="Motoyori"
+dynasty=130
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 2
+intrigue = 4
+add_trait = intricate_webweaver
+1431.1.16={
+	birth="1431.1.16"
+}
+1489.12.9={
+	death="1489.12.9"
+}
+} 
+298 = {
+name="Motoyori"
+dynasty=130
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 3
+intrigue = 2
+add_trait = charitable
+father=199
+1457.12.18={
+	birth="1457.12.18"
+}
+1498.2.13={
+	death="1498.2.13"
+}
+} 

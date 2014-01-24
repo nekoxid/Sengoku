@@ -1,0 +1,18 @@
+# 296 - Usa
+
+# Kokujin Title
+title = c_usa
+
+#Settlements
+max_settlements = 3
+b_usa_castle = castle
+b_usa_city = city
+b_usa_temple = temple
+
+#Misc
+religion = shinto #buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

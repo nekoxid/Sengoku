@@ -1,0 +1,38 @@
+913 = {
+name="Morikiyo"
+dynasty=318
+culture = japanese
+religion = buddhism
+diplomacy = 8
+martial = 7
+intrigue = 7
+add_trait = misguided_warrior
+
+1516.1.1={
+birth="1516.1.1"
+}
+1570.1.1={
+death="1570.1.1"
+}
+}
+
+914 = {
+name="Morikuni"
+dynasty=318
+culture = japanese
+religion = buddhism
+father = 913
+
+diplomacy = 9
+martial = 7
+intrigue = 6
+add_trait = amateurish_plotter
+add_trait = arbitrary
+
+1536.1.1={
+birth="1536.1.1"
+}
+1595.1.1={
+death="1595.1.1"
+}
+}

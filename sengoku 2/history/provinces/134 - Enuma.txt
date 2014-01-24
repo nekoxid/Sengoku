@@ -1,0 +1,30 @@
+# 134 - Enuma
+
+# Kokujin Title
+title = c_enuma
+
+#Settlements
+max_settlements = 3
+b_enuma_castle = castle
+b_enuma_city = city
+b_enuma_temple = temple
+
+
+#Misc
+religion = pure_land_buddhism
+culture = japanese
+
+1551.4.9={
+	# effect={
+		# #western=yes
+		# set_province_flag = taken_by_ikko_ikki
+		
+		# set_variable = { which = ikko_ikki_city_level value = 0 }
+		# set_variable = { which = ikko_ikki_castle_level value = 0 }
+	# }
+	b_enuma_temple = temple
+	capital = b_enuma_temple
+}
+1592.12.17 = {
+	capital = b_enuma_castle
+}

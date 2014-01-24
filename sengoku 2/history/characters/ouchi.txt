@@ -1,0 +1,76 @@
+258 = {
+name="Noriyuki"
+dynasty=29
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 2
+intrigue = 4
+add_trait = envious
+add_trait = amateurish_plotter
+1430.6.22={
+	birth="1430.6.22"
+}
+1472.10.6={
+	death="1472.10.6"
+}
+} 
+36 = {
+name="Masahiro"
+dynasty=29
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 5
+martial = 7
+intrigue = 5
+#add_trait = painter
+add_trait = skilled_tactician
+1446.9.18={
+	birth="1446.9.18"
+}
+1495.10.6={
+	death="1495.10.6"
+}
+} 
+564 = {
+name="Yoshitaka"
+dynasty=29
+culture = japanese
+religion = buddhism
+father=616
+
+diplomacy = 10
+martial = 9
+intrigue = 8
+add_trait = underhanded_rogue
+add_trait = poet
+add_trait = craven
+
+1507.12.18={
+birth="1507.12.18"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1551.9.30={
+death="1551.9.30"
+}
+} 
+616 = {
+name="Yoshioki"
+dynasty=29
+culture = japanese
+religion = buddhism
+
+diplomacy = 1
+martial = 1
+intrigue = 1
+
+1477.4.7={
+birth="1477.4.7"
+}
+1529.1.29={
+death="1529.1.29"
+}
+} 

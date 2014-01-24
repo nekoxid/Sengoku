@@ -1,0 +1,14 @@
+# 124 - Fukeshi
+
+# Kokujin Title
+title = c_fukeshi
+
+#Settlements
+max_settlements = 3
+b_fukeshi_castle = castle
+b_fukeshi_city = city
+#b_fukeshi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

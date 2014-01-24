@@ -1,0 +1,57 @@
+145 = {
+name="Hidenaga"
+dynasty=76
+culture = japanese
+religion = buddhism
+diplomacy = 5
+martial = 5
+intrigue = 5
+add_trait = amateurish_plotter
+
+1448.8.1={
+	birth="1448.8.1"
+}
+1509.7.16={
+	death="1509.7.16"
+}
+} 
+519 = {
+name="Harumichi"
+dynasty=76
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 9
+intrigue = 10
+add_trait = tough_soldier
+
+1521.1.1={
+birth="1521.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1560.1.1={
+death="1560.1.1"
+}
+} 
+764 = {
+name="Hideharu"
+dynasty=76
+culture = japanese
+religion = buddhism
+father = 519
+
+diplomacy = 6
+martial = 11
+intrigue = 9
+add_trait = intricate_webweaver
+
+1543.1.1={
+birth="1543.1.1"
+}
+1599.1.1={
+death="1599.1.1"
+}
+} 

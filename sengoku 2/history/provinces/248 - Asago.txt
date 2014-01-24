@@ -1,0 +1,14 @@
+# 248 - Asago
+
+# Kokujin Title
+title = c_asago
+
+#Settlements
+max_settlements = 3
+b_asago_castle = castle
+b_asago_city = city
+#b_asago_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,14 @@
+# 70 - Midono
+
+# Kokujin Title
+title = c_midono
+
+#Settlements
+max_settlements = 3
+b_midono_castle = castle
+b_midono_city = city
+#b_midono_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

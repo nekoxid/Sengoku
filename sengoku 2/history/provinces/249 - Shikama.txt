@@ -1,0 +1,15 @@
+# 249 - Shikama
+
+# Kokujin Title
+title = c_shikama
+
+#Settlements
+max_settlements = 3
+b_shikama_castle = castle
+b_shikama_city = city
+#b_shikama_temple = temple
+
+#building=castle_building
+#Misc
+religion = buddhism
+culture = japanese

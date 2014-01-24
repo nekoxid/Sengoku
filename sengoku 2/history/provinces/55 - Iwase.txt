@@ -1,0 +1,14 @@
+# 55 - Iwase
+
+# Kokujin Title
+title = c_iwase
+
+#Settlements
+max_settlements = 3
+b_iwase_castle = castle
+b_iwase_city = city
+#b_iwase_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,37 @@
+701 = {
+name="Shigekane"
+dynasty=243
+culture = japanese
+religion = buddhism
+father=702
+
+diplomacy = 9
+martial = 11
+intrigue = 5
+add_trait = tough_soldier
+
+1543.1.1={
+birth="1543.1.1"
+}
+1578.1.1={
+death="1578.1.1"
+}
+} 
+702 = {
+name="Akinari"
+dynasty=243
+culture = japanese
+religion = buddhism
+
+diplomacy = 11
+martial = 8
+intrigue = 9
+add_trait = underhanded_rogue
+
+1511.1.1={
+birth="1511.1.1"
+}
+1561.1.1={
+death="1561.1.1"
+}
+} 

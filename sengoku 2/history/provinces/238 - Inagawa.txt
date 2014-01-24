@@ -1,0 +1,18 @@
+# 238 - Inagawa
+
+# Kokujin Title
+title = c_inagawa
+
+#Settlements
+max_settlements = 3
+b_inagawa_castle = castle
+b_inagawa_city = city
+#b_inagawa_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

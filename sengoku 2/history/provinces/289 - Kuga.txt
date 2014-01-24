@@ -1,0 +1,18 @@
+# 289 - Kuga
+
+# Kokujin Title
+title = c_kuga
+
+#Settlements
+max_settlements = 3
+b_kuga_castle = castle
+b_kuga_city = city
+#b_kuga_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

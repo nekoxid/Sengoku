@@ -1,0 +1,14 @@
+# 83 - Soma
+
+# Kokujin Title
+title = c_soma
+
+#Settlements
+max_settlements = 3
+b_soma_castle = castle
+b_soma_city = city
+b_soma_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

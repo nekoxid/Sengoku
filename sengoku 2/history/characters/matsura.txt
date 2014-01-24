@@ -1,0 +1,19 @@
+741 = {
+name="Shigenobu"
+dynasty=116
+culture = japanese
+religion = buddhism
+father=541
+
+diplomacy = 14
+martial = 9
+intrigue = 10
+add_trait = charismatic_negotiator
+
+1549.1.1={
+birth="1549.1.1"
+}
+1614.7.3={
+death="1614.7.3"
+}
+} 

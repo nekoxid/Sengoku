@@ -1,0 +1,33 @@
+205 = {
+name="Kunio"
+dynasty=136
+culture = japanese
+religion = buddhism
+diplomacy = 6
+intrigue = 4
+martial = 5
+add_trait = poet
+add_trait = underhanded_rogue
+1439.10.22={
+	birth="1439.10.22"
+}
+1508.4.18={
+	death="1508.4.18"
+}
+} 
+300 = {
+name="Motokuni"
+dynasty=136
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 2
+intrigue = 1
+father=205
+1457.6.18={
+	birth="1457.6.18"
+}
+1512.7.15={
+	death="1512.7.15"
+}
+} 

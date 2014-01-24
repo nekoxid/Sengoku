@@ -1,0 +1,14 @@
+# 193 - Iga
+
+# Kokujin Title
+title = c_iga
+
+#Settlements
+max_settlements = 3
+b_iga_castle = castle
+b_iga_city = city
+#b_iga_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

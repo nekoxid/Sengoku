@@ -1,0 +1,14 @@
+# 50 - Minami-Uonuma
+
+# Kokujin Title
+title = c_minami-uonuma
+
+#Settlements
+max_settlements = 3
+b_minami-uonuma_castle = castle
+b_minami-uonuma_city = city
+#b_minami-uonuma_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

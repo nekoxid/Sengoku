@@ -1,0 +1,14 @@
+# 43 - Nutari
+
+# Kokujin Title
+title = c_nutari
+
+#Settlements
+max_settlements = 3
+b_nutari_castle = castle
+b_nutari_city = city
+#b_nutari_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

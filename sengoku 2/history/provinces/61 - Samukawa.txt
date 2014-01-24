@@ -1,0 +1,14 @@
+# 61 - Samukawa
+
+# Kokujin Title
+title = c_samukawa
+
+#Settlements
+max_settlements = 3
+b_samukawa_castle = castle
+b_samukawa_city = city
+#b_samukawa_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

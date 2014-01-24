@@ -1,0 +1,14 @@
+# 286 - Sata
+
+# Kokujin Title
+title = c_sata
+
+#Settlements
+max_settlements = 3
+b_sata_castle = castle
+b_sata_city = city
+#b_sata_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

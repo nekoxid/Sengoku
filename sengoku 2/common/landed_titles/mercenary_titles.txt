@@ -1,0 +1,481 @@
+# holy orders
+
+d_warriormonks_0 = {
+	color={ 230 230 230 }
+	color2={ 255 255 255 }
+	
+	capital = 203 #kadono
+	
+	# Hire Trigger
+	allow = {
+		#ai = no
+		religion_group = taoic_group
+	}
+	
+	title = "Warrior Priest"
+	foa = "WARRIOR_PRIEST_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	# Parent Religion 
+	religion = buddhism
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dignity = 10
+	
+	strength_growth_per_century = 1
+
+	modifier = d_warriormonks_modifier
+}
+
+d_warriormonks_1 = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	capital = 203 #kadono
+	
+	# Hire Trigger
+	allow = {
+		#ai = no
+		religion_group = taoic_group
+	}
+	
+	title = "Warrior Priest"
+	foa = "WARRIOR_PRIEST_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	# Parent Religion 
+	religion = shinto
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dignity = 10
+	
+	strength_growth_per_century = 1
+
+	modifier = d_warriormonks_modifier
+}
+
+d_warriormonks_2 = {
+	color={ 180 180 180 }
+	color2={ 255 255 255 }
+	
+	capital = 203 #kadono
+	
+	# Hire Trigger
+	allow = {
+		#ai = no
+		religion_group = christian
+	}
+	
+	title = "Warrior Priest"
+	foa = "WARRIOR_PRIEST_FOA"
+
+	# Always exists
+	landless = yes
+	
+	holy_order = yes
+	
+	# Parent Religion 
+	religion = catholic
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dignity = 10
+	
+	strength_growth_per_century = 1
+
+	modifier = d_warriormonks_modifier
+}
+
+# mercs
+
+d_ronin_0 = {
+	color = { 80 80 160 }
+	color2 = { 255 255 255 }
+	
+	capital = 203 #kadono
+	
+	# Hire Trigger
+	allow = {
+		#ai = no
+		#religion_group = taoic_group
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	mercenary = yes
+	
+	# Parent Religion 
+	religion = buddhism
+	culture = japanese
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dignity = 10
+	
+	strength_growth_per_century = 0.33
+
+	modifier = d_ronin_band_modifier
+}
+
+d_ronin_1 = {
+	color = { 80 80 160 }
+	color2 = { 255 255 255 }
+	
+	capital = 203 #kadono
+	
+	# Hire Trigger
+	allow = {
+		#ai = no
+		#religion_group = taoic_group
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	mercenary = yes
+	
+	# Parent Religion 
+	religion = shinto
+	culture = japanese
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dignity = 10
+	
+	strength_growth_per_century = 0.33
+
+	modifier = d_ronin_band_modifier
+}
+
+d_ronin_2 = {
+	color = { 80 80 160 }
+	color2 = { 255 255 255 }
+	
+	capital = 203 #kadono
+	
+	# Hire Trigger
+	allow = {
+		#ai = no
+		#religion_group = taoic_group
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	mercenary = yes
+	
+	# Parent Religion 
+	religion = buddhism
+	culture = japanese
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dignity = 10
+	
+	strength_growth_per_century = 0.33
+
+	modifier = d_ronin_company_modifier
+}
+
+d_ronin_3= {
+	color = { 80 80 160 }
+	color2 = { 255 255 255 }
+	
+	capital = 203 #kadono
+	
+	# Hire Trigger
+	allow = {
+		#ai = no
+		#religion_group = taoic_group
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	mercenary = yes
+	
+	# Parent Religion 
+	religion = buddhism
+	culture = japanese
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dignity = 10
+	
+	strength_growth_per_century = 0.33
+
+	modifier = d_ronin_company_modifier
+}
+
+d_ronin_4= {
+	color = { 80 80 160 }
+	color2 = { 255 255 255 }
+	
+	capital = 203 #kadono
+	
+	# Hire Trigger
+	allow = {
+		#ai = no
+		#religion_group = taoic_group
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	mercenary = yes
+	
+	# Parent Religion 
+	religion = buddhism
+	culture = japanese
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dignity = 10
+	
+	strength_growth_per_century = 0.33
+
+	modifier = d_ronin_legion_modifier
+}
+
+d_wokou_big_0 = {
+	color = { 80 80 160 }
+	color2 = { 255 255 255 }
+	
+	capital = 304 #Matsura
+	
+	# Hire Trigger
+	allow = {
+		#ai = no
+	}
+	
+	# Parent Religion 
+	religion = shinto
+	culture = korean
+	
+	mercenary = yes
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 0.33
+	
+	modifier = d_big_fleet_modifier
+	active = no
+}
+
+d_wokou_small_0 = {
+	color = { 80 80 160 }
+	color2 = { 255 255 255 }
+	
+	capital = 304 #Matsura
+	
+	# Hire Trigger
+	allow = {
+		#ai = no
+	}
+	
+	# Parent Religion 
+	religion = buddhism
+	culture = japanese
+	
+	mercenary = yes
+	
+	dignity = 10
+
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	strength_growth_per_century = 0.33
+	
+	modifier = d_small_fleet_modifier
+	active = no
+}
+
+d_expforce_1 = {
+	color = { 80 80 160 }
+	color2 = { 255 255 255 }
+	
+	capital = 361
+	
+	# Hire Trigger
+	allow = {
+		NOT = { culture_group = asian }
+		religion_group = christian
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	mercenary = yes
+	
+	# Parent Religion 
+	religion = catholic
+	culture = portuguese
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dignity = 10
+	
+	strength_growth_per_century = 0.33
+
+	modifier = d_ronin_band_modifier
+}
+
+d_expforce_2 = {
+	color = { 80 80 160 }
+	color2 = { 255 255 255 }
+	
+	capital = 361
+	
+	# Hire Trigger
+	allow = {
+		NOT = { culture_group = asian }
+		religion_group = christian
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	mercenary = yes
+	
+	# Parent Religion 
+	religion = catholic
+	culture = castillan
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dignity = 10
+	
+	strength_growth_per_century = 0.33
+
+	modifier = d_ronin_company_modifier
+}
+
+d_expforce_3= {
+	color = { 80 80 160 }
+	color2 = { 255 255 255 }
+	
+	capital = 361
+	
+	# Hire Trigger
+	allow = {
+		NOT = { culture_group = asian }
+		religion_group = christian
+	}
+	
+	title = "CAPTAIN"
+	foa = "CAPTAIN_FOA"
+
+	# Always exists
+	landless = yes
+	
+	mercenary = yes
+	
+	# Parent Religion 
+	religion = lollard
+	culture = english
+	
+	# Cannot be held as a secondary title
+	primary = yes
+	
+	# Cannot be vassalized
+	independent = yes
+	
+	dignity = 10
+	
+	strength_growth_per_century = 0.33
+
+	modifier = d_ronin_legion_modifier
+}

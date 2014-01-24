@@ -1,0 +1,14 @@
+# 44 - Kanbara
+
+# Kokujin Title
+title = c_kanbara
+
+#Settlements
+max_settlements = 3
+b_kanbara_castle = castle
+b_kanbara_city = city
+#b_kanbara_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

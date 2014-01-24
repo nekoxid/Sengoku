@@ -1,0 +1,14 @@
+# 355 - Hamochi
+
+# Kokujin Title
+title = c_hamochi
+
+#Settlements
+max_settlements = 3
+b_hamochi_castle = castle
+b_hamochi_city = city
+#b_hamochi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

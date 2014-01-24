@@ -1,0 +1,18 @@
+# 204 - Kii
+
+# Kokujin Title
+title = c_kii
+
+#Settlements
+max_settlements = 3
+b_kii_castle = castle
+b_kii_city = city
+#b_kii_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

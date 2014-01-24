@@ -1,0 +1,41 @@
+1318.3.29 = {
+	liege="d_yamashiro"
+	#liege="e_japan"
+	holder = 1993 #daigo
+}
+1339.9.18 = {
+	holder = 1994 #murakami
+}
+1368.3.29 = {
+	holder = 1995 #chokei
+}
+1383.1.1 = {
+	holder = 1996 #kameyama
+}
+1392.10.21 = {
+	holder = 1997 #komatsu
+}
+1412.10.5 = {
+	holder = 1998 #shoko
+}
+1428.8.30 = {
+	holder = 1999 #hanazono
+}
+1443.8.16 = {
+	#holder = 2
+}
+1464.8.21 = {
+	holder = 2001 #tsuchimikado
+}
+1467.5.26 = {
+	#holder = 61
+}
+1526.5.19 = {
+	holder = 2003 #nara
+}
+1551.4.9 = {
+	#liege="k_clanleader_2"
+}
+1551.4.9 = {
+	#holder=506
+}

@@ -1,0 +1,14 @@
+# 141 - Ono
+
+# Kokujin Title
+title = c_ono
+
+#Settlements
+max_settlements = 3
+b_ono_castle = castle
+b_ono_city = city
+#b_ono_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,18 @@
+729 = {
+name="Yoshihiro"
+dynasty=248
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 8
+intrigue = 7
+add_trait = amateurish_plotter
+
+1532.1.1={
+birth="1532.1.1"
+}
+1612.1.1={
+death="1612.1.1"
+}
+} 

@@ -1,0 +1,20 @@
+# 211 - Uji
+
+# Kokujin Title
+title = c_uji
+
+#Settlements
+max_settlements = 3
+b_uji_castle = castle
+b_uji_city = city
+b_uji_temple = temple
+
+#building=inn
+#building=marketplace
+#Misc
+religion = shinto #buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

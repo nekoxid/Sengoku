@@ -1,0 +1,39 @@
+516 = {
+name="Tokimori"
+dynasty=211
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 8
+intrigue = 8
+add_trait = underhanded_rogue
+
+1504.1.1={
+birth="1504.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1578.8.19={
+death="1578.8.19"
+}
+} 
+877 = {
+name="Terumori"
+dynasty=211
+culture = japanese
+religion = buddhism
+father=516
+diplomacy = 7
+martial = 8
+intrigue = 6
+add_trait = amateurish_plotter
+
+1533.1.1={
+birth="1533.1.1"
+}
+1582.11.22={
+death="1582.11.22"
+}
+} 

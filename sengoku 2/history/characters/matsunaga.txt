@@ -1,0 +1,42 @@
+606 = {
+name="Hisahide"
+dynasty=230
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 10
+intrigue = 14
+add_trait = elusive_shadow
+#add_trait = tea_master
+add_trait = ambitious
+add_trait = quick
+
+1510.1.1={
+birth="1510.1.1"
+}
+1577.11.19={
+death="1577.11.19"
+}
+} 
+784 = {
+name="Nagayori"
+dynasty=230
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 12
+intrigue = 9
+add_trait = intricate_webweaver
+
+1511.1.1={
+birth="1511.1.1"
+}
+1551.4.9={
+employer=606
+}
+1565.8.27={
+death="1565.8.27"
+}
+} 

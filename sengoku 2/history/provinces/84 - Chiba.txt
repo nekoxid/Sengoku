@@ -1,0 +1,14 @@
+# 84 - Chiba
+
+# Kokujin Title
+title = c_chiba
+
+#Settlements
+max_settlements = 3
+b_chiba_castle = castle
+b_chiba_city = city
+#b_chiba_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

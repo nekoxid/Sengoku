@@ -1,0 +1,14 @@
+# 252 - Ako
+
+# Kokujin Title
+title = c_ako
+
+#Settlements
+max_settlements = 3
+b_ako_castle = castle
+b_ako_city = city
+#b_ako_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

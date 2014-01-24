@@ -1,0 +1,18 @@
+# 352 - Tsuna
+
+# Kokujin Title
+title = c_tsuna
+
+#Settlements
+max_settlements = 3
+b_tsuna_castle = castle
+b_tsuna_city = city
+#b_tsuna_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9={
+	#effect = { western = yes }
+}

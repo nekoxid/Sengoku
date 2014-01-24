@@ -1,0 +1,55 @@
+132 = {
+name="Koretada"
+dynasty=63
+culture = japanese
+religion = shinto
+diplomacy = 6
+martial = 5
+intrigue = 5
+add_trait = underhanded_rogue
+
+1415.12.2={
+	birth="1415.12.2"
+}
+1485.9.12={
+	death="1485.9.12"
+}
+} 
+312 = {
+name="Korenori"
+dynasty=63
+culture = japanese
+religion = shinto
+diplomacy = 5
+martial = 5
+intrigue = 4
+add_trait = underhanded_rogue
+father=132
+1447.10.29={
+	birth="1447.10.29"
+}
+1508.3.15={
+	death="1508.3.15"
+}
+} 
+507 = {
+name="Koretoyo"
+dynasty=63
+culture = japanese
+religion = shinto
+
+diplomacy = 12
+martial = 6
+intrigue =  8
+add_trait = intricate_webweaver
+
+1493.1.1={
+birth="1493.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1559.12.5={
+death="1559.12.5"
+}
+} 

@@ -1,0 +1,36 @@
+633 = {
+name="Ujio"
+dynasty=122
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 8
+intrigue = 8
+add_trait = amateurish_plotter
+
+1512.1.1={
+birth="1512.1.1"
+}
+1551.9.30={
+death="1551.9.30"
+}
+} 
+634 = {
+name="Ujitaka"
+dynasty=122
+culture = japanese
+religion = buddhism
+father=633
+
+diplomacy = 9
+martial = 10
+intrigue = 7
+
+1549.1.1={
+birth="1549.1.1"
+}
+1642.1.1={
+death="1642.1.1"
+}
+} 

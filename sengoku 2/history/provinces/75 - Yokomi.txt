@@ -1,0 +1,14 @@
+# 75 - Yokomi
+
+# Kokujin Title
+title = c_yokomi
+
+#Settlements
+max_settlements = 3
+b_yokomi_castle = castle
+b_yokomi_city = city
+#b_yokomi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

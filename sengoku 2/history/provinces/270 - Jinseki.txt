@@ -1,0 +1,14 @@
+# 270 - Jinseki
+
+# Kokujin Title
+title = c_jinseki
+
+#Settlements
+max_settlements = 3
+b_jinseki_castle = castle
+b_jinseki_city = city
+#b_jinseki_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

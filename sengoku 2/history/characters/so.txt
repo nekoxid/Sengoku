@@ -1,0 +1,59 @@
+43 = {
+name="Shigemoto"
+dynasty=36
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 4
+martial = 3
+intrigue = 4
+add_trait = ill
+1419.4.17={
+	birth="1419.4.17"
+}
+1467.12.5={
+	death="1467.12.5"
+}
+} 
+
+579 = {
+name="Haruyasu"
+dynasty=36
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 8
+intrigue = 6
+add_trait = underhanded_rogue
+
+1475.1.1={
+birth="1475.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1563.3.22={
+death="1563.3.22"
+}
+} 
+
+743 = {
+name="Yoshishige"
+dynasty=36
+culture = japanese
+religion = buddhism
+father = 579
+
+diplomacy = 11
+martial = 6
+intrigue = 12
+add_trait = underhanded_rogue
+
+1532.1.1={
+birth="1532.1.1"
+}
+1589.1.28={
+death="1589.1.28"
+}
+} 

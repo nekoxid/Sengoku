@@ -1,0 +1,25 @@
+######;#;#;#;;#;;;;;;;;;x
+taoic_group;Taoic;Taoic;Taoic;;Taoic;;;;;;;;;x
+buddhism;Buddhism;Bouddhisme;Buddhismus;;Budismo;;;;;;;;;x
+buddhism_DESC;Buddhism is a religion indigenous to the Indian subcontinent that encompasses a variety of traditions, beliefs and practices largely based on teachings attributed to Siddhartha Gautama, who is commonly known as the Buddha, meaning "the awakened one".;Bouddhisme;Buddhismus;;Budismo;;;;;;;;;x
+#pure_land_buddhism;Pure Land Buddhism;Bouddhisme de la Terre;Reines Land Buddhismus;;Budismo de la Tierra Pura;;;;;;;;;x
+pure_land_buddhism;Amidism;Amidisme;Amidismus;;Amidismo;;;;;;;;;x
+pure_land_buddhism_DESC;Amidism holds that the faithful—by believing in Amida, hearing or saying his name, or desiring to share in his Western Paradise—can be reborn in the Pure Land.;Amidisme;Amidismus;;Amidismo;;;;;;;;;x
+BUDDHISM_SCRIPT;Pali Tipitaka;Canon Pali;Pali-Kanon;;Canon Pali;;;;;;;;;x
+GOD_BUDDHA;Buddha;Bouddha;Buddha;;Buda;;;;;;;;;x
+GOD_BODHISATTVAS;the Bodhisattvas;;;;;;;;;;;;;x
+BUDDHISM_MARA;Mara;Mara;Mara;;Mara;;;;;;;;;x
+THE_ASURAS;the Asuras;les Asura;gli Asura;die Asuras;los Asuras;;;;;;;;;;x
+shinto;Shintoism;Shintoïsme;Shintoismus;;Sintoísmo;;;;;;;;;x
+shinto_DESC;Shinto teaches that certain deeds create a kind of ritual impurity that one should want cleansed for one's own peace of mind and good fortune rather than because impurity is wrong.;Shintoïsme;Shintoismus;;Sintoísmo;;;;;;;;;x
+SHINTO_SCRIPT;Rikkokushi;Rikkokushi;Rikkokushi;;Rikkokushi;;;;;;;;;x
+GOD_KAMI;Kami;Kami;Kami;;Kami;;;;;;;;;x
+GOD_AMATERASU;Amaterasu;Amaterasu;Amaterasu;;Amaterasu;;;;;;;;;x
+#christian_japanese;Kurisuchan;Kurisuchan;Kurisuchan;;Kurisuchan;;;;;;;;;x
+#catholic_japanese;Kirishitan;Kirishitan;Kirishitan;;Kirishitan;;;;;;;;;x
+######;#;#;#;;#;;;;;;;;;x
+give_to_charity;Give to Charity;Donner par charité;Geben Sie  Wohltätigkeit;;;;;;;;;;;x
+give_to_charity_desc;Give a voluntary donation to [Root.Religion.GetName] charities.;Faites un don volontaire aux oeuvres de charité de [Root.Religion.GetName].;Give a voluntary donation to [Root.Religion.GetName] charities.;;;;;;;;;;;x
+give_voluntary_charity;May my sins be forgiven and my piety increased.;Que mes péchés sont pardonnés et ma piété augmenté.;Möge meine Sünden vergeben werden und meine Frömmigkeit erhöht.;Que mis pecados sean perdonados y mi piedad se incrementaron.;;;;;;;;;x;
+opinion_charity;Gave to Charity;A donné à la charité;Gab für wohltätige Zwecke;;Dio a la caridad;;;;;;;;;x;
+######;#;#;#;;#;;;;;;;;;x

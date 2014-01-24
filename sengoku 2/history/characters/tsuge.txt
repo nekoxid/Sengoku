@@ -1,0 +1,21 @@
+585 = {
+name="Yasushige"
+dynasty=225
+culture = japanese
+religion = buddhism
+
+diplomacy = 3
+martial = 10
+intrigue = 9
+add_trait = flamboyant_schemer
+
+1522.1.1={
+birth="1522.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1579.1.1={
+death="1579.1.1"
+}
+} 

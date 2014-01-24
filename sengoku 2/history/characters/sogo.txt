@@ -1,0 +1,19 @@
+605 = {
+name="Kazumasa"
+dynasty=229
+culture = japanese
+religion = buddhism
+father=612
+
+diplomacy = 6
+martial = 14
+intrigue = 9
+add_trait = skilled_tactician
+
+1532.1.1={
+birth="1532.1.1"
+}
+1561.4.2={
+death="1561.4.2"
+}
+} 

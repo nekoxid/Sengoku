@@ -1,0 +1,14 @@
+# 149 - Mugi
+
+# Kokujin Title
+title = c_mugi
+
+#Settlements
+max_settlements = 3
+b_mugi_castle = castle
+b_mugi_city = city
+#b_mugi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

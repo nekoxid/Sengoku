@@ -1,0 +1,88 @@
+200 = {
+name="Toshimune"
+dynasty=131
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 3
+intrigue = 3
+#add_trait = go_player
+#add_trait = ruthless
+1447.7.19={
+	birth="1447.7.19"
+}
+1510.1.24={
+	death="1510.1.24"
+}
+} 
+319 = {
+name="Takamune"
+dynasty=131
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 1
+intrigue = 1
+father=200
+1470.1.1={
+	birth="1470.1.1"
+}
+1531.2.23={
+	death="1531.2.23"
+}
+} 
+813 = {
+name="Fusasada"
+dynasty=131
+culture = japanese
+religion = buddhism
+diplomacy = 8 
+martial = 6
+intrigue = 3
+add_trait = underhanded_rogue
+add_trait = arbitrary
+
+1490.1.1={
+birth="1490.1.1"
+}
+1555.1.1={
+death="1555.1.1"
+}
+} 
+814 = {
+name="Tsugumune"
+dynasty=131
+culture = japanese
+religion = buddhism
+father=813
+diplomacy = 6 
+martial = 6
+intrigue = 4
+add_trait = naive_appeaser
+
+1513.1.1={
+birth="1513.1.1"
+}
+1560.1.1={
+death="1560.1.1"
+}
+} 
+815 = {
+name="Kagetaka"
+dynasty=131
+culture = japanese
+religion = buddhism
+father=814
+diplomacy = 7 
+martial = 6
+intrigue = 5
+add_trait = amateurish_plotter
+#add_trait = ruthless
+
+1535.1.1={
+birth="1535.1.1"
+}
+1582.7.13={
+death="1582.7.13"
+}
+} 

@@ -1,0 +1,14 @@
+# 40 - Murayama
+
+# Kokujin Title
+title = c_murayama
+
+#Settlements
+max_settlements = 3
+b_murayama_castle = castle
+b_murayama_city = city
+#b_murayama_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

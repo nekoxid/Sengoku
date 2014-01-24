@@ -1,0 +1,59 @@
+546 = {
+name="Shigemune"
+dynasty=220
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 10
+intrigue = 12
+add_trait = tough_soldier
+
+1508.1.1={
+birth="1508.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1555.1.1={
+death="1555.1.1"
+}
+} 
+752 = {
+name="Shigetoki"
+dynasty=220
+culture = japanese
+religion = buddhism
+father=546
+
+diplomacy = 8
+martial = 9
+intrigue = 6
+add_trait = misguided_warrior
+
+1525.1.1={
+birth="1525.1.1"
+}
+1564.1.1={
+death="1564.1.1"
+}
+} 
+753 = {
+name="Chikashige"
+dynasty=220
+culture = japanese
+religion = buddhism
+father=752
+
+diplomacy = 9
+martial = 10
+intrigue = 10
+add_trait = tough_soldier
+
+1545.1.1={
+birth="1545.1.1"
+}
+1587.1.1={
+death="1587.1.1"
+}
+} 

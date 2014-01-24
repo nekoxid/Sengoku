@@ -1,0 +1,19 @@
+# 312 - Oita
+
+# Kokujin Title
+title = c_oita
+
+#Settlements
+max_settlements = 3
+b_oita_castle = castle
+b_oita_city = city
+#b_oita_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#building=gunsmith
+	#effect = { western = yes }
+}

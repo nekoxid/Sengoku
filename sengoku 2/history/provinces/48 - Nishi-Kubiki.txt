@@ -1,0 +1,14 @@
+# 48 - Nishi-Kubiki
+
+# Kokujin Title
+title = c_nishi-kubiki
+
+#Settlements
+max_settlements = 3
+b_nishi-kubiki_castle = castle
+b_nishi-kubiki_city = city
+#b_nishi-kubiki_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,23 @@
+885 = {
+name="Takanobu"
+dynasty=313
+culture = japanese
+religion = buddhism
+father=884
+diplomacy = 13
+martial = 10
+intrigue = 15
+add_trait = skilled_tactician
+add_trait = content
+#add_trait = bushi
+
+1495.1.1={
+birth="1495.1.1"
+}
+1495.1.1={
+employer=551
+}
+1571.1.1={
+death="1571.1.1"
+}
+} 

@@ -1,0 +1,507 @@
+#######################################
+#
+# Byzantine Events
+#
+# Event ID LoR.800 - LoR.999 reserved
+#
+#######################################
+
+# Written by Henrik Eklund
+
+namespace = LoR
+
+### Eunuchs
+
+# Introduce Eunuch?
+character_event = {
+	id = LoR.800
+	desc = EVTDESCLoR.800
+	picture = GFX_evt_emissary_byzantine
+	
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		age = 16
+		tier = emperor
+		culture = chinese
+		NOT = {
+			any_courtier = { has_minor_title = title_imperial_eunuch }
+		}
+	}
+	
+	mean_time_to_happen = {
+		months = 300
+	}
+	
+	option = {
+		name = EVTOPTALoR.800
+		custom_tooltip = {
+			text = introduce_eunuch
+			hidden_tooltip = {
+				random_list = {
+					20 = { character_event = { id = LoR.801 } }
+					20 = { character_event = { id = LoR.802 } }
+					20 = { character_event = { id = LoR.803 } }
+					20 = { character_event = { id = LoR.804 } }
+					20 = { character_event = { id = LoR.805 } }
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBLoR.800
+		custom_tooltip = { text = no_to_eunuchs }
+	}
+}
+
+# Martial Eunuch
+character_event = {
+	id = LoR.801
+	desc = EVTDESCLoR.801
+	picture = GFX_evt_emissary_byzantine
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.801
+		create_character = {
+			random_traits = no
+			dynasty = NONE
+			female = no
+			age = 20
+			religion = ROOT
+			culture = ROOT
+			trait = eunuch
+			trait = diligent
+			trait = quick
+			trait = brave
+			trait = brilliant_strategist
+			attributes = {
+				martial = 10
+			}
+		}
+		new_character = {
+			give_minor_title = title_imperial_eunuch
+		}
+	}
+}
+
+# Diplomacy Eunuch 
+character_event = {
+	id = LoR.802
+	desc = EVTDESCLoR.802
+	picture = GFX_evt_emissary_byzantine
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.801
+		create_character = {
+			random_traits = no
+			dynasty = NONE
+			female = no
+			age = 20
+			religion = ROOT
+			culture = ROOT
+			trait = eunuch
+			trait = diligent
+			trait = quick
+			trait = gregarious
+			trait = grey_eminence
+			attributes = {
+				diplomacy = 10
+			}
+		}
+		new_character = {
+			give_minor_title = title_imperial_eunuch
+		}
+	}
+}
+
+# Steward Eunuch
+character_event = {
+	id = LoR.803
+	desc = EVTDESCLoR.803
+	picture = GFX_evt_emissary_byzantine
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.801
+		create_character = {
+			random_traits = no
+			dynasty = NONE
+			female = no
+			age = 20
+			religion = ROOT
+			culture = ROOT
+			trait = eunuch
+			trait = diligent
+			trait = quick
+			trait = temperate
+			trait = midas_touched
+			attributes = {
+				stewardship = 10
+			}
+		}
+		new_character = {
+			give_minor_title = title_imperial_eunuch
+		}
+	}
+}
+
+# Spymaster Eunuch
+character_event = {
+	id = LoR.804
+	desc = EVTDESCLoR.804
+	picture = GFX_evt_emissary_byzantine
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.801
+		create_character = {
+			random_traits = no
+			dynasty = NONE
+			female = no
+			age = 20
+			religion = ROOT
+			culture = ROOT
+			trait = eunuch
+			trait = diligent
+			trait = quick
+			trait = deceitful
+			trait = elusive_shadow
+			attributes = {
+				intrigue = 10
+			}
+		}
+		new_character = {
+			give_minor_title = title_imperial_eunuch
+		}
+	}
+}
+
+# Learning Eunuch
+character_event = {
+	id = LoR.805
+	desc = EVTDESCLoR.805
+	picture = GFX_evt_emissary_byzantine
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.801
+		create_character = {
+			random_traits = no
+			dynasty = NONE
+			female = no
+			age = 20
+			religion = ROOT
+			culture = ROOT
+			trait = eunuch
+			trait = diligent
+			trait = quick
+			trait = scholar
+			trait = mastermind_theologian
+			attributes = {
+				learning = 10
+			}
+		}
+		new_character = {
+			give_minor_title = title_imperial_eunuch
+		}
+	}
+}
+
+### Prisoner Events
+
+# Jailer Blind
+character_event = {
+	id = LoR.830
+	desc = EVTDESCLoR.830
+	picture = GFX_evt_torture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.830
+	}
+}
+
+# Prisoner Blind
+character_event = {
+	id = LoR.831
+	desc = EVTDESCLoR.831
+	picture = GFX_evt_torture
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.831
+	}
+}
+
+# Jailer Castrate
+character_event = {
+	id = LoR.832
+	desc = EVTDESCLoR.832
+	picture = GFX_evt_torture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.832
+	}
+}
+
+# Prisoner Castrate
+character_event = {
+	id = LoR.833
+	desc = EVTDESCLoR.833
+	picture = GFX_evt_torture
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.833
+	}
+}
+
+# Jailer Castrate Boy
+character_event = {
+	id = LoR.834
+	desc = EVTDESCLoR.834
+	picture = GFX_evt_torture
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.834
+	}
+}
+
+
+### The Eunuch Merchant
+
+# Merchant Arrives
+character_event = {
+	id = LoR.885
+	desc = EVTDESCLoR.885
+	picture = GFX_evt_carriage
+	
+	ai = no
+	capable_only = yes
+	prisoner = no
+	
+	trigger = {
+		has_dlc = "Legacy of Rome"
+		age = 16
+		in_command = no
+	}
+	
+	mean_time_to_happen = {
+		months = 780
+	}
+	
+	option = {
+		name = EVTOPTALoR.885
+		character_event = { id = LoR.886 days = 3 tooltip = EVTTOOLTIPLoR.886 }
+	}
+	option = {
+		name = EVTOPTBLoR.885
+		custom_tooltip = { text = send_merchants_away }
+	}
+}
+
+# Spends the Night
+character_event = {
+	id = LoR.886
+	desc = EVTDESCLoR.886
+	picture = GFX_evt_feast
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.886
+		custom_tooltip = { 
+			text = eunuch_offer
+			hidden_tooltip = {
+				random_list = {
+					25 = { character_event = { id = LoR.887 days = 3 } }
+					25 = { character_event = { id = LoR.888 days = 3 } }
+					25 = { character_event = { id = LoR.889 days = 3 } }
+					25 = { character_event = { id = LoR.890 days = 3 } }
+				}
+			}
+		}
+	}
+}
+
+# Gift 1
+character_event = {
+	id = LoR.887
+	desc = EVTDESCLoR.887
+	picture = GFX_evt_emissary
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.887
+		create_random_steward = {
+			random_traits = no
+			dynasty = NONE
+			female = no
+			age = 22
+			religion = ROOT
+			culture = manden
+			trait = eunuch
+			trait = diligent
+			trait = temperate
+			trait = humble
+		}
+		new_character = {
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBLoR.887
+		custom_tooltip = { text = eunuch_declined }
+	}
+}
+
+# Gift 2
+character_event = {
+	id = LoR.888
+	desc = EVTDESCLoR.887
+	picture = GFX_evt_emissary
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.887
+		create_random_diplomat = {
+			random_traits = no
+			dynasty = NONE
+			female = no
+			age = 22
+			religion = ROOT
+			culture = ethiopian
+			trait = eunuch
+			trait = diligent
+			trait = temperate
+			trait = humble
+		}
+		new_character = {
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBLoR.887
+		custom_tooltip = { text = eunuch_declined }
+	}
+}
+
+# Gift 3
+character_event = {
+	id = LoR.889
+	desc = EVTDESCLoR.887
+	picture = GFX_evt_emissary
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.887
+		create_random_intriguer = {
+			random_traits = no
+			dynasty = NONE
+			female = no
+			age = 22
+			religion = ROOT
+			culture = greek
+			trait = eunuch
+			trait = diligent
+			trait = temperate
+			trait = humble
+		}
+		new_character = {
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBLoR.887
+		custom_tooltip = { text = eunuch_declined }
+	}
+}
+
+# Gift 4
+character_event = {
+	id = LoR.890
+	desc = EVTDESCLoR.887
+	picture = GFX_evt_emissary
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTALoR.887
+		create_random_soldier = {
+			random_traits = no
+			dynasty = NONE
+			female = no
+			age = 22
+			religion = ROOT
+			culture = bedouin_arabic
+			trait = eunuch
+			trait = diligent
+			trait = temperate
+			trait = humble
+		}
+		new_character = {
+			opinion = {
+				modifier = opinion_loyal_servant
+				who = ROOT
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBLoR.887
+		custom_tooltip = { text = eunuch_declined }
+	}
+}

@@ -1,0 +1,66 @@
+24 = {
+name="Tokitaka"
+dynasty=17
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 4
+intrigue = 3
+add_trait = amateurish_plotter
+1416.9.29={
+	birth="1416.9.29"
+}
+1494.10.22={
+	death="1494.10.22"
+}
+} 
+392 = {
+name="Mochimasa"
+dynasty=17
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 2
+intrigue = 4
+add_trait = naive_appeaser
+1430.1.1={
+	birth="1430.1.1"
+}
+1487.4.13={
+	death="1487.4.13"
+}
+} 
+393 = {
+name="Sadaharu"
+dynasty=17
+culture = japanese
+religion = buddhism
+diplomacy = 0
+martial = 1
+intrigue = 1
+father=392
+1460.1.1={
+	birth="1460.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+78 = {
+name="Takahiro"
+dynasty=17
+culture = japanese
+religion = buddhism
+father=24
+diplomacy = 4
+martial = 3
+intrigue = 2
+add_trait = naive_appeaser
+
+1444.12.16={
+	birth="1444.12.16"
+}
+1522.8.4={
+	death="1522.8.4"
+}
+} 

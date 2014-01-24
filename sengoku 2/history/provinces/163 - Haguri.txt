@@ -1,0 +1,18 @@
+# 163 - Haguri
+
+# Kokujin Title
+title = c_haguri
+
+#Settlements
+max_settlements = 3
+b_haguri_castle = castle
+b_haguri_city = city
+#b_haguri_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

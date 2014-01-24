@@ -1,0 +1,14 @@
+# 144 - Ishizu
+
+# Kokujin Title
+title = c_ishizu
+
+#Settlements
+max_settlements = 3
+b_ishizu_castle = castle
+b_ishizu_city = city
+#b_ishizu_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

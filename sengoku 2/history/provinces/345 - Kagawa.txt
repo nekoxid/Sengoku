@@ -1,0 +1,20 @@
+# 345 - Kagawa
+
+# Kokujin Title
+title = c_kagawa
+
+#Settlements
+max_settlements = 3
+b_kagawa_castle = castle
+b_kagawa_city = city
+#b_kagawa_temple = temple
+
+#building=castle_building
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

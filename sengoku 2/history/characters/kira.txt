@@ -1,0 +1,55 @@
+1021 = {
+name="Yoshiaki"
+dynasty=104
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 6
+intrigue = 6
+add_trait = misguided_warrior
+
+1517.1.1={
+birth="1517.1.1"
+}
+1517.1.1={
+employer = 523
+}
+1568.1.1={
+death="1568.1.1"
+}
+} 
+173 = {
+name="Yoritada"
+dynasty=104
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 2
+intrigue = 4
+add_trait = wroth
+add_trait = misguided_warrior
+1430.1.1={
+	birth="1430.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+388 = {
+name="Masatada"
+dynasty=104
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 3
+intrigue = 4
+add_trait = amateurish_plotter
+father=173
+1450.1.1={
+	birth="1450.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 

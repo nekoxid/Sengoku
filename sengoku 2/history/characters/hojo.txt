@@ -1,0 +1,194 @@
+520 = {
+name="Ujiyasu"
+dynasty=213
+culture = japanese
+religion = buddhism
+
+diplomacy = 20
+martial = 12
+intrigue = 16
+add_trait=brilliant_strategist
+
+1515.1.1={
+birth="1515.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1571.10.21={
+death="1571.10.21"
+}
+} 
+639 = {
+name="Ujimasa"
+dynasty=213
+culture = japanese
+religion = buddhism
+father=520
+
+diplomacy = 15
+martial = 11
+intrigue = 14
+add_trait = quick
+
+1538.1.1={
+birth="1538.1.1"
+}
+1590.8.10={
+death="1590.8.10"
+}
+} 
+640 = {
+name="Genan"
+dynasty=213
+culture = japanese
+religion = buddhism
+
+diplomacy = 12
+martial = 5
+intrigue = 11
+add_trait = charismatic_negotiator
+add_trait = poet
+
+1493.1.1={
+birth="1493.1.1"
+}
+1551.4.9={
+employer=520
+}
+1589.12.8={
+death="1589.12.8"
+}
+} 
+654 = {
+name="Tsunashige"
+dynasty=213
+culture = japanese
+religion = buddhism
+
+diplomacy = 8
+martial = 11
+intrigue = 11
+add_trait = tough_soldier
+
+1515.1.1={
+birth="1515.1.1"
+}
+1587.6.11={
+death="1587.6.11"
+}
+} 
+655 = {
+name="Ujishige"
+dynasty=213
+culture = japanese
+religion = buddhism
+father=654
+
+diplomacy = 8
+martial = 10
+intrigue = 11
+add_trait = skilled_tactician
+
+1536.1.1={
+birth="1536.1.1"
+}
+1578.6.13={
+death="1578.6.13"
+}
+} 
+656 = {
+name="Tsunataka"
+dynasty=213
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 8
+intrigue = 6
+add_trait = tough_soldier
+
+1506.1.1={
+birth="1506.1.1"
+}
+1585.1.1={
+death="1585.1.1"
+}
+} 
+962 = {
+name="Ujiteru"
+dynasty=213
+culture = japanese
+religion = buddhism
+father = 520
+
+diplomacy = 11
+martial = 10
+intrigue = 8
+add_trait = tough_soldier
+
+1540.1.1={
+birth="1540.1.1"
+}
+1590.8.10={
+death="1590.8.10"
+}
+} 
+963 = {
+name="Ujikuni"
+dynasty=213
+culture = japanese
+religion = buddhism
+father = 520
+
+diplomacy = 12
+martial = 8
+intrigue = 11
+add_trait = underhanded_rogue
+add_trait = wroth
+
+1541.1.1={
+birth="1541.1.1"
+}
+1597.9.19={
+death="1597.9.19"
+}
+} 
+964 = {
+name="Ujinori"
+dynasty=213
+culture = japanese
+religion = buddhism
+father = 520
+
+diplomacy = 12
+martial = 10
+intrigue = 8
+add_trait = tough_soldier
+
+1545.1.1={
+birth="1545.1.1"
+}
+1600.3.22={
+death="1600.3.22"
+}
+} 
+991 = {
+name="Tsunashige"
+dynasty=213
+culture = japanese
+religion = buddhism
+father = 640
+
+diplomacy = 8
+martial = 7
+intrigue = 7
+add_trait = naive_appeaser
+
+1528.1.1={
+birth="1528.1.1"
+}
+1570.1.12={
+death="1570.1.12"
+}
+} 

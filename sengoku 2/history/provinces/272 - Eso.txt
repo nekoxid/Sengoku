@@ -1,0 +1,14 @@
+# 272 - Eso
+
+# Kokujin Title
+title = c_eso
+
+#Settlements
+max_settlements = 3
+b_eso_castle = castle
+b_eso_city = city
+#b_eso_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

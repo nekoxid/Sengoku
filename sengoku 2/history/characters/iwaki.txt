@@ -1,0 +1,61 @@
+526 = {
+name="Shigetaka"
+dynasty=216
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 11
+intrigue = 11
+add_trait = flamboyant_schemer
+
+1500.1.1={
+birth="1500.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1569.1.1={
+death="1569.1.1"
+}
+} 
+904 = {
+name="Kubo"
+dynasty=216
+culture = japanese
+religion = buddhism
+female=yes
+father=526
+
+diplomacy = 8
+martial = 7
+intrigue = 9
+
+1521.1.1={
+birth="1521.1.1"
+}
+1541.4.9={
+add_spouse = 515
+}
+1572.1.1={
+death="1572.1.1"
+}
+} 
+905 = {
+name="Chikataka"
+dynasty=216
+culture = japanese
+religion = buddhism
+father=526
+diplomacy = 8
+martial = 9
+intrigue = 7
+add_trait = tough_soldier
+
+1537.1.1={
+birth="1537.1.1"
+}
+1594.1.1={
+death="1594.1.1"
+}
+} 

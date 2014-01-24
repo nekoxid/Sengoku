@@ -1,0 +1,20 @@
+912 = {
+name="Moriharu"
+dynasty=317
+culture = japanese
+religion = buddhism
+diplomacy = 11
+martial = 9
+intrigue = 9
+add_trait = underhanded_rogue
+add_trait = arbitrary
+
+1527.1.1={
+birth="1527.1.1"
+}
+1527.1.1={employer=601
+}
+1589.7.17={
+death="1589.7.17"
+}
+} 

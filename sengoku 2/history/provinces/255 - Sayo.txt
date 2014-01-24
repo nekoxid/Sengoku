@@ -1,0 +1,15 @@
+# 255 - Sayo
+
+# Kokujin Title
+title = c_sayo
+
+#Settlements
+max_settlements = 3
+b_sayo_castle = castle
+b_sayo_city = city
+#b_sayo_temple = temple
+
+#building=castle_building
+#Misc
+religion = buddhism
+culture = japanese

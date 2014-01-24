@@ -1,0 +1,120 @@
+7 = {
+name="Mochimune"
+dynasty=6
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 5
+martial = 3
+intrigue = 4
+#add_trait = tea_master
+add_trait = infirm
+1393.1.5={
+	birth="1393.1.5"
+}
+1469.12.7={
+	death="1469.12.7"
+}
+} 
+
+65 = {
+name="Narimune"
+dynasty=6
+culture = japanese
+religion = buddhism
+father=7
+diplomacy = 6
+martial = 4
+intrigue = 4
+add_trait = underhanded_rogue
+1435.11.4={
+	birth="1435.11.4"
+}
+1487.10.11={
+	death="1487.10.11"
+}
+} 
+
+515 = {
+name="Harumune"
+dynasty=6
+culture = japanese
+religion = buddhism
+
+diplomacy = 12
+martial = 13
+intrigue = 12
+add_trait = charismatic_negotiator
+#add_trait = ruthless
+
+1519.1.1={
+birth="1519.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1578.1.12={
+death="1578.1.12"
+}
+} 
+
+906 = {
+name="Terumune"
+dynasty=6
+culture = japanese
+religion = buddhism
+father=515
+mother=904
+diplomacy = 12
+martial = 10
+intrigue = 9
+add_trait = charismatic_negotiator
+
+
+1544.1.1={
+birth="1544.1.1"
+}
+1585.11.29={
+death="1585.11.29"
+}
+} 
+
+907 = {
+name="Chikamune" # Ishikawa Akimitsu
+dynasty=6
+culture = japanese
+religion = buddhism
+father=515
+mother=904
+diplomacy = 8
+martial = 7
+intrigue = 8
+add_trait = flamboyant_schemer
+
+1548.3.5={
+birth="1548.3.5"
+}
+1622.8.16={
+death="1622.8.16"
+}
+} 
+
+908 = {
+name="Masakage" # Rusu Masakage
+dynasty=6
+culture = japanese
+religion = buddhism
+father=515
+mother=904
+diplomacy = 9
+martial = 8
+intrigue = 8
+add_trait = underhanded_rogue
+
+1549.1.1={
+birth="1549.1.1"
+}
+1607.2.28={
+death="1607.2.28"
+}
+} 

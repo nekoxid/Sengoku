@@ -1,0 +1,14 @@
+# 151 - Kani
+
+# Kokujin Title
+title = c_kani
+
+#Settlements
+max_settlements = 3
+b_kani_castle = castle
+b_kani_city = city
+#b_kani_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,39 @@
+669 = {
+name="Toshiie"
+dynasty=238
+culture = japanese
+religion = buddhism
+father=670
+
+diplomacy = 11
+martial = 14
+intrigue = 11
+add_trait = charismatic_negotiator
+add_trait = quick
+#add_trait = bushi
+
+1539.1.15={
+birth="1539.1.15"
+}
+1599.4.27={
+death="1599.4.27"
+}
+} 
+670 = {
+name="Toshiharu"
+dynasty=238
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 6
+intrigue = 6
+add_trait = misguided_warrior
+
+1510.1.15={
+birth="1510.1.15"
+}
+1560.8.4={
+death="1560.8.4"
+}
+} 

@@ -1,0 +1,119 @@
+37 = {
+name="Takayori"
+dynasty=30
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 3
+martial = 5
+intrigue = 4
+add_trait = tough_soldier
+add_trait = patient
+1462.4.30={
+	birth="1462.4.30"
+}
+1520.4.25={
+	death="1520.4.25"
+}
+} 
+566 = {
+name="Sadayori"
+dynasty=30
+culture = japanese
+religion = buddhism
+
+diplomacy = 12
+martial = 11
+intrigue = 12
+add_trait = grey_eminence
+add_trait = quick
+
+1495.1.1={
+birth="1495.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1552.1.21={
+death="1552.1.21"
+}
+} 
+826 = {
+name="Yoshikata"
+dynasty=30
+culture = japanese
+religion = buddhism
+father=566
+diplomacy = 6  
+martial = 8
+intrigue = 6
+add_trait = misguided_warrior
+add_trait = slow
+
+1521.1.1={
+birth="1521.1.1"
+}
+1598.4.19={
+death="1598.4.19"
+}
+} 
+827 = {
+name="Yoshiharu"
+dynasty=30
+culture = japanese
+religion = buddhism
+father=826
+diplomacy = 4  
+martial = 6
+intrigue = 6
+add_trait = tough_soldier
+add_trait = paranoid
+add_trait = envious
+
+1545.1.1={
+birth="1545.1.1"
+}
+1612.12.14={
+death="1612.12.14"
+}
+} 
+828 = {
+name="Yoshisada"
+dynasty=30
+culture = japanese
+religion = buddhism
+father=826
+diplomacy = 5  
+martial = 7
+intrigue = 7
+add_trait = underhanded_rogue
+
+1547.1.1={
+birth="1547.1.1"
+}
+1620.8.9={
+death="1620.8.9"
+}
+} 
+829 = {
+name="Sachi"
+female=yes
+dynasty=30
+culture = japanese
+religion = buddhism
+father=566
+
+diplomacy = 8  
+martial = 5
+intrigue = 6
+
+1515.1.1={
+birth="1515.1.1"
+}
+1551.4.9={
+	add_spouse=593
+	}
+1572.1.1={
+death="1572.1.1"
+}
+} 

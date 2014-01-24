@@ -1,0 +1,14 @@
+# 117 - Fuji
+
+# Kokujin Title
+title = c_fuji
+
+#Settlements
+max_settlements = 3
+b_fuji_castle = castle
+b_fuji_city = city
+#b_fuji_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

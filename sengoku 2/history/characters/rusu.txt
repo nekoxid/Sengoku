@@ -1,0 +1,38 @@
+567 = {
+name="Kagemune"
+dynasty=222
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 9
+intrigue = 14
+add_trait = charismatic_negotiator
+
+1492.1.1={
+birth="1492.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1554.1.1={
+death="1554.1.1"
+}
+} 
+902 = {
+name="Akimune"
+dynasty=222
+culture = japanese
+religion = buddhism
+father=567
+diplomacy = 7
+martial = 7
+intrigue = 8add_trait = misguided_warrior
+
+1519.1.1={
+birth="1519.1.1"
+}
+1586.8.31={
+death="1586.8.31"
+}
+} 

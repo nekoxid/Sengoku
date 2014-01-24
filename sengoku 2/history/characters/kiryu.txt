@@ -1,0 +1,52 @@
+174 = {
+name="Chikayasu"
+dynasty=105
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 5
+intrigue = 4
+##add_trait = calligraphist
+add_trait = flamboyant_schemer
+1425.6.8={
+	birth="1425.6.8"
+}
+1483.9.12={
+	death="1483.9.12"
+}
+} 
+352 = {
+name="Shigetsuna"
+dynasty=105
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 6
+intrigue = 4
+add_trait = envious
+add_trait = skilled_tactician
+father=174
+1452.12.9={
+	birth="1452.12.9"
+}
+1516.9.26={
+	death="1516.9.26"
+}
+} 
+933 = {
+name="Suketsuna"
+dynasty=105
+culture = japanese
+religion = buddhism
+diplomacy = 8
+martial = 13
+intrigue = 10
+add_trait = underhanded_rogue
+
+1512.1.1={
+birth="1512.1.1"
+}
+1570.1.1={
+death="1570.1.1"
+}
+} 

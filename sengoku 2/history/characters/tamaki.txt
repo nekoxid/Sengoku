@@ -1,0 +1,55 @@
+228 = {
+name="Moritaka"
+dynasty=159
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 3
+intrigue = 4
+add_trait = falconer
+add_trait = underhanded_rogue
+1432.7.1={
+	birth="1432.7.1"
+}
+1485.10.23={
+	death="1485.10.23"
+}
+} 
+423 = {
+name="Morinaga"
+dynasty=159
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 4
+intrigue = 3
+add_trait = misguided_warrior
+father=228
+1457.11.6={
+	birth="1457.11.6"
+}
+1505.3.14={
+	death="1505.3.14"
+}
+} 
+583 = {
+name="Naokazu"
+dynasty=159
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 6
+intrigue = 6
+add_trait = misguided_warrior
+
+1531.1.1={
+birth="1531.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1586.1.1={
+death="1586.1.1"
+}
+} 

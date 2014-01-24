@@ -1,0 +1,14 @@
+# 146 - Motosu
+
+# Kokujin Title
+title = c_motosu
+
+#Settlements
+max_settlements = 3
+b_motosu_castle = castle
+b_motosu_city = city
+#b_motosu_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

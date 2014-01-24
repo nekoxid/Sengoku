@@ -1,0 +1,14 @@
+# 169 - Oi
+
+# Kokujin Title
+title = c_oi
+
+#Settlements
+max_settlements = 3
+b_oi_castle = castle
+b_oi_city = city
+#b_oi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,18 @@
+# 324 - Koyu
+
+# Kokujin Title
+title = c_koyu
+
+#Settlements
+max_settlements = 3
+b_koyu_castle = castle
+b_koyu_city = city
+#b_koyu_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

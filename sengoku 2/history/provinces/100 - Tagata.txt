@@ -1,0 +1,14 @@
+# 100 - Tagata
+
+# Kokujin Title
+title = c_tagata
+
+#Settlements
+max_settlements = 3
+b_tagata_castle = castle
+b_tagata_city = city
+#b_tagata_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

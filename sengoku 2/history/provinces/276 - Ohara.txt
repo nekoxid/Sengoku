@@ -1,0 +1,15 @@
+# 276 - Ohara
+
+# Kokujin Title
+title = c_ohara
+
+#Settlements
+max_settlements = 3
+b_ohara_castle = castle
+b_ohara_city = city
+#b_ohara_temple = temple
+
+#building=castle_building
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,14 @@
+# 176 - Koga
+
+# Kokujin Title
+title = c_koga
+
+#Settlements
+max_settlements = 3
+b_koga_castle = castle
+b_koga_city = city
+#b_koga_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

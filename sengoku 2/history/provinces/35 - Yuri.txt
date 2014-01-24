@@ -1,0 +1,14 @@
+# 35 - Yuri
+
+# Kokujin Title
+title = c_yuri
+
+#Settlements
+max_settlements = 3
+b_yuri_castle = castle
+b_yuri_city = city
+#b_yuri_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

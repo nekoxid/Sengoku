@@ -1,0 +1,14 @@
+# 17 - Kurihara
+
+# Kokujin Title
+title = c_kurihara
+
+#Settlements
+max_settlements = 3
+b_kurihara_castle = castle
+b_kurihara_city = city
+#b_kurihara_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

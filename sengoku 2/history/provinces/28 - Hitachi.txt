@@ -1,0 +1,14 @@
+# 28 - Hitachi
+
+# Kokujin Title
+title = c_hitachi
+
+#Settlements
+max_settlements = 3
+b_hitachi_castle = castle
+b_hitachi_city = city
+#b_hitachi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

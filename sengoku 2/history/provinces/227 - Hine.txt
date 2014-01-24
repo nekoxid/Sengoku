@@ -1,0 +1,14 @@
+# 227 - Hine
+
+# Kokujin Title
+title = c_hine
+
+#Settlements
+max_settlements = 3
+b_hine_castle = castle
+b_hine_city = city
+#b_hine_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

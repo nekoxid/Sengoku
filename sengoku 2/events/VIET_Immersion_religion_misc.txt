@@ -1,0 +1,87 @@
+#####################################################################
+#
+# VIETmisc #200-299 reserved
+#
+# 200-220 Shiite Schools
+# 221-230 Bad Priests
+# 231-xxx Holy Orders
+#
+#####################################################################
+
+namespace = VIETmisc
+
+#################################################
+# BAD PRIESTS
+#################################################
+
+
+# Buddhist becoming a wicked priest
+character_event = {
+
+	id = VIETmisc.221
+
+	hide_window = yes
+
+	trigger = {
+		has_dlc = "Sons of Abraham"
+		NOT = { intrigue = 3 }
+		NOT = { diplomacy = 3 }
+		is_priest = yes
+		religion_group = taoic_group
+		OR = {
+			trait = cynical
+			trait = lustful
+			trait = gluttonous
+			trait = greedy
+			trait = slothful
+			trait = envious
+			trait = wroth
+			trait = proud
+			trait = lunatic
+			trait = possessed
+			trait = homosexual
+			trait = hedonist
+		}
+		NOT = { trait = kind }
+		NOT = { trait = charitable }
+		NOT = { trait = chaste }
+		NOT = { trait = patient }
+		NOT = { trait = temperate }
+		NOT = { trait = diligent }
+		NOT = { trait = humble }
+		NOT = { trait = bad_priest_buddhist }
+	}
+
+	mean_time_to_happen = {
+		months = 24
+	}
+
+	immediate = {
+		add_trait = bad_priest_buddhist
+		if = {
+			limit = {
+				is_ruler = yes
+				has_nickname = no
+				NOT = { trait = possessed }
+				NOT = { trait = lunatic }
+			}
+			give_nickname = nick_the_wicked
+		}
+		if = {
+			limit = {
+				is_ruler = yes
+				has_nickname = no
+				trait = possessed
+			}
+			give_nickname = nick_the_bewitched
+		}
+		if = {
+			limit = {
+				is_ruler = yes
+				has_nickname = no
+				trait = lunatic
+			}
+			give_nickname = nick_the_mad
+		}
+	}
+}

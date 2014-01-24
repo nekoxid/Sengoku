@@ -1,0 +1,18 @@
+# 158 - Aichi
+
+# Kokujin Title
+title = c_aichi
+
+#Settlements
+max_settlements = 3
+b_aichi_castle = castle
+b_aichi_city = city
+#b_aichi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

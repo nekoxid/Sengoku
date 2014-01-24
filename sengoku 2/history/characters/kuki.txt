@@ -1,0 +1,91 @@
+180 = {
+name="Takatsugo"
+dynasty=111
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 3
+intrigue = 5
+add_trait = tough_soldier
+1430.1.1={
+	birth="1430.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+317 = {
+name="Yasutaka"
+dynasty=111
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 1
+intrigue = 1
+father=180
+1460.1.1={
+	birth="1460.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+713 = {
+name="Sadataka"
+dynasty=111
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 9
+intrigue = 6
+add_trait = misguided_warrior
+
+1503.1.1={
+birth="1503.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1553.1.1={
+death="1553.1.1"
+}
+} 
+714 = {
+name="Yoshitaka"
+dynasty=111
+culture = japanese
+religion = buddhism
+father=713
+
+diplomacy = 8
+martial = 11
+intrigue = 12
+add_trait = brave
+
+1542.1.1={
+birth="1542.1.1"
+}
+1600.11.17={
+death="1600.11.17"
+}
+} 
+715 = {
+name="Kiyotaka"
+dynasty=111
+culture = japanese
+religion = buddhism
+father=713
+
+diplomacy = 8
+martial = 8
+intrigue = 6
+add_trait = naive_appeaser
+
+1520.1.1={
+birth="1520.1.1"
+}
+1575.1.1={
+death="1575.1.1"
+}
+} 

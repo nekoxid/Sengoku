@@ -1,0 +1,14 @@
+# 86 - Yuki
+
+# Kokujin Title
+title = c_yuki
+
+#Settlements
+max_settlements = 3
+b_yuki_castle = castle
+b_yuki_city = city
+#b_yuki_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

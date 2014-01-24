@@ -1,0 +1,14 @@
+# 119 - Yamaga
+
+# Kokujin Title
+title = c_yamaga
+
+#Settlements
+max_settlements = 3
+b_yamaga_castle = castle
+b_yamaga_city = city
+#b_yamaga_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

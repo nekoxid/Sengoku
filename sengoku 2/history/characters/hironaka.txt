@@ -1,0 +1,22 @@
+1009 = {
+name="Takakane"
+dynasty=336
+culture = japanese
+religion = buddhism
+
+diplomacy = 8
+martial = 10
+intrigue = 10
+add_trait = skilled_tacticianadd_trait = just
+add_trait = patient
+
+1521.1.1={
+birth="1521.1.1"
+}
+1521.1.1={
+employer=564
+}
+1555.10.28={
+death="1555.10.28"
+}
+} 

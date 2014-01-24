@@ -1,0 +1,18 @@
+150 = {
+name="Sadamoto"
+dynasty=81
+culture = japanese
+religion = buddhism
+diplomacy = 5
+martial = 4
+intrigue = 5
+add_trait = amateurish_plotter
+#add_trait = ruthless
+
+1442.9.11={
+	birth="1442.9.11"
+}
+1537.2.2={
+	death="1537.2.2"
+}
+} 

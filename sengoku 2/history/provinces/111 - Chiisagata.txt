@@ -1,0 +1,14 @@
+# 111 - Chiisagata
+
+# Kokujin Title
+title = c_chiisagata
+
+#Settlements
+max_settlements = 3
+b_chiisagata_castle = castle
+b_chiisagata_city = city
+#b_chiisagata_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,128 @@
+#######################################
+#
+# Sumo Events
+#
+#######################################
+
+namespace = Sumo
+
+### Random Sumo Events
+
+# Sumo
+character_event = {
+	id = Sumo.10
+	desc = EVTDESCSumo.10
+	picture = GFX_evt_joust
+
+	capable_only = yes
+	prisoner = no
+	ai = no
+	
+	trigger = {
+		culture = japanese
+		age = 16
+		in_command = no
+		NOT = { has_global_flag = sumo_scheme_ongoing }
+		war = no
+		#capital_scope = { culture = japanese }
+	}
+	
+	mean_time_to_happen = {
+		months = 230
+	}
+	
+	option = { # Support Blue
+		name = EVTOPTASumo.10
+		wealth = -25
+		random_list = {
+			50 = {
+				character_event = { id = Sumo.11 days = 8 tooltip = EVTTOOLTIPSumo.11 }
+			}
+			50 = {
+				character_event = { id = Sumo.12 days = 8 tooltip = EVTTOOLTIPSumo.12 }
+			}
+		}
+	}
+	option = { # Support Green
+		name = EVTOPTBSumo.10
+		wealth = -25
+		random_list = {
+			50 = {
+				character_event = { id = Sumo.13 days = 8 tooltip = EVTTOOLTIPSumo.13 }
+			}
+			50 = {
+				character_event = { id = Sumo.14 days = 8 tooltip = EVTTOOLTIPSumo.14 }
+			}
+		}
+	}
+	option = {
+		name = EVTOPTCSumo.10
+		custom_tooltip = sumo_nobet
+	}
+}
+
+# Blue Victorious (With Your Support)
+character_event = {
+	id = Sumo.11
+	desc = EVTDESCSumo.11
+	picture = GFX_evt_joust
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTASumo.11
+		wealth = 50
+		prestige = 50
+	}
+}
+
+# Blue Loses (With Your Support)
+character_event = {
+	id = Sumo.12
+	desc = EVTDESCSumo.12
+	picture = GFX_evt_joust
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTASumo.12
+		prestige = -25
+	}
+}
+
+# Green Victorious (With Your Support)
+character_event = {
+	id = Sumo.13
+	desc = EVTDESCSumo.13
+	picture = GFX_evt_joust
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTASumo.13
+		wealth = 50
+		prestige = 50
+	}
+}
+
+# Green Loses (With Your Support)
+character_event = {
+	id = Sumo.14
+	desc = EVTDESCSumo.14
+	picture = GFX_evt_joust
+	
+	hide_from = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTASumo.14
+		prestige = -25
+	}
+}

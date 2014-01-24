@@ -1,0 +1,14 @@
+# 107 - Tsukama
+
+# Kokujin Title
+title = c_tsukama
+
+#Settlements
+max_settlements = 3
+b_tsukama_castle = castle
+b_tsukama_city = city
+#b_tsukama_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

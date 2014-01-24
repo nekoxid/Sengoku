@@ -1,0 +1,33 @@
+133 = {
+name="Naotoshi"
+dynasty=64
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 5
+intrigue = 4
+add_trait = amateurish_plotter
+
+1442.1.20={
+	birth="1442.1.20"
+}
+1503.6.13={
+	death="1503.6.13"
+}
+} 
+283 = {
+name="Sanetoshi"
+dynasty=64
+culture = japanese
+religion = buddhism
+diplomacy = 0
+martial = 1
+intrigue = 0
+father=133
+1464.11.29={
+	birth="1464.11.29"
+}
+1526.4.15={
+	death="1526.4.15"
+}
+} 

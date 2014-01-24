@@ -1,0 +1,14 @@
+# 101 - Matsuzaki
+
+# Kokujin Title
+title = c_matsuzaki
+
+#Settlements
+max_settlements = 3
+b_matsuzaki_castle = castle
+b_matsuzaki_city = city
+#b_matsuzaki_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

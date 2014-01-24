@@ -1,0 +1,14 @@
+# 12 - Kurokawa
+
+# Kokujin Title
+title = c_kurokawa
+
+#Settlements
+max_settlements = 3
+b_kurokawa_castle = castle
+b_kurokawa_city = city
+#b_kurokawa_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

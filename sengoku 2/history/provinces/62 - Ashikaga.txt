@@ -1,0 +1,14 @@
+# 62 - Ashikaga
+
+# Kokujin Title
+title = c_ashikaga
+
+#Settlements
+max_settlements = 3
+b_ashikaga_castle = castle
+b_ashikaga_city = city
+#b_ashikaga_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

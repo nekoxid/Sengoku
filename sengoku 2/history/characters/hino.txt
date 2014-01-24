@@ -1,0 +1,20 @@
+413 = {
+name="Tomiko"
+female=yes
+dynasty=204
+culture = japanese
+religion = buddhism
+diplomacy = 4
+intrigue = 6
+martial = 2
+add_trait = proud
+add_trait = deceitful
+add_trait = ambitious
+add_trait = intricate_webweaver
+1440.4.27={
+	birth="1440.4.27"
+}
+1496.6.30={
+	death="1496.6.30"
+}
+} 

@@ -1,0 +1,91 @@
+163 = {
+name="Naganobu"
+dynasty=94
+culture = japanese
+religion = buddhism
+diplomacy = 2
+intrigue = 3
+martial = 4
+add_trait = deceitful
+add_trait = amateurish_plotter
+1438.5.5={
+	birth="1438.5.5"
+}
+1501.12.8={
+	death="1501.12.8"
+}
+} 
+314 = {
+name="Yoshimune"
+dynasty=94
+culture = japanese
+religion = buddhism
+diplomacy = 4
+intrigue = 2
+martial = 3
+add_trait = tough_soldier 
+father=163
+1460.1.1={
+	birth="1460.1.1"
+}
+1521.6.11={
+	death="1521.6.11"
+}
+} 
+527 = {
+name="Nagamoto"
+dynasty=94
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 11
+intrigue = 9
+add_trait = underhanded_rogue
+
+1500.1.1={
+birth="1500.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1569.1.1={
+death="1569.1.1"
+}
+} 
+818 = {
+name="Nagazumi"
+dynasty=94
+culture = japanese
+religion = buddhism
+father=527diplomacy = 5  
+martial = 7
+intrigue = 6
+add_trait = tough_soldier
+
+1530.1.1={
+birth="1530.1.1"
+}
+1583.1.1={
+death="1583.1.1"
+}
+} 
+819 = {
+name="Naganari"
+dynasty=94
+culture = japanese
+religion = buddhism
+father=527
+
+diplomacy = 5  
+martial = 5
+intrigue = 4
+add_trait = misguided_warrior
+
+1535.1.1={
+birth="1535.1.1"
+}
+1583.1.1={
+death="1583.1.1"
+}
+} 

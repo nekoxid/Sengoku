@@ -1,0 +1,14 @@
+# 103 - Yamanashi
+
+# Kokujin Title
+title = c_yamanashi
+
+#Settlements
+max_settlements = 3
+b_yamanashi_castle = castle
+b_yamanashi_city = city
+#b_yamanashi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

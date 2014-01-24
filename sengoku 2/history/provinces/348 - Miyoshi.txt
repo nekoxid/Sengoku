@@ -1,0 +1,18 @@
+# 348 - Miyoshi
+
+# Kokujin Title
+title = c_miyoshi
+
+#Settlements
+max_settlements = 3
+b_miyoshi_castle = castle
+b_miyoshi_city = city
+#b_miyoshi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

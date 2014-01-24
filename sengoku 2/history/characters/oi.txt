@@ -1,0 +1,32 @@
+208 = {
+name="Masamitsu"
+dynasty=139
+culture = japanese
+religion = buddhism
+diplomacy = 3
+intrigue = 5
+martial = 3
+add_trait = tough_soldier
+1429.5.14={
+	birth="1429.5.14"
+}
+1478.6.22={
+	death="1478.6.22"
+}
+} 
+308 = {
+name="Masatomo"
+dynasty=139
+culture = japanese
+religion = buddhism
+diplomacy = 1
+martial = 0
+intrigue = 0
+father=208
+1462.3.20={
+	birth="1462.3.20"
+}
+1483.9.11={
+	death="1483.9.11"
+}
+} 

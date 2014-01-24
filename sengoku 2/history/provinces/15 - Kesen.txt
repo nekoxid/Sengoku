@@ -1,0 +1,14 @@
+# 15 - Kesen
+
+# Kokujin Title
+title = c_kesen
+
+#Settlements
+max_settlements = 3
+b_kesen_castle = castle
+b_kesen_city = city
+#b_kesen_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

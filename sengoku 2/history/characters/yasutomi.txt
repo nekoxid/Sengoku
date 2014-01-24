@@ -1,0 +1,35 @@
+244 = {
+name="Morinaga"
+dynasty=175
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 3
+intrigue = 3
+add_trait = charitable
+add_trait = underhanded_rogue
+1423.3.29={
+	birth="1423.3.29"
+}
+1485.5.4={
+	death="1485.5.4"
+}
+} 
+305 = {
+name="Morimasa"
+dynasty=175
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 6
+intrigue = 5
+add_trait = skilled_tactician
+add_trait = brave
+father=244
+1449.9.6={
+	birth="1449.9.6"
+}
+1523.1.26={
+	death="1523.1.26"
+}
+} 

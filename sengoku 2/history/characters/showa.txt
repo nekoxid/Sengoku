@@ -1,0 +1,384 @@
+1993 = {
+	name = "Takaharu"
+	dynasty = 339
+	
+	culture = japanese
+	religion = shinto
+	
+	#father =
+	
+	1288.11.26 = {
+		birth = "1288.11.26"
+		add_trait = "showa"
+	}
+	1318.3.29 = {
+		name = "Daigo"
+	}
+	1339.9.18 = { 
+		death = "1339.9.18" 
+	}
+}
+1994 = { #7th son of daigo
+	name = "Noriyoshi"
+	dynasty = 339
+	
+	culture = japanese
+	religion = shinto
+	
+	father = 1993
+	
+	1328.1.1 = {
+		birth = "1328.1.1"
+		add_trait = "showa"
+	}
+	1339.9.18 = {
+		name = "Murakami"
+	}
+	1368.3.29 = { 
+		death = "1368.3.29" 
+	}
+}
+1995 = { #1st son murakami
+	name = "Yutanari"
+	dynasty = 339
+	
+	culture = japanese
+	religion = shinto
+	
+	father = 1994
+	#mother = Fujiwara Masako 
+	
+	1343.1.1 = {
+		birth = "1343.1.1"
+		add_trait = "showa"
+	}
+	1368.3.29 = {
+		name = "Chokei"
+	}
+	1394.8.27 = { 
+		death = "1394.8.27" 
+	}
+}
+1996 = { #2nd son murakami
+	name = "Hironari"
+	dynasty = 339
+	
+	culture = japanese
+	religion = shinto
+	
+	father = 1994
+	#mother = Fujiwara Katsuko
+	
+	1347.1.1 = {
+		birth = "1347.1.1"
+		add_trait = "showa"
+	}
+	1368.3.29 = {
+		name = "Kameyama"
+	}
+	1424.5.10 = { 
+		death = "1424.5.10" 
+	}
+}
+
+1997 = {
+	name = "Motohito"
+	dynasty = 339
+	
+	culture = japanese
+	religion = shinto
+	add_trait = charismatic_negotiator
+	
+	#father =
+	
+	1377.8.1 = {
+		birth = "1377.8.1"
+		add_trait = "showa"
+	}
+	1428.8.30 = {
+		name = "Komatsu"
+	}
+	1433.12.1 = { 
+		death = "1433.12.1" 
+	}
+}
+1998 = {
+	name = "Mihito"
+	dynasty = 339
+	
+	culture = japanese
+	religion = shinto
+	add_trait = scholarly_theologian
+	
+	father = 1997
+	
+	1401.5.12 = {
+		birth = "1401.5.12"
+		add_trait = "showa"
+	}
+	1412.10.5 = {
+		name = "Shoko"
+	}
+	1424.5.12 = {
+		add_trait = "mystic"
+	}
+	1428.8.30 = { 
+		death = "1428.8.30" 
+	}
+}
+1999 = {
+	name = "Hikohito"
+	dynasty = 339
+	
+	culture = japanese
+	religion = shinto
+	add_trait = charismatic_negotiator
+	
+	#father =
+	
+	1419.7.10 = {
+		birth = "1419.7.10"
+		add_trait = "showa"
+	}
+	1428.8.30 = {
+		name = "Hanazono"
+	}
+	1440.1.1 = { #date made up
+		add_spouse=2200
+	}
+	1471.1.18 = { 
+		death = "1471.1.18" 
+	}
+}
+
+2000 = { #dates made up
+	name = "Kanshin"
+	dynasty = 339
+	female = yes
+	
+	culture = japanese
+	religion = shinto
+	
+	father = 1999
+	mother = 2200
+	
+	1441.1.1 = {
+		birth = "1441.1.1"
+	}
+	1506.2.10 = { 
+		death = "1506.2.10" 
+	}
+}
+
+2001 = {
+	name = "Fusahito"
+	dynasty = 339
+	
+	culture = japanese
+	religion = shinto
+	add_trait = charismatic_negotiator
+	
+	father = 1999
+	mother = 2200
+	
+	1442.7.3 = {
+		birth = "1442.7.3"
+		add_trait = "showa"
+	}
+	1464.8.21 = {
+		name = "Tsuchimikado"
+	}
+	1500.10.21 = { 
+		death = "1500.10.21" 
+	}
+}
+
+2002 = {
+	name = "Katsuhito"
+	dynasty = 339
+	
+	culture = japanese
+	religion = shinto
+	
+	father = 2001
+	
+	1462.11.19 = {
+		birth = "1462.11.19"
+		add_trait = "showa"
+	}
+	1500.10.21 = {
+		name = "Kashiwabara"
+	}
+	1526.5.19 = { 
+		death = "1526.5.19" 
+	}
+}
+
+2003 = {
+	name = "Tomohito"
+	dynasty = 339
+	
+	culture = japanese
+	religion = shinto
+	add_trait = charismatic_negotiator
+	
+	father = 2002
+	
+	1495.1.26 = {
+		birth = "1495.1.26"
+		add_trait = "showa"
+	}
+	1526.5.19 = {
+		name = "Nara"
+	}
+	1557.9.27 = { 
+		death = "1557.9.27" 
+	}
+}
+
+2004 = {
+	name = "Michihito"
+	dynasty = 339
+	
+	culture = japanese
+	religion = shinto
+	
+	father = 2003
+	
+	1517.6.18 = {
+		birth = "1517.6.18"
+		add_trait = "showa"
+	}
+	1557.9.27 = {
+		name = "Ogimachi"
+	}
+	1593.2.6 = { 
+		death = "1593.2.6" 
+	}
+}
+
+2005 = {
+	name = "Katahito"
+	dynasty = 339
+	
+	culture = japanese
+	religion = shinto
+	
+	father = 2004
+	
+	1571.12.31 = {
+		birth = "1571.12.31"
+		add_trait = "showa"
+	}
+	1586.12.17 = {
+		name = "Yozei"
+	}
+	1617.9.25 = { 
+		death = "1617.9.25" 
+	}
+}
+
+2006 = {
+	name = "Kotohito"
+	dynasty = 339
+	
+	culture = japanese
+	religion = shinto
+	
+	father = 2005
+	
+	1596.6.29 = {
+		birth = "1596.6.29"
+		add_trait = "showa"
+	}
+	1611.5.9 = {
+		name = "Mizunoo"
+	}
+	1680.9.11 = { 
+		death = "1680.9.11" 
+	}
+}
+
+2007 = {
+	name = "Oki-ko"
+	dynasty = 339
+	female = yes
+	
+	culture = japanese
+	religion = shinto
+	
+	father = 2006 #2nd daughter
+	
+	1624.1.9 = {
+		birth = "1624.1.9"
+	}
+	1629.12.22 = {
+		name = "Meisho"
+	}
+	1696.12.4 = { 
+		death = "1696.12.4" 
+	}
+}
+
+2008 = {
+	name = "Tsugohito"
+	dynasty = 339
+	
+	culture = japanese
+	religion = shinto
+	
+	father = 2006 #4th son
+	
+	1633.4.20 = {
+		birth = "1633.4.20"
+		add_trait = "showa"
+	}
+	1643.11.14 = {
+		name = "Komyo"
+	}
+	1654.10.30 = { 
+		death = "1654.10.30" 
+	}
+}
+
+2009 = {
+	name = "Nagahito"
+	dynasty = 339
+	
+	culture = japanese
+	religion = shinto
+	
+	father = 2006 #8th son
+	
+	1638.1.1 = {
+		birth = "1638.1.1"
+		add_trait = "showa"
+	}
+	1654.10.30 = {
+		name = "Sai"
+	}
+	1685.3.22 = { 
+		death = "1685.3.22" 
+	}
+}
+
+2010 = {
+	name = "Satohito"
+	dynasty = 339
+	
+	culture = japanese
+	religion = shinto
+	
+	father = 2006 #16th son
+	
+	1653.7.9 = {
+		birth = "1653.7.9"
+		add_trait = "showa"
+	}
+	1663.3.5 = {
+		name = "Reigen"
+	}
+	1732.9.24 = { 
+		death = "1732.9.24" 
+	}
+}

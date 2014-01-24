@@ -1,0 +1,70 @@
+49 = {
+name="Masamori"
+dynasty=41
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 5 
+martial = 5
+intrigue = 3 
+1432.12.28={
+	birth="1432.12.28"
+}
+1491.2.14={
+	death="1491.2.14"
+}
+} 
+921 = {
+name="Michimori"
+dynasty=41
+culture = japanese
+religion = buddhism
+diplomacy = 11
+martial = 12
+intrigue = 10
+add_trait = tough_soldier
+
+1524.1.1={
+birth="1524.1.1"
+}
+1604.1.1={
+death="1604.1.1"
+}
+} 
+922 = {
+name="Morishige"
+dynasty=41
+culture = japanese
+religion = buddhism
+father=921
+
+diplomacy = 9
+martial = 9
+intrigue = 10
+add_trait = skilled_tacticianadd_trait = brave
+add_trait = quick
+
+1551.1.1={
+birth="1551.1.1"
+}
+1592.1.1={
+death="1592.1.1"
+}
+} 
+98 = {
+name="Hidemori"
+dynasty=41
+culture = japanese
+religion = buddhism
+father=49
+diplomacy = 0
+martial = 0
+intrigue = 0
+
+1466.8.17={
+	birth="1466.8.17"
+}
+1529.12.14={
+	death="1529.12.14"
+}
+} 

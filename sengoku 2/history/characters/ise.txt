@@ -1,0 +1,105 @@
+1026 = {
+name="Sadataka"
+dynasty=202
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 5
+intrigue = 9
+add_trait = underhanded_rogue
+
+1511.1.1={
+birth="1511.1.1"
+}
+1511.1.1={
+employer = 506
+}
+1562.10.8={
+death="1562.10.8"
+}
+} 
+414 = {
+name="Sadachika"
+dynasty=202
+culture = japanese
+religion = buddhism
+diplomacy = 4
+intrigue = 3
+martial = 2
+add_trait = just
+add_trait = scholar
+add_trait = flamboyant_schemer
+1417.10.12={
+	birth="1417.10.12"
+}
+1467.5.26={
+	employer=2
+}
+1473.2.18={
+	death="1473.2.18"
+}
+} 
+416 = {
+name="Morisada"
+dynasty=202
+culture = japanese
+religion = buddhism
+diplomacy = 5
+martial = 1
+intrigue = 5
+add_trait = quick
+add_trait = underhanded_rogue
+1421.9.21={
+	birth="1421.9.21"
+}
+1467.5.26={
+	employer=2
+}
+1493.10.1={
+	death="1493.10.1"
+}
+} 
+417 = {
+name="Shinkuro"
+#Alternative name: Hojo Soun
+dynasty=202
+culture = japanese
+religion = buddhism
+father=416
+diplomacy = 6
+martial = 5
+intrigue = 4
+add_trait = just
+add_trait = genius
+add_trait = scholar
+add_trait = brilliant_strategist
+1442.6.21={
+	birth="1442.6.21"
+}
+1467.5.26={
+	employer=2
+}
+1519.9.8={
+	death="1519.9.8"
+}
+} 
+426 = {
+name="Fumi"
+female=yes
+dynasty=202
+culture = japanese
+religion = buddhism
+father=416
+diplomacy = 3
+martial = 2
+intrigue = 4
+add_trait = charitable
+add_trait = underhanded_rogue
+1452.6.21={
+	birth="1452.6.21"
+}
+1477.5.1={
+	death="1477.5.1"
+}
+} 

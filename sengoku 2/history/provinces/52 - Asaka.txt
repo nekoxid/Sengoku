@@ -1,0 +1,14 @@
+# 52 - Asaka
+
+# Kokujin Title
+title = c_asaka
+
+#Settlements
+max_settlements = 3
+b_asaka_castle = castle
+b_asaka_city = city
+#b_asaka_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

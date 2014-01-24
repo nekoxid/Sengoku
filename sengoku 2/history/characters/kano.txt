@@ -1,0 +1,34 @@
+272 = {
+name="Yoshichika"
+dynasty=191
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 3
+intrigue = 3
+add_trait = deceitful
+add_trait = amateurish_plotter
+1436.2.19={
+	birth="1436.2.19"
+}
+1476.9.13={
+	death="1476.9.13"
+}
+} 
+402 = {
+name="Doitsu"
+dynasty=191
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 2
+intrigue = 3
+add_trait = naive_appeaser
+father=272
+1461.2.10={
+	birth="1461.2.10"
+}
+1492.12.5={
+	death="1492.12.5"
+}
+} 

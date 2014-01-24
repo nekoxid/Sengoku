@@ -1,0 +1,15 @@
+# 104 - Koma
+
+# Kokujin Title
+title = c_koma
+
+#Settlements
+max_settlements = 3
+b_koma_castle = castle
+b_koma_city = city
+b_koma_temple = temple
+
+#building=buddhist_temple
+#Misc
+religion = buddhism
+culture = japanese

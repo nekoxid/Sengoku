@@ -1,0 +1,33 @@
+279 = {
+name="Yoshifuji"
+dynasty=198
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 3
+intrigue = 4
+add_trait = just
+add_trait = intricate_webweaver
+1427.4.11={
+	birth="1427.4.11"
+}
+1479.3.2={
+	death="1479.3.2"
+}
+} 
+304 = {
+name="Mochikiyo"
+dynasty=198
+culture = japanese
+religion = buddhism
+diplomacy = 0 
+martial = 0
+intrigue = 0
+father=279
+1465.9.2={
+	birth="1465.9.2"
+}
+1532.12.18={
+	death="1532.12.18"
+}
+} 

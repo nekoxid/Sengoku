@@ -1,0 +1,54 @@
+1025 = {
+name="Akitane"
+dynasty=158
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 10
+intrigue = 9
+add_trait = tough_soldier
+
+1529.1.1={
+birth="1529.1.1"
+}
+1529.1.1={
+employer = 563
+}
+1579.5.19={
+death="1579.5.19"
+}
+} 
+227 = {
+name="Masatane"
+dynasty=158
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 3
+intrigue = 3
+add_trait = slow
+add_trait = amateurish_plotter
+1430.1.1={
+	birth="1430.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+339 = {
+name="Nagatane"
+dynasty=158
+culture = japanese
+religion = buddhism
+diplomacy = 1
+martial = 1
+intrigue = 1
+father=227
+1460.1.1={
+	birth="1460.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 

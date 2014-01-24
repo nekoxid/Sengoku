@@ -1,0 +1,32 @@
+204 = {
+name="Iemura"
+dynasty=135
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 3
+intrigue = 4
+add_trait = amateurish_plotter
+1430.1.1={
+	birth="1430.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+333 = {
+name="Tameie"
+dynasty=135
+culture = japanese
+religion = buddhism
+diplomacy = 0
+martial = 1
+intrigue = 1
+father=204
+1460.1.1={
+	birth="1460.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 

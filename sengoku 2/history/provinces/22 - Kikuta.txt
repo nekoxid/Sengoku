@@ -1,0 +1,14 @@
+# 22 - Kikuta
+
+# Kokujin Title
+title = c_kikuta
+
+#Settlements
+max_settlements = 3
+b_kikuta_castle = castle
+b_kikuta_city = city
+#b_kikuta_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

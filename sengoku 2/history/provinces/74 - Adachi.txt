@@ -1,0 +1,14 @@
+# 74 - Adachi
+
+# Kokujin Title
+title = c_adachi
+
+#Settlements
+max_settlements = 3
+b_adachi_castle = castle
+b_adachi_city = city
+#b_adachi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

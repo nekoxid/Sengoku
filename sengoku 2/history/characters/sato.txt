@@ -1,0 +1,41 @@
+1005 = {
+name="Tadayoshi"
+dynasty=333
+culture = japanese
+religion = buddhism
+diplomacy = 8
+martial = 9
+intrigue = 8
+add_trait = tough_soldier
+
+1515.1.1={
+birth="1515.1.1"
+}
+1515.1.1={
+employer=570
+}
+1578.5.5={
+death="1578.5.5"
+}
+} 
+1006 = {
+name="Tadayasu"
+dynasty=333
+culture = japanese
+religion = buddhismfather = 1005
+
+diplomacy = 8
+martial = 7
+intrigue = 7
+add_trait = tough_soldier
+
+1538.1.1={
+birth="1538.1.1"
+}
+1550.1.1={
+employer=570
+}
+1565.1.1={
+death="1565.1.1"
+}
+} 

@@ -1,0 +1,14 @@
+# 228 - Minami
+
+# Kokujin Title
+title = c_minami
+
+#Settlements
+max_settlements = 3
+b_minami_castle = castle
+b_minami_city = city
+#b_minami_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

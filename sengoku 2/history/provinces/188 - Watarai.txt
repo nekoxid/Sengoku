@@ -1,0 +1,18 @@
+# 188 - Watarai
+
+# Kokujin Title
+title = c_watarai
+
+#Settlements
+max_settlements = 3
+b_watarai_castle = castle
+b_watarai_city = city
+b_watarai_temple = temple
+
+#Misc
+religion = shinto
+culture = japanese
+
+1551.4.9 = {
+	#building=shinto_shrine
+}

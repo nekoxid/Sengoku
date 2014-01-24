@@ -1,0 +1,17 @@
+212 = {
+name="Hisayoshi"
+dynasty=143
+culture = japanese
+religion = buddhism
+diplomacy = 2
+intrigue = 5
+martial = 4
+add_trait = brave
+add_trait = tough_soldier
+1438.3.27={
+	birth="1438.3.27"
+}
+1510.12.17={
+	death="1510.12.17"
+}
+} 

@@ -1,0 +1,98 @@
+209 = {
+name="Yasuie"
+dynasty=140
+culture = japanese
+religion = buddhism
+diplomacy = 2	
+martial = 3	
+intrigue = 2	
+add_trait = patient
+add_trait = misguided_warrior
+1427.11.18={
+	birth="1427.11.18"
+}
+1491.12.4={
+	death="1491.12.4"
+}
+} 
+335 = {
+name="Iekazu"
+dynasty=140
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 4
+intrigue = 4
+add_trait = naive_appeaser
+father=209
+1451.4.23={
+	birth="1451.4.23"
+}
+1528.9.20={
+	death="1528.9.20"
+}
+} 
+568 = {
+name="Takanobu"
+dynasty=140
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 12
+intrigue = 12
+add_trait = skilled_tactician
+add_trait = brave
+
+1529.3.24={
+birth="1529.3.24"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1584.5.4={
+death="1584.5.4"
+}
+} 
+734 = {
+name="Ienari"
+dynasty=140
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 11
+intrigue = 10
+add_trait = flamboyant_schemer
+
+1528.1.1={
+birth="1528.1.1"
+}
+1551.4.9={
+employer=568
+}
+1587.1.1={
+death="1587.1.1"
+}
+} 
+736 = {
+name="Nobuchika"
+dynasty=140
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 12
+intrigue = 11
+add_trait = flamboyant_schemer
+
+1534.1.1={
+birth="1534.1.1"
+}
+1551.4.9={
+employer=568
+}
+1608.1.1={
+death="1608.1.1"
+}
+} 

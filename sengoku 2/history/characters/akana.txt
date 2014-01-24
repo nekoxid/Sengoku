@@ -1,0 +1,52 @@
+121 = {
+name="Yukishige"
+dynasty=52
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 4
+intrigue = 5
+add_trait = amateurish_plotter
+
+1426.2.19={
+	birth="1426.2.19"
+}
+1487.11.27={
+	death="1487.11.27"
+}
+} 
+309 = {
+name="Yukikiyo"
+dynasty=52
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 4
+intrigue = 2
+add_trait = misguided_warrior
+father=121
+1451.9.1={
+	birth="1451.9.1"
+}
+1514.8.4={
+	death="1514.8.4"
+}
+} 
+659 = {
+name="Morikiyo"
+dynasty=52
+culture = japanese
+religion = buddhism
+
+diplomacy = 8
+martial = 8
+intrigue = 8
+add_trait = naive_appeaser
+
+1528.1.1={
+birth="1528.1.1"
+}
+1595.1.1={
+death="1595.1.1"
+}
+} 

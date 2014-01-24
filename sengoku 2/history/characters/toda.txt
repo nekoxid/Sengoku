@@ -1,0 +1,77 @@
+1027 = {
+name="Norimitsu"
+dynasty=197
+culture = japanese
+religion = buddhism
+
+diplomacy = 8
+martial = 7
+intrigue = 7
+add_trait = amateurish_plotter
+
+1508.1.1={
+birth="1508.1.1"
+}
+1508.1.1={
+employer=523
+}
+1561.1.1={
+death="1561.1.1"
+}
+} 
+1028 = {
+name="Shigesada"
+dynasty=197
+culture = japanese
+religion = buddhism
+father = 1027
+
+diplomacy = 8
+martial = 8
+intrigue = 8
+add_trait = underhanded_rogue
+
+1531.1.1={
+birth="1531.1.1"
+}
+1531.1.1={
+employer=523
+}
+1564.12.5={
+death="1564.12.5"
+}
+} 
+278 = {
+name="Munemitsu"
+dynasty=197
+culture = japanese
+religion = buddhism
+diplomacy = 3
+intrigue = 3
+martial = 4
+add_trait = patient
+add_trait = skilled_tactician
+1439.5.15={
+	birth="1439.5.15"
+}
+1508.11.17={
+	death="1508.11.17"
+}
+} 
+303 = {
+name="Norimitsu"
+dynasty=197
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 4
+intrigue = 3
+add_trait = misguided_warrior
+father=278
+1461.9.23={
+	birth="1461.9.23"
+}
+1525.11.4={
+	death="1525.11.4"
+}
+} 

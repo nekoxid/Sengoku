@@ -1,0 +1,43 @@
+1012 = {
+name="Harusuke"
+dynasty=46
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 11
+intrigue = 10
+add_trait = skilled_tactician
+
+1524.9.2={
+birth="1524.9.2"
+}
+1524.9.2={
+employer = 535
+}
+1594.11.6={
+death="1594.11.6"
+}
+} 
+1013 = {
+name="Mochisuke"
+dynasty=46
+culture = japanese
+religion = buddhism
+father = 1012
+
+diplomacy = 8
+martial = 9
+intrigue = 8
+add_trait = skilled_tactician
+
+1549.9.6={
+birth="1549.9.6"
+}
+1549.9.6={
+employer = 535
+}
+1587.6.19={
+death="1587.6.19"
+}
+} 

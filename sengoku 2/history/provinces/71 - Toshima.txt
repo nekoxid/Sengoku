@@ -1,0 +1,14 @@
+# 71 - Toshima
+
+# Kokujin Title
+title = c_toshima
+
+#Settlements
+max_settlements = 3
+b_toshima_castle = castle
+b_toshima_city = city
+#b_toshima_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

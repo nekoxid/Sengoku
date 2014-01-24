@@ -1,0 +1,57 @@
+1011 = {
+name="Takayoshi"
+dynasty=15
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 6
+intrigue = 7
+add_trait = naive_appeaser
+
+1508.1.1={
+birth="1508.1.1"
+}
+1508.1.1={
+employer = 506
+}
+1581.2.28={
+death="1581.2.28"
+}
+} 
+22 = {
+name="Mochikiyo"
+dynasty=15
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 5
+martial = 5
+intrigue = 4
+add_trait = envious
+add_trait = gardener
+1407.7.9={
+	birth="1407.7.9"
+}
+1470.8.30={
+	death="1470.8.30"
+}
+} 
+76 = {
+name="Katsuhide"
+dynasty=15
+culture = japanese
+religion = buddhism
+father=22
+diplomacy = 3
+martial = 4
+intrigue = 4
+add_trait = misguided_warrior
+
+1432.5.19={
+	birth="1432.5.19"
+}
+1468.1.4={
+	death="1468.1.4"
+}
+} 

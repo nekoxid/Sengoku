@@ -1,0 +1,14 @@
+# 233 - Manda
+
+# Kokujin Title
+title = c_manda
+
+#Settlements
+max_settlements = 3
+b_manda_castle = castle
+b_manda_city = city
+#b_manda_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

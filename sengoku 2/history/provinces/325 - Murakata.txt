@@ -1,0 +1,18 @@
+# 325 - Murakata
+
+# Kokujin Title
+title = c_murakata
+
+#Settlements
+max_settlements = 3
+b_murakata_castle = castle
+b_murakata_city = city
+#b_murakata_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

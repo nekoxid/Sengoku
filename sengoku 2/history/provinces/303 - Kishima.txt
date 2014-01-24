@@ -1,0 +1,18 @@
+# 303 - Kishima
+
+# Kokujin Title
+title = c_kishima
+
+#Settlements
+max_settlements = 3
+b_kishima_castle = castle
+b_kishima_city = city
+#b_kishima_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

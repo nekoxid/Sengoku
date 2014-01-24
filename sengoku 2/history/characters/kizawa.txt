@@ -1,0 +1,33 @@
+177 = {
+name="Sukehide"
+dynasty=108
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 3
+intrigue = 2
+add_trait = misguided_warrior
+1430.1.1={
+	birth="1430.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+609 = {
+name="Nagamasa"
+dynasty=108
+culture = japanese
+religion = buddhism
+
+diplomacy = 1
+martial = 1
+intrigue = 1
+
+1493.1.1={
+birth="1493.1.1"
+}
+1542.4.2={
+death="1542.4.2"
+}
+} 

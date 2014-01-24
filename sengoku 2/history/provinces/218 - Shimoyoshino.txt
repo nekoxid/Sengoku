@@ -1,0 +1,14 @@
+# 218 - Shimoyoshino
+
+# Kokujin Title
+title = c_shimoyoshino
+
+#Settlements
+max_settlements = 3
+b_shimoyoshino_castle = castle
+b_shimoyoshino_city = city
+#b_shimoyoshino_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

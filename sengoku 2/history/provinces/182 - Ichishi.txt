@@ -1,0 +1,14 @@
+# 182 - Ichishi
+
+# Kokujin Title
+title = c_ichishi
+
+#Settlements
+max_settlements = 3
+b_ichishi_castle = castle
+b_ichishi_city = city
+#b_ichishi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

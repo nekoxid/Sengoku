@@ -1,0 +1,14 @@
+# 196 - Kumano
+
+# Kokujin Title
+title = c_kumano
+
+#Settlements
+max_settlements = 3
+b_kumano_castle = castle
+b_kumano_city = city
+#b_kumano_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

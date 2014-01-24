@@ -1,0 +1,15 @@
+2200 = { #dates made up
+	name = "Nobuko Oinomikado"
+	dynasty = 170
+	female = yes
+	
+	culture = japanese
+	religion = shinto
+	
+	1424.1.1 = {
+		birth = "1424.1.1"
+	}
+	1481.1.1 = { 
+		death = "1481.1.1" 
+	}
+}

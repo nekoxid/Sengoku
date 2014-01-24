@@ -1,0 +1,18 @@
+# 323 - Tamana
+
+# Kokujin Title
+title = c_tamana
+
+#Settlements
+max_settlements = 3
+b_tamana_castle = castle
+b_tamana_city = city
+#b_tamana_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

@@ -1,0 +1,16 @@
+# 81 - Katsushika
+
+# Kokujin Title
+title = c_katsushika
+
+#Settlements
+max_settlements = 3
+b_katsushika_castle = castle
+b_katsushika_city = city
+#b_katsushika_temple = temple
+
+#building=castle_building
+
+#Misc
+religion = buddhism
+culture = japanese

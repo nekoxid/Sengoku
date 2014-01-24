@@ -1,0 +1,36 @@
+bookmark = {
+	name = "BM_THE_ONIN_WAR"
+	desc = "BM_THE_ONIN_WAR_DESC"
+	date = 1467.5.26
+	
+	# Yamana Sozen
+	character = 53
+	
+	# Hosokawa Katsumoto
+	character = 12
+	
+	# Ashikaga Yoshimasa
+	character = 2
+	
+	# Ashikaga Yoshimi
+	character = 3
+}
+
+bookmark = {
+	name = "BM_NOBUNAGA"
+	desc = "BM_NOBUNAGA_DESC"
+	date = 1551.4.9
+	
+	# Oda Nobunaga
+	character = 559
+	
+	# Imagawa Yoshimoto
+	character = 523
+	
+	# Saito Dosan
+	character = 570
+	
+	# Asakura Yoshikage
+	character = 505
+}
+

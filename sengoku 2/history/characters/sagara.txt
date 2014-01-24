@@ -1,0 +1,76 @@
+211 = {
+name="Nagatsugo"
+dynasty=142
+culture = japanese
+religion = buddhism
+diplomacy = 6
+intrigue = 4
+martial = 5
+add_trait = wroth
+add_trait = underhanded_rogue
+1411.9.12={
+	birth="1411.9.12"
+}
+1468.4.27={
+	death="1468.4.27"
+}
+} 
+320 = {
+name="Tametsuga"
+dynasty=142
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 3
+intrigue = 4
+add_trait = poet
+add_trait = deceitful
+add_trait = amateurish_plotter
+father=211
+1447.6.4={
+	birth="1447.6.4"
+}
+1500.11.9={
+	death="1500.11.9"
+}
+} 
+569 = {
+name="Haruhiro"
+dynasty=142
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 11
+intrigue = 12
+add_trait = underhanded_rogue
+
+1513.10.13={
+birth="1513.10.13"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1555.8.28={
+death="1555.8.28"
+}
+} 
+745 = {
+name="Yoshihi"
+dynasty=142
+culture = japanese
+religion = buddhism
+father=569
+
+diplomacy = 11
+martial = 11
+intrigue = 8
+add_trait = underhanded_rogue
+
+1544.1.1={
+birth="1544.1.1"
+}
+1581.1.1={
+death="1581.1.1"
+}
+} 

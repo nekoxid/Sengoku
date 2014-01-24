@@ -1,0 +1,14 @@
+# 54 - Minami-Aizu
+
+# Kokujin Title
+title = c_minami-aizu
+
+#Settlements
+max_settlements = 3
+b_minami-aizu_castle = castle
+b_minami-aizu_city = city
+#b_minami-aizu_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,18 @@
+# 290 - Kumage
+
+# Kokujin Title
+title = c_kumage
+
+#Settlements
+max_settlements = 3
+b_kumage_castle = castle
+b_kumage_city = city
+#b_kumage_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

@@ -1,0 +1,14 @@
+# 108 - Takai
+
+# Kokujin Title
+title = c_takai
+
+#Settlements
+max_settlements = 3
+b_takai_castle = castle
+b_takai_city = city
+#b_takai_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

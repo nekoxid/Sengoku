@@ -1,0 +1,14 @@
+# 202 - Ikaruga
+
+# Kokujin Title
+title = c_ikaruga
+
+#Settlements
+max_settlements = 3
+b_ikaruga_castle = castle
+b_ikaruga_city = city
+#b_ikaruga_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

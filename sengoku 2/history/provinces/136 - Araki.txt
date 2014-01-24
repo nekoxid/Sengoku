@@ -1,0 +1,14 @@
+# 136 - Araki
+
+# Kokujin Title
+title = c_araki
+
+#Settlements
+max_settlements = 3
+b_araki_castle = castle
+b_araki_city = city
+#b_araki_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

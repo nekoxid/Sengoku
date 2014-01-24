@@ -1,0 +1,14 @@
+# 38 - Mogami
+
+# Kokujin Title
+title = c_mogami
+
+#Settlements
+max_settlements = 3
+b_mogami_castle = castle
+b_mogami_city = city
+#b_mogami_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

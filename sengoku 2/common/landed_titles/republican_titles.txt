@@ -1,0 +1,33 @@
+k_nanban = {
+	color={ 234 131 110 }
+	capital = 361
+	culture = portuguese
+	
+	dignity = 200 # Never want to change primary title
+	
+	allow = {
+		is_republic = yes
+		NOT = { culture = japanese }
+	}
+}
+
+b_pat_dutch = { 
+	culture = dutch
+	religion = cathar
+}
+b_pat_english = { 
+	culture = english
+	religion = lollard
+}
+b_pat_portuguese = { 
+	culture = portuguese
+	religion = catholic
+}
+b_pat_spanish = { 
+	culture = castillan
+	religion = catholic
+}
+b_pat_chinese = { 
+	culture = chinese
+	religion = buddhism
+}

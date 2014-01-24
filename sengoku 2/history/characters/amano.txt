@@ -1,0 +1,52 @@
+124 = {
+name="Ieuji"
+dynasty=55
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 5
+intrigue = 4
+add_trait = misguided_warrior
+
+1412.3.13={
+	birth="1412.3.13"
+}
+1478.6.24={
+	death="1478.6.24"
+}
+} 
+326 = {
+name="Hirouji"
+dynasty=55
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 5
+intrigue = 4
+add_trait = tough_soldier
+father=124
+1437.4.9={
+	birth="1437.4.9"
+}
+1511.1.16={
+	death="1511.1.16"
+}
+} 
+680 = {
+name="Kagetsura"
+dynasty=55
+culture = japanese
+religion = buddhism
+
+diplomacy = 8
+martial = 9
+intrigue = 9
+add_trait = amateurish_plotter
+
+1532.1.1={
+birth="1532.1.1"
+}
+1605.1.1={
+death="1605.1.1"
+}
+} 

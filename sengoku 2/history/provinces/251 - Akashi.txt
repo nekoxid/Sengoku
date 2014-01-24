@@ -1,0 +1,14 @@
+# 251 - Akashi
+
+# Kokujin Title
+title = c_akashi
+
+#Settlements
+max_settlements = 3
+b_akashi_castle = castle
+b_akashi_city = city
+#b_akashi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

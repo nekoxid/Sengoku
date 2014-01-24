@@ -1,0 +1,10 @@
+1318.3.29 = {
+	liege="e_japan"
+	#law = succ_tanistry
+	law = succ_primogeniture
+	law = agnatic_succession
+}
+1338.2.23 = {
+	de_jure_liege="e_shogunate"
+	liege="e_shogunate"
+}

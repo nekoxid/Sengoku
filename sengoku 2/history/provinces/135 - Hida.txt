@@ -1,0 +1,14 @@
+# 135 - Hida
+
+# Kokujin Title
+title = c_hida
+
+#Settlements
+max_settlements = 3
+b_hida_castle = castle
+b_hida_city = city
+b_hida_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

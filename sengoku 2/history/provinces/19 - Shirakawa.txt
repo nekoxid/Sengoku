@@ -1,0 +1,14 @@
+# 19 - Shirakawa
+
+# Kokujin Title
+title = c_shirakawa
+
+#Settlements
+max_settlements = 3
+b_shirakawa_castle = castle
+b_shirakawa_city = city
+#b_shirakawa_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

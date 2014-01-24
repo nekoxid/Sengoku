@@ -1,0 +1,18 @@
+# 315 - Hita
+
+# Kokujin Title
+title = c_hita
+
+#Settlements
+max_settlements = 3
+b_hita_castle = castle
+b_hita_city = city
+#b_hita_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

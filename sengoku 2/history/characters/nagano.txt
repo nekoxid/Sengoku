@@ -1,0 +1,90 @@
+193 = {
+name="Otonari"
+dynasty=124
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 4
+intrigue = 2
+add_trait = underhanded_rogue
+1430.1.1={
+	birth="1430.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+389 = {
+name="Hisanari"
+dynasty=124
+culture = japanese
+religion = buddhism
+diplomacy = 0
+martial = 2
+intrigue = 1
+add_trait = misguided_warrior
+father=193
+1460.1.1={
+	birth="1460.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+538 = {
+name="Fujisada"
+dynasty=200
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 9
+intrigue = 7
+add_trait = naive_appeaser
+
+1526.1.1={
+birth="1526.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1562.6.6={
+death="1562.6.6"
+}
+} 
+923 = {
+name="Arimasa"
+dynasty=124
+culture = japanese
+religion = buddhism
+diplomacy = 11
+martial = 11
+intrigue = 12
+add_trait = skilled_tactician
+add_trait = brave
+
+1491.1.1={
+birth="1491.1.1"
+}
+1561.12.18={
+death="1561.12.18"
+}
+} 
+924 = {
+name="Arimori"
+dynasty=124
+culture = japanese
+religion = buddhism
+father=923
+diplomacy = 8
+martial = 9
+intrigue = 9
+add_trait = tough_soldier
+
+1546.1.1={
+birth="1546.1.1"
+}
+1566.10.11={
+death="1566.10.11"
+}
+} 

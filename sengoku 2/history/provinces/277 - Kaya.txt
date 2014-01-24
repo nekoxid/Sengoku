@@ -1,0 +1,14 @@
+# 277 - Kaya
+
+# Kokujin Title
+title = c_kaya
+
+#Settlements
+max_settlements = 3
+b_kaya_castle = castle
+b_kaya_city = city
+b_kaya_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

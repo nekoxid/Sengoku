@@ -1,0 +1,14 @@
+# 342 - Hata
+
+# Kokujin Title
+title = c_hata
+
+#Settlements
+max_settlements = 3
+b_hata_castle = castle
+b_hata_city = city
+#b_hata_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

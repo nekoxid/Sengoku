@@ -1,0 +1,18 @@
+# 343 - Utari
+
+# Kokujin Title
+title = c_utari
+
+#Settlements
+max_settlements = 3
+b_utari_castle = castle
+b_utari_city = city
+#b_utari_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

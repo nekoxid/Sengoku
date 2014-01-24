@@ -1,0 +1,60 @@
+4 = {
+name="Moritaka"
+dynasty=3
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 6 
+martial = 7
+intrigue = 6 
+add_trait = tough_soldier
+add_trait = ambitious
+1448.8.17={
+	birth="1448.8.17"
+}
+1518.1.19={
+	death="1518.1.19"
+}
+} 
+
+601 = {
+name="Moriuji"
+dynasty=3
+culture = japanese
+religion = buddhism
+
+diplomacy = 15
+martial = 11
+intrigue = 11
+add_trait = elusive_shadow
+add_trait = quick
+
+1521.1.1={
+birth="1521.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1580.7.28={
+death="1580.7.28"
+}
+} 
+
+911 = {
+name="Morioki"
+dynasty=3
+culture = japanese
+religion = buddhism
+father=601
+diplomacy = 6
+martial = 8
+intrigue = 5
+add_trait = underhanded_rogue
+
+1548.1.1={
+birth="1548.1.1"
+}
+1575.1.1={
+death="1575.1.1"
+}
+} 

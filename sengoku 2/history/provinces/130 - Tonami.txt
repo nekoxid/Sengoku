@@ -1,0 +1,14 @@
+# 130 - Tonami
+
+# Kokujin Title
+title = c_tonami
+
+#Settlements
+max_settlements = 3
+b_tonami_castle = castle
+b_tonami_city = city
+#b_tonami_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

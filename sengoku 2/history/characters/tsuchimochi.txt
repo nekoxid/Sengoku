@@ -1,0 +1,55 @@
+233 = {
+name="Takeshige"
+dynasty=164
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 4
+intrigue = 3
+add_trait = trusting
+add_trait = skilled_tactician
+1430.1.1={
+	birth="1430.1.1"
+}
+1468.10.23={
+	death="1468.10.23"
+}
+} 
+396 = {
+name="Tsunetsuna"
+dynasty=164
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 4
+intrigue = 4
+add_trait = naive_appeaser
+father=233
+1460.1.1={
+	birth="1460.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+584 = {
+name="Chikashige"
+dynasty=164
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 9
+intrigue = 12
+add_trait = skilled_tactician
+
+1519.1.1={
+birth="1519.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1578.1.1={
+death="1578.1.1"
+}
+} 

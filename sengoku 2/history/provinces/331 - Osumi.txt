@@ -1,0 +1,19 @@
+# 331 - Osumi
+
+# Kokujin Title
+title = c_osumi
+
+#Settlements
+max_settlements = 3
+b_osumi_castle = castle
+b_osumi_city = city
+#b_osumi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#building=gunsmith
+	#effect = { western = yes }
+}

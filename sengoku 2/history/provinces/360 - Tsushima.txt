@@ -1,0 +1,26 @@
+# 360 - Tsushima
+
+# Kokujin Title
+title = c_tsushima
+
+#Settlements
+max_settlements = 3
+b_tsushima_castle = castle
+b_tsushima_city = city
+#b_tsushima_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+#building=inn
+
+1543.1.1 = {
+	b_tsushima_city = ct_port_1
+}
+1551.4.9={
+	#effect = { western = yes }
+}
+1609.1.1 = {
+	trade_post = b_pat_chinese
+}

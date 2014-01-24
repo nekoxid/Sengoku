@@ -1,0 +1,59 @@
+5 = {
+name="Suketane"
+dynasty=4
+culture = japanese
+religion = buddhism
+diplomacy = 5
+martial = 4
+intrigue = 5
+add_trait = envious
+add_trait = underhanded_rogue
+1421.4.25={
+	birth="1421.4.25"
+}
+1492.3.13={
+	death="1492.3.13"
+}
+} 
+
+63 = {
+name="Noritane"
+dynasty=4
+culture = japanese
+religion = buddhism
+father=5
+diplomacy = 4
+martial = 5
+intrigue = 4
+add_trait = tough_soldier
+
+1459.8.22={
+	birth="1459.8.22"
+}
+1521.9.19={
+	death="1521.9.19"
+}
+} 
+
+511 = {
+name="Chikatane"
+dynasty=4
+culture = japanese
+religion = buddhism
+
+diplomacy = 2
+martial = 5
+intrigue = 5
+add_trait = amateurish_plotter
+add_trait=trusting
+
+1541.10.4={
+birth="1541.10.4"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1557.8.30={
+death="1557.8.30"
+}
+} 

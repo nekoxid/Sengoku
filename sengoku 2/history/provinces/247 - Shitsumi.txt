@@ -1,0 +1,14 @@
+# 247 - Shitsumi
+
+# Kokujin Title
+title = c_shitsumi
+
+#Settlements
+max_settlements = 3
+b_shitsumi_castle = castle
+b_shitsumi_city = city
+#b_shitsumi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

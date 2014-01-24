@@ -1,0 +1,18 @@
+# 239 - Nose
+
+# Kokujin Title
+title = c_nose
+
+#Settlements
+max_settlements = 3
+b_nose_castle = castle
+b_nose_city = city
+#b_nose_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

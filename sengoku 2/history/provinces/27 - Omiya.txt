@@ -1,0 +1,14 @@
+# 27 - Omiya
+
+# Kokujin Title
+title = c_omiya
+
+#Settlements
+max_settlements = 3
+b_omiya_castle = castle
+b_omiya_city = city
+#b_omiya_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

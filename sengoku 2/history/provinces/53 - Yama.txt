@@ -1,0 +1,14 @@
+# 53 - Yama
+
+# Kokujin Title
+title = c_yama
+
+#Settlements
+max_settlements = 3
+b_yama_castle = castle
+b_yama_city = city
+#b_yama_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,33 @@
+158 = {
+name="Takato"
+dynasty=89
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 6
+intrigue = 4
+add_trait = tough_soldier
+1409.7.21={
+	birth="1409.7.21"
+}
+1472.5.30={
+	death="1472.5.30"
+}
+} 
+331 = {
+name="Hideto"
+dynasty=89
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 5
+intrigue = 4
+add_trait = tough_soldier
+father=158
+1443.8.23={
+	birth="1443.8.23"
+}
+1490.11.2={
+	death="1490.11.2"
+}
+} 

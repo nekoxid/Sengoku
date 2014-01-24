@@ -1,0 +1,14 @@
+# 59 - Haga
+
+# Kokujin Title
+title = c_haga
+
+#Settlements
+max_settlements = 3
+b_haga_castle = castle
+b_haga_city = city
+#b_haga_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

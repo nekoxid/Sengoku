@@ -1,0 +1,14 @@
+# 106 - Yatsushiro
+
+# Kokujin Title
+title = c_yatsushiro
+
+#Settlements
+max_settlements = 3
+b_yatsushiro_castle = castle
+b_yatsushiro_city = city
+#b_yatsushiro_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,52 @@
+143 = {
+name="Masaaki"
+dynasty=74
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 4
+intrigue = 4
+add_trait = amateurish_plotter
+
+1430.1.1={
+	birth="1430.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+369 = {
+name="Masanaga"
+dynasty=74
+culture = japanese
+religion = buddhism
+diplomacy = 1
+martial = 2
+intrigue = 2
+father=143
+1460.1.1={
+	birth="1460.1.1"
+}
+1500.1.1={
+	death="1500.1.1"
+}
+} 
+674 = {
+name="Masakatsu"
+dynasty=74
+culture = japanese
+religion = buddhism
+
+diplomacy = 12
+martial = 12
+intrigue = 13
+add_trait = intricate_webweaver
+add_trait = quick
+
+1526.1.1={
+birth="1526.1.1"
+}
+1586.7.8={
+death="1586.7.8"
+}
+} 

@@ -1,0 +1,14 @@
+# 335 - Ikata
+
+# Kokujin Title
+title = c_ikata
+
+#Settlements
+max_settlements = 3
+b_ikata_castle = castle
+b_ikata_city = city
+#b_ikata_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

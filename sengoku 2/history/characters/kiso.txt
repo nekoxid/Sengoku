@@ -1,0 +1,55 @@
+175 = {
+name="Ietoyo"
+dynasty=106
+culture = japanese
+religion = buddhism
+diplomacy = 5
+martial = 4
+intrigue = 4
+add_trait = naive_appeaser
+1451.4.16={
+	birth="1451.4.16"
+}
+1483.2.25={
+	death="1483.2.25"
+}
+} 
+532 = {
+name="Yoshiyasu"
+dynasty=106
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 8
+intrigue = 7
+add_trait = tough_soldier
+
+1514.1.1={
+birth="1514.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1579.1.1={
+death="1579.1.1"
+}
+} 
+976 = {
+name="Yoshimasa"
+dynasty=106
+culture = japanese
+religion = buddhismfather=532
+
+diplomacy = 8
+martial = 11
+intrigue = 10
+add_trait = tough_soldier
+
+1540.1.1={
+birth="1540.1.1"
+}
+1595.4.26={
+death="1595.4.26"
+}
+} 

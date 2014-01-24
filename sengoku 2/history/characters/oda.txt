@@ -1,0 +1,339 @@
+203 = {
+name="Toshihiro"
+dynasty=134
+culture = japanese
+religion = buddhism
+diplomacy = 3	
+martial = 3	
+intrigue = 3	
+add_trait = misguided_warrior
+1432.2.18={
+	birth="1432.2.18"
+}
+1481.10.7={
+	death="1481.10.7"
+}
+} 
+341 = {
+name="Toshisada"
+dynasty=134
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 5
+intrigue = 4
+add_trait = tough_soldier
+1450.7.17={
+	birth="1450.7.17"
+}
+1495.12.3={
+	death="1495.12.3"
+}
+} 
+342 = {
+name="Tohiro"
+dynasty=134
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 2
+intrigue = 3
+add_trait = amateurish_plotter
+father=203
+1454.9.16={
+	birth="1454.9.16"
+}
+1508.4.12={
+	death="1508.4.12"
+}
+} 
+343 = {
+name="Sukenobu"
+dynasty=134
+culture = japanese
+religion = buddhism
+diplomacy = 1
+martial = 0
+intrigue = 0
+father=341
+1473.11.14={
+	birth="1473.11.14"
+}
+1504.9.25={
+	death="1504.9.25"
+}
+} 
+559 = {
+name="Nobunaga"
+dynasty=134
+culture = japanese
+religion = buddhism
+father=664
+
+diplomacy = 17
+martial = 8
+intrigue = 14
+add_trait = brilliant_strategist
+add_trait = genius
+add_trait = ambitious
+
+1534.6.23={
+birth="1534.6.23"
+}
+1551.4.9={
+#is_clan_leader = yes
+	add_claim = "e_shogunate"
+}
+1582.6.21={
+death="1582.6.21"
+}
+} 
+664 = {
+name="Nobuhide"
+dynasty=134
+culture = japanese
+religion = buddhism
+
+diplomacy = 13
+martial = 11
+intrigue = 14
+add_trait = skilled_tacticianadd_trait = quick
+add_trait = brave
+
+1510.1.1={
+birth="1510.1.1"
+}
+1551.4.8={
+death="1551.4.8"
+}
+} 
+665 = {
+name="Oichi"
+dynasty=134
+female=yes
+culture = japanese
+religion = buddhism
+father=664
+
+diplomacy = 9
+martial = 5
+intrigue = 10
+add_trait = fair
+
+1547.1.1={
+birth="1547.1.1"
+}
+1583.6.14={
+death="1583.6.14"
+}
+} 
+666 = {
+name="Oinu"
+dynasty=134
+culture = japanese
+religion = buddhism
+female=yes
+father=664
+
+diplomacy = 8
+martial = 7
+intrigue = 8
+
+1543.1.1={
+birth="1543.1.1"
+}
+1582.9.8={
+death="1582.9.8"
+}
+} 
+671 = {
+name="Nobuyuki"
+dynasty=134
+culture = japanese
+religion = buddhism
+father=664
+
+diplomacy = 10
+martial = 11
+intrigue = 9
+add_trait = underhanded_rogue
+
+1536.1.1={
+birth="1536.1.1"
+}
+1557.11.22={
+death="1557.11.22"
+}
+} 
+992 = {
+name="Nobukiyo"
+dynasty=134
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 6
+intrigue = 6
+add_trait = amateurish_plotter
+
+1525.1.1={
+birth="1525.1.1"
+}
+1525.1.1={
+employer = 559
+}
+1569.1.1={
+death="1569.1.1"
+}
+} 
+993 = {
+name="Nobumitsu"
+dynasty=134
+culture = japanese
+religion = buddhism
+
+diplomacy = 6
+martial = 8
+intrigue = 8
+add_trait = tough_soldier
+
+1516.1.1={
+birth="1516.1.1"
+}
+1516.1.1={
+	employer = 559
+}
+1556.1.7={
+death="1556.1.7"
+}
+} 
+994 = {
+name="Nobumitsu"
+dynasty=134
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 7
+intrigue = 6
+add_trait = misguided_warrior
+
+1508.1.1={
+birth="1508.1.1"
+}
+1508.1.1={
+ employer = 559
+}
+1555.5.10={
+death="1555.5.10"
+}
+} 
+995 = {
+name="Nobuyasu"
+dynasty=134
+culture = japanese
+religion = buddhism
+
+diplomacy = 7
+martial = 7
+intrigue = 6
+add_trait = amateurish_plotter
+
+1512.1.1={
+birth="1512.1.1"
+}
+1512.1.1={
+employer = 559
+}
+1591.12.19={
+death="1591.12.19"
+}
+} 
+996 = {
+name="Nobunari"
+dynasty=134
+culture = japanese
+religion = buddhism
+father = 993
+
+diplomacy = 7
+martial = 6
+intrigue = 6
+add_trait = amateurish_plotter
+
+1540.1.1={
+birth="1540.1.1"
+}
+1540.1.1={
+employer = 559
+}
+1574.10.13={
+death="1574.10.13"
+}
+} 
+997 = {
+name="Nobumasa"
+dynasty=134
+culture = japanese
+religion = buddhism
+father = 993
+
+diplomacy = 6
+martial = 6
+intrigue = 7
+add_trait = naive_appeaser
+
+1545.1.1={
+birth="1545.1.1"
+}
+1545.1.1={
+employer = 559
+}
+1574.10.13={
+death="1574.10.13"
+}
+} 
+998 = {
+name="Nobukata"
+dynasty=134
+culture = japanese
+religion = buddhism
+father = 995
+
+diplomacy = 7
+martial = 7
+intrigue = 7
+add_trait = misguided_warrior
+
+1538.1.1={
+birth="1538.1.1"
+}
+1538.1.1={
+employer = 559
+}
+1607.1.1={
+death="1607.1.1"
+}
+} 
+999 = {
+name="Nobuie"
+dynasty=134
+culture = japanese
+religion = buddhism
+father = 995
+
+diplomacy = 7
+martial = 8
+intrigue = 6
+add_trait = amateurish_plotter
+
+1541.1.1={
+birth="1541.1.1"
+}
+1541.1.1={
+employer = 559
+}
+1582.3.1={
+death="1582.3.1"
+}
+} 

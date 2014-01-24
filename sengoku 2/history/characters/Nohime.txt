@@ -1,0 +1,23 @@
+610 = {
+name="Kicho"
+female=yes
+dynasty=145
+culture = japanese
+religion = buddhism
+father=570
+
+
+diplomacy = 8
+martial = 9
+intrigue = 8
+
+1535.1.1={
+birth="1535.1.1"
+}
+1551.4.9={
+add_spouse=559
+}
+1612.8.5={
+death="1612.8.5"
+}
+} 

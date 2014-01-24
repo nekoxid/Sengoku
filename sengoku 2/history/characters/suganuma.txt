@@ -1,0 +1,71 @@
+280 = {
+name="Sadanobu"
+dynasty=132
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 4
+intrigue = 3
+#add_trait = painter
+add_trait = tough_soldier
+1430.1.1={
+	birth="1430.1.1"
+}
+1507.1.1={
+	death="1507.1.1"
+}
+} 
+301 = {
+name="Sadatada"
+dynasty=132
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 3
+intrigue = 3
+add_trait = naive_appeaser
+father=280
+1456.12.7={
+	birth="1456.12.7"
+}
+1534.3.14={
+	death="1534.3.14"
+}
+} 
+694 = {
+name="Sadamura"
+dynasty=199
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 10
+intrigue = 6
+add_trait = tough_soldier
+
+1521.1.1={
+birth="1521.1.1"
+}
+1556.9.17={
+death="1556.9.17"
+}
+} 
+695 = {
+name="Sadamitsu"
+dynasty=199
+culture = japanese
+religion = buddhism
+father=694
+
+diplomacy = 11
+martial = 11
+intrigue = 12
+add_trait = tough_soldier
+
+1542.1.1={
+birth="1542.1.1"
+}
+1604.8.13={
+death="1604.8.13"
+}
+} 

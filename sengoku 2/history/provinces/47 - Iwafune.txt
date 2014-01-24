@@ -1,0 +1,14 @@
+# 47 - Iwafune
+
+# Kokujin Title
+title = c_iwafune
+
+#Settlements
+max_settlements = 3
+b_iwafune_castle = castle
+b_iwafune_city = city
+#b_iwafune_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

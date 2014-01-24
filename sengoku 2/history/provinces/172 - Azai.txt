@@ -1,0 +1,18 @@
+# 172 - Azai
+
+# Kokujin Title
+title = c_azai
+
+#Settlements
+max_settlements = 3
+b_azai_castle = castle
+b_azai_city = city
+#b_azai_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#building=castle_building
+}

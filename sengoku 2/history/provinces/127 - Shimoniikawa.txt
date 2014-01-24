@@ -1,0 +1,14 @@
+# 127 - Shimoniikawa
+
+# Kokujin Title
+title = c_shimoniikawa
+
+#Settlements
+max_settlements = 3
+b_shimoniikawa_castle = castle
+b_shimoniikawa_city = city
+#b_shimoniikawa_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

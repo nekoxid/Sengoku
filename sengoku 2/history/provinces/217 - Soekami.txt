@@ -1,0 +1,19 @@
+# 217 - Soekami
+
+# Kokujin Title
+title = c_soekami
+
+#Settlements
+max_settlements = 4
+b_soekami_castle = castle
+b_soekami_city = city
+b_soekami_temple = temple
+b_soekami_shrine = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#building=buddhist_temple
+}

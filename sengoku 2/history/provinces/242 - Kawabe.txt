@@ -1,0 +1,18 @@
+# 242 - Kawabe
+
+# Kokujin Title
+title = c_kawabe
+
+#Settlements
+max_settlements = 3
+b_kawabe_castle = castle
+b_kawabe_city = city
+#b_kawabe_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
+
+1551.4.9 = {
+	#effect = { western = yes }
+}

@@ -1,0 +1,14 @@
+# 194 - Nabari
+
+# Kokujin Title
+title = c_nabari
+
+#Settlements
+max_settlements = 3
+b_nabari_castle = castle
+b_nabari_city = city
+#b_nabari_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

@@ -1,0 +1,14 @@
+# 189 - Saki
+
+# Kokujin Title
+title = c_saki
+
+#Settlements
+max_settlements = 3
+b_saki_castle = castle
+b_saki_city = city
+#b_saki_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

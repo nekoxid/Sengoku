@@ -1,0 +1,18 @@
+645 = {
+name="Morimasa"
+dynasty=232
+culture = japanese
+religion = buddhism
+
+diplomacy = 13
+martial = 8
+intrigue = 9
+add_trait = underhanded_rogue
+
+1495.1.1={
+birth="1495.1.1"
+}
+1556.1.1={
+death="1556.1.1"
+}
+} 

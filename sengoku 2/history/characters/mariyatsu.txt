@@ -1,0 +1,129 @@
+23 = {
+name="Nobunaga"
+dynasty=16
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 4
+martial = 6
+intrigue = 5
+add_trait = tough_soldier
+add_trait = ill 
+1401.1.7={
+	birth="1401.1.7"
+}
+1477.12.3={
+	death="1477.12.3"
+}
+} 
+539 = {
+name="Nobumasa"
+dynasty=16
+culture = japanese
+religion = buddhism
+father=946
+
+diplomacy = 10
+martial = 8
+intrigue = 9
+add_trait = underhanded_rogue
+
+1515.1.1={
+birth="1515.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1551.9.2={
+death="1551.9.2"
+}
+} 
+77 = {
+name="Nobutaka"
+dynasty=16
+culture = japanese
+religion = buddhism
+father=23
+diplomacy = 4
+martial = 3
+intrigue = 3
+add_trait = amateurish_plotter
+
+1421.7.4={
+	birth="1421.7.4"
+}
+1480.2.27={
+	death="1480.2.27"
+}
+} 
+946 = {
+name="Nobuyasu"
+dynasty=16
+culture = japanese
+religion = buddhism
+diplomacy = 8
+martial = 11
+intrigue = 8
+add_trait = underhanded_rogue
+
+1489.1.1={
+birth="1489.1.1"
+}
+1534.8.10={
+death="1534.8.10"
+}
+} 
+947 = {
+name="Nobutaka"
+dynasty=16
+culture = japanese
+religion = buddhism
+father=946
+diplomacy = 8
+martial = 7
+intrigue = 8
+add_trait = amateurish_plotter
+
+1513.1.1={
+birth="1513.1.1"
+}
+1552.9.2={
+death="1552.9.2"
+}
+} 
+948 = {
+name="Nobumasa"
+dynasty=16
+culture = japanese
+religion = buddhism
+father=947
+diplomacy = 7
+martial = 8
+intrigue = 6
+add_trait = tough_soldier
+
+1541.1.1={
+birth="1541.1.1"
+}
+1552.9.2={
+death="1552.9.2"
+}
+} 
+949 = {
+name="Nobutaka"
+dynasty=16
+culture = japanese
+religion = buddhism
+father=539
+diplomacy = 6
+martial = 9
+intrigue = 7
+add_trait = underhanded_rogue
+
+1545.1.1={
+birth="1545.1.1"
+}
+1581.1.1={
+death="1581.1.1"
+}
+} 

@@ -1,0 +1,97 @@
+19 = {
+name="Masanobu"
+dynasty=12
+culture = japanese
+religion = buddhism
+#is_clan_leader = yes
+diplomacy = 4
+martial = 3
+intrigue = 6
+#add_trait = ruthless 
+1433.2.24={
+	birth="1433.2.24"
+}
+1506.5.23={
+	death="1506.5.23"
+}
+} 
+
+74 = {
+name="Nobutaka"
+dynasty=12
+culture = japanese
+religion = buddhism
+father=19
+diplomacy = 4
+martial = 3
+intrigue = 4
+add_trait = naive_appeaser
+
+1457.4.13={
+	birth="1457.4.13"
+}
+1477.3.21={
+	death="1477.3.21"
+}
+} 
+
+530 = {
+name="Harutane"
+dynasty=12
+culture = japanese
+religion = buddhism
+
+diplomacy = 10
+martial = 8
+intrigue = 11
+add_trait = underhanded_rogue
+
+1497.1.1={
+birth="1497.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1555.1.1={
+death="1555.1.1"
+}
+} 
+
+895 = {
+name="Chikanobu"
+dynasty=12
+culture = japanese
+religion = buddhism
+father=530
+diplomacy = 9
+martial = 9
+intrigue = 6
+add_trait = amateurish_plotter
+add_trait = ill
+
+1513.1.1={
+birth="1513.1.1"
+}
+1560.5.6={
+death="1560.5.6"
+}
+} 
+
+896 = {
+name="Harunobu"
+dynasty=12
+culture = japanese
+religion = buddhism
+father=530
+diplomacy = 8
+martial = 10
+intrigue = 7
+add_trait = misguided_warrior
+
+1534.1.1={
+birth="1534.1.1"
+}
+1597.1.1={
+death="1597.1.1"
+}
+} 

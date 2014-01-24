@@ -1,0 +1,14 @@
+# 137 - Mashita
+
+# Kokujin Title
+title = c_mashita
+
+#Settlements
+max_settlements = 3
+b_mashita_castle = castle
+b_mashita_city = city
+#b_mashita_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

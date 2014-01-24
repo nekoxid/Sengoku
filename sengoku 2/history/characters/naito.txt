@@ -1,0 +1,123 @@
+195 = {
+name="Motosada"
+dynasty=126
+culture = japanese
+religion = buddhism
+diplomacy = 4
+martial = 4
+intrigue = 4
+add_trait = amateurish_plotter
+1432.2.11={
+	birth="1432.2.11"
+}
+1480.10.29={
+	death="1480.10.29"
+}
+} 
+297 = {
+name="Sadamasa"
+dynasty=126
+culture = japanese
+religion = buddhism
+diplomacy = 0
+martial = 1
+intrigue = 0
+father=195
+1467.3.4={
+	birth="1467.3.4"
+}
+1525.7.30={
+	death="1525.7.30"
+}
+} 
+409 = {
+name="Moriyo"
+dynasty=126
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 4
+intrigue = 2
+add_trait = misguided_warrior
+1415.5.11={
+	birth="1415.5.11"
+}
+1468.7.23={
+	death="1468.7.23"
+}
+} 
+410 = {
+name="Takemori"
+dynasty=126
+culture = japanese
+religion = buddhism
+diplomacy = 2
+martial = 3
+intrigue = 4
+add_trait = amateurish_plotter
+father=409
+1439.3.19={
+	birth="1439.3.19"
+}
+1494.12.28={
+	death="1494.12.28"
+}
+} 
+549 = {
+name="Kunisada"
+dynasty=231
+culture = japanese
+religion = buddhism
+
+diplomacy = 9
+martial = 8
+intrigue = 9
+add_trait = tough_soldier
+
+1494.1.1={
+birth="1494.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1553.1.1={
+death="1553.1.1"
+}
+} 
+626 = {
+name="Okimori"
+dynasty=126
+culture = japanese
+religion = buddhism
+
+diplomacy = 11
+martial = 11
+intrigue = 12
+add_trait = underhanded_rogue
+
+1495.1.1={
+birth="1495.1.1"
+}
+1554.1.1={
+death="1554.1.1"
+}
+} 
+637 = {
+name="Takaharu"
+dynasty=126
+culture = japanese
+religion = buddhism
+father=626
+
+diplomacy = 10
+martial = 6
+intrigue = 11
+add_trait = underhanded_rogue
+
+1528.1.1={
+birth="1528.1.1"
+}
+1600.1.1={
+death="1600.1.1"
+}
+} 

@@ -1,0 +1,22 @@
+1007 = {
+name="Naotaka"
+dynasty=334
+culture = japanese
+religion = buddhism
+
+diplomacy = 4
+martial = 9
+intrigue = 6
+add_trait = tough_soldier
+add_trait = brave
+
+1536.1.1={
+birth="1536.1.1"
+}
+1536.1.1={
+employer=505
+}
+1570.1.1={
+death="1570.1.1"
+}
+} 

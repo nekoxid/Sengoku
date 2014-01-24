@@ -1,0 +1,14 @@
+# 66 - Usui
+
+# Kokujin Title
+title = c_usui
+
+#Settlements
+max_settlements = 3
+b_usui_castle = castle
+b_usui_city = city
+#b_usui_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

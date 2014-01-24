@@ -1,0 +1,14 @@
+# 214 - Katsujo
+
+# Kokujin Title
+title = c_katsujo
+
+#Settlements
+max_settlements = 3
+b_katsujo_castle = castle
+b_katsujo_city = city
+#b_katsujo_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

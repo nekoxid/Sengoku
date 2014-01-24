@@ -1,0 +1,112 @@
+213 = {
+name="Kinsue"
+dynasty=144
+culture = japanese
+religion = buddhism
+diplomacy = 3
+martial = 3
+intrigue = 3
+add_trait = hunter
+add_trait = tough_soldier
+1451.7.12={
+	birth="1451.7.12"
+}
+1513.10.3={
+	death="1513.10.3"
+}
+} 
+747 = {
+name="Kinie"
+dynasty=144
+culture = japanese
+religion = buddhism
+
+diplomacy = 1
+martial = 1
+intrigue = 1
+
+1500.1.1={
+birth="1500.1.1"
+}
+1530.1.1={
+death="1530.1.1"
+}
+} 
+748 = {
+name="Sanemitsu"
+dynasty=144
+culture = japanese
+religion = buddhism
+father=747
+
+diplomacy = 11
+martial = 12
+intrigue = 11
+add_trait = underhanded_rogue
+
+1520.1.1={
+birth="1520.1.1"
+}
+1551.4.9={
+#is_clan_leader = yes
+}
+1565.1.1={
+death="1565.1.1"
+}
+} 
+749 = {
+name="Kintaka"
+dynasty=144
+culture = japanese
+religion = buddhism
+father=748
+
+diplomacy = 9
+martial = 7
+intrigue = 7
+add_trait = amateurish_plotter
+
+1547.1.1={
+birth="1547.1.1"
+}
+1556.1.1={
+death="1556.1.1"
+}
+} 
+750 = {
+name="Kinnobu"
+dynasty=144
+culture = japanese
+religion = buddhism
+father=747
+
+diplomacy = 9
+martial = 7
+intrigue = 9
+add_trait = amateurish_plotter
+
+1523.1.1={
+birth="1523.1.1"
+}
+1572.1.1={
+death="1572.1.1"
+}
+} 
+751 = {
+name="Kinhiro"
+dynasty=144
+culture = japanese
+religion = buddhism
+father=750
+
+diplomacy = 8
+martial = 8
+intrigue = 3add_trait = naive_appeaser
+
+1547.1.1={
+birth="1547.1.1"
+}
+1587.1.1={
+death="1587.1.1"
+}
+} 

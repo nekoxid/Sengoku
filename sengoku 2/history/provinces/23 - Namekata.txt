@@ -1,0 +1,14 @@
+# 23 - Namekata
+
+# Kokujin Title
+title = c_namekata
+
+#Settlements
+max_settlements = 3
+b_namekata_castle = castle
+b_namekata_city = city
+#b_namekata_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese

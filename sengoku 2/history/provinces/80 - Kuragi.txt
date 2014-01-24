@@ -1,0 +1,14 @@
+# 80 - Kuragi
+
+# Kokujin Title
+title = c_kuragi
+
+#Settlements
+max_settlements = 3
+b_kuragi_castle = castle
+b_kuragi_city = city
+#b_kuragi_temple = temple
+
+#Misc
+religion = buddhism
+culture = japanese
