@@ -28,6 +28,9 @@ No Mongols
 *************
 * Changelog *
 *************
+2.04
+	add missing trait icons
+	
 2.03a
 	.mod hotfix
 	

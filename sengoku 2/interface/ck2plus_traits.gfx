@@ -10,14 +10,6 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
-		name = "GFX_trait_not_dejure_liege"
-		texturefile = "gfx/CK2Plus/not_dejure_liege.tga"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
-	
-	spriteType = {
 		name = "GFX_trait_dishonorable1"
 		texturefile = "gfx/CK2Plus/dishonorable.tga"
 		noOfFrames = 1
@@ -440,82 +432,6 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}	
-	
-	spriteType = {
-		name = "GFX_trait_eunuch"
-		texturefile = "gfx/traits/eunuch.tga"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
-	spriteType = {
-		name = "GFX_trait_blinded"
-		texturefile = "gfx/traits/blinded.tga"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
-	spriteType = {
-		name = "GFX_trait_born_in_the_purple"
-		texturefile = "gfx/traits/born_in_the_purple.tga"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
-	spriteType = {
-		name = "GFX_trait_augustus"
-		texturefile = "gfx/traits/augustus.tga"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}	
-	spriteType = {
-		name = "GFX_trait_flat_terrain_leader"
-		texturefile = "gfx/traits/flat_terrain_leader.tga"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
-	
-	spriteType = {
-		name = "GFX_trait_rough_terrain_leader"
-		texturefile = "gfx/traits/rough_terrain_leader.tga"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
-	
-	spriteType = {
-		name = "GFX_trait_mountain_terrain_leader"
-		texturefile = "gfx/traits/mountain_terrain_leader.tga"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
-	
-	spriteType = {
-		name = "GFX_trait_desert_terrain_leader"
-		texturefile = "gfx/traits/desert_terrain_leader.tga"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
-	
-	spriteType = {
-		name = "GFX_trait_holy_warrior"
-		texturefile = "gfx/traits/holy_warrior.tga"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
-	
-	spriteType = {
-		name = "GFX_trait_unyielding_leader"
-		texturefile = "gfx/traits/unyielding_leader.tga"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
 	spriteType = {
 		name = "GFX_trait_young16"
 		texturefile = "gfx/CK2Plus/young.tga"
@@ -537,11 +453,4 @@ spriteTypes = {
 		norefcount = yes
 		effectFile = "gfx/FX/buttonstate.lua"
 	}	
-	spriteType = {
-		name = "GFX_trait_bloodlust"
-		texturefile = "gfx/CK2Plus/not_dejure_liege.tga"
-		noOfFrames = 1
-		norefcount = yes
-		effectFile = "gfx/FX/buttonstate.lua"
-	}
 }
