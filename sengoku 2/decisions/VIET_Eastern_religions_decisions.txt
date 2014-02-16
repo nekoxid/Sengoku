@@ -101,6 +101,8 @@ decisions = {
 			#NOT = { has_character_modifier = participated_in_meditation_retreat }
 			NOT = { has_character_flag = going_on_meditation_retreat }
 			primary_title = { higher_tier_than = BARON }
+			prisoner = no
+			age = 16
 		}
 		allow = {
 			war = no
