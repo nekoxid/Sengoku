@@ -4,6 +4,8 @@ Based on Sengoku
 Compatible Mods: NB+, TrueMute
 Recommended DLC: Mongol Face Pack
 
+Special thanks to: nekoxidion, for graphics
+
 *****************
 * General Notes *
 *****************
@@ -30,6 +32,7 @@ No Mongols
 *************
 2.04
 	add missing trait icons
+	added new gfx interface and new trait icons by nekoxidion
 	
 2.03a
 	.mod hotfix
