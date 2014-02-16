@@ -1,0 +1,14 @@
+name = "The Kanto War"
+
+casus_belli = {
+	actor = 113
+	recipient = 50
+	casus_belli = overthrow_ruler
+	date=1467.5.26
+}
+
+# Uesugi Akisada - Koga-Ashikaga Shigeuji
+1467.5.26 = {
+	add_attacker = 113
+	add_defender = 50
+}

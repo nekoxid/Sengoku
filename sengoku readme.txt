@@ -31,8 +31,11 @@ No Mongols
 * Changelog *
 *************
 2.04
+	some bug fixes, also thanks to nekoxidion
+	kanto war by default, nekoxidion
 	add missing trait icons
 	added new gfx interface and new trait icons by nekoxidion
+	
 	
 2.03a
 	.mod hotfix
