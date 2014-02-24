@@ -21,6 +21,13 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 	}
 	spriteType = {
+		name = "GFX_trait_retreat_master"
+		texturefile = "gfx/VIET_traits/retreat_master.tga"
+		noOfFrames = 1
+		norefcount = yes
+		effectFile = "gfx/FX/buttonstate.lua"
+	}
+	spriteType = {
 		name = "GFX_trait_on_retreat"
 		texturefile = "gfx/VIET_traits/on_retreat.dds"
 		noOfFrames = 1
